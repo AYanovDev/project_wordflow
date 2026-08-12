@@ -12,7 +12,13 @@ export interface aWord {
 export function apiParser(apiData: any): aWord {
   const entry = apiData.entries[0];
   const firstSense = entry.senses[0];
-  console.log(firstSense);
+
+  const translation =
+    entry.senses
+      .flatMap((sense: any) => sense.translations ?? [])
+      .find((translation: any) => translation.language.code === "ru")?.word ??
+    null;
+
   return {
     word: apiData.word,
     partOfSpeech: entry.partOfSpeech,
@@ -21,8 +27,6 @@ export function apiParser(apiData: any): aWord {
     examples: firstSense.examples ?? [],
     synonyms: firstSense.synonyms ?? [],
     antonyms: firstSense.antonyms ?? [],
-    translation:
-      firstSense.translations?.find((t: any) => t.language.code === "ru")
-        ?.word ?? null,
+    translation,
   };
 }

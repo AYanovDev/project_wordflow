@@ -1,0 +1,230 @@
+[
+  {
+    "word": "adapt",
+    "partOfSpeech": "verb",
+    "forms": ["adapts", "adapted", "adapting"],
+    "definition": "To adjust or change to suit new conditions or a new environment",
+    "examples": ["Animals must adapt to survive in changing environments."],
+    "synonyms": ["adjust", "modify", "accommodate"],
+    "antonyms": [],
+    "translation": "приспоса́бливаться"
+  },
+  {
+    "word": "agricultural",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to farming or the cultivation of soil and crops",
+    "examples": [
+      "The region's economy relies heavily on agricultural production."
+    ],
+    "synonyms": ["farming", "agrarian"],
+    "antonyms": ["industrial", "urban"],
+    "translation": "сельскохозя́йственный"
+  },
+  {
+    "word": "birthplace",
+    "partOfSpeech": "noun",
+    "forms": ["birthplaces"],
+    "definition": "The place where a person was born or where something originated",
+    "examples": [
+      "Athens is often considered the birthplace of Western democracy."
+    ],
+    "synonyms": ["origin", "cradle", "home"],
+    "antonyms": [],
+    "translation": "ро́дина"
+  },
+  {
+    "word": "challenge",
+    "partOfSpeech": "noun",
+    "forms": ["challenges"],
+    "definition": "A task or situation that tests someone's ability, effort, or skill",
+    "examples": [
+      "Climbing the mountain was a difficult challenge for the team."
+    ],
+    "synonyms": ["test", "obstacle", "trial"],
+    "antonyms": [],
+    "translation": "вы́зов"
+  },
+  {
+    "word": "critically endangered",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Facing an extremely high risk of extinction in the wild",
+    "examples": ["The black rhino is a critically endangered species."],
+    "synonyms": ["threatened", "at risk"],
+    "antonyms": ["thriving", "secure"],
+    "translation": "находя́щийся под угро́зой исчезнове́ния"
+  },
+  {
+    "word": "face",
+    "partOfSpeech": "verb",
+    "forms": ["faces", "faced", "facing"],
+    "definition": "To confront or deal with a difficult situation or problem directly",
+    "examples": ["Many species face extinction due to severe habitat loss."],
+    "synonyms": ["confront", "encounter", "tackle"],
+    "antonyms": ["avoid", "evade"],
+    "translation": "ста́лкиваться"
+  },
+  {
+    "word": "generation",
+    "partOfSpeech": "noun",
+    "forms": ["generations"],
+    "definition": "All of the people born and living at about the same time",
+    "examples": [
+      "This tradition has been passed down from generation to generation."
+    ],
+    "synonyms": ["age group", "era"],
+    "antonyms": [],
+    "translation": "поколе́ние"
+  },
+  {
+    "word": "habitat",
+    "partOfSpeech": "noun",
+    "forms": ["habitats"],
+    "definition": "The natural environment in which a animal or plant normally lives",
+    "examples": [
+      "Deforestation threatens the natural habitat of thousands of species."
+    ],
+    "synonyms": ["environment", "home", "territory"],
+    "antonyms": [],
+    "translation": "среда́ обита́ния"
+  },
+  {
+    "word": "harsh",
+    "partOfSpeech": "adjective",
+    "forms": ["harsher", "harshest"],
+    "definition": "Unpleasantly severe, rough, or difficult to live in",
+    "examples": [
+      "Arctic foxes have adapted to survive in extremely harsh winters."
+    ],
+    "synonyms": ["severe", "strict", "cruel", "tough"],
+    "antonyms": ["mild", "gentle"],
+    "translation": "суро́вый"
+  },
+  {
+    "word": "identity",
+    "partOfSpeech": "noun",
+    "forms": ["identities"],
+    "definition": "The characteristics and qualities that define who a person or group is",
+    "examples": [
+      "Language plays a vital role in preserving national identity."
+    ],
+    "synonyms": ["individuality", "character"],
+    "antonyms": [],
+    "translation": "иденти́чность"
+  },
+  {
+    "word": "natural resources",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Materials such as minerals, forests, and water that occur in nature and can be used economically",
+    "examples": [
+      "Countries need to manage their natural resources sustainably."
+    ],
+    "synonyms": ["natural wealth", "raw assets"],
+    "antonyms": [],
+    "translation": "приро́дные ресу́рсы"
+  },
+  {
+    "word": "plain",
+    "partOfSpeech": "noun",
+    "forms": ["plains"],
+    "definition": "A large area of flat land with few trees",
+    "examples": ["Herds of wild animals roamed across the vast grassy plain."],
+    "synonyms": ["prairie", "flatland", "savanna"],
+    "antonyms": [],
+    "translation": "равни́на"
+  },
+  {
+    "word": "preserve",
+    "partOfSpeech": "verb",
+    "forms": ["preserves", "preserved", "preserving"],
+    "definition": "To keep something safe or maintain it in its original state",
+    "examples": [
+      "Efforts are being made to preserve historical monuments in the city."
+    ],
+    "synonyms": ["protect", "conserve", "maintain", "save"],
+    "antonyms": ["destroy", "neglect"],
+    "translation": "сохраня́ть"
+  },
+  {
+    "word": "raw materials",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Basic substances or materials used in the primary production or manufacture of goods",
+    "examples": [
+      "The factory imports raw materials like timber and ore to produce furniture and tools."
+    ],
+    "synonyms": ["primary materials", "resources"],
+    "antonyms": ["finished products"],
+    "translation": "сырьё"
+  },
+  {
+    "word": "recognisable",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Able to be identified or known from previous experience or knowledge",
+    "examples": ["The landmark is easily recognisable from miles away."],
+    "synonyms": ["identifiable", "familiar", "distinguishable"],
+    "antonyms": ["unrecognizable", "unfamiliar"],
+    "translation": "узнава́емый"
+  },
+  {
+    "word": "respect",
+    "partOfSpeech": "noun",
+    "forms": ["respects"],
+    "definition": "A feeling of deep admiration for someone or something due to their abilities, qualities, or achievements",
+    "examples": [
+      "She earned the respect of her team through hard work and dedication."
+    ],
+    "synonyms": ["admiration", "esteem", "regard"],
+    "antonyms": ["disrespect", "contempt"],
+    "translation": "уваже́ние"
+  },
+  {
+    "word": "shape",
+    "partOfSpeech": "noun",
+    "forms": ["shapes"],
+    "definition": "The status or condition of something",
+    "examples": [
+      "The used bookshop wouldn’t offer much due to the poor shape of the book."
+    ],
+    "synonyms": ["form"],
+    "antonyms": [],
+    "translation": "фо́рма"
+  },
+  {
+    "word": "shelter",
+    "partOfSpeech": "noun",
+    "forms": ["shelters"],
+    "definition": "A structure or place providing protection from bad weather, danger, or harm",
+    "examples": ["They took shelter under a large tree when the rain started."],
+    "synonyms": ["refuge", "haven", "sanctuary", "cover"],
+    "antonyms": ["exposure"],
+    "translation": "убе́жище"
+  },
+  {
+    "word": "stunning",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Extremely impressive, beautiful, or attractive",
+    "examples": [
+      "The sunset over the mountain valley was absolutely stunning."
+    ],
+    "synonyms": ["breathtaking", "spectacular", "gorgeous"],
+    "antonyms": ["unimpressive", "ordinary"],
+    "translation": "потряса́ющий"
+  },
+  {
+    "word": "wildlife",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Wild animals and other living things collective in their natural habitat",
+    "examples": [
+      "The national park was established to protect the local wildlife."
+    ],
+    "synonyms": ["fauna", "nature"],
+    "antonyms": [],
+    "translation": "ди́кая приро́да"
+  }
+]
