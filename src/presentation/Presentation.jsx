@@ -3,13 +3,40 @@ import words from "../assets/grade_8_module_1.json";
 import "./presentation.css";
 
 export function WordCards() {
-  const [singleCard, setSingleCard] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(null);
   const [showEnglish, setShowEnglish] = useState(true);
 
-  // Flashcard mode
+  // Get the currently selected word
+  const singleCard = currentIndex !== null ? words[currentIndex] : null;
+
+  // Move to previous word
+  function previousWord() {
+    if (currentIndex > 0) {
+      setCurrentIndex((previous) => previous - 1);
+      setShowEnglish(true);
+    }
+  }
+
+  // Move to next word
+  function nextWord() {
+    if (currentIndex < words.length - 1) {
+      setCurrentIndex((previous) => previous + 1);
+      setShowEnglish(true);
+    }
+  }
+
+  // Single-card mode
   if (singleCard) {
     return (
       <div className="single-card-container">
+        <button
+          className="navigation-button"
+          onClick={previousWord}
+          disabled={currentIndex === 0}
+        >
+          ←
+        </button>
+
         <div
           className="single-card"
           onClick={() => setShowEnglish((previous) => !previous)}
@@ -29,8 +56,17 @@ export function WordCards() {
         </div>
 
         <button
+          className="navigation-button"
+          onClick={nextWord}
+          disabled={currentIndex === words.length - 1}
+        >
+          →
+        </button>
+
+        <button
+          className="back-button"
           onClick={() => {
-            setSingleCard(null);
+            setCurrentIndex(null);
             setShowEnglish(true);
           }}
         >
@@ -43,12 +79,12 @@ export function WordCards() {
   // Word list
   return (
     <div className="word-list">
-      {words.map((word) => (
+      {words.map((word, index) => (
         <div
           className="word-card"
           key={word.word}
           onClick={() => {
-            setSingleCard(word);
+            setCurrentIndex(index);
             setShowEnglish(true);
           }}
         >
