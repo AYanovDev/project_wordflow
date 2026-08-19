@@ -1,9 +1,10 @@
-import { WordCards } from "./presentation/Presentation.jsx";
+import { WordCards } from "./presentation/WordCards.jsx";
+import { MatchTranslation } from "./learning/MatchTranslation.jsx";
 
 function App() {
   return (
     <div>
-      <WordCards></WordCards>
+      <MatchTranslation></MatchTranslation>
     </div>
   );
 }

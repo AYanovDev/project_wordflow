@@ -1,6 +1,6 @@
 import { useState } from "react";
 import words from "../assets/grade_8_module_1.json";
-import "./presentation.css";
+import "./wordCards.css";
 
 export function WordCards() {
   const [currentIndex, setCurrentIndex] = useState(null);
