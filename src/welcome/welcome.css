@@ -1,0 +1,164 @@
+.welcome-page {
+  position: relative;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  padding: 40px 20px;
+
+  background: #f8f9fa;
+}
+
+.welcome-content {
+  position: relative;
+  z-index: 1;
+
+  max-width: 700px;
+
+  text-align: center;
+}
+
+.welcome-label {
+  margin-bottom: 20px;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #777;
+}
+
+.welcome-title {
+  margin: 0;
+
+  font-size: clamp(4rem, 12vw, 8rem);
+  font-weight: 700;
+
+  letter-spacing: -0.06em;
+
+  color: #222;
+}
+
+.welcome-description {
+  max-width: 600px;
+
+  margin: 35px auto 0;
+
+  font-size: 1.2rem;
+  line-height: 1.7;
+
+  color: #555;
+}
+
+.welcome-description-secondary {
+  margin-top: 12px;
+
+  color: #777;
+}
+
+.welcome-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 40px;
+  padding: 15px 28px;
+
+  border-radius: 10px;
+
+  background: #222;
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.welcome-button:hover {
+  background: #333;
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.welcome-button:active {
+  transform: translateY(-1px);
+}
+
+.welcome-arrow {
+  font-size: 1.3rem;
+
+  transition: transform 0.2s ease;
+}
+
+.welcome-button:hover .welcome-arrow {
+  transform: translateX(4px);
+}
+
+/* Decorative background elements */
+
+.welcome-decoration {
+  position: absolute;
+
+  width: 350px;
+  height: 350px;
+
+  border-radius: 50%;
+
+  opacity: 0.35;
+
+  pointer-events: none;
+}
+
+.welcome-decoration-one {
+  top: -150px;
+  left: -150px;
+
+  background: #e5e5e5;
+}
+
+.welcome-decoration-two {
+  right: -180px;
+  bottom: -180px;
+
+  background: #e0e0e0;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .welcome-page {
+    padding: 30px 20px;
+  }
+
+  .welcome-title {
+    font-size: clamp(3.5rem, 20vw, 5rem);
+  }
+
+  .welcome-description {
+    font-size: 1rem;
+  }
+
+  .welcome-button {
+    width: 100%;
+
+    justify-content: center;
+  }
+
+  .welcome-decoration {
+    width: 250px;
+    height: 250px;
+  }
+}
