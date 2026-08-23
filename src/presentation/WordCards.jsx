@@ -1,13 +1,12 @@
 import { useState } from "react";
-import words from "../assets/grade_8_module_1.json";
 import "./wordCards.css";
 
-export function WordCards() {
+export function WordCards(props) {
   const [currentIndex, setCurrentIndex] = useState(null);
   const [showEnglish, setShowEnglish] = useState(true);
 
   // Get the currently selected word
-  const singleCard = currentIndex !== null ? words[currentIndex] : null;
+  const singleCard = currentIndex !== null ? props.words[currentIndex] : null;
 
   // Move to previous word
   function previousWord() {
@@ -19,7 +18,7 @@ export function WordCards() {
 
   // Move to next word
   function nextWord() {
-    if (currentIndex < words.length - 1) {
+    if (currentIndex < props.words.length - 1) {
       setCurrentIndex((previous) => previous + 1);
       setShowEnglish(true);
     }
@@ -58,7 +57,7 @@ export function WordCards() {
         <button
           className="navigation-button"
           onClick={nextWord}
-          disabled={currentIndex === words.length - 1}
+          disabled={currentIndex === props.words.length - 1}
         >
           →
         </button>
@@ -79,7 +78,7 @@ export function WordCards() {
   // Word list
   return (
     <div className="word-list">
-      {words.map((word, index) => (
+      {props.words.map((word, index) => (
         <div
           className="word-card"
           key={word.word}

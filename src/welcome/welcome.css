@@ -10,7 +10,10 @@
 
   padding: 40px 20px;
 
-  background: #f8f9fa;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(118, 224, 201, 0.42), transparent 26%),
+    radial-gradient(circle at 88% 82%, rgba(168, 142, 255, 0.34), transparent 28%),
+    linear-gradient(135deg, #f8fbff 0%, #fff9f2 52%, #f8f4ff 100%);
 }
 
 .welcome-content {
@@ -31,7 +34,7 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 
-  color: #777;
+  color: #497c75;
 }
 
 .welcome-title {
@@ -42,7 +45,11 @@
 
   letter-spacing: -0.06em;
 
-  color: #222;
+  color: #24304f;
+  background: linear-gradient(100deg, #4b5ed7 0%, #8a56d4 48%, #e7668f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .welcome-description {
@@ -53,13 +60,13 @@
   font-size: 1.2rem;
   line-height: 1.7;
 
-  color: #555;
+  color: #46516d;
 }
 
 .welcome-description-secondary {
   margin-top: 12px;
 
-  color: #777;
+  color: #68738c;
 }
 
 .welcome-button {
@@ -72,7 +79,7 @@
 
   border-radius: 10px;
 
-  background: #222;
+  background: linear-gradient(100deg, #596be0, #9057d7 55%, #d75d91);
   color: white;
 
   font-size: 1rem;
@@ -86,11 +93,11 @@
 }
 
 .welcome-button:hover {
-  background: #333;
+  background: linear-gradient(100deg, #4d60d2, #824acb 55%, #cc4f83);
 
   transform: translateY(-3px);
 
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 12px 28px rgba(112, 76, 191, 0.28);
 }
 
 .welcome-button:active {
@@ -117,7 +124,9 @@
 
   border-radius: 50%;
 
-  opacity: 0.35;
+  opacity: 0.5;
+
+  filter: blur(1px);
 
   pointer-events: none;
 }
@@ -126,14 +135,14 @@
   top: -150px;
   left: -150px;
 
-  background: #e5e5e5;
+  background: linear-gradient(135deg, #5ed9c1, #83a7f6);
 }
 
 .welcome-decoration-two {
   right: -180px;
   bottom: -180px;
 
-  background: #e0e0e0;
+  background: linear-gradient(135deg, #a985ee, #f49b83);
 }
 
 /* Mobile */

@@ -19,7 +19,7 @@ export function Welcome() {
           memory by learning through practice.
         </p>
 
-        <Link to="/learn" className="welcome-button">
+        <Link to="/quest" className="welcome-button">
           Start learning
           <span className="welcome-arrow">→</span>
         </Link>

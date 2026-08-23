@@ -9,7 +9,6 @@ import {
 } from "@dnd-kit/core";
 import { CSS } from "@dnd-kit/utilities";
 
-import words from "../assets/grade_8_module_1.json";
 import "./matchTranslation.css";
 
 function createExercise() {
