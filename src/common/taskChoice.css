@@ -1,0 +1,40 @@
+.task-choice-page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+  background: #f8fbff;
+}
+
+.task-choice-content {
+  text-align: center;
+}
+
+.task-choice-content p {
+  margin: 0 0 4px;
+  color: #497c75;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.task-choice-content h1 {
+  margin: 0 0 24px;
+  color: #24304f;
+}
+
+.task-choice-content button {
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #24304f;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.task-choice-content button:hover {
+  background: #34446f;
+}

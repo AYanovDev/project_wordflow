@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { Navigate } from "react-router-dom";
 import {
   DndContext,
   useDraggable,
@@ -10,8 +11,9 @@ import {
 import { CSS } from "@dnd-kit/utilities";
 
 import "./matchTranslation.css";
+import { useLearningData } from "../common/DataContext";
 
-function createExercise() {
+function createExercise(words) {
   const selectedWords = [...words].sort(() => Math.random() - 0.5).slice(0, 5);
 
   return {
@@ -75,7 +77,10 @@ function WordCard({
 }
 
 export function MatchTranslation() {
-  const [exerciseWords, setExerciseWords] = useState(() => createExercise());
+  const { grade, module } = useLearningData();
+  const [words, setWords] = useState(null);
+  const [loadError, setLoadError] = useState(false);
+  const [exerciseWords, setExerciseWords] = useState(null);
   const [matchedWords, setMatchedWords] = useState([]);
 
   // Selection & feedback state
@@ -90,6 +95,29 @@ export function MatchTranslation() {
       activationConstraint: { distance: 8 },
     }),
   );
+
+  useEffect(() => {
+    if (!grade || !module) return;
+
+    const controller = new AbortController();
+
+    fetch(`/word_data/grade_${grade}/module_${module}.json`, {
+      signal: controller.signal,
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error("Vocabulary file could not be loaded.");
+        return response.json();
+      })
+      .then((data) => {
+        setWords(data);
+        setExerciseWords(createExercise(data));
+      })
+      .catch((error) => {
+        if (error.name !== "AbortError") setLoadError(true);
+      });
+
+    return () => controller.abort();
+  }, [grade, module]);
 
   function evaluateMatch(englishWord, russianWord) {
     if (englishWord === russianWord) {
@@ -169,13 +197,25 @@ export function MatchTranslation() {
   }
 
   function restartExercise() {
-    setExerciseWords(createExercise());
+    setExerciseWords(createExercise(words));
     setMatchedWords([]);
     setSelectedCard(null);
     setCorrectEnglish(null);
     setCorrectRussian(null);
     setWrongEnglish(null);
     setWrongRussian(null);
+  }
+
+  if (!grade || !module) {
+    return <Navigate to="/quest" replace />;
+  }
+
+  if (loadError) {
+    return <p role="alert">We couldn't load this vocabulary module yet.</p>;
+  }
+
+  if (!exerciseWords) {
+    return <p className="match-container">Loading exercise…</p>;
   }
 
   // Keep matched words sorted at the top

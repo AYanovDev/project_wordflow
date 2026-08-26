@@ -7,6 +7,10 @@
 .word-list-header {
   width: min(100%, 1180px);
   margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .word-list-header p {
@@ -21,6 +25,24 @@
 .word-list-header h1 {
   margin: 0;
   color: #24304f;
+}
+
+.continue-button {
+  flex: 0 0 auto;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 8px;
+  background: #24304f;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.continue-button:hover {
+  background: #34446f;
+  transform: translateY(-1px);
 }
 
 .word-list {
@@ -159,4 +181,15 @@
 .back-button {
   position: absolute;
   bottom: 20px;
+}
+
+@media (max-width: 560px) {
+  .word-list-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .continue-button {
+    width: 100%;
+  }
 }

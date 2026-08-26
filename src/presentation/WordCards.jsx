@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./wordCards.css";
 import { useLearningData } from "../common/DataContext";
 
 export function WordCards({ words }) {
   const { grade, module } = useLearningData();
+  const navigate = useNavigate();
   const [currentIndex, setCurrentIndex] = useState(null);
   const [showEnglish, setShowEnglish] = useState(true);
 
@@ -81,8 +83,14 @@ export function WordCards({ words }) {
   return (
     <section className="word-list-section">
       <header className="word-list-header">
-        <p>Grade {grade} · Module {module}</p>
-        <h1>Vocabulary</h1>
+        <div>
+          <p>Grade {grade} · Module {module}</p>
+          <h1>Vocabulary</h1>
+        </div>
+
+        <button className="continue-button" onClick={() => navigate("/tasks")}>
+          Continue to learning →
+        </button>
       </header>
       <div className="word-list">
       {words.map((word, index) => (
