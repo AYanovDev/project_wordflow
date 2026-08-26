@@ -2,6 +2,24 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./wordCards.css";
 import { useLearningData } from "../common/DataContext";
+import { WORD_PROGRESS_STEPS } from "../common/wordProgress";
+
+function ProgressIndicator({ progress = 0 }) {
+  return (
+    <div
+      className="word-progress"
+      role="img"
+      aria-label={`Progress: ${progress} of ${WORD_PROGRESS_STEPS}`}
+    >
+      {Array.from({ length: WORD_PROGRESS_STEPS }, (_, progressIndex) => (
+        <span
+          className={`word-progress-dash ${progressIndex < progress ? "is-complete" : ""}`}
+          key={progressIndex}
+        />
+      ))}
+    </div>
+  );
+}
 
 export function WordCards({ words }) {
   const { grade, module } = useLearningData();
@@ -52,6 +70,7 @@ export function WordCards({ words }) {
               </h2>
 
               <p>{singleCard.partOfSpeech}</p>
+              <ProgressIndicator progress={singleCard.progress || 0} />
             </>
           ) : (
             <h2>{singleCard.translation}</h2>
@@ -105,6 +124,7 @@ export function WordCards({ words }) {
           <h2>{word.word.charAt(0).toUpperCase() + word.word.slice(1)}</h2>
 
           <p>{word.partOfSpeech}</p>
+          <ProgressIndicator progress={word.progress || 0} />
         </div>
       ))}
       </div>

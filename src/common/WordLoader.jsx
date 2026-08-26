@@ -3,6 +3,7 @@ import { Navigate } from "react-router-dom";
 import { WordCards } from "../presentation/WordCards";
 import { useLearningData } from "./DataContext";
 import { LoadingPage } from "./LoadingPage";
+import { addProgressToWords } from "./wordProgress";
 
 export function WordLoader() {
   const { grade, module } = useLearningData();
@@ -33,7 +34,7 @@ export function WordLoader() {
       })
       .then((d) => {
         if (isActive) {
-          setData(d);
+          setData(addProgressToWords(d, grade, module));
         }
       })
       .catch((error) => {

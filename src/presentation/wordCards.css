@@ -82,6 +82,25 @@
   font-style: italic;
 }
 
+.word-progress {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 4px;
+  margin: 14px auto 0;
+  max-width: 180px;
+}
+
+.word-progress-dash {
+  height: 4px;
+  border-radius: 999px;
+  background: #cfd4d8;
+  transition: background-color 0.2s ease;
+}
+
+.word-progress-dash.is-complete {
+  background: #37a169;
+}
+
 .single-card-container {
   min-height: 80vh;
   display: flex;

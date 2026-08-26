@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Navigate } from "react-router-dom";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 import { celebrate } from "./confetti";
 import {
   DndContext,
@@ -13,6 +13,7 @@ import { CSS } from "@dnd-kit/utilities";
 
 import "./matchTranslation.css";
 import { useLearningData } from "../common/DataContext";
+import { addProgressToWords, increaseWordProgress } from "../common/wordProgress";
 
 function createExercise(words) {
   const selectedWords = [...words].sort(() => Math.random() - 0.5).slice(0, 5);
@@ -32,6 +33,7 @@ function WordCard({
   isIncorrect,
   isMatched,
   onClick,
+  onNodeChange,
 }) {
   const {
     attributes,
@@ -53,6 +55,7 @@ function WordCard({
   const setNodeRef = (node) => {
     setDraggableRef(node);
     setDroppableRef(node);
+    onNodeChange(id, node);
   };
 
   const style = transform
@@ -79,6 +82,7 @@ function WordCard({
 
 export function MatchTranslation() {
   const { grade, module } = useLearningData();
+  const navigate = useNavigate();
   const [words, setWords] = useState(null);
   const [loadError, setLoadError] = useState(false);
   const [exerciseWords, setExerciseWords] = useState(null);
@@ -90,6 +94,58 @@ export function MatchTranslation() {
   const [correctRussian, setCorrectRussian] = useState(null);
   const [wrongEnglish, setWrongEnglish] = useState(null);
   const [wrongRussian, setWrongRussian] = useState(null);
+  const cardNodes = useRef(new Map());
+  const previousPositions = useRef(new Map());
+  const layoutAnimations = useRef(new Map());
+  const pendingMatches = useRef(new Set());
+
+  function handleCardNodeChange(id, node) {
+    if (node) {
+      cardNodes.current.set(id, node);
+    } else {
+      cardNodes.current.delete(id);
+    }
+  }
+
+  // Animate each card from its old position to its new one after a match moves
+  // it to the top of its column (the FLIP layout-animation technique).
+  useLayoutEffect(() => {
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const nextPositions = new Map();
+
+    cardNodes.current.forEach((node, id) => {
+      const nextPosition = node.getBoundingClientRect();
+      const previousPosition = previousPositions.current.get(id);
+
+      if (previousPosition && !reducedMotion) {
+        const offsetX = previousPosition.left - nextPosition.left;
+        const offsetY = previousPosition.top - nextPosition.top;
+
+        if (offsetX || offsetY) {
+          layoutAnimations.current.get(id)?.cancel();
+          const animation = node.animate(
+            [
+              { transform: `translate(${offsetX}px, ${offsetY}px)` },
+              { transform: "translate(0, 0)" },
+            ],
+            { duration: 420, easing: "cubic-bezier(0.22, 1, 0.36, 1)" },
+          );
+          layoutAnimations.current.set(id, animation);
+          animation.finished
+            .catch(() => {})
+            .then(() => {
+              if (layoutAnimations.current.get(id) === animation) {
+                layoutAnimations.current.delete(id);
+              }
+            });
+        }
+      }
+
+      nextPositions.set(id, nextPosition);
+    });
+
+    previousPositions.current = nextPositions;
+  });
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -101,6 +157,8 @@ export function MatchTranslation() {
     if (!grade || !module) return;
 
     const controller = new AbortController();
+    pendingMatches.current.clear();
+    setMatchedWords([]);
 
     fetch(`/word_data/grade_${grade}/module_${module}.json`, {
       signal: controller.signal,
@@ -111,8 +169,9 @@ export function MatchTranslation() {
         return response.json();
       })
       .then((data) => {
-        setWords(data);
-        setExerciseWords(createExercise(data));
+        const wordsWithProgress = addProgressToWords(data, grade, module);
+        setWords(wordsWithProgress);
+        setExerciseWords(createExercise(wordsWithProgress));
       })
       .catch((error) => {
         if (error.name !== "AbortError") setLoadError(true);
@@ -123,11 +182,30 @@ export function MatchTranslation() {
 
   function evaluateMatch(englishWord, russianWord) {
     if (englishWord === russianWord) {
+      if (matchedWords.includes(englishWord) || pendingMatches.current.has(englishWord)) {
+        return;
+      }
+
+      pendingMatches.current.add(englishWord);
+      const word = words?.find((item) => item.word === englishWord);
+      const nextProgress = increaseWordProgress(
+        grade,
+        module,
+        englishWord,
+        word?.progress,
+      );
+
+      setWords((previousWords) =>
+        previousWords?.map((item) =>
+          item.word === englishWord ? { ...item, progress: nextProgress } : item,
+        ),
+      );
       setCorrectEnglish(englishWord);
       setCorrectRussian(russianWord);
 
       setTimeout(() => {
         setMatchedWords((prev) => [...prev, englishWord]);
+        pendingMatches.current.delete(englishWord);
         setCorrectEnglish(null);
         setCorrectRussian(null);
         setSelectedCard(null);
@@ -206,6 +284,7 @@ export function MatchTranslation() {
     setCorrectRussian(null);
     setWrongEnglish(null);
     setWrongRussian(null);
+    pendingMatches.current.clear();
   }
 
   if (!grade || !module) {
@@ -246,6 +325,12 @@ export function MatchTranslation() {
   return (
     <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
       <div className="match-container">
+        <button
+          className="match-back-button"
+          onClick={() => navigate("/learn")}
+        >
+          ← Back to vocabulary
+        </button>
         <h1>Match the translations</h1>
         <p className="instructions">
           Click or drag any word onto its matching translation.
@@ -269,6 +354,7 @@ export function MatchTranslation() {
                   isCorrect={correctEnglish === word.word}
                   isIncorrect={wrongEnglish === word.word}
                   onClick={() => handleCardClick("english", word.word)}
+                  onNodeChange={handleCardNodeChange}
                 />
               );
             })}
@@ -292,6 +378,7 @@ export function MatchTranslation() {
                   isCorrect={correctRussian === word.word}
                   isIncorrect={wrongRussian === word.word}
                   onClick={() => handleCardClick("russian", word.word)}
+                  onNodeChange={handleCardNodeChange}
                 />
               );
             })}

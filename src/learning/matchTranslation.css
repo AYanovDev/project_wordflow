@@ -5,6 +5,23 @@
   text-align: center;
 }
 
+.match-back-button {
+  display: block;
+  margin: 0 0 24px;
+  padding: 9px 14px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  background: #fff;
+  color: #24304f;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.match-back-button:hover {
+  background: #f2f5fa;
+}
+
 .matching-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
