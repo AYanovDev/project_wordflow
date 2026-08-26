@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
+import { celebrate } from "./confetti";
 import {
   DndContext,
   useDraggable,
@@ -105,7 +106,8 @@ export function MatchTranslation() {
       signal: controller.signal,
     })
       .then((response) => {
-        if (!response.ok) throw new Error("Vocabulary file could not be loaded.");
+        if (!response.ok)
+          throw new Error("Vocabulary file could not be loaded.");
         return response.json();
       })
       .then((data) => {
@@ -237,6 +239,10 @@ export function MatchTranslation() {
 
   const exerciseComplete = matchedWords.length === exerciseWords.english.length;
 
+  if (exerciseComplete) {
+    celebrate();
+  }
+
   return (
     <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
       <div className="match-container">
@@ -244,7 +250,6 @@ export function MatchTranslation() {
         <p className="instructions">
           Click or drag any word onto its matching translation.
         </p>
-
         <div className="matching-columns">
           {/* ENGLISH COLUMN */}
           <div className="matching-column">
@@ -292,14 +297,12 @@ export function MatchTranslation() {
             })}
           </div>
         </div>
-
         {exerciseComplete && (
           <div className="completion-message">
             <h1>Well done! 🎉</h1>
             <p>You matched all the words correctly.</p>
           </div>
         )}
-
         <button className="restart-button" onClick={restartExercise}>
           {exerciseComplete ? "Try again" : "Restart"}
         </button>
