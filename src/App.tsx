@@ -1,6 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import { WordCards } from "./presentation/WordCards.jsx";
-import { MatchTranslation } from "./learning/MatchTranslation.jsx";
 import { Welcome } from "./welcome/Welcome.jsx";
 import { Questionnaire } from "./questionnaire/Questionnaire.jsx";
 import { WordLoader } from "./common/WordLoader.jsx";

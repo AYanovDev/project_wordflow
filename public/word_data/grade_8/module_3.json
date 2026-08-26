@@ -1,0 +1,823 @@
+[
+  {
+    "word": "attraction",
+    "partOfSpeech": "noun",
+    "forms": ["attractions"],
+    "definition": "A place or feature that draws interest, visitors, or admiration",
+    "examples": ["The Eiffel Tower is a popular tourist attraction."],
+    "synonyms": ["sight", "appeal", "draw"],
+    "antonyms": [],
+    "translation": "достопримеча́тельность"
+  },
+  {
+    "word": "escape",
+    "partOfSpeech": "verb",
+    "forms": ["escapes", "escaped", "escaping"],
+    "definition": "To break free from confinement, control, or a difficult situation",
+    "examples": [
+      "They wanted to escape the hustle and bustle of the city for the weekend."
+    ],
+    "synonyms": ["flee", "get away", "evade"],
+    "antonyms": ["remain", "stay"],
+    "translation": "сбега́ть"
+  },
+  {
+    "word": "mineral spring",
+    "partOfSpeech": "noun",
+    "forms": ["mineral springs"],
+    "definition": "A spring producing water that naturally contains dissolved mineral salts or gases",
+    "examples": [
+      "People visit the town to relax in its famous natural mineral springs."
+    ],
+    "synonyms": ["thermal spring", "spa source"],
+    "antonyms": [],
+    "translation": "минера́льный исто́чник"
+  },
+  {
+    "word": "picturesque",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Visually attractive, especially in a quaint or charming way",
+    "examples": ["We stayed in a picturesque village surrounded by mountains."],
+    "synonyms": ["scenic", "charming", "quaint"],
+    "antonyms": ["ugly", "unsightly"],
+    "translation": "живопи́сный"
+  },
+  {
+    "word": "recommend",
+    "partOfSpeech": "verb",
+    "forms": ["recommends", "recommended", "recommending"],
+    "definition": "To advise or suggest something as a good or suitable choice",
+    "examples": ["Can you recommend a good restaurant near the hotel?"],
+    "synonyms": ["suggest", "advise", "propose"],
+    "antonyms": ["discourage", "dissuade"],
+    "translation": "рекомендо́вать"
+  },
+  {
+    "word": "resort",
+    "partOfSpeech": "noun",
+    "forms": ["resorts"],
+    "definition": "A place frequented for holidays, recreation, or relaxation",
+    "examples": [
+      "They spent their summer vacation at a seaside resort in Spain."
+    ],
+    "synonyms": ["retreat", "vacation spot", "spa"],
+    "antonyms": [],
+    "translation": "куро́рт"
+  },
+  {
+    "word": "tropical climate",
+    "partOfSpeech": "noun",
+    "forms": ["tropical climates"],
+    "definition": "A weather condition characteristic of the tropics, hot and moist year-round",
+    "examples": [
+      "The island has a warm tropical climate that attracts tourists all year."
+    ],
+    "synonyms": [],
+    "antonyms": ["polar climate"],
+    "translation": "тропи́ческий кли́мат"
+  },
+  {
+    "word": "waterslide",
+    "partOfSpeech": "noun",
+    "forms": ["waterslides"],
+    "definition": "A slide at a swimming pool or water park down which people slide into water",
+    "examples": ["The children had fun sliding down the huge waterslide."],
+    "synonyms": ["water slide"],
+    "antonyms": [],
+    "translation": "водяна́я го́рка"
+  },
+  {
+    "word": "it's worth it",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Enjoyable, useful, or rewarding enough to justify the cost, effort, or time spent",
+    "examples": [
+      "The hike up the mountain was exhausting, but the view made it worth it."
+    ],
+    "synonyms": ["rewarding", "worthwhile"],
+    "antonyms": ["not worth it"],
+    "translation": "э́то того́ сто́ит"
+  },
+
+  {
+    "word": "broadcaster",
+    "partOfSpeech": "noun",
+    "forms": ["broadcasters"],
+    "definition": "An organization or person that transmits radio or television programs",
+    "examples": ["The BBC is a major national broadcaster in the UK."],
+    "synonyms": ["announcer", "media company", "presenter"],
+    "antonyms": [],
+    "translation": "веща́тель"
+  },
+  {
+    "word": "coronation",
+    "partOfSpeech": "noun",
+    "forms": ["coronations"],
+    "definition": "The ceremony of crowning a king, queen, or other monarch",
+    "examples": [
+      "Millions of people watched the king's coronation on live television."
+    ],
+    "synonyms": ["crowning", "enthronement"],
+    "antonyms": [],
+    "translation": "корона́ция"
+  },
+  {
+    "word": "current affairs",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "Events or political items of social interest and importance that are happening in the world at the present time",
+    "examples": [
+      "She watches the news every evening to stay informed about current affairs."
+    ],
+    "synonyms": ["news", "topical issues", "recent developments"],
+    "antonyms": [],
+    "translation": "теку́щие собы́тия"
+  },
+  {
+    "word": "found",
+    "partOfSpeech": "verb",
+    "forms": ["founds", "founded", "founding"],
+    "definition": "To establish or originate an institution, organization, or town",
+    "examples": ["The company was founded in 1995 by two university students."],
+    "synonyms": ["establish", "create", "set up", "institute"],
+    "antonyms": ["demolish", "dismantle", "destroy"],
+    "translation": "осно́вывать"
+  },
+  {
+    "word": "identity",
+    "partOfSpeech": "noun",
+    "forms": ["identities"],
+    "definition": "The characteristics, qualities, or beliefs that define who a person or group is",
+    "examples": ["Cultural traditions help preserve a nation's identity."],
+    "synonyms": ["individuality", "character", "personality"],
+    "antonyms": [],
+    "translation": "иденти́чность"
+  },
+  {
+    "word": "nation",
+    "partOfSpeech": "noun",
+    "forms": ["nations"],
+    "definition": "A large body of people united by common descent, history, culture, or language, inhabiting a particular territory",
+    "examples": [
+      "Representatives from over one hundred nations attended the conference."
+    ],
+    "synonyms": ["country", "state", "realm"],
+    "antonyms": [],
+    "translation": "на́ция"
+  },
+  {
+    "word": "news report",
+    "partOfSpeech": "noun",
+    "forms": ["news reports"],
+    "definition": "A spoken, written, or broadcast story giving information about current events",
+    "examples": [
+      "The morning news report covered the storm that struck the coast."
+    ],
+    "synonyms": ["bulletin", "report", "dispatch"],
+    "antonyms": [],
+    "translation": "репорта́ж"
+  },
+  {
+    "word": "source",
+    "partOfSpeech": "noun",
+    "forms": ["sources"],
+    "definition": "A place, person, or thing from which something originates or can be obtained",
+    "examples": [
+      "The journalist refused to reveal the identity of her source."
+    ],
+    "synonyms": ["origin", "originator", "provider"],
+    "antonyms": [],
+    "translation": "исто́чник"
+  },
+  {
+    "word": "trusted",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Regarded as reliable, honest, and dependable",
+    "examples": [
+      "He is a trusted colleague who always delivers on his promises."
+    ],
+    "synonyms": ["reliable", "dependable", "trustworthy"],
+    "antonyms": ["unreliable", "untrustworthy"],
+    "translation": "надёжный"
+  },
+  {
+    "word": "unify",
+    "partOfSpeech": "verb",
+    "forms": ["unifies", "unified", "unifying"],
+    "definition": "To make or become united, whole, or uniform",
+    "examples": ["The leader worked hard to unify the divided country."],
+    "synonyms": ["unite", "join", "merge", "combine"],
+    "antonyms": ["divide", "separate", "split"],
+    "translation": "объединя́ть"
+  },
+  {
+    "word": "aspect",
+    "partOfSpeech": "noun",
+    "forms": ["aspects"],
+    "definition": "A particular feature, part, or side of something",
+    "examples": [
+      "We need to consider every aspect of the problem before deciding."
+    ],
+    "synonyms": ["feature", "side", "facet", "element"],
+    "antonyms": [],
+    "translation": "аспе́кт"
+  },
+  {
+    "word": "birth",
+    "partOfSpeech": "noun",
+    "forms": ["births"],
+    "definition": "The emergence of a baby or other young from the body of its mother; the origin of something",
+    "examples": [
+      "The proud parents celebrated the birth of their first child."
+    ],
+    "synonyms": ["nativity", "beginning", "origin"],
+    "antonyms": ["death", "end"],
+    "translation": "рожде́ние"
+  },
+  {
+    "word": "craft",
+    "partOfSpeech": "noun",
+    "forms": ["crafts"],
+    "definition": "An activity involving skill in making things by hand",
+    "examples": [
+      "Traditional pottery is a craft that requires years of practice."
+    ],
+    "synonyms": ["handicraft", "skill", "trade"],
+    "antonyms": [],
+    "translation": "ремесло́"
+  },
+  {
+    "word": "grave",
+    "partOfSpeech": "noun",
+    "forms": ["graves"],
+    "definition": "A hole dug in the ground to receive a dead body",
+    "examples": [
+      "Family members placed flowers on the grave every anniversary."
+    ],
+    "synonyms": ["tomb", "burial place", "sepulcher"],
+    "antonyms": [],
+    "translation": "моги́ла"
+  },
+  {
+    "word": "introduction",
+    "partOfSpeech": "noun",
+    "forms": ["introductions"],
+    "definition": "The action of introducing something, or the opening section of a book or speech",
+    "examples": ["Read the introduction to get an overview of the topic."],
+    "synonyms": ["preface", "preamble", "presentation"],
+    "antonyms": ["conclusion", "epilogue"],
+    "translation": "введе́ние"
+  },
+  {
+    "word": "lead",
+    "partOfSpeech": "verb",
+    "forms": ["leads", "led", "leading"],
+    "definition": "To cause a person or group to go with one by guiding or preceding them",
+    "examples": [
+      "She was chosen to lead the expedition through the mountains."
+    ],
+    "synonyms": ["guide", "direct", "head", "conduct"],
+    "antonyms": ["follow"],
+    "translation": "вести́"
+  },
+  {
+    "word": "leader",
+    "partOfSpeech": "noun",
+    "forms": ["leaders"],
+    "definition": "The person who leads, commands, or heads a group, organization, or country",
+    "examples": ["A good leader listens to the opinions of team members."],
+    "synonyms": ["head", "chief", "director", "boss"],
+    "antonyms": ["follower"],
+    "translation": "ли́дер"
+  },
+  {
+    "word": "legacy",
+    "partOfSpeech": "noun",
+    "forms": ["legacies"],
+    "definition": "An amount of money or property left to someone in a will, or a long-lasting impact from the past",
+    "examples": ["The artist left a rich legacy of paintings and sculptures."],
+    "synonyms": ["heritage", "bequest", "tradition"],
+    "antonyms": [],
+    "translation": "насле́дие"
+  },
+  {
+    "word": "marching band",
+    "partOfSpeech": "noun",
+    "forms": ["marching bands"],
+    "definition": "A group of musicians who play instruments while marching, often in a parade",
+    "examples": [
+      "The marching band performed during halftime at the football game."
+    ],
+    "synonyms": ["brass band", "parade band"],
+    "antonyms": [],
+    "translation": "марширу́ющий орке́стр"
+  },
+  {
+    "word": "mayor",
+    "partOfSpeech": "noun",
+    "forms": ["mayors"],
+    "definition": "The elected head of a city, town, or other municipality",
+    "examples": [
+      "The mayor gave a speech at the opening ceremony of the new park."
+    ],
+    "synonyms": ["city head", "burgomaster"],
+    "antonyms": [],
+    "translation": "мэр"
+  },
+  {
+    "word": "nomad",
+    "partOfSpeech": "noun",
+    "forms": ["nomads"],
+    "definition": "A member of a group of people who move from place to place rather than living in one fixed location",
+    "examples": [
+      "The traditional nomads moved across the steppe in search of pasture for their livestock."
+    ],
+    "synonyms": ["wanderer", "roamer", "traveler"],
+    "antonyms": ["settler", "inhabitant"],
+    "translation": "коче́вник"
+  },
+  {
+    "word": "parade",
+    "partOfSpeech": "noun",
+    "forms": ["parades"],
+    "definition": "A public procession, especially one celebrating a special day or event",
+    "examples": [
+      "Thousands of people lined the streets to watch the annual holiday parade."
+    ],
+    "synonyms": ["procession", "march", "pageant"],
+    "antonyms": [],
+    "translation": "пара́д"
+  },
+  {
+    "word": "playwright",
+    "partOfSpeech": "noun",
+    "forms": ["playwrights"],
+    "definition": "A person who writes plays for the theater",
+    "examples": [
+      "William Shakespeare is one of the most famous playwrights in history."
+    ],
+    "synonyms": ["dramatist", "writer", "scriptwriter"],
+    "antonyms": [],
+    "translation": "драмату́рг"
+  },
+  {
+    "word": "symbolise",
+    "partOfSpeech": "verb",
+    "forms": ["symbolises", "symbolised", "symbolising"],
+    "definition": "To be a symbol of or represent something",
+    "examples": ["The white dove is often used to symbolise peace."],
+    "synonyms": ["represent", "stand for", "signify"],
+    "antonyms": [],
+    "translation": "символизи́ровать"
+  },
+  {
+    "word": "yurt",
+    "partOfSpeech": "noun",
+    "forms": ["yurts"],
+    "definition": "A circular tent made of felt or skins on a collapsible framework, traditionally used by nomads in Central Asia",
+    "examples": [
+      "They stayed in a traditional yurt while visiting Central Asia."
+    ],
+    "synonyms": ["tent", "dwelling"],
+    "antonyms": [],
+    "translation": "ю́рта"
+  },
+
+  {
+    "word": "broadcaster",
+    "partOfSpeech": "noun",
+    "forms": ["broadcasters"],
+    "definition": "An organization or person that transmits radio or television programs",
+    "examples": ["The BBC is a major national broadcaster in the UK."],
+    "synonyms": ["announcer", "media company", "presenter"],
+    "antonyms": [],
+    "translation": "веща́тель"
+  },
+  {
+    "word": "coronation",
+    "partOfSpeech": "noun",
+    "forms": ["coronations"],
+    "definition": "The ceremony of crowning a king, queen, or other monarch",
+    "examples": [
+      "Millions of people watched the king's coronation on live television."
+    ],
+    "synonyms": ["crowning", "enthronement"],
+    "antonyms": [],
+    "translation": "корона́ция"
+  },
+  {
+    "word": "current affairs",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "Events or political items of social interest and importance that are happening in the world at the present time",
+    "examples": [
+      "She watches the news every evening to stay informed about current affairs."
+    ],
+    "synonyms": ["news", "topical issues", "recent developments"],
+    "antonyms": [],
+    "translation": "теку́щие собы́тия"
+  },
+  {
+    "word": "found",
+    "partOfSpeech": "verb",
+    "forms": ["founds", "founded", "founding"],
+    "definition": "To establish or originate an institution, organization, or town",
+    "examples": ["The company was founded in 1995 by two university students."],
+    "synonyms": ["establish", "create", "set up", "institute"],
+    "antonyms": ["demolish", "dismantle", "destroy"],
+    "translation": "осно́вывать"
+  },
+  {
+    "word": "identity",
+    "partOfSpeech": "noun",
+    "forms": ["identities"],
+    "definition": "The characteristics, qualities, or beliefs that define who a person or group is",
+    "examples": ["Cultural traditions help preserve a nation's identity."],
+    "synonyms": ["individuality", "character", "personality"],
+    "antonyms": [],
+    "translation": "иденти́чность"
+  },
+  {
+    "word": "nation",
+    "partOfSpeech": "noun",
+    "forms": ["nations"],
+    "definition": "A large body of people united by common descent, history, culture, or language, inhabiting a particular territory",
+    "examples": [
+      "Representatives from over one hundred nations attended the conference."
+    ],
+    "synonyms": ["country", "state", "realm"],
+    "antonyms": [],
+    "translation": "на́ция"
+  },
+  {
+    "word": "news report",
+    "partOfSpeech": "noun",
+    "forms": ["news reports"],
+    "definition": "A spoken, written, or broadcast story giving information about current events",
+    "examples": [
+      "The morning news report covered the storm that struck the coast."
+    ],
+    "synonyms": ["bulletin", "report", "dispatch"],
+    "antonyms": [],
+    "translation": "репорта́ж"
+  },
+  {
+    "word": "source",
+    "partOfSpeech": "noun",
+    "forms": ["sources"],
+    "definition": "A place, person, or thing from which something originates or can be obtained",
+    "examples": [
+      "The journalist refused to reveal the identity of her source."
+    ],
+    "synonyms": ["origin", "originator", "provider"],
+    "antonyms": [],
+    "translation": "исто́чник"
+  },
+  {
+    "word": "trusted",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Regarded as reliable, honest, and dependable",
+    "examples": [
+      "He is a trusted colleague who always delivers on his promises."
+    ],
+    "synonyms": ["reliable", "dependable", "trustworthy"],
+    "antonyms": ["unreliable", "untrustworthy"],
+    "translation": "надёжный"
+  },
+  {
+    "word": "unify",
+    "partOfSpeech": "verb",
+    "forms": ["unifies", "unified", "unifying"],
+    "definition": "To make or become united, whole, or uniform",
+    "examples": ["The leader worked hard to unify the divided country."],
+    "synonyms": ["unite", "join", "merge", "combine"],
+    "antonyms": ["divide", "separate", "split"],
+    "translation": "объединя́ть"
+  },
+  {
+    "word": "aspect",
+    "partOfSpeech": "noun",
+    "forms": ["aspects"],
+    "definition": "A particular feature, part, or side of something",
+    "examples": [
+      "We need to consider every aspect of the problem before deciding."
+    ],
+    "synonyms": ["feature", "side", "facet", "element"],
+    "antonyms": [],
+    "translation": "аспе́кт"
+  },
+  {
+    "word": "birth",
+    "partOfSpeech": "noun",
+    "forms": ["births"],
+    "definition": "The emergence of a baby or other young from the body of its mother; the origin of something",
+    "examples": [
+      "The proud parents celebrated the birth of their first child."
+    ],
+    "synonyms": ["nativity", "beginning", "origin"],
+    "antonyms": ["death", "end"],
+    "translation": "рожде́ние"
+  },
+  {
+    "word": "craft",
+    "partOfSpeech": "noun",
+    "forms": ["crafts"],
+    "definition": "An activity involving skill in making things by hand",
+    "examples": [
+      "Traditional pottery is a craft that requires years of practice."
+    ],
+    "synonyms": ["handicraft", "skill", "trade"],
+    "antonyms": [],
+    "translation": "ремесло́"
+  },
+  {
+    "word": "grave",
+    "partOfSpeech": "noun",
+    "forms": ["graves"],
+    "definition": "A hole dug in the ground to receive a dead body",
+    "examples": [
+      "Family members placed flowers on the grave every anniversary."
+    ],
+    "synonyms": ["tomb", "burial place", "sepulcher"],
+    "antonyms": [],
+    "translation": "моги́ла"
+  },
+  {
+    "word": "introduction",
+    "partOfSpeech": "noun",
+    "forms": ["introductions"],
+    "definition": "The action of introducing something, or the opening section of a book or speech",
+    "examples": ["Read the introduction to get an overview of the topic."],
+    "synonyms": ["preface", "preamble", "presentation"],
+    "antonyms": ["conclusion", "epilogue"],
+    "translation": "введе́ние"
+  },
+  {
+    "word": "lead",
+    "partOfSpeech": "verb",
+    "forms": ["leads", "led", "leading"],
+    "definition": "To cause a person or group to go with one by guiding or preceding them",
+    "examples": [
+      "She was chosen to lead the expedition through the mountains."
+    ],
+    "synonyms": ["guide", "direct", "head", "conduct"],
+    "antonyms": ["follow"],
+    "translation": "вести́"
+  },
+  {
+    "word": "leader",
+    "partOfSpeech": "noun",
+    "forms": ["leaders"],
+    "definition": "The person who leads, commands, or heads a group, organization, or country",
+    "examples": ["A good leader listens to the opinions of team members."],
+    "synonyms": ["head", "chief", "director", "boss"],
+    "antonyms": ["follower"],
+    "translation": "ли́дер"
+  },
+  {
+    "word": "legacy",
+    "partOfSpeech": "noun",
+    "forms": ["legacies"],
+    "definition": "An amount of money or property left to someone in a will, or a long-lasting impact from the past",
+    "examples": ["The artist left a rich legacy of paintings and sculptures."],
+    "synonyms": ["heritage", "bequest", "tradition"],
+    "antonyms": [],
+    "translation": "насле́дие"
+  },
+  {
+    "word": "marching band",
+    "partOfSpeech": "noun",
+    "forms": ["marching bands"],
+    "definition": "A group of musicians who play instruments while marching, often in a parade",
+    "examples": [
+      "The marching band performed during halftime at the football game."
+    ],
+    "synonyms": ["brass band", "parade band"],
+    "antonyms": [],
+    "translation": "марширу́ющий орке́стр"
+  },
+  {
+    "word": "mayor",
+    "partOfSpeech": "noun",
+    "forms": ["mayors"],
+    "definition": "The elected head of a city, town, or other municipality",
+    "examples": [
+      "The mayor gave a speech at the opening ceremony of the new park."
+    ],
+    "synonyms": ["city head", "burgomaster"],
+    "antonyms": [],
+    "translation": "мэр"
+  },
+  {
+    "word": "nomad",
+    "partOfSpeech": "noun",
+    "forms": ["nomads"],
+    "definition": "A member of a group of people who move from place to place rather than living in one fixed location",
+    "examples": [
+      "The traditional nomads moved across the steppe in search of pasture for their livestock."
+    ],
+    "synonyms": ["wanderer", "roamer", "traveler"],
+    "antonyms": ["settler", "inhabitant"],
+    "translation": "коче́вник"
+  },
+  {
+    "word": "parade",
+    "partOfSpeech": "noun",
+    "forms": ["parades"],
+    "definition": "A public procession, especially one celebrating a special day or event",
+    "examples": [
+      "Thousands of people lined the streets to watch the annual holiday parade."
+    ],
+    "synonyms": ["procession", "march", "pageant"],
+    "antonyms": [],
+    "translation": "пара́д"
+  },
+  {
+    "word": "playwright",
+    "partOfSpeech": "noun",
+    "forms": ["playwrights"],
+    "definition": "A person who writes plays for the theater",
+    "examples": [
+      "William Shakespeare is one of the most famous playwrights in history."
+    ],
+    "synonyms": ["dramatist", "writer", "scriptwriter"],
+    "antonyms": [],
+    "translation": "драмату́рг"
+  },
+  {
+    "word": "symbolise",
+    "partOfSpeech": "verb",
+    "forms": ["symbolises", "symbolised", "symbolising"],
+    "definition": "To be a symbol of or represent something",
+    "examples": ["The white dove is often used to symbolise peace."],
+    "synonyms": ["represent", "stand for", "signify"],
+    "antonyms": [],
+    "translation": "символизи́ровать"
+  },
+  {
+    "word": "yurt",
+    "partOfSpeech": "noun",
+    "forms": ["yurts"],
+    "definition": "A circular tent made of felt or skins on a collapsible framework, traditionally used by nomads in Central Asia",
+    "examples": [
+      "They stayed in a traditional yurt while visiting Central Asia."
+    ],
+    "synonyms": ["tent", "dwelling"],
+    "antonyms": [],
+    "translation": "ю́рта"
+  },
+
+  {
+    "word": "signal",
+    "partOfSpeech": "noun",
+    "forms": ["signals"],
+    "definition": "An electrical impulse or gesture used to convey information or instructions",
+    "examples": [
+      "The nerve carries an electrical signal from the inner ear to the brain."
+    ],
+    "synonyms": ["impulse", "cue", "sign"],
+    "antonyms": [],
+    "translation": "сигна́л"
+  },
+  {
+    "word": "snail shell",
+    "partOfSpeech": "noun",
+    "forms": ["snail shells"],
+    "definition": "The hard, spiral outer casing of a snail",
+    "examples": [
+      "The cochlea in the inner ear resembles a tiny coiled snail shell."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "ра́ковина ули́тки"
+  },
+  {
+    "word": "stirrup",
+    "partOfSpeech": "noun",
+    "forms": ["stirrups"],
+    "definition": "A tiny bone in the middle ear (stapes) that transmits sound vibrations to the inner ear",
+    "examples": ["The stirrup is the smallest bone in the human body."],
+    "synonyms": ["stapes"],
+    "antonyms": [],
+    "translation": "стре́мя"
+  },
+  {
+    "word": "tube",
+    "partOfSpeech": "noun",
+    "forms": ["tubes"],
+    "definition": "A long, hollow cylinder used to carry fluids, air, or sound",
+    "examples": [
+      "Sound waves pass through a narrow tube in the ear to reach the eardrum."
+    ],
+    "synonyms": ["pipe", "canal", "conduit"],
+    "antonyms": [],
+    "translation": "тру́бка"
+  },
+  {
+    "word": "vibrate",
+    "partOfSpeech": "verb",
+    "forms": ["vibrates", "vibrated", "vibrating"],
+    "definition": "To move continuously and rapidly to and fro",
+    "examples": ["Loud sound waves cause the eardrum to vibrate rapidly."],
+    "synonyms": ["quiver", "shake", "oscillate"],
+    "antonyms": [],
+    "translation": "вибри́ровать"
+  },
+  {
+    "word": "wave",
+    "partOfSpeech": "noun",
+    "forms": ["waves"],
+    "definition": "A disturbance that travels through a medium, carrying energy such as sound or light",
+    "examples": ["Sound waves travel through the air into your ear canal."],
+    "synonyms": ["vibration", "oscillation", "ripple"],
+    "antonyms": [],
+    "translation": "волна́"
+  },
+  {
+    "word": "crowd",
+    "partOfSpeech": "noun",
+    "forms": ["crowds"],
+    "definition": "A large number of people gathered together in one place",
+    "examples": [
+      "A huge crowd gathered in the main square to watch the concert."
+    ],
+    "synonyms": ["throng", "multitude", "gathering"],
+    "antonyms": [],
+    "translation": "толпа́"
+  },
+  {
+    "word": "electric atmosphere",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "A feeling of great excitement, energy, and tension among a group of people",
+    "examples": [
+      "There was an electric atmosphere in the stadium just before the match began."
+    ],
+    "synonyms": ["thrilling atmosphere", "charged environment"],
+    "antonyms": [],
+    "translation": "электризо́ванная атмосфе́ра"
+  },
+  {
+    "word": "exhausted",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Extremely tired, completely drained of physical or mental energy",
+    "examples": [
+      "After working all day without a break, she felt completely exhausted."
+    ],
+    "synonyms": ["worn out", "drained", "fatigued"],
+    "antonyms": ["energetic", "refreshed", "invigorated"],
+    "translation": "изнурённый"
+  },
+  {
+    "word": "mixture",
+    "partOfSpeech": "noun",
+    "forms": ["mixtures"],
+    "definition": "A combination of different elements, qualities, or ingredients",
+    "examples": [
+      "The event was an exciting mixture of music, dancing, and great food."
+    ],
+    "synonyms": ["blend", "combination", "mix"],
+    "antonyms": [],
+    "translation": "смесь"
+  },
+  {
+    "word": "patiently",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "In a manner that shows willingness to wait without getting annoyed or upset",
+    "examples": [
+      "The fans waited patiently in line for hours to meet the author."
+    ],
+    "synonyms": ["calmly", "enduringly"],
+    "antonyms": ["impatiently"],
+    "translation": "терпели́во"
+  },
+  {
+    "word": "perform",
+    "partOfSpeech": "verb",
+    "forms": ["performs", "performed", "performing"],
+    "definition": "To present a form of entertainment, such as music or theater, to an audience",
+    "examples": [
+      "The orchestra will perform live at the concert hall tonight."
+    ],
+    "synonyms": ["play", "act", "present", "execute"],
+    "antonyms": [],
+    "translation": "выступа́ть"
+  },
+  {
+    "word": "support group",
+    "partOfSpeech": "noun",
+    "forms": ["support groups"],
+    "definition": "A group of people with common experiences or concerns who meet to encourage and help each other",
+    "examples": [
+      "Joining a support group helped her manage stress more effectively."
+    ],
+    "synonyms": ["help group"],
+    "antonyms": [],
+    "translation": "гру́ппа подде́ржки"
+  }
+]

@@ -226,5 +226,409 @@
     "synonyms": ["fauna", "nature"],
     "antonyms": [],
     "translation": "ди́кая приро́да"
+  },
+
+  {
+    "word": "achieve",
+    "partOfSpeech": "verb",
+    "forms": ["achieves", "achieved", "achieving"],
+    "definition": "To successfully bring about or reach a desired goal by effort, skill, or courage",
+    "examples": [
+      "She worked hard to achieve her goal of becoming a civil engineer."
+    ],
+    "synonyms": ["attain", "accomplish", "reach"],
+    "antonyms": ["fail", "forfeit"],
+    "translation": "достига́ть"
+  },
+  {
+    "word": "career",
+    "partOfSpeech": "noun",
+    "forms": ["careers"],
+    "definition": "An occupation undertaken for a significant period of a person's life with opportunities for progress",
+    "examples": ["He built a long and successful career in architecture."],
+    "synonyms": ["profession", "occupation", "vocation"],
+    "antonyms": [],
+    "translation": "карье́ра"
+  },
+  {
+    "word": "civil engineer",
+    "partOfSpeech": "noun",
+    "forms": ["civil engineers"],
+    "definition": "An engineer who designs, builds, and maintains public works such as roads, bridges, and buildings",
+    "examples": [
+      "The civil engineer inspected the new bridge before it was opened to the public."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "инжене́р-строи́тель"
+  },
+  {
+    "word": "collapse",
+    "partOfSpeech": "verb",
+    "forms": ["collapses", "collapsed", "collapsing"],
+    "definition": "To fall down or in suddenly, often due to a lack of support or structural damage",
+    "examples": [
+      "The old building threatened to collapse after the heavy earthquake."
+    ],
+    "synonyms": ["cave in", "crumple", "tumble"],
+    "antonyms": ["stand", "rise"],
+    "translation": "ру́шиться"
+  },
+  {
+    "word": "inspirational",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Providing encouragement, hope, or creative motivation",
+    "examples": [
+      "The architect gave an inspirational talk about sustainable building design."
+    ],
+    "synonyms": ["inspiring", "motivational", "uplifting"],
+    "antonyms": ["discouraging", "uninspiring"],
+    "translation": "вдохновля́ющий"
+  },
+  {
+    "word": "prevent",
+    "partOfSpeech": "verb",
+    "forms": ["prevents", "prevented", "preventing"],
+    "definition": "To keep something from happening or arising",
+    "examples": [
+      "Regular inspections help to prevent structural failure in tall buildings."
+    ],
+    "synonyms": ["stop", "hinder", "avert", "block"],
+    "antonyms": ["allow", "permit", "cause"],
+    "translation": "предотвраща́ть"
+  },
+  {
+    "word": "raise awareness",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To increase people's knowledge or understanding of a particular issue or topic",
+    "examples": [
+      "The project aims to raise awareness about eco-friendly urban construction."
+    ],
+    "synonyms": ["inform", "educate", "promote awareness"],
+    "antonyms": [],
+    "translation": "повыша́ть осведомлённость"
+  },
+  {
+    "word": "skyscraper",
+    "partOfSpeech": "noun",
+    "forms": ["skyscrapers"],
+    "definition": "A very tall continuously habitable building with many storeys",
+    "examples": ["The city skyline is dominated by modern glass skyscrapers."],
+    "synonyms": ["high-rise", "tower"],
+    "antonyms": [],
+    "translation": "небоскрёб"
+  },
+  {
+    "word": "specialise (in sth)",
+    "partOfSpeech": "verb",
+    "forms": ["specialises", "specialised", "specialising"],
+    "definition": "To concentrate one's effort, study, or work on a specific area or subject",
+    "examples": [
+      "She decided to specialise in bridge design during her master's degree."
+    ],
+    "synonyms": ["focus", "concentrate"],
+    "antonyms": ["generalise"],
+    "translation": "специализи́роваться"
+  },
+  {
+    "word": "structure",
+    "partOfSpeech": "noun",
+    "forms": ["structures"],
+    "definition": "A building or other constructed object made from several interconnected parts",
+    "examples": [
+      "The steel structure of the stadium took over two years to construct."
+    ],
+    "synonyms": ["building", "construction", "edifice", "framework"],
+    "antonyms": [],
+    "translation": "сооруже́ние"
+  },
+
+  {
+    "word": "conservation",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The protection and preservation of the natural environment and wildlife",
+    "examples": [
+      "Wildlife conservation efforts have helped save several species from extinction."
+    ],
+    "synonyms": ["preservation", "protection", "conservationism"],
+    "antonyms": ["destruction", "neglect"],
+    "translation": "сохране́ние"
+  },
+  {
+    "word": "equipment",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The necessary items, tools, or machinery needed for a particular purpose or activity",
+    "examples": [
+      "The hikers packed all their camping equipment into their backpacks."
+    ],
+    "synonyms": ["gear", "tools", "apparatus"],
+    "antonyms": [],
+    "translation": "обору́дование"
+  },
+  {
+    "word": "footpath",
+    "partOfSpeech": "noun",
+    "forms": ["footpaths"],
+    "definition": "A path or track for people to walk along, especially in the countryside",
+    "examples": ["We followed a narrow footpath through the forest."],
+    "synonyms": ["pathway", "trail", "walkway"],
+    "antonyms": [],
+    "translation": "тропа́"
+  },
+  {
+    "word": "register",
+    "partOfSpeech": "verb",
+    "forms": ["registers", "registered", "registering"],
+    "definition": "To record or enter an official name or details on an official list",
+    "examples": ["You need to register online before attending the workshop."],
+    "synonyms": ["enroll", "sign up", "record"],
+    "antonyms": ["deregister", "withdraw"],
+    "translation": "регистри́роваться"
+  },
+  {
+    "word": "volunteer",
+    "partOfSpeech": "verb",
+    "forms": ["volunteers", "volunteered", "volunteering"],
+    "definition": "To freely offer to do something or perform a service without being paid",
+    "examples": [
+      "She decided to volunteer at the local animal shelter on weekends."
+    ],
+    "synonyms": ["offer", "step forward"],
+    "antonyms": ["force", "compel"],
+    "translation": "работа́ть волонтёром"
+  },
+  {
+    "word": "waterproof",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Impervious to water; not allowing water to pass through",
+    "examples": [
+      "You should wear a waterproof jacket because it looks like it might rain."
+    ],
+    "synonyms": ["water-resistant", "impermeable", "watertight"],
+    "antonyms": ["permeable", "leaky"],
+    "translation": "водонепроница́емый"
+  },
+  {
+    "word": "collect",
+    "partOfSpeech": "verb",
+    "forms": ["collects", "collected", "collecting"],
+    "definition": "To bring or gather together things or information from different places",
+    "examples": ["The children like to collect colorful leaves in the autumn."],
+    "synonyms": ["gather", "accumulate", "assemble"],
+    "antonyms": ["scatter", "disperse"],
+    "translation": "собира́ть"
+  },
+  {
+    "word": "covering",
+    "partOfSpeech": "noun",
+    "forms": ["coverings"],
+    "definition": "A layer of something that covers or protects a surface",
+    "examples": [
+      "The snow created a thick white covering over the entire garden."
+    ],
+    "synonyms": ["layer", "coating", "wrapper"],
+    "antonyms": [],
+    "translation": "покры́тие"
+  },
+  {
+    "word": "distinctive",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Characteristic of one person or thing, serving to distinguish it from others",
+    "examples": [
+      "The bird has a very distinctive yellow pattern on its wings."
+    ],
+    "synonyms": ["characteristic", "unique", "individual"],
+    "antonyms": ["common", "ordinary", "unremarkable"],
+    "translation": "отличи́тельный"
+  },
+  {
+    "word": "exhibition",
+    "partOfSpeech": "noun",
+    "forms": ["exhibitions"],
+    "definition": "A public display of works of art or items of interest",
+    "examples": [
+      "We visited an impressive photography exhibition at the gallery."
+    ],
+    "synonyms": ["display", "show", "exposition"],
+    "antonyms": [],
+    "translation": "вы́ставка"
+  },
+  {
+    "word": "imitate",
+    "partOfSpeech": "verb",
+    "forms": ["imitates", "imitated", "imitating"],
+    "definition": "To copy or simulate the behavior, speech, or appearance of someone or something",
+    "examples": [
+      "Parrots are famous for their ability to imitate human speech."
+    ],
+    "synonyms": ["copy", "mimic", "emulate"],
+    "antonyms": [],
+    "translation": "подража́ть"
+  },
+  {
+    "word": "maintain",
+    "partOfSpeech": "verb",
+    "forms": ["maintains", "maintained", "maintaining"],
+    "definition": "To keep something in good condition or at a particular level",
+    "examples": [
+      "It is important to maintain a healthy diet and exercise regularly."
+    ],
+    "synonyms": ["preserve", "keep up", "sustain"],
+    "antonyms": ["neglect", "abandon"],
+    "translation": "подде́рживать"
+  },
+  {
+    "word": "pipe",
+    "partOfSpeech": "noun",
+    "forms": ["pipes"],
+    "definition": "A tube of metal, plastic, or other material used to convey water, gas, oil, or other fluids",
+    "examples": ["A burst water pipe flooded the kitchen floor."],
+    "synonyms": ["tube", "conduit", "hose"],
+    "antonyms": [],
+    "translation": "труба́"
+  },
+  {
+    "word": "produce",
+    "partOfSpeech": "verb",
+    "forms": ["produces", "produced", "producing"],
+    "definition": "To make or manufacture from components or raw materials",
+    "examples": ["The factory produces thousands of solar panels every month."],
+    "synonyms": ["manufacture", "create", "generate"],
+    "antonyms": ["destroy", "consume"],
+    "translation": "производи́ть"
+  },
+  {
+    "word": "remarkable",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Worthy of attention; extraordinary or striking",
+    "examples": ["The young artist showed a remarkable talent for painting."],
+    "synonyms": ["extraordinary", "exceptional", "outstanding"],
+    "antonyms": ["ordinary", "unremarkable"],
+    "translation": "замеча́тельный"
+  },
+  {
+    "word": "see-through",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Transparent or translucent enough to allow light and objects to be seen through",
+    "examples": [
+      "The plastic bag is see-through so you can easily inspect its contents."
+    ],
+    "synonyms": ["transparent", "translucent", "clear"],
+    "antonyms": ["opaque"],
+    "translation": "прозра́чный"
+  },
+  {
+    "word": "solar panel",
+    "partOfSpeech": "noun",
+    "forms": ["solar panels"],
+    "definition": "A panel designed to absorb the sun's rays as a source of energy for generating electricity",
+    "examples": [
+      "Installing a solar panel on the roof reduced their electricity bills significantly."
+    ],
+    "synonyms": ["photovoltaic panel"],
+    "antonyms": [],
+    "translation": "со́лнечная батаре́я"
+  },
+  {
+    "word": "sustainability",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The ability to be maintained at a certain rate or level without depleting natural resources",
+    "examples": [
+      "Environmental sustainability is crucial for the future of our planet."
+    ],
+    "synonyms": ["renewability", "eco-friendliness"],
+    "antonyms": ["unsustainability"],
+    "translation": "усто́йчивость"
+  },
+  {
+    "word": "withstand",
+    "partOfSpeech": "verb",
+    "forms": ["withstands", "withstood", "withstanding"],
+    "definition": "To remain undamaged or unaffected by; to resist or endure",
+    "examples": [
+      "The strong structure was built to withstand powerful earthquakes."
+    ],
+    "synonyms": ["endure", "resist", "bear"],
+    "antonyms": ["succumb", "yield"],
+    "translation": "выде́рживать"
+  },
+  {
+    "word": "affect",
+    "partOfSpeech": "verb",
+    "forms": ["affects", "affected", "affecting"],
+    "definition": "To have an effect on; make a difference to",
+    "examples": [
+      "Climate change can severely affect wildlife habitats across the globe."
+    ],
+    "synonyms": ["influence", "impact", "alter"],
+    "antonyms": [],
+    "translation": "влия́ть"
+  },
+  {
+    "word": "appliance",
+    "partOfSpeech": "noun",
+    "forms": ["appliances"],
+    "definition": "A device or piece of equipment designed to perform a specific task, typically household",
+    "examples": ["A refrigerator is an essential household appliance."],
+    "synonyms": ["device", "gadget", "instrument"],
+    "antonyms": [],
+    "translation": "прибо́р"
+  },
+  {
+    "word": "be involved with",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To participate in, take part in, or be connected with an activity or organization",
+    "examples": [
+      "She has been involved with local charity work for over five years."
+    ],
+    "synonyms": ["be engaged in", "participate in", "take part in"],
+    "antonyms": [],
+    "translation": "быть вовлечённым в"
+  },
+  {
+    "word": "charity",
+    "partOfSpeech": "noun",
+    "forms": ["charities"],
+    "definition": "An organization set up to provide help and raise money for those in need",
+    "examples": [
+      "All profits from the concert will be donated to a local charity."
+    ],
+    "synonyms": ["nonprofit", "foundation", "philanthropy"],
+    "antonyms": [],
+    "translation": "благотвори́тельность"
+  },
+  {
+    "word": "interconnected",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having all constituent parts linked or connected with each other",
+    "examples": [
+      "All ecosystems on Earth are complex and deeply interconnected."
+    ],
+    "synonyms": ["interlinked", "interrelated", "connected"],
+    "antonyms": ["disconnected", "separate"],
+    "translation": "взаимосвя́занный"
+  },
+  {
+    "word": "raise",
+    "partOfSpeech": "verb",
+    "forms": ["raises", "raised", "raising"],
+    "definition": "To collect or levy money or resources for a specific purpose",
+    "examples": [
+      "They organized a marathon to raise money for cancer research."
+    ],
+    "synonyms": ["collect", "gather", "generate"],
+    "antonyms": [],
+    "translation": "собира́ть"
   }
 ]

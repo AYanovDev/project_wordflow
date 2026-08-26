@@ -1,34 +1,73 @@
 import { useEffect, useState } from "react";
+import { Navigate } from "react-router-dom";
 import { WordCards } from "../presentation/WordCards";
+import { useLearningData } from "./DataContext";
+import { LoadingPage } from "./LoadingPage";
 
 export function WordLoader() {
-  const [isLoading, setIsLoading] = useState(false);
+  const { grade, module } = useLearningData();
+  const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState(null);
   const [errorMessage, setErrorMessage] = useState(null);
 
   useEffect(() => {
-    let learningPreferences = JSON.parse(
-      localStorage.getItem("learningPreferences"),
-    );
-    let url = `/word_data/grade_${learningPreferences.grade}/module_${learningPreferences.module}.json`;
+    if (!grade || !module) {
+      setIsLoading(false);
+      return;
+    }
+
+    const controller = new AbortController();
+    let isActive = true;
+    const url = `/word_data/grade_${grade}/module_${module}.json`;
+
     setIsLoading(true);
-    fetch(url)
-      .then((r) => r.json())
+    setErrorMessage(null);
+
+    fetch(url, { signal: controller.signal })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Vocabulary file could not be loaded.");
+        }
+
+        return response.json();
+      })
       .then((d) => {
-        setData(d);
-        setIsLoading(false);
+        if (isActive) {
+          setData(d);
+        }
+      })
+      .catch((error) => {
+        if (isActive && error.name !== "AbortError") {
+          setErrorMessage("We couldn't load this vocabulary module yet.");
+        }
+      })
+      .finally(() => {
+        if (isActive) {
+          setIsLoading(false);
+        }
       });
-  }, []);
+
+    return () => {
+      isActive = false;
+      controller.abort();
+    };
+  }, [grade, module]);
+
+  if (!grade || !module) {
+    return <Navigate to="/quest" replace />;
+  }
 
   if (isLoading) {
-    return (
-      <div>
-        <p>Loading</p>
-      </div>
-    );
+    return <LoadingPage grade={grade} module={module} />;
+  }
+
+  if (errorMessage) {
+    return <p role="alert">{errorMessage}</p>;
   }
 
   if (data) {
-    return <WordCards words={data}></WordCards>;
+    return <WordCards words={data} />;
   }
+
+  return null;
 }

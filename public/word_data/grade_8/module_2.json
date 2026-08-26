@@ -1,0 +1,551 @@
+[
+  {
+    "word": "additional",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Added, extra, or supplementary to what already exists",
+    "examples": [
+      "We need additional information before making a final decision."
+    ],
+    "synonyms": ["extra", "supplementary", "further"],
+    "antonyms": ["main", "primary"],
+    "translation": "дополни́тельный"
+  },
+  {
+    "word": "chore",
+    "partOfSpeech": "noun",
+    "forms": ["chores"],
+    "definition": "A routine task, especially a household one",
+    "examples": ["Doing the dishes is my least favorite household chore."],
+    "synonyms": ["task", "duty", "errand"],
+    "antonyms": [],
+    "translation": "обя́занность"
+  },
+  {
+    "word": "grade",
+    "partOfSpeech": "noun",
+    "forms": ["grades"],
+    "definition": "A mark indicating a student's level of achievement in a course or test",
+    "examples": ["She worked hard to get a good grade on her final exam."],
+    "synonyms": ["mark", "score", "rating"],
+    "antonyms": [],
+    "translation": "оце́нка"
+  },
+  {
+    "word": "laundry",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Clothes and linen that need to be washed or have just been washed",
+    "examples": ["I have a huge pile of dirty laundry to wash this weekend."],
+    "synonyms": ["wash", "washing"],
+    "antonyms": [],
+    "translation": "сти́рка"
+  },
+  {
+    "word": "leisure time",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Time free from work or other duties, used for rest and recreation",
+    "examples": ["In his leisure time, he enjoys reading and hiking."],
+    "synonyms": ["free time", "spare time"],
+    "antonyms": ["work time"],
+    "translation": "досу́г"
+  },
+  {
+    "word": "local",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to or occurring in a particular area, city, or neighborhood",
+    "examples": ["We bought fresh vegetables at the local market."],
+    "synonyms": ["neighbouring", "regional", "nearby"],
+    "antonyms": ["global", "distant", "foreign"],
+    "translation": "ме́стный"
+  },
+  {
+    "word": "atom",
+    "partOfSpeech": "noun",
+    "forms": ["atoms"],
+    "definition": "The smallest basic unit of a chemical element",
+    "examples": [
+      "Water molecules consist of two hydrogen atoms and one oxygen atom."
+    ],
+    "synonyms": ["particle"],
+    "antonyms": [],
+    "translation": "а́том"
+  },
+  {
+    "word": "average",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Constituting the typical or ordinary amount, rate, or level",
+    "examples": ["The average temperature in July is twenty-five degrees."],
+    "synonyms": ["typical", "standard", "ordinary", "mean"],
+    "antonyms": ["extraordinary", "exceptional", "extreme"],
+    "translation": "сре́дний"
+  },
+  {
+    "word": "baggy",
+    "partOfSpeech": "adjective",
+    "forms": ["baggier", "baggiest"],
+    "definition": "Loose-fitting and hanging in loose folds",
+    "examples": ["He likes to wear baggy jeans and oversized sweatshirts."],
+    "synonyms": ["loose", "oversized", "slack"],
+    "antonyms": ["tight", "fitted"],
+    "translation": "мешкова́тый"
+  },
+  {
+    "word": "big deal",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Something that is very important or significant",
+    "examples": ["Passing the final exam was a big deal for him."],
+    "synonyms": ["important matter", "major event"],
+    "antonyms": ["trifle"],
+    "translation": "ва́жное собы́тие"
+  },
+  {
+    "word": "design",
+    "partOfSpeech": "noun",
+    "forms": ["designs"],
+    "definition": "A plan or drawing produced to show the look and function of something before it is made",
+    "examples": ["The architect showed us the new design for the building."],
+    "synonyms": ["plan", "blueprint", "pattern", "layout"],
+    "antonyms": [],
+    "translation": "диза́йн"
+  },
+  {
+    "word": "express",
+    "partOfSpeech": "verb",
+    "forms": ["expresses", "expressed", "expressing"],
+    "definition": "To convey a thought, feeling, or opinion in words or through actions",
+    "examples": ["He found it hard to express his emotions clearly."],
+    "synonyms": ["convey", "state", "articulate", "voice"],
+    "antonyms": ["suppress", "hide", "conceal"],
+    "translation": "выража́ть"
+  },
+
+  {
+    "word": "gadget",
+    "partOfSpeech": "noun",
+    "forms": ["gadgets"],
+    "definition": "A small mechanical or electronic device or tool, especially an ingenious or novel one",
+    "examples": ["He loves buying the latest electronic gadgets."],
+    "synonyms": ["device", "appliance", "gizmo"],
+    "antonyms": [],
+    "translation": "га́джет"
+  },
+  {
+    "word": "geek",
+    "partOfSpeech": "noun",
+    "forms": ["geeks"],
+    "definition": "A person who is knowledgeable and enthusiastic about a specific subject, especially technology",
+    "examples": [
+      "As a computer geek, he spends all his free time programming."
+    ],
+    "synonyms": ["techie", "enthusiast", "nerd"],
+    "antonyms": [],
+    "translation": "гик"
+  },
+  {
+    "word": "grab",
+    "partOfSpeech": "verb",
+    "forms": ["grabs", "grabbed", "grabbing"],
+    "definition": "To take hold of something suddenly or roughly",
+    "examples": ["He grabbed his jacket and ran out the door."],
+    "synonyms": ["snatch", "seize", "grasp"],
+    "antonyms": ["release", "drop"],
+    "translation": "схвати́ть"
+  },
+  {
+    "word": "hoodie",
+    "partOfSpeech": "noun",
+    "forms": ["hoodies"],
+    "definition": "A sweatshirt with a hood attached",
+    "examples": [
+      "She put on a comfortable hoodie because it was chilly outside."
+    ],
+    "synonyms": ["sweatshirt"],
+    "antonyms": [],
+    "translation": "ху́ди"
+  },
+  {
+    "word": "long-sleeved",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having long sleeves that reach down to the wrists",
+    "examples": ["He wore a long-sleeved shirt to keep warm in the evening."],
+    "synonyms": [],
+    "antonyms": ["short-sleeved"],
+    "translation": "с дли́нным рукаво́м"
+  },
+  {
+    "word": "loose",
+    "partOfSpeech": "adjective",
+    "forms": ["looser", "loosest"],
+    "definition": "Not fitting tightly or closely; baggy",
+    "examples": ["He prefers wearing loose clothes in hot weather."],
+    "synonyms": ["baggy", "slack", "roomy"],
+    "antonyms": ["tight", "fitted"],
+    "translation": "свобо́дный"
+  },
+  {
+    "word": "nerd",
+    "partOfSpeech": "noun",
+    "forms": ["nerds"],
+    "definition": "A person who is extremely interested in a technical or academic subject and lacks social skills",
+    "examples": ["He was considered a science nerd in high school."],
+    "synonyms": ["geek", "intellectual"],
+    "antonyms": [],
+    "translation": "бота́ник"
+  },
+  {
+    "word": "short-sleeved",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having short sleeves that do not reach the elbow",
+    "examples": ["She bought a short-sleeved t-shirt for the summer."],
+    "synonyms": [],
+    "antonyms": ["long-sleeved"],
+    "translation": "с коро́тким рукаво́м"
+  },
+  {
+    "word": "slogan",
+    "partOfSpeech": "noun",
+    "forms": ["slogans"],
+    "definition": "A short and memorable phrase used in advertising or branding",
+    "examples": [
+      "The company came up with a catchy new slogan for its product."
+    ],
+    "synonyms": ["motto", "tagline", "catchphrase"],
+    "antonyms": [],
+    "translation": "слога́н"
+  },
+  {
+    "word": "subculture",
+    "partOfSpeech": "noun",
+    "forms": ["subcultures"],
+    "definition": "A cultural group within a larger culture, often having beliefs or interests at variance with the larger culture",
+    "examples": ["Punk rock gave rise to a distinctive youth subculture."],
+    "synonyms": ["counterculture", "movement"],
+    "antonyms": ["mainstream"],
+    "translation": "субкульту́ра"
+  },
+  {
+    "word": "whizz-kid",
+    "partOfSpeech": "noun",
+    "forms": ["whizz-kids"],
+    "definition": "A young person who is exceptionally intelligent, successful, or skilled in a particular field",
+    "examples": [
+      "The tech startup was founded by a twenty-year-old computer whizz-kid."
+    ],
+    "synonyms": ["prodigy", "wunderkind", "genius"],
+    "antonyms": [],
+    "translation": "вундерки́нд"
+  },
+  {
+    "word": "in stock",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Available for immediate sale or use in a store",
+    "examples": ["The store employee said the shoes were currently in stock."],
+    "synonyms": ["available", "on hand"],
+    "antonyms": ["out of stock", "sold out"],
+    "translation": "в нали́чии"
+  },
+  {
+    "word": "receipt",
+    "partOfSpeech": "noun",
+    "forms": ["receipts"],
+    "definition": "A written acknowledgment that a specified sum of money or article has been received",
+    "examples": ["Keep your receipt in case you need to return the item."],
+    "synonyms": ["proof of purchase", "voucher"],
+    "antonyms": [],
+    "translation": "чек"
+  },
+  {
+    "word": "size",
+    "partOfSpeech": "noun",
+    "forms": ["sizes"],
+    "definition": "A standardized measurement for clothing, footwear, or object dimensions",
+    "examples": ["Do you have these pants in a smaller size?"],
+    "synonyms": ["dimensions", "scale", "measurements"],
+    "antonyms": [],
+    "translation": "разме́р"
+  },
+  {
+    "word": "sold out",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having all available items or tickets completely sold",
+    "examples": [
+      "The concert tickets were completely sold out within minutes."
+    ],
+    "synonyms": ["unavailable", "out of stock"],
+    "antonyms": ["in stock", "available"],
+    "translation": "распро́данный"
+  },
+  {
+    "word": "alternative shop",
+    "partOfSpeech": "noun",
+    "forms": ["alternative shops"],
+    "definition": "A shop that sells non-mainstream, vintage, or subcultural fashion and goods",
+    "examples": ["She bought her jacket at an alternative shop downtown."],
+    "synonyms": ["boutique", "indie shop"],
+    "antonyms": [],
+    "translation": "альтернати́вный магази́н"
+  },
+  {
+    "word": "chat",
+    "partOfSpeech": "verb",
+    "forms": ["chats", "chatted", "chatting"],
+    "definition": "To talk in a friendly, informal way",
+    "examples": ["We sat in the cafe and chatted for hours."],
+    "synonyms": ["talk", "converse", "gossip"],
+    "antonyms": [],
+    "translation": "болта́ть"
+  },
+  {
+    "word": "cool",
+    "partOfSpeech": "adjective",
+    "forms": ["cooler", "coolest"],
+    "definition": "Fashionable, attractive, or impressive in a way that is admired",
+    "examples": ["He was wearing a very cool pair of sunglasses."],
+    "synonyms": ["trendy", "stylish", "awesome"],
+    "antonyms": ["uncool", "unfashionable"],
+    "translation": "круто́й"
+  },
+  {
+    "word": "court",
+    "partOfSpeech": "noun",
+    "forms": ["courts"],
+    "definition": "An area marked off for playing a sports game, such as tennis or basketball",
+    "examples": ["They met at the basketball court after school."],
+    "synonyms": ["field", "arena", "pitch"],
+    "antonyms": [],
+    "translation": "площа́дка"
+  },
+  {
+    "word": "mainstream fashion",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Fashion trends that are widely accepted and worn by the general public",
+    "examples": [
+      "She prefers vintage clothing rather than following mainstream fashion."
+    ],
+    "synonyms": ["popular fashion", "mass fashion"],
+    "antonyms": ["alternative fashion"],
+    "translation": "мейнстри́мная мо́да"
+  },
+  {
+    "word": "window-shopping",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The activity of looking at items displayed in shop windows without intending to buy anything",
+    "examples": ["We spent the afternoon window-shopping at the mall."],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "рассма́тривание витри́н"
+  },
+  {
+    "word": "waterslide",
+    "partOfSpeech": "noun",
+    "forms": ["waterslides"],
+    "definition": "A slide at a swimming pool or water park down which people slide into water",
+    "examples": [
+      "The kids spent all day riding the huge waterslide at the water park."
+    ],
+    "synonyms": ["water slide"],
+    "antonyms": [],
+    "translation": "водяна́я го́рка"
+  },
+  {
+    "word": "cut back",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["cuts back", "cut back", "cutting back"],
+    "definition": "To reduce the amount or consumption of something, especially expenditure",
+    "examples": ["We need to cut back on unnecessary expenses this month."],
+    "synonyms": ["reduce", "decrease", "curtail", "trim"],
+    "antonyms": ["increase", "expand"],
+    "translation": "сокраща́ть"
+  },
+  {
+    "word": "expenses",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "The money spent on something",
+    "examples": ["Monthly living expenses can add up very quickly."],
+    "synonyms": ["costs", "outgoings", "expenditures"],
+    "antonyms": ["income", "revenue"],
+    "translation": "расхо́ды"
+  },
+  {
+    "word": "income",
+    "partOfSpeech": "noun",
+    "forms": ["incomes"],
+    "definition": "Money received, especially on a regular basis, for work or through investments",
+    "examples": [
+      "Her monthly income is enough to cover all her living expenses."
+    ],
+    "synonyms": ["earnings", "revenue", "salary"],
+    "antonyms": ["expenses", "expenditure"],
+    "translation": "дохо́д"
+  },
+  {
+    "word": "keep track of",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To stay informed about or monitor the status and movement of something",
+    "examples": [
+      "It is useful to use an app to keep track of your daily spending."
+    ],
+    "synonyms": ["monitor", "track", "follow"],
+    "antonyms": ["lose track of", "ignore"],
+    "translation": "отсле́живать"
+  },
+  {
+    "word": "long-term goal",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "A goal or target that you want to achieve in the distant future",
+    "examples": ["Buying a house is a long-term goal for many young couples."],
+    "synonyms": ["aim", "target", "objective"],
+    "antonyms": ["short-term goal"],
+    "translation": "долгосро́чная цель"
+  },
+  {
+    "word": "manage money",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To control, budget, and organize one's financial resources effectively",
+    "examples": [
+      "Learning how to manage money is an essential skill for adults."
+    ],
+    "synonyms": ["budget", "handle finances"],
+    "antonyms": [],
+    "translation": "распоряжа́ться деньга́ми"
+  },
+  {
+    "word": "pocket money",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A small amount of money given regularly to children by parents, or money for minor personal expenses",
+    "examples": ["He earns his pocket money by doing household chores."],
+    "synonyms": ["allowance"],
+    "antonyms": [],
+    "translation": "карма́нные де́ньги"
+  },
+  {
+    "word": "reduce",
+    "partOfSpeech": "verb",
+    "forms": ["reduces", "reduced", "reducing"],
+    "definition": "To make something smaller or less in amount, degree, or size",
+    "examples": ["The store reduced its prices to attract more customers."],
+    "synonyms": ["decrease", "lower", "cut", "diminish"],
+    "antonyms": ["increase", "raise", "expand"],
+    "translation": "сокраща́ть"
+  },
+  {
+    "word": "savings",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "Money that has been saved over time, especially in a bank",
+    "examples": ["She used all her savings to buy a new car."],
+    "synonyms": ["nest egg", "reserves", "funds"],
+    "antonyms": ["debt", "liabilities"],
+    "translation": "сбереже́ния"
+  },
+  {
+    "word": "set a budget",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To plan and decide how much money will be spent over a period",
+    "examples": ["We need to set a budget before going on vacation."],
+    "synonyms": ["create a budget", "plan expenses"],
+    "antonyms": [],
+    "translation": "установи́ть бюдже́т"
+  },
+  {
+    "word": "tip",
+    "partOfSpeech": "noun",
+    "forms": ["tips"],
+    "definition": "A helpful piece of advice or practical information",
+    "examples": [
+      "Here are a few useful tips on how to save money on groceries."
+    ],
+    "synonyms": ["advice", "hint", "pointer", "suggestion"],
+    "antonyms": [],
+    "translation": "сове́т"
+  },
+  {
+    "word": "aspect",
+    "partOfSpeech": "noun",
+    "forms": ["aspects"],
+    "definition": "A particular part, feature, or phase of something",
+    "examples": ["Safety is an important aspect of any job."],
+    "synonyms": ["feature", "side", "facet", "element"],
+    "antonyms": [],
+    "translation": "аспе́кт"
+  },
+  {
+    "word": "convenient",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Fitting in well with a person's needs, activities, or plans; easy to use",
+    "examples": [
+      "Online shopping is very convenient because you can shop from home."
+    ],
+    "synonyms": ["handy", "suitable", "accessible", "practical"],
+    "antonyms": ["inconvenient", "awkward"],
+    "translation": "удо́бный"
+  },
+  {
+    "word": "doorstep",
+    "partOfSpeech": "noun",
+    "forms": ["doorsteps"],
+    "definition": "A step leading up to the outer door of a building",
+    "examples": ["The courier left the package right on our doorstep."],
+    "synonyms": ["threshold", "doorway"],
+    "antonyms": [],
+    "translation": "поро́г"
+  },
+  {
+    "word": "goods",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "Merchandise or items produced for sale",
+    "examples": ["The shop sells high-quality consumer goods."],
+    "synonyms": ["merchandise", "products", "commodities", "items"],
+    "antonyms": [],
+    "translation": "това́ры"
+  },
+  {
+    "word": "in a hurry",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "In a rushed or hasty manner; needing to do something quickly",
+    "examples": ["I was in a hurry this morning and forgot my keys."],
+    "synonyms": ["in a rush", "rushed", "hastily"],
+    "antonyms": ["at leisure", "unhurried"],
+    "translation": "в спе́шке"
+  },
+  {
+    "word": "pleasure",
+    "partOfSpeech": "noun",
+    "forms": ["pleasures"],
+    "definition": "A feeling of happy satisfaction and enjoyment",
+    "examples": ["Reading books gives her a lot of pleasure."],
+    "synonyms": ["enjoyment", "delight", "happiness", "joy"],
+    "antonyms": ["pain", "displeasure", "sorrow"],
+    "translation": "удово́льствие"
+  },
+  {
+    "word": "purchase",
+    "partOfSpeech": "verb",
+    "forms": ["purchases", "purchased", "purchasing"],
+    "definition": "To acquire something by paying money for it; to buy",
+    "examples": ["He saved enough money to purchase a new laptop."],
+    "synonyms": ["buy", "acquire", "obtain"],
+    "antonyms": ["sell"],
+    "translation": "покупа́ть"
+  }
+]

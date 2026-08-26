@@ -1,12 +1,14 @@
 import { useState } from "react";
 import "./wordCards.css";
+import { useLearningData } from "../common/DataContext";
 
-export function WordCards(props) {
+export function WordCards({ words }) {
+  const { grade, module } = useLearningData();
   const [currentIndex, setCurrentIndex] = useState(null);
   const [showEnglish, setShowEnglish] = useState(true);
 
   // Get the currently selected word
-  const singleCard = currentIndex !== null ? props.words[currentIndex] : null;
+  const singleCard = currentIndex !== null ? words[currentIndex] : null;
 
   // Move to previous word
   function previousWord() {
@@ -18,7 +20,7 @@ export function WordCards(props) {
 
   // Move to next word
   function nextWord() {
-    if (currentIndex < props.words.length - 1) {
+    if (currentIndex < words.length - 1) {
       setCurrentIndex((previous) => previous + 1);
       setShowEnglish(true);
     }
@@ -57,7 +59,7 @@ export function WordCards(props) {
         <button
           className="navigation-button"
           onClick={nextWord}
-          disabled={currentIndex === props.words.length - 1}
+          disabled={currentIndex === words.length - 1}
         >
           →
         </button>
@@ -77,8 +79,13 @@ export function WordCards(props) {
 
   // Word list
   return (
-    <div className="word-list">
-      {props.words.map((word, index) => (
+    <section className="word-list-section">
+      <header className="word-list-header">
+        <p>Grade {grade} · Module {module}</p>
+        <h1>Vocabulary</h1>
+      </header>
+      <div className="word-list">
+      {words.map((word, index) => (
         <div
           className="word-card"
           key={word.word}
@@ -92,6 +99,7 @@ export function WordCards(props) {
           <p>{word.partOfSpeech}</p>
         </div>
       ))}
-    </div>
+      </div>
+    </section>
   );
 }

@@ -1,4 +1,31 @@
+.word-list-section {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f8fbff;
+}
+
+.word-list-header {
+  width: min(100%, 1180px);
+  margin: 0 auto 12px;
+}
+
+.word-list-header p {
+  margin: 0 0 4px;
+  color: #497c75;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.word-list-header h1 {
+  margin: 0;
+  color: #24304f;
+}
+
 .word-list {
+  width: min(100%, 1180px);
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 16px;
