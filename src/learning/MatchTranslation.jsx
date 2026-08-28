@@ -15,8 +15,11 @@ import "./matchTranslation.css";
 import { useLearningData } from "../common/DataContext";
 import { addProgressToWords, increaseWordProgress } from "../common/wordProgress";
 
-function createExercise(words) {
-  const selectedWords = [...words].sort(() => Math.random() - 0.5).slice(0, 5);
+function createExercise(words, matchField) {
+  const selectedWords = words
+    .filter((word) => word[matchField])
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 5);
 
   return {
     english: selectedWords,
@@ -80,7 +83,11 @@ function WordCard({
   );
 }
 
-export function MatchTranslation() {
+export function MatchExercise({
+  matchField = "translation",
+  title = "Match the translations",
+  instructions = "Click or drag any word onto its matching translation.",
+}) {
   const { grade, module } = useLearningData();
   const navigate = useNavigate();
   const [words, setWords] = useState(null);
@@ -171,14 +178,14 @@ export function MatchTranslation() {
       .then((data) => {
         const wordsWithProgress = addProgressToWords(data, grade, module);
         setWords(wordsWithProgress);
-        setExerciseWords(createExercise(wordsWithProgress));
+        setExerciseWords(createExercise(wordsWithProgress, matchField));
       })
       .catch((error) => {
         if (error.name !== "AbortError") setLoadError(true);
       });
 
     return () => controller.abort();
-  }, [grade, module]);
+  }, [grade, matchField, module]);
 
   function evaluateMatch(englishWord, russianWord) {
     if (englishWord === russianWord) {
@@ -277,7 +284,7 @@ export function MatchTranslation() {
   }
 
   function restartExercise() {
-    setExerciseWords(createExercise(words));
+    setExerciseWords(createExercise(words, matchField));
     setMatchedWords([]);
     setSelectedCard(null);
     setCorrectEnglish(null);
@@ -331,10 +338,8 @@ export function MatchTranslation() {
         >
           ← Back to vocabulary
         </button>
-        <h1>Match the translations</h1>
-        <p className="instructions">
-          Click or drag any word onto its matching translation.
-        </p>
+        <h1>{title}</h1>
+        <p className="instructions">{instructions}</p>
         <div className="matching-columns">
           {/* ENGLISH COLUMN */}
           <div className="matching-column">
@@ -372,7 +377,7 @@ export function MatchTranslation() {
                 <WordCard
                   key={`russian-${word.word}`}
                   id={`russian-${word.word}`}
-                  text={word.translation}
+                  text={word[matchField]}
                   isMatched={isMatched}
                   isSelected={isSelected}
                   isCorrect={correctRussian === word.word}
@@ -396,4 +401,8 @@ export function MatchTranslation() {
       </div>
     </DndContext>
   );
+}
+
+export function MatchTranslation() {
+  return <MatchExercise />;
 }

@@ -1,0 +1,76 @@
+.synonyms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.synonyms-back-button,
+.synonyms-restart-button {
+  padding: 10px 16px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  background: #fff;
+  color: #24304f;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.synonyms-back-button {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.synonyms-restart-button {
+  margin-top: 30px;
+  background: #24304f;
+  border-color: #24304f;
+  color: #fff;
+}
+
+.synonyms-back-button:hover { background: #f2f5fa; }
+.synonyms-restart-button:hover { background: #34446f; }
+
+.synonyms-instructions { color: #52617e; }
+
+.synonyms-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.synonyms-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.synonym-card {
+  min-height: 60px;
+  padding: 15px 20px;
+  border: 2px solid #d0d0d0;
+  border-radius: 10px;
+  background: #fff;
+  color: #24304f;
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: grab;
+  transition: border-color .2s ease, background-color .2s ease, transform .15s ease;
+}
+
+.synonym-card:hover { border-color: #8a99b8; transform: translateY(-2px); }
+.synonym-card.selected, .synonym-card.drop-target { border-color: #007bff; background: #eef6ff; }
+.synonym-card.correct, .synonym-card.matched { border-color: #28a745; background: #d4edda; color: #155724; }
+.synonym-card.incorrect { border-color: #dc3545; background: #f8d7da; color: #721c24; }
+.synonym-card.matched { cursor: default; opacity: .9; }
+.synonym-card.dragging { cursor: grabbing; opacity: .55; }
+.synonyms-complete { margin: 30px 0 0; color: #155724; font-size: 1.15rem; font-weight: 700; }
+.synonyms-empty { text-align: left; }
+
+@media (max-width: 600px) {
+  .synonyms-container { padding: 24px 16px; }
+  .synonyms-columns { gap: 16px; }
+  .synonym-card { padding: 12px; font-size: 1rem; }
+}

@@ -12,12 +12,25 @@ export function TaskChoice() {
 
   return (
     <main className="task-choice-page">
-      <section className="task-choice-content" aria-labelledby="task-choice-title">
-        <p>Grade {grade} · Module {module}</p>
+      <section
+        className="task-choice-content"
+        aria-labelledby="task-choice-title"
+      >
+        <p>
+          Grade {grade} · Module {module}
+        </p>
         <h1 id="task-choice-title">Choose an exercise</h1>
-        <button onClick={() => navigate("/tasks/match-translation")}>
-          Match translations
-        </button>
+        <div className="task-choise-container">
+          <button onClick={() => navigate("/tasks/match-translation")}>
+            Match translations
+          </button>
+          <button onClick={() => navigate("/tasks/match-definition")}>
+            Match definitions
+          </button>
+          <button onClick={() => navigate("/tasks/match-synonyms")}>
+            Match synonyms
+          </button>
+        </div>
       </section>
     </main>
   );
