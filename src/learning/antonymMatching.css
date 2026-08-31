@@ -1,0 +1,55 @@
+.antonyms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.antonyms-back-button,
+.antonyms-restart-button {
+  padding: 10px 16px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  background: #fff;
+  color: #24304f;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.antonyms-back-button { display: block; margin-bottom: 24px; }
+.antonyms-restart-button { margin-top: 30px; background: #24304f; border-color: #24304f; color: #fff; }
+.antonyms-back-button:hover { background: #f2f5fa; }
+.antonyms-restart-button:hover { background: #34446f; }
+.antonyms-instructions { color: #52617e; }
+
+.antonyms-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; margin-top: 30px; }
+.antonyms-column { display: flex; flex-direction: column; gap: 15px; }
+
+.antonym-card {
+  min-height: 60px;
+  padding: 15px 20px;
+  border: 2px solid #d0d0d0;
+  border-radius: 10px;
+  background: #fff;
+  color: #24304f;
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: grab;
+  transition: border-color .2s ease, background-color .2s ease, transform .15s ease;
+}
+
+.antonym-card:hover { border-color: #8a99b8; transform: translateY(-2px); }
+.antonym-card.selected, .antonym-card.drop-target { border-color: #007bff; background: #eef6ff; }
+.antonym-card.correct, .antonym-card.matched { border-color: #28a745; background: #d4edda; color: #155724; }
+.antonym-card.incorrect { border-color: #dc3545; background: #f8d7da; color: #721c24; }
+.antonym-card.matched { cursor: default; opacity: .9; }
+.antonym-card.dragging { cursor: grabbing; opacity: .55; }
+.antonyms-complete { margin: 30px 0 0; color: #155724; font-size: 1.15rem; font-weight: 700; }
+.antonyms-empty { text-align: left; }
+
+@media (max-width: 600px) {
+  .antonyms-container { padding: 24px 16px; }
+  .antonyms-columns { gap: 16px; }
+  .antonym-card { padding: 12px; font-size: 1rem; }
+}

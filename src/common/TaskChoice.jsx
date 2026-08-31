@@ -30,6 +30,9 @@ export function TaskChoice() {
           <button onClick={() => navigate("/tasks/match-synonyms")}>
             Match synonyms
           </button>
+          <button onClick={() => navigate("/tasks/match-antonyms")}>
+            Match antonyms
+          </button>
         </div>
       </section>
     </main>
