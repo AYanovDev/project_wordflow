@@ -52,48 +52,64 @@ export function WordCards({ words }) {
       <div className="single-card-container">
         <button
           className="navigation-button"
-          onClick={previousWord}
-          disabled={currentIndex === 0}
-        >
-          ←
-        </button>
-
-        <div
-          className="single-card"
-          onClick={() => setShowEnglish((previous) => !previous)}
-        >
-          {showEnglish ? (
-            <>
-              <h2>
-                {singleCard.word.charAt(0).toUpperCase() +
-                  singleCard.word.slice(1)}
-              </h2>
-
-              <p>{singleCard.partOfSpeech}</p>
-              <ProgressIndicator progress={singleCard.progress || 0} />
-            </>
-          ) : (
-            <h2>{singleCard.translation}</h2>
-          )}
-        </div>
-
-        <button
-          className="navigation-button"
-          onClick={nextWord}
-          disabled={currentIndex === words.length - 1}
-        >
-          →
-        </button>
-
-        <button
-          className="back-button"
           onClick={() => {
             setCurrentIndex(null);
             setShowEnglish(true);
           }}
         >
-          Back
+          <span aria-hidden="true">←</span>
+          Back to word list
         </button>
+
+        <div className="single-card-navigation">
+          <button
+            className="navigation-button navigation-arrow"
+            onClick={previousWord}
+            disabled={currentIndex === 0}
+            aria-label="Previous word"
+          >
+            ←
+          </button>
+
+          <div
+            className={`single-card ${showEnglish ? "" : "is-flipped"}`}
+            onClick={() => setShowEnglish((previous) => !previous)}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                setShowEnglish((previous) => !previous);
+              }
+            }}
+            aria-label={`Show ${showEnglish ? "translation" : "word"}`}
+            role="button"
+            tabIndex={0}
+          >
+            <div className="single-card-inner">
+              <div className="single-card-face single-card-front">
+                <span className="single-card-hint">Tap to reveal translation</span>
+                <h2>
+                  {singleCard.word.charAt(0).toUpperCase() +
+                    singleCard.word.slice(1)}
+                </h2>
+                <p>{singleCard.partOfSpeech}</p>
+                <ProgressIndicator progress={singleCard.progress || 0} />
+              </div>
+              <div className="single-card-face single-card-back">
+                <span className="single-card-hint">Tap to see the word</span>
+                <h2>{singleCard.translation}</h2>
+              </div>
+            </div>
+          </div>
+
+          <button
+            className="navigation-button navigation-arrow"
+            onClick={nextWord}
+            disabled={currentIndex === words.length - 1}
+            aria-label="Next word"
+          >
+            →
+          </button>
+        </div>
       </div>
     );
   }
@@ -103,7 +119,9 @@ export function WordCards({ words }) {
     <section className="word-list-section">
       <header className="word-list-header">
         <div>
-          <p>Grade {grade} · Module {module}</p>
+          <p>
+            Grade {grade} · Module {module}
+          </p>
           <h1>Vocabulary</h1>
         </div>
 
@@ -112,21 +130,21 @@ export function WordCards({ words }) {
         </button>
       </header>
       <div className="word-list">
-      {words.map((word, index) => (
-        <div
-          className="word-card"
-          key={word.word}
-          onClick={() => {
-            setCurrentIndex(index);
-            setShowEnglish(true);
-          }}
-        >
-          <h2>{word.word.charAt(0).toUpperCase() + word.word.slice(1)}</h2>
+        {words.map((word, index) => (
+          <div
+            className="word-card"
+            key={word.word}
+            onClick={() => {
+              setCurrentIndex(index);
+              setShowEnglish(true);
+            }}
+          >
+            <h2>{word.word.charAt(0).toUpperCase() + word.word.slice(1)}</h2>
 
-          <p>{word.partOfSpeech}</p>
-          <ProgressIndicator progress={word.progress || 0} />
-        </div>
-      ))}
+            <p>{word.partOfSpeech}</p>
+            <ProgressIndicator progress={word.progress || 0} />
+          </div>
+        ))}
       </div>
     </section>
   );

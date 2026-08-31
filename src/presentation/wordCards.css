@@ -102,7 +102,9 @@
 }
 
 .single-card-container {
-  min-height: 80vh;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 32px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,85 +113,120 @@
 }
 
 .single-card {
-  width: min(500px, 80%);
-  min-height: 300px;
-  padding: 40px;
-  border: 1px solid #cfcfcf;
-  border-radius: 12px;
-  background: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  width: min(360px, calc(100vw - 132px));
+  height: min(500px, calc(100vh - 150px));
+  min-height: 380px;
+  padding: 0;
+  border: 0;
+  border-radius: 20px;
+  background: transparent;
+  box-shadow: none;
   cursor: pointer;
   user-select: none;
+  perspective: 1200px;
 }
 
-.single-card h2 {
-  font-size: 2rem;
-  margin: 0 0 10px;
-}
-
-.single-card p {
-  color: #666;
-  font-style: italic;
-}
-
-.single-card:hover {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-}
-
-.single-card-container {
-  min-height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+.single-card-inner {
   position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
 }
 
-.single-card {
-  width: 400px;
-  height: 300px;
-  border: 1px solid #cfcfcf;
-  border-radius: 12px;
-  background-color: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+.single-card.is-flipped .single-card-inner {
+  transform: rotateY(180deg);
+}
 
+.single-card-face {
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 42px 32px;
+  border: 1px solid #d7e1e0;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  box-shadow: 0 14px 30px rgba(36, 48, 79, 0.13);
+}
 
-  cursor: pointer;
-  user-select: none;
+.single-card-front {
+  background: linear-gradient(145deg, #ffffff, #edf8f5);
+}
+
+.single-card-back {
+  background: linear-gradient(145deg, #24304f, #355d71);
+  color: #fff;
+  transform: rotateY(180deg);
 }
 
 .single-card h2 {
-  font-size: 2rem;
-  margin: 0 0 10px;
+  margin: 12px 0 10px;
+  font-size: clamp(2rem, 6vw, 3rem);
 }
 
 .single-card p {
-  color: #666;
+  margin: 0;
+  color: #5f6c77;
   font-style: italic;
+}
+
+.single-card-hint {
+  position: absolute;
+  top: 24px;
+  color: #497c75;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.single-card-back .single-card-hint {
+  color: #bfe4d7;
+}
+
+.single-card:hover .single-card-face {
+  box-shadow: 0 18px 36px rgba(36, 48, 79, 0.18);
+}
+
+.single-card-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(10px, 3vw, 28px);
 }
 
 .navigation-button {
-  width: 45px;
-  height: 45px;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  background: white;
-  font-size: 1.5rem;
+  border: 0;
+  border-radius: 999px;
+  background: #24304f;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
   cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .navigation-button:hover:not(:disabled) {
-  background: #f0f0f0;
+  background: #34446f;
+  transform: translateY(-2px);
+}
+
+.single-card-container > .navigation-button {
+  align-self: flex-start;
+  padding: 10px 16px;
+  box-shadow: 0 4px 10px rgba(36, 48, 79, 0.14);
+}
+
+.navigation-arrow {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  font-size: 1.5rem;
 }
 
 .navigation-button:disabled {
@@ -197,9 +234,10 @@
   cursor: not-allowed;
 }
 
-.back-button {
-  position: absolute;
-  bottom: 20px;
+.single-card:focus-visible,
+.navigation-button:focus-visible {
+  outline: 3px solid #67b9a7;
+  outline-offset: 4px;
 }
 
 @media (max-width: 560px) {
@@ -210,5 +248,18 @@
 
   .continue-button {
     width: 100%;
+  }
+
+  .single-card-container {
+    padding: 20px 12px;
+  }
+
+  .single-card {
+    width: min(300px, calc(100vw - 120px));
+    min-height: 400px;
+  }
+
+  .single-card-face {
+    padding: 36px 20px;
   }
 }
