@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import {
   DndContext,
   PointerSensor,
@@ -12,7 +12,10 @@ import { CSS } from "@dnd-kit/utilities";
 import { celebrate } from "./confetti";
 import { useLearningData } from "../common/DataContext";
 import { addProgressToWords, increaseWordProgress } from "../common/wordProgress";
+import { recordSessionResult } from "../common/sessionResults";
+import { SessionActions } from "../common/SessionActions";
 import "./antonymMatching.css";
+import "../common/resultsPage.css";
 
 const PAIR_COUNT = 5;
 
@@ -92,7 +95,6 @@ function MatchingCard({
 
 export function AntonymMatching() {
   const { grade, module } = useLearningData();
-  const navigate = useNavigate();
   const [words, setWords] = useState(null);
   const [exercise, setExercise] = useState(null);
   const [loadError, setLoadError] = useState(false);
@@ -192,6 +194,7 @@ export function AntonymMatching() {
     if (feedback) return;
 
     if (wordId !== antonymId || matchedIds.includes(wordId)) {
+      recordSessionResult("incorrect");
       setFeedback({ wordId, antonymId, type: "incorrect" });
     } else {
       const pair = exercise.words.find((item) => item.id === wordId);
@@ -208,6 +211,7 @@ export function AntonymMatching() {
           item.word === pair.word ? { ...item, progress: nextProgress } : item,
         ),
       );
+      recordSessionResult("correct");
       setFeedback({ wordId, antonymId, type: "correct" });
     }
 
@@ -256,7 +260,7 @@ export function AntonymMatching() {
   if (exercise.words.length === 0) {
     return (
       <main className="antonyms-container antonyms-empty">
-        <button className="antonyms-back-button" onClick={() => navigate("/learn")}>← Back to vocabulary</button>
+        <SessionActions className="session-actions" />
         <h1>Match antonyms</h1>
         <p>This module does not contain words with antonyms yet.</p>
       </main>
@@ -276,7 +280,7 @@ export function AntonymMatching() {
   return (
     <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
       <main className="antonyms-container">
-        <button className="antonyms-back-button" onClick={() => navigate("/learn")}>← Back to vocabulary</button>
+        <SessionActions className="session-actions" />
         <h1>Match antonyms</h1>
         <p className="antonyms-instructions">Click or drag each word onto its antonym.</p>
         <div className="antonyms-columns">

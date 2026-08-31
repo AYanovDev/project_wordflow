@@ -1,5 +1,6 @@
 import { Navigate, useNavigate } from "react-router-dom";
 import { useLearningData } from "./DataContext";
+import { resetSessionResults } from "./sessionResults";
 import "./taskChoice.css";
 
 export function TaskChoice() {
@@ -8,6 +9,11 @@ export function TaskChoice() {
 
   if (!grade || !module) {
     return <Navigate to="/quest" replace />;
+  }
+
+  function startExercise(path) {
+    resetSessionResults();
+    navigate(path);
   }
 
   return (
@@ -21,16 +27,16 @@ export function TaskChoice() {
         </p>
         <h1 id="task-choice-title">Choose an exercise</h1>
         <div className="task-choise-container">
-          <button onClick={() => navigate("/tasks/match-translation")}>
+          <button onClick={() => startExercise("/tasks/match-translation")}>
             Match translations
           </button>
-          <button onClick={() => navigate("/tasks/match-definition")}>
+          <button onClick={() => startExercise("/tasks/match-definition")}>
             Match definitions
           </button>
-          <button onClick={() => navigate("/tasks/match-synonyms")}>
+          <button onClick={() => startExercise("/tasks/match-synonyms")}>
             Match synonyms
           </button>
-          <button onClick={() => navigate("/tasks/match-antonyms")}>
+          <button onClick={() => startExercise("/tasks/match-antonyms")}>
             Match antonyms
           </button>
         </div>

@@ -1,0 +1,48 @@
+.results-page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+  background: #f8fbff;
+}
+
+.results-card {
+  width: min(100%, 520px);
+  padding: 36px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 36px rgba(36, 48, 79, 0.12);
+  text-align: center;
+}
+
+.results-eyebrow {
+  margin: 0 0 6px;
+  color: #497c75;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.results-card h1 { margin: 0 0 28px; color: #24304f; }
+
+.results-summary { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.result-total { margin: 0; padding: 20px; border-radius: 12px; }
+.result-total span { display: block; font-weight: 700; }
+.result-total strong { display: block; margin-top: 8px; font-size: 2.5rem; }
+.result-correct { background: #d4edda; color: #155724; }
+.result-incorrect { background: #f8d7da; color: #721c24; }
+
+.results-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.results-actions button, .session-actions button { padding: 10px 16px; border: 0; border-radius: 8px; background: #24304f; color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+.results-actions button:hover, .session-actions button:hover { background: #34446f; }
+
+.session-actions { position: fixed; top: 20px; right: 20px; z-index: 10; display: flex; gap: 10px; }
+.session-actions button:first-child { background: #fff; color: #24304f; border: 1px solid #d0d0d0; }
+.session-actions button:first-child:hover { background: #f2f5fa; }
+
+@media (max-width: 600px) {
+  .session-actions { position: static; justify-content: center; margin-bottom: 24px; }
+  .results-card { padding: 28px 20px; }
+}

@@ -7,6 +7,7 @@ import { MatchTranslation } from "./learning/MatchTranslation.jsx";
 import { MatchDefinition } from "./learning/MatchDefinition.jsx";
 import { SynonymsMatching } from "./learning/SynonymsMatching.jsx";
 import { AntonymMatching } from "./learning/AntonymMatching.jsx";
+import { ResultsPage } from "./common/ResultsPage.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/tasks/match-definition" element={<MatchDefinition />} />
       <Route path="/tasks/match-synonyms" element={<SynonymsMatching />} />
       <Route path="/tasks/match-antonyms" element={<AntonymMatching />} />
+      <Route path="/results" element={<ResultsPage />} />
     </Routes>
   );
 }

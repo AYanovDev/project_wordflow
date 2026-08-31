@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { celebrate } from "./confetti";
 import {
   DndContext,
@@ -14,6 +14,9 @@ import { CSS } from "@dnd-kit/utilities";
 import "./matchTranslation.css";
 import { useLearningData } from "../common/DataContext";
 import { addProgressToWords, increaseWordProgress } from "../common/wordProgress";
+import { recordSessionResult } from "../common/sessionResults";
+import { SessionActions } from "../common/SessionActions";
+import "../common/resultsPage.css";
 
 function createExercise(words, matchField) {
   const selectedWords = words
@@ -89,7 +92,6 @@ export function MatchExercise({
   instructions = "Click or drag any word onto its matching translation.",
 }) {
   const { grade, module } = useLearningData();
-  const navigate = useNavigate();
   const [words, setWords] = useState(null);
   const [loadError, setLoadError] = useState(false);
   const [exerciseWords, setExerciseWords] = useState(null);
@@ -209,6 +211,7 @@ export function MatchExercise({
       );
       setCorrectEnglish(englishWord);
       setCorrectRussian(russianWord);
+      recordSessionResult("correct");
 
       setTimeout(() => {
         setMatchedWords((prev) => [...prev, englishWord]);
@@ -218,6 +221,7 @@ export function MatchExercise({
         setSelectedCard(null);
       }, 500);
     } else {
+      recordSessionResult("incorrect");
       setWrongEnglish(englishWord);
       setWrongRussian(russianWord);
 
@@ -332,12 +336,7 @@ export function MatchExercise({
   return (
     <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
       <div className="match-container">
-        <button
-          className="match-back-button"
-          onClick={() => navigate("/learn")}
-        >
-          ← Back to vocabulary
-        </button>
+        <SessionActions className="session-actions" />
         <h1>{title}</h1>
         <p className="instructions">{instructions}</p>
         <div className="matching-columns">
