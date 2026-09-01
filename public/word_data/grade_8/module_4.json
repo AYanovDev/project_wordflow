@@ -1,0 +1,904 @@
+[
+  {
+    "word": "athlete",
+    "partOfSpeech": "noun",
+    "forms": ["athletes"],
+    "definition": "A person who is proficient in sports and other forms of physical exercise",
+    "examples": [
+      "The athlete trained hard every day for the upcoming championship."
+    ],
+    "synonyms": ["sportsman", "sportswoman", "competitor"],
+    "antonyms": [],
+    "translation": "спортсме́н"
+  },
+  {
+    "word": "broomstick",
+    "partOfSpeech": "noun",
+    "forms": ["broomsticks"],
+    "definition": "The long handle of a broom",
+    "examples": [
+      "In Quidditch games, players run around riding on a broomstick."
+    ],
+    "synonyms": ["handle", "stick"],
+    "antonyms": [],
+    "translation": "помело́"
+  },
+  {
+    "word": "chest",
+    "partOfSpeech": "noun",
+    "forms": ["chests"],
+    "definition": "The front surface of a person's body between the neck and the abdomen",
+    "examples": ["He felt a sharp pain in his chest after running fast."],
+    "synonyms": ["torso", "breast"],
+    "antonyms": [],
+    "translation": "грудна́я кле́тка"
+  },
+  {
+    "word": "guard",
+    "partOfSpeech": "verb",
+    "forms": ["guards", "guarded", "guarding"],
+    "definition": "To protect or defend an area, object, or player from an opponent",
+    "examples": [
+      "Her job on the team was to guard the opponent's main scorer."
+    ],
+    "synonyms": ["defend", "protect", "shield"],
+    "antonyms": ["attack"],
+    "translation": "защища́ть"
+  },
+  {
+    "word": "hoop",
+    "partOfSpeech": "noun",
+    "forms": ["hoops"],
+    "definition": "A circular ring through which a ball must be thrown to score points in games like basketball",
+    "examples": [
+      "He threw the ball directly through the hoop to win the game."
+    ],
+    "synonyms": ["ring"],
+    "antonyms": [],
+    "translation": "кольцо́"
+  },
+  {
+    "word": "keeper",
+    "partOfSpeech": "noun",
+    "forms": ["keepers"],
+    "definition": "A player who defends a goal or net in various team sports",
+    "examples": ["The keeper blocked the final shot and saved the match."],
+    "synonyms": ["goalkeeper", "goalie"],
+    "antonyms": [],
+    "translation": "врата́рь"
+  },
+  {
+    "word": "net",
+    "partOfSpeech": "noun",
+    "forms": ["nets"],
+    "definition": "A meshed fabric structure placed at the goal or dividing a court",
+    "examples": ["The ball hit the back of the net, scoring a point."],
+    "synonyms": ["mesh", "webbing"],
+    "antonyms": [],
+    "translation": "се́тка"
+  },
+  {
+    "word": "pitch",
+    "partOfSpeech": "noun",
+    "forms": ["pitches"],
+    "definition": "An area grounded and marked out for playing a game such as football or rugby",
+    "examples": [
+      "The football players stepped onto the wet pitch ready to start."
+    ],
+    "synonyms": ["field", "ground", "court"],
+    "antonyms": [],
+    "translation": "игрово́е по́ле"
+  },
+  {
+    "word": "score",
+    "partOfSpeech": "verb",
+    "forms": ["scores", "scored", "scoring"],
+    "definition": "To gain a goal, point, or result in a game or competition",
+    "examples": ["She managed to score two goals in the second half."],
+    "synonyms": ["win", "gain", "achieve"],
+    "antonyms": ["lose"],
+    "translation": "забива́ть"
+  },
+  {
+    "word": "serve",
+    "partOfSpeech": "verb",
+    "forms": ["serves", "served", "serving"],
+    "definition": "To hit or put the ball into play to begin a point in court sports like tennis or volleyball",
+    "examples": ["It was her turn to serve the ball in the volleyball match."],
+    "synonyms": ["kick off", "launch"],
+    "antonyms": [],
+    "translation": "подава́ть"
+  },
+  {
+    "word": "set up",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["sets up", "set up", "setting up"],
+    "definition": "To establish, arrange, or organize a game, event, or structure",
+    "examples": [
+      "They helped set up the sports field before the match started."
+    ],
+    "synonyms": ["arrange", "organize", "establish"],
+    "antonyms": ["dismantle"],
+    "translation": "организо́вывать"
+  },
+  {
+    "word": "teamwork",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The combined action of a group of people, especially when effective and efficient",
+    "examples": ["Great teamwork was essential for winning the championship."],
+    "synonyms": ["cooperation", "collaboration", "partnership"],
+    "antonyms": [],
+    "translation": "кома́ндная рабо́та"
+  },
+  {
+    "word": "benefit",
+    "partOfSpeech": "noun",
+    "forms": ["benefits"],
+    "definition": "An advantage or profit gained from something",
+    "examples": ["Regular exercise brings many physical and mental benefits."],
+    "synonyms": ["advantage", "gain", "profit"],
+    "antonyms": ["disadvantage", "drawback"],
+    "translation": "по́льза"
+  },
+  {
+    "word": "boost",
+    "partOfSpeech": "verb",
+    "forms": ["boosts", "boosted", "boosting"],
+    "definition": "To help or encourage something to increase or improve",
+    "examples": ["Playing sports can boost your energy levels and confidence."],
+    "synonyms": ["increase", "enhance", "improve"],
+    "antonyms": ["reduce", "decrease"],
+    "translation": "повыша́ть"
+  },
+  {
+    "word": "brain cell",
+    "partOfSpeech": "noun",
+    "forms": ["brain cells"],
+    "definition": "A cell found in the brain, especially a neuron",
+    "examples": [
+      "Aerobic exercise helps stimulate the growth of new brain cells."
+    ],
+    "synonyms": ["neuron"],
+    "antonyms": [],
+    "translation": "кле́тка мозга"
+  },
+  {
+    "word": "build muscle",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To increase physical strength and muscle size through exercise and diet",
+    "examples": [
+      "Lifting weights regularly is one of the most effective ways to build muscle."
+    ],
+    "synonyms": ["gain strength", "strengthen muscles"],
+    "antonyms": [],
+    "translation": "нара́щивать мышцы"
+  },
+  {
+    "word": "burn fat",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To expend calories stored as adipose tissue during physical activity",
+    "examples": [
+      "High-intensity interval training helps your body burn fat quickly."
+    ],
+    "synonyms": ["burn calories", "shed weight"],
+    "antonyms": [],
+    "translation": "сжига́ть жир"
+  },
+  {
+    "word": "change mood",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To alter a person's emotional state, usually positively through exercise or activity",
+    "examples": [
+      "A quick walk outside in fresh air can easily change your mood for the better."
+    ],
+    "synonyms": ["improve mood", "lift spirits"],
+    "antonyms": [],
+    "translation": "меня́ть настрое́ние"
+  },
+  {
+    "word": "concentration level",
+    "partOfSpeech": "phrase",
+    "forms": ["concentration levels"],
+    "definition": "The degree to which someone can focus their attention on a task",
+    "examples": [
+      "Getting enough sleep boosts your concentration level during study sessions."
+    ],
+    "synonyms": ["focus level", "attention span"],
+    "antonyms": [],
+    "translation": "у́ровень концентра́ции"
+  },
+  {
+    "word": "diabetes",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A metabolic disease in which the body's ability to produce or respond to insulin is impaired",
+    "examples": [
+      "Maintaining a healthy lifestyle reduces the risk of developing diabetes."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "диабе́т"
+  },
+  {
+    "word": "endorphins",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "Hormones released by the brain that relieve pain and induce feelings of happiness",
+    "examples": [
+      "Running triggers the release of endorphins, making you feel positive."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "эндорфи́ны"
+  },
+  {
+    "word": "epinephrine",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A hormone and neurotransmitter (adrenaline) secreted during high-stress or exciting situations",
+    "examples": [
+      "During intense competition, epinephrine spikes your heart rate and energy."
+    ],
+    "synonyms": ["adrenaline"],
+    "antonyms": [],
+    "translation": "адренали́н"
+  },
+  {
+    "word": "fight stress",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To combat or manage anxiety, tension, or mental strain",
+    "examples": [
+      "Engaging in regular exercise is a great way to fight stress."
+    ],
+    "synonyms": ["reduce stress", "manage tension"],
+    "antonyms": [],
+    "translation": "боро́ться со стре́ссом"
+  },
+  {
+    "word": "give up",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["gives up", "gave up", "giving up"],
+    "definition": "To stop making an effort; to surrender or abandon a habit/task",
+    "examples": [
+      "No matter how difficult the match got, the team refused to give up."
+    ],
+    "synonyms": ["quit", "surrender", "abandon"],
+    "antonyms": ["persist", "continue"],
+    "translation": "сдава́ться"
+  },
+  {
+    "word": "heart disease",
+    "partOfSpeech": "noun",
+    "forms": ["heart diseases"],
+    "definition": "A range of conditions affecting the structure and functions of the heart",
+    "examples": [
+      "Daily exercise significantly lowers the long-term risk of heart disease."
+    ],
+    "synonyms": ["cardiovascular disease"],
+    "antonyms": [],
+    "translation": "заболева́ние се́рдца"
+  },
+  {
+    "word": "lower",
+    "partOfSpeech": "verb",
+    "forms": ["lowers", "lowered", "lowering"],
+    "definition": "To reduce in amount, value, degree, or intensity",
+    "examples": ["Eating healthy foods helps lower blood pressure levels."],
+    "synonyms": ["reduce", "decrease", "drop"],
+    "antonyms": ["raise", "increase"],
+    "translation": "снижа́ть"
+  },
+  {
+    "word": "physical health",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The condition of a person's body and its bodily functions",
+    "examples": [
+      "Balanced nutrition and workout routines support overall physical health."
+    ],
+    "synonyms": ["bodily wellness", "fitness"],
+    "antonyms": [],
+    "translation": "физи́ческое здоро́вье"
+  },
+  {
+    "word": "pressure",
+    "partOfSpeech": "noun",
+    "forms": ["pressures"],
+    "definition": "Continuous physical force applied to an object, or mental stress caused by difficult conditions",
+    "examples": [
+      "The team played remarkably well despite the immense pressure on them."
+    ],
+    "synonyms": ["stress", "strain", "tension"],
+    "antonyms": [],
+    "translation": "давле́ние"
+  },
+  {
+    "word": "spotty face",
+    "partOfSpeech": "phrase",
+    "forms": ["spotty faces"],
+    "definition": "A face covered in pimples, acne, or skin spots",
+    "examples": [
+      "Hormonal changes during adolescence often result in a spotty face."
+    ],
+    "synonyms": ["acne-prone skin", "pimple-covered face"],
+    "antonyms": [],
+    "translation": "прыща́вое лицо́"
+  },
+  {
+    "word": "temptation",
+    "partOfSpeech": "noun",
+    "forms": ["temptations"],
+    "definition": "A desire to do something, especially something wrong, unwise, or unhealthy",
+    "examples": [
+      "He resisted the temptation to eat junk food after his workout."
+    ],
+    "synonyms": ["attraction", "enticement", "lure"],
+    "antonyms": [],
+    "translation": "искуше́ние"
+  },
+  {
+    "word": "afford",
+    "partOfSpeech": "verb",
+    "forms": ["affords", "afforded", "affording"],
+    "definition": "To have enough money or time to buy, pay for, or manage something",
+    "examples": [
+      "They saved enough money to afford top-quality athletic gear."
+    ],
+    "synonyms": ["pay for", "bear the cost of"],
+    "antonyms": [],
+    "translation": "позво́лить себе́"
+  },
+  {
+    "word": "equipment",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The necessary tools, items, or gear required for a particular activity or sport",
+    "examples": [
+      "Make sure you bring all the necessary safety equipment to practice."
+    ],
+    "synonyms": ["gear", "tools", "apparatus"],
+    "antonyms": [],
+    "translation": "экипиро́вка"
+  },
+  {
+    "word": "injury",
+    "partOfSpeech": "noun",
+    "forms": ["injuries"],
+    "definition": "Physical harm or damage done to the body, typically in an accident or sport",
+    "examples": [
+      "The player suffered a knee injury and had to leave the game."
+    ],
+    "synonyms": ["wound", "damage", "trauma"],
+    "antonyms": [],
+    "translation": "травма"
+  },
+  {
+    "word": "trainer",
+    "partOfSpeech": "noun",
+    "forms": ["trainers"],
+    "definition": "A person who coaches people in sports or fitness, or a type of sports shoe",
+    "examples": [
+      "The personal trainer created a custom fitness program for her client."
+    ],
+    "synonyms": ["coach", "instructor"],
+    "antonyms": [],
+    "translation": "тре́нер"
+  },
+  {
+    "word": "breaststroke",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A swimming stroke in which the arms are pushed forward and swept back while the legs kick outward",
+    "examples": [
+      "She set a new record in the 100-meter breaststroke competition."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "брасс"
+  },
+  {
+    "word": "competition",
+    "partOfSpeech": "noun",
+    "forms": ["competitions"],
+    "definition": "An event or contest in which people compete against each other to win",
+    "examples": [
+      "Hundreds of athletes participated in the annual track competition."
+    ],
+    "synonyms": ["contest", "tournament", "championship"],
+    "antonyms": [],
+    "translation": "соревнова́ние"
+  },
+  {
+    "word": "competitive",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to or involving competition; having a strong desire to win",
+    "examples": [
+      "He is a very competitive player who always strives to perform his best."
+    ],
+    "synonyms": ["ambitious", "driven", "combative"],
+    "antonyms": ["uncompetitive", "cooperative"],
+    "translation": "конкурен́тный"
+  },
+  {
+    "word": "countless",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Too many to be counted; extremely numerous",
+    "examples": [
+      "She spent countless hours practicing in the gym to master her technique."
+    ],
+    "synonyms": ["innumerable", "endless", "innumerable"],
+    "antonyms": ["few", "limited"],
+    "translation": "бесчи́сленный"
+  },
+  {
+    "word": "determined",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having made a firm decision and being resolved not to change it",
+    "examples": [
+      "The runner was determined to finish the marathon despite feeling exhausted."
+    ],
+    "synonyms": ["resolute", "persistent", "focused"],
+    "antonyms": ["undecided", "hesitant"],
+    "translation": "реши́тельный"
+  },
+  {
+    "word": "heat",
+    "partOfSpeech": "noun",
+    "forms": ["heats"],
+    "definition": "A preliminary round or race in a competition, the winners of which go on to the final",
+    "examples": [
+      "She placed first in her qualifying heat and advanced to the finals."
+    ],
+    "synonyms": ["qualifying round", "preliminary"],
+    "antonyms": ["final"],
+    "translation": "забе́г"
+  },
+  {
+    "word": "medal",
+    "partOfSpeech": "noun",
+    "forms": ["medals"],
+    "definition": "A metal disc awarded to a person for an achievement, especially in sports",
+    "examples": ["The gymnast proudly displayed her gold medal on the podium."],
+    "synonyms": ["award", "badge", "trophy"],
+    "antonyms": [],
+    "translation": "меда́ль"
+  },
+  {
+    "word": "qualify (for sth)",
+    "partOfSpeech": "verb",
+    "forms": ["qualifies", "qualified", "qualifying"],
+    "definition": "To meet the required conditions or standard to participate in a competition",
+    "examples": ["The team managed to qualify for the national championships."],
+    "synonyms": ["make the cut", "pass", "eligible"],
+    "antonyms": ["disqualify"],
+    "translation": "квалифици́роваться"
+  },
+  {
+    "word": "record-breaking",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Surpassing a previous best performance or record",
+    "examples": [
+      "The swimmer gave a record-breaking performance in the 200m event."
+    ],
+    "synonyms": ["unprecedented", "unrivaled"],
+    "antonyms": [],
+    "translation": "реко́рдный"
+  },
+  {
+    "word": "set a world record",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To achieve the best officially recorded result in the world for a specific activity or sport",
+    "examples": [
+      "He set a world record by running 100 meters in under 9.5 seconds."
+    ],
+    "synonyms": ["break a world record"],
+    "antonyms": [],
+    "translation": "установи́ть мирово́й реко́рд"
+  },
+  {
+    "word": "terrified",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Feeling extreme fear or fright",
+    "examples": [
+      "She was terrified of deep water before she learned how to swim."
+    ],
+    "synonyms": ["frightened", "scared", "petrified"],
+    "antonyms": ["calm", "fearless", "confident"],
+    "translation": "испу́ганный"
+  },
+  {
+    "word": "wrestler",
+    "partOfSpeech": "noun",
+    "forms": ["wrestlers"],
+    "definition": "A person who takes part in the sport of wrestling",
+    "examples": [
+      "The wrestler pinned his opponent to the mat within two minutes."
+    ],
+    "synonyms": ["grappler", "fighter"],
+    "antonyms": [],
+    "translation": "боре́ц"
+  },
+  {
+    "word": "attach (sth to sth else)",
+    "partOfSpeech": "verb",
+    "forms": ["attaches", "attached", "attaching"],
+    "definition": "To fasten, join, or connect one thing to another",
+    "examples": ["Tendon tissue serves to attach muscle to bone firmly."],
+    "synonyms": ["connect", "fasten", "join", "link"],
+    "antonyms": ["detach", "disconnect"],
+    "translation": "прикрепля́ть"
+  },
+  {
+    "word": "beat",
+    "partOfSpeech": "verb",
+    "forms": ["beats", "beat", "beating"],
+    "definition": "To pulsate or rhythmically contract, like a heart",
+    "examples": [
+      "Your heart will beat much faster during intense aerobic exercise."
+    ],
+    "synonyms": ["throb", "pulsate", "pound"],
+    "antonyms": [],
+    "translation": "би́ться"
+  },
+  {
+    "word": "bone",
+    "partOfSpeech": "noun",
+    "forms": ["bones"],
+    "definition": "Rigid organ that constitutes part of the skeleton in most vertebrate animals",
+    "examples": [
+      "Calcium is vital for maintaining strong and healthy bone density."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "кость"
+  },
+  {
+    "word": "breathe",
+    "partOfSpeech": "verb",
+    "forms": ["breathes", "breathed", "breathing"],
+    "definition": "To inhale air into the lungs and exhale it out",
+    "examples": ["Take a deep breath in and breathe out slowly after running."],
+    "synonyms": ["inhale", "exhale", "respire"],
+    "antonyms": [],
+    "translation": "дыша́ть"
+  },
+  {
+    "word": "bundle",
+    "partOfSpeech": "noun",
+    "forms": ["bundles"],
+    "definition": "A collection of things bound or grouped closely together",
+    "examples": [
+      "Muscles are composed of tight bundles of individual muscle fibers."
+    ],
+    "synonyms": ["group", "cluster", "pack"],
+    "antonyms": [],
+    "translation": "пучо́к"
+  },
+  {
+    "word": "cardiac",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to or affecting the heart",
+    "examples": [
+      "Cardiac muscle is unique because it works continuously without getting tired."
+    ],
+    "synonyms": ["heart", "cardiovascular"],
+    "antonyms": [],
+    "translation": "серде́чный"
+  },
+  {
+    "word": "contract",
+    "partOfSpeech": "verb",
+    "forms": ["contracts", "contracted", "contracting"],
+    "definition": "To shorten or tighten a muscle to generate movement or force",
+    "examples": ["Your biceps muscle will contract when you bend your elbow."],
+    "synonyms": ["tighten", "shorten", "tense"],
+    "antonyms": ["relax", "expand"],
+    "translation": "сокраща́ться"
+  },
+  {
+    "word": "depend (on sth)",
+    "partOfSpeech": "verb",
+    "forms": ["depends", "depended", "depending"],
+    "definition": "To be controlled or determined by something else",
+    "examples": [
+      "Muscle growth and recovery depend on proper sleep and healthy nutrition."
+    ],
+    "synonyms": ["rely on", "hinge on"],
+    "antonyms": [],
+    "translation": "зави́сеть от"
+  },
+  {
+    "word": "digest",
+    "partOfSpeech": "verb",
+    "forms": ["digests", "digested", "digesting"],
+    "definition": "To break down food in the alimentary canal so it can be absorbed by the body",
+    "examples": [
+      "It takes several hours for the stomach to fully digest a heavy meal."
+    ],
+    "synonyms": ["process", "break down"],
+    "antonyms": [],
+    "translation": "перевари́вать"
+  },
+  {
+    "word": "digestive system",
+    "partOfSpeech": "noun",
+    "forms": ["digestive systems"],
+    "definition": "The organ system responsible for ingesting, breaking down, and absorbing nutrients from food",
+    "examples": [
+      "Smooth muscles push food along the digestive system automatically."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "пищевари́тельная систе́ма"
+  },
+  {
+    "word": "elastic tissue",
+    "partOfSpeech": "noun",
+    "forms": ["elastic tissues"],
+    "definition": "Connective tissue made of flexible fibers that allow stretching and recoil",
+    "examples": [
+      "Ligaments contain elastic tissue that allows joints to flex safely."
+    ],
+    "synonyms": ["flexible tissue"],
+    "antonyms": [],
+    "translation": "эласти́чная ткань"
+  },
+  {
+    "word": "hormone",
+    "partOfSpeech": "noun",
+    "forms": ["hormones"],
+    "definition": "A regulatory substance produced in an organism and transported in tissue fluids to stimulate specific cells or tissues into action",
+    "examples": [
+      "Insulin is an essential hormone that regulates blood sugar levels."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "гормо́н"
+  },
+  {
+    "word": "internal organ",
+    "partOfSpeech": "noun",
+    "forms": ["internal organs"],
+    "definition": "An organ located inside the body structure, such as the heart, lungs, or liver",
+    "examples": [
+      "The ribcage serves to protect vital internal organs like the heart and lungs."
+    ],
+    "synonyms": ["viscus", "inner organ"],
+    "antonyms": [],
+    "translation": "вну́тренний о́рган"
+  },
+  {
+    "word": "involuntary",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Done without conscious control or intention",
+    "examples": [
+      "Blinking and heartbeats are involuntary actions controlled automatically by the body."
+    ],
+    "synonyms": ["automatic", "unconscious", "unintentional"],
+    "antonyms": ["voluntary", "conscious", "deliberate"],
+    "translation": "непроизво́льный"
+  },
+  {
+    "word": "muscle",
+    "partOfSpeech": "noun",
+    "forms": ["muscles"],
+    "definition": "A band or bundle of fibrous tissue in a human or animal body that has the ability to contract, producing movement or maintaining the position of parts of the body",
+    "examples": ["Regular strength training increases overall muscle mass."],
+    "synonyms": ["brawn", "tissue"],
+    "antonyms": [],
+    "translation": "мы́шца"
+  },
+  {
+    "word": "nerve",
+    "partOfSpeech": "noun",
+    "forms": ["nerves"],
+    "definition": "A fiber or bundle of fibers that transmits impulses of sensation to the brain or spinal cord, and impulses from these to the muscles and organs",
+    "examples": [
+      "When you touch something hot, a nerve immediately sends a signal to your brain."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "нерв"
+  },
+  {
+    "word": "pump blood",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To force blood to circulate through the body using rhythmic contractions of the heart",
+    "examples": [
+      "The heart's primary function is to pump blood continuously through the vascular system."
+    ],
+    "synonyms": ["circulate blood"],
+    "antonyms": [],
+    "translation": "кача́ть кровь"
+  },
+  {
+    "word": "pupil",
+    "partOfSpeech": "noun",
+    "forms": ["pupils"],
+    "definition": "The dark circular opening in the center of the iris of the eye, varying in size to regulate the amount of light reaching the retina",
+    "examples": ["Your pupil contracts when exposed to bright sunlight."],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "зрачо́к"
+  },
+  {
+    "word": "require",
+    "partOfSpeech": "verb",
+    "forms": ["requires", "required", "requiring"],
+    "definition": "To need something for a particular purpose",
+    "examples": [
+      "Building muscle tissue requires both proper nutrition and adequate recovery time."
+    ],
+    "synonyms": ["need", "demand", "call for"],
+    "antonyms": [],
+    "translation": "тре́бовать"
+  },
+  {
+    "word": "skeletal",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to or functioning as a skeleton",
+    "examples": [
+      "Skeletal muscles are attached to bones and allow conscious body movements."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "скеле́тный"
+  },
+  {
+    "word": "smooth",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having an even and regular surface or consistency; non-striated muscle type found in internal organs",
+    "examples": [
+      "Smooth muscle controls involuntary movements inside organs like the stomach."
+    ],
+    "synonyms": ["even", "sleek", "flat"],
+    "antonyms": ["rough", "coarse"],
+    "translation": "гла́дкий"
+  },
+  {
+    "word": "thigh",
+    "partOfSpeech": "noun",
+    "forms": ["thighs"],
+    "definition": "The part of the human leg between the hip and the knee",
+    "examples": [
+      "Quadriceps are powerful muscles located in the front of your thigh."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "бедро́"
+  },
+  {
+    "word": "tiny",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Very small in size or amount",
+    "examples": [
+      "Cells are tiny structures that make up all tissues in the human body."
+    ],
+    "synonyms": ["small", "miniature", "minute"],
+    "antonyms": ["huge", "large", "giant"],
+    "translation": "кро́шечный"
+  },
+  {
+    "word": "vary",
+    "partOfSpeech": "verb",
+    "forms": ["varies", "varied", "varying"],
+    "definition": "To change or be different according to particular circumstances",
+    "examples": [
+      "Heart rate during exercise will vary based on physical fitness levels."
+    ],
+    "synonyms": ["differ", "change", "alter"],
+    "antonyms": ["remain", "stay constant"],
+    "translation": "различа́ться"
+  },
+  {
+    "word": "voluntary",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Done, given, or acting of one's own free will or conscious control",
+    "examples": [
+      "Walking and raising your hand are voluntary muscle movements."
+    ],
+    "synonyms": ["intentional", "deliberate", "conscious"],
+    "antonyms": ["involuntary", "automatic"],
+    "translation": "произво́льный"
+  },
+  {
+    "word": "attend",
+    "partOfSpeech": "verb",
+    "forms": ["attends", "attended", "attending"],
+    "definition": "To be present at an event, meeting, class, or function",
+    "examples": ["Many athletes choose to attend training camp every summer."],
+    "synonyms": ["be present at", "go to", "frequent"],
+    "antonyms": ["miss", "absent"],
+    "translation": "посеща́ть"
+  },
+  {
+    "word": "fitness level",
+    "partOfSpeech": "noun",
+    "forms": ["fitness levels"],
+    "definition": "A measurement of an individual's physical capability, endurance, and strength",
+    "examples": [
+      "The coach adjusted the workout routine to suit every player's fitness level."
+    ],
+    "synonyms": ["physical condition", "stamina level"],
+    "antonyms": [],
+    "translation": "у́ровень физи́ческой подгото́вки"
+  },
+  {
+    "word": "get fit",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To become physically healthy and strong through regular exercise and healthy eating",
+    "examples": [
+      "Joining a local gym is a popular step for people who want to get fit."
+    ],
+    "synonyms": ["get into shape", "improve fitness"],
+    "antonyms": ["get out of shape"],
+    "translation": "прийти́ в фо́рму"
+  },
+  {
+    "word": "individual attention",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Personal care or focus given to one person rather than a group",
+    "examples": [
+      "Working with a personal trainer gives you individual attention during workouts."
+    ],
+    "synonyms": ["one-on-one focus", "personalized care"],
+    "antonyms": [],
+    "translation": "индивидуа́льное внима́ние"
+  },
+  {
+    "word": "instructor",
+    "partOfSpeech": "noun",
+    "forms": ["instructors"],
+    "definition": "A person who teaches a skill, sport, or physical activity",
+    "examples": [
+      "The fitness instructor guided the class through a series of stretching routines."
+    ],
+    "synonyms": ["teacher", "coach", "trainer", "tutor"],
+    "antonyms": ["student", "pupil"],
+    "translation": "инстру́ктор"
+  },
+  {
+    "word": "pace",
+    "partOfSpeech": "noun",
+    "forms": ["paces"],
+    "definition": "The speed at which someone or something moves, walks, or runs",
+    "examples": [
+      "It is important to maintain a steady pace during long-distance running."
+    ],
+    "synonyms": ["speed", "tempo", "rate"],
+    "antonyms": [],
+    "translation": "темп"
+  },
+  {
+    "word": "shared",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Distributed or used in common among a group of people",
+    "examples": [
+      "The team members had a shared passion for winning the title."
+    ],
+    "synonyms": ["common", "joint", "mutual"],
+    "antonyms": ["individual", "private", "personal"],
+    "translation": "сообща́"
+  }
+]
