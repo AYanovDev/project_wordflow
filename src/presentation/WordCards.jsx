@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./wordCards.css";
 import { useLearningData } from "../common/DataContext";
 import { WORD_PROGRESS_STEPS } from "../common/wordProgress";
+import { useFitText } from "./useFitText";
 
 function ProgressIndicator({ progress = 0 }) {
   return (
@@ -29,6 +30,15 @@ export function WordCards({ words }) {
 
   // Get the currently selected word
   const singleCard = currentIndex !== null ? words[currentIndex] : null;
+
+  const { containerRef, textRef, fontSize } = useFitText(
+    singleCard?.word ?? "",
+    {
+      maxFontSize: 48,
+      minFontSize: 20,
+      step: 1,
+    },
+  );
 
   // Move to previous word
   function previousWord() {
@@ -62,15 +72,6 @@ export function WordCards({ words }) {
         </button>
 
         <div className="single-card-navigation">
-          <button
-            className="navigation-button navigation-arrow"
-            onClick={previousWord}
-            disabled={currentIndex === 0}
-            aria-label="Previous word"
-          >
-            ←
-          </button>
-
           <div
             className={`single-card ${showEnglish ? "" : "is-flipped"}`}
             onClick={() => setShowEnglish((previous) => !previous)}
@@ -86,11 +87,15 @@ export function WordCards({ words }) {
           >
             <div className="single-card-inner">
               <div className="single-card-face single-card-front">
-                <span className="single-card-hint">Tap to reveal translation</span>
-                <h2>
-                  {singleCard.word.charAt(0).toUpperCase() +
-                    singleCard.word.slice(1)}
-                </h2>
+                <span className="single-card-hint">
+                  Tap to reveal translation
+                </span>
+                <div className="single-card-word-area" ref={containerRef}>
+                  <h2 ref={textRef} style={{ fontSize: `${fontSize}px` }}>
+                    {singleCard.word.charAt(0).toUpperCase() +
+                      singleCard.word.slice(1)}
+                  </h2>
+                </div>
                 <p>{singleCard.partOfSpeech}</p>
                 <ProgressIndicator progress={singleCard.progress || 0} />
               </div>
@@ -100,15 +105,24 @@ export function WordCards({ words }) {
               </div>
             </div>
           </div>
-
-          <button
-            className="navigation-button navigation-arrow"
-            onClick={nextWord}
-            disabled={currentIndex === words.length - 1}
-            aria-label="Next word"
-          >
-            →
-          </button>
+          <div className="button-container">
+            <button
+              className="navigation-button navigation-arrow"
+              onClick={previousWord}
+              disabled={currentIndex === 0}
+              aria-label="Previous word"
+            >
+              ←
+            </button>
+            <button
+              className="navigation-button navigation-arrow"
+              onClick={nextWord}
+              disabled={currentIndex === words.length - 1}
+              aria-label="Next word"
+            >
+              →
+            </button>
+          </div>
         </div>
       </div>
     );

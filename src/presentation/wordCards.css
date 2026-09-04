@@ -37,7 +37,9 @@
   font: inherit;
   font-weight: 700;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .continue-button:hover {
@@ -52,6 +54,7 @@
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 16px;
   padding: 20px;
+  padding-left: 0px;
 }
 
 .word-card {
@@ -74,6 +77,8 @@
 .word-card h2 {
   margin: 0 0 8px;
   font-size: 1.4rem;
+  overflow-wrap: anywhere;
+  word-break: break-word; /* fallback for older engines */
 }
 
 .word-card p {
@@ -105,16 +110,17 @@
   min-height: 100vh;
   box-sizing: border-box;
   padding: 32px 20px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 .single-card {
   width: min(360px, calc(100vw - 132px));
-  height: min(500px, calc(100vh - 150px));
+  height: min(400px, calc(100vh - 150px));
   min-height: 380px;
   padding: 0;
   border: 0;
@@ -162,11 +168,16 @@
   background: linear-gradient(145deg, #24304f, #355d71);
   color: #fff;
   transform: rotateY(180deg);
+  flex-grow: 1;
 }
 
 .single-card h2 {
+  width: 100%;
+  max-width: 100%;
   margin: 12px 0 10px;
-  font-size: clamp(2rem, 6vw, 3rem);
+  text-align: center;
+  overflow-wrap: anywhere;
+  line-height: 1.1;
 }
 
 .single-card p {
@@ -195,20 +206,32 @@
 
 .single-card-navigation {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: clamp(10px, 3vw, 28px);
 }
 
+.button-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .navigation-button {
+  margin-left: 5px;
+  min-width: 70px;
   border: 0;
-  border-radius: 999px;
+  border-radius: 8px;
   background: #24304f;
   color: #fff;
   font: inherit;
   font-weight: 700;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .navigation-button:hover:not(:disabled) {
@@ -255,11 +278,27 @@
   }
 
   .single-card {
-    width: min(300px, calc(100vw - 120px));
+    width: min(325px, calc(100vw - 40px));
     min-height: 400px;
   }
 
   .single-card-face {
     padding: 36px 20px;
   }
+}
+
+.single-card-word-area {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-card-word-area h2 {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
 }
