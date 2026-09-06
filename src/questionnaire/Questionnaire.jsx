@@ -1,33 +1,18 @@
 import { useEffect, useState, useContext } from "react";
 import "./questionnaire.css";
 import { useNavigate } from "react-router-dom";
+import { useLearningData } from "../common/DataContext";
 
 const STORAGE_KEY = "learningPreferences";
 const grades = [7, 8, 9, 10, 11];
 const modules = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 export function Questionnaire() {
-  const [grade, setGrade] = useState("");
-  const [module, setModule] = useState("");
+  const learningData = useLearningData();
+  const [grade, setGrade] = useState(learningData.grade);
+  const [module, setModule] = useState(learningData.module);
   const [isSaved, setIsSaved] = useState(false);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    const savedPreferences = localStorage.getItem(STORAGE_KEY);
-
-    if (!savedPreferences) {
-      return;
-    }
-
-    try {
-      const { grade: savedGrade, module: savedModule } =
-        JSON.parse(savedPreferences);
-      setGrade(String(savedGrade));
-      setModule(String(savedModule));
-    } catch {
-      localStorage.removeItem(STORAGE_KEY);
-    }
-  }, []);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -36,13 +21,10 @@ export function Questionnaire() {
       return;
     }
 
-    localStorage.setItem(
-      STORAGE_KEY,
-      JSON.stringify({
-        grade: Number(grade),
-        module: Number(module),
-      }),
-    );
+    learningData.setLearningData({
+      grade: Number(grade),
+      module: Number(module),
+    });
 
     setIsSaved(true);
     navigate("/learn");
