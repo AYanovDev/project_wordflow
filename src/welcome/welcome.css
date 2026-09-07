@@ -11,8 +11,16 @@
   padding: 40px 20px;
 
   background:
-    radial-gradient(circle at 12% 18%, rgba(118, 224, 201, 0.42), transparent 26%),
-    radial-gradient(circle at 88% 82%, rgba(168, 142, 255, 0.34), transparent 28%),
+    radial-gradient(
+      circle at 12% 18%,
+      rgba(118, 224, 201, 0.42),
+      transparent 26%
+    ),
+    radial-gradient(
+      circle at 88% 82%,
+      rgba(168, 142, 255, 0.34),
+      transparent 28%
+    ),
     linear-gradient(135deg, #f8fbff 0%, #fff9f2 52%, #f8f4ff 100%);
 }
 
@@ -161,7 +169,7 @@
   }
 
   .welcome-button {
-    width: 100%;
+    width: 70%;
 
     justify-content: center;
   }
