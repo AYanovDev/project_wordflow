@@ -1,11 +1,13 @@
-import { useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
-import { WordCards } from "../presentation/WordCards";
+
 import { useLearningData } from "./DataContext";
 import { LoadingPage } from "./LoadingPage";
 import { addProgressToWords } from "./wordProgress";
 
-export function WordLoader() {
+const WordContext = createContext(null);
+
+export function WordLoader(props) {
   const { grade, module } = useLearningData();
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState(null);
@@ -67,8 +69,20 @@ export function WordLoader() {
   }
 
   if (data) {
-    return <WordCards words={data} />;
+    return (
+      <WordContext.Provider value={data}>{props.children}</WordContext.Provider>
+    );
   }
 
   return null;
+}
+
+export function useWords() {
+  const context = useContext(WordContext);
+
+  if (!context) {
+    throw new Error("useWords must be used inside a WordLoader");
+  }
+
+  return context;
 }
