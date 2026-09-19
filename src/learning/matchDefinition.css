@@ -22,7 +22,7 @@
   background: #f2f5fa;
 }
 
-.matching-columns {
+.matching-columns-def {
   display: flex;
   flex-direction: column;
   flex-flow: column-reverse;
@@ -31,7 +31,7 @@
   margin-top: 30px;
 }
 
-.matching-column {
+.matching-column-def {
   display: flex;
   flex-direction: column;
   gap: 15px;

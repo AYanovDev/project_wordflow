@@ -105,7 +105,7 @@ export function MatchDefinition({}) {
       <p className="instructions">
         Click the word that matches the definition shown at the top.
       </p>
-      <div className="matching-columns">
+      <div className="matching-columns-def">
         {/* WORD COLUMN (clickable) */}
         <div className="matching-column">
           {wordOrder.map((word) => {
@@ -127,7 +127,7 @@ export function MatchDefinition({}) {
         </div>
 
         {/* DEFINITION COLUMN (single static target, not clickable) */}
-        <div className="matching-column">
+        <div className="matching-column-def">
           {target && (
             <div className="match-card definition-card">
               {target.definition}
