@@ -4,12 +4,15 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App.tsx";
 import { DataProvider } from "./common/DataContext.jsx";
+import { SettingsProvider } from "./common/settings/SettingsContext.jsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <DataProvider>
-        <App />
+        <SettingsProvider>
+          <App />
+        </SettingsProvider>
       </DataProvider>
     </BrowserRouter>
   </StrictMode>,

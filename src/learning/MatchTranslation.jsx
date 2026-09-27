@@ -13,10 +13,14 @@ import { CSS } from "@dnd-kit/utilities";
 
 import "./matchTranslation.css";
 import { useLearningData } from "../common/DataContext";
-import { addProgressToWords, increaseWordProgress } from "../common/wordProgress";
+import {
+  addProgressToWords,
+  increaseWordProgress,
+} from "../common/wordProgress";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "../common/resultsPage.css";
+import { SettingsControl } from "../common/settings/SettingsControl";
 
 function createExercise(words, matchField) {
   const selectedWords = words
@@ -119,7 +123,9 @@ export function MatchExercise({
   // Animate each card from its old position to its new one after a match moves
   // it to the top of its column (the FLIP layout-animation technique).
   useLayoutEffect(() => {
-    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const reducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
     const nextPositions = new Map();
 
     cardNodes.current.forEach((node, id) => {
@@ -191,7 +197,10 @@ export function MatchExercise({
 
   function evaluateMatch(englishWord, russianWord) {
     if (englishWord === russianWord) {
-      if (matchedWords.includes(englishWord) || pendingMatches.current.has(englishWord)) {
+      if (
+        matchedWords.includes(englishWord) ||
+        pendingMatches.current.has(englishWord)
+      ) {
         return;
       }
 
@@ -206,7 +215,9 @@ export function MatchExercise({
 
       setWords((previousWords) =>
         previousWords?.map((item) =>
-          item.word === englishWord ? { ...item, progress: nextProgress } : item,
+          item.word === englishWord
+            ? { ...item, progress: nextProgress }
+            : item,
         ),
       );
       setCorrectEnglish(englishWord);
@@ -397,6 +408,7 @@ export function MatchExercise({
         <button className="restart-button" onClick={restartExercise}>
           {exerciseComplete ? "Try again" : "Restart"}
         </button>
+        <SettingsControl></SettingsControl>
       </div>
     </DndContext>
   );
