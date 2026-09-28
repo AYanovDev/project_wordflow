@@ -1,14 +1,15 @@
+import type { ChangeEvent } from "react";
 import { useSettings } from "./SettingsContext";
 import "./settingsControl.css";
 
 export function SettingsControl() {
   const { autoskip, confetti, setSettings } = useSettings();
 
-  function handleAutoskipChange(event) {
+  function handleAutoskipChange(event: ChangeEvent<HTMLInputElement>) {
     setSettings({ autoskip: event.target.checked, confetti });
   }
 
-  function handleConfettiChange(event) {
+  function handleConfettiChange(event: ChangeEvent<HTMLInputElement>) {
     setSettings({ autoskip, confetti: event.target.checked });
   }
 

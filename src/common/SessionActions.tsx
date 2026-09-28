@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { resetSessionResults } from "./sessionResults";
 
-export function SessionActions({ className }) {
+export function SessionActions({ className }: { className?: string }) {
   const navigate = useNavigate();
 
   function returnToVocabulary() {

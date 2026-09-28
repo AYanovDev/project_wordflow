@@ -21,8 +21,12 @@ import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "../common/resultsPage.css";
 import { SettingsControl } from "../common/settings/SettingsControl";
+import type { Word } from "../types";
 
-function createExercise(words, matchField) {
+type CardType = "english" | "russian";
+type Exercise = { english: Word[]; russian: Word[] };
+
+function createExercise(words: Word[], matchField: keyof Word): Exercise {
   const selectedWords = words
     .filter((word) => word[matchField])
     .sort(() => Math.random() - 0.5)
@@ -94,19 +98,19 @@ export function MatchExercise({
   matchField = "translation",
   title = "Match the translations",
   instructions = "Click or drag any word onto its matching translation.",
-}) {
+}: { matchField?: keyof Word; title?: string; instructions?: string }) {
   const { grade, module } = useLearningData();
-  const [words, setWords] = useState(null);
+  const [words, setWords] = useState<Word[] | null>(null);
   const [loadError, setLoadError] = useState(false);
-  const [exerciseWords, setExerciseWords] = useState(null);
-  const [matchedWords, setMatchedWords] = useState([]);
+  const [exerciseWords, setExerciseWords] = useState<Exercise | null>(null);
+  const [matchedWords, setMatchedWords] = useState<string[]>([]);
 
   // Selection & feedback state
-  const [selectedCard, setSelectedCard] = useState(null); // { type: 'english'|'russian', word: string }
-  const [correctEnglish, setCorrectEnglish] = useState(null);
-  const [correctRussian, setCorrectRussian] = useState(null);
-  const [wrongEnglish, setWrongEnglish] = useState(null);
-  const [wrongRussian, setWrongRussian] = useState(null);
+  const [selectedCard, setSelectedCard] = useState<{ type: CardType; word: string } | null>(null);
+  const [correctEnglish, setCorrectEnglish] = useState<string | null>(null);
+  const [correctRussian, setCorrectRussian] = useState<string | null>(null);
+  const [wrongEnglish, setWrongEnglish] = useState<string | null>(null);
+  const [wrongRussian, setWrongRussian] = useState<string | null>(null);
   const cardNodes = useRef(new Map());
   const previousPositions = useRef(new Map());
   const layoutAnimations = useRef(new Map());
@@ -181,7 +185,7 @@ export function MatchExercise({
       .then((response) => {
         if (!response.ok)
           throw new Error("Vocabulary file could not be loaded.");
-        return response.json();
+        return response.json() as Promise<Word[]>;
       })
       .then((data) => {
         const wordsWithProgress = addProgressToWords(data, grade, module);
@@ -195,7 +199,7 @@ export function MatchExercise({
     return () => controller.abort();
   }, [grade, matchField, module]);
 
-  function evaluateMatch(englishWord, russianWord) {
+  function evaluateMatch(englishWord: string, russianWord: string) {
     if (englishWord === russianWord) {
       if (
         matchedWords.includes(englishWord) ||
@@ -251,28 +255,24 @@ export function MatchExercise({
     const activeId = String(active.id);
     const overId = String(over.id);
 
-    let englishWord = null;
-    let russianWord = null;
-
     // Determine direction of drag (English -> Russian or Russian -> English)
+    let match: [string, string];
     if (activeId.startsWith("english-") && overId.startsWith("russian-")) {
-      englishWord = activeId.replace("english-", "");
-      russianWord = overId.replace("russian-", "");
+      match = [activeId.replace("english-", ""), overId.replace("russian-", "")];
     } else if (
       activeId.startsWith("russian-") &&
       overId.startsWith("english-")
     ) {
-      russianWord = activeId.replace("russian-", "");
-      englishWord = overId.replace("english-", "");
+      match = [overId.replace("english-", ""), activeId.replace("russian-", "")];
     } else {
       // Dragged onto an item in the same column
       return;
     }
 
-    evaluateMatch(englishWord, russianWord);
+    evaluateMatch(...match);
   }
 
-  function handleCardClick(type, word) {
+  function handleCardClick(type: CardType, word: string) {
     // Select first card
     if (!selectedCard) {
       setSelectedCard({ type, word });
@@ -299,7 +299,7 @@ export function MatchExercise({
   }
 
   function restartExercise() {
-    setExerciseWords(createExercise(words, matchField));
+    if (words) setExerciseWords(createExercise(words, matchField));
     setMatchedWords([]);
     setSelectedCard(null);
     setCorrectEnglish(null);

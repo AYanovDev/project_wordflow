@@ -8,10 +8,11 @@ import { increaseWordProgress } from "../common/wordProgress";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "./matchDefinition.css";
+import type { Word } from "../types";
 
 const WORDS_PER_ROUND = 5;
 
-function createRound(words) {
+function createRound(words: Word[]) {
   const roundWords = words
     .filter((word) => word.definition)
     .sort(() => Math.random() - 0.5)
@@ -24,16 +25,16 @@ function createRound(words) {
   return { roundWords, wordOrder };
 }
 
-export function MatchDefinition({}) {
+export function MatchDefinition() {
   const { grade, module } = useLearningData();
   const words = useWords();
-  const [roundWords, setRoundWords] = useState(null); // the words for this round, fixed order
-  const [wordOrder, setWordOrder] = useState(null); // shuffled word list for the left column
-  const [matchedWords, setMatchedWords] = useState([]);
+  const [roundWords, setRoundWords] = useState<Word[] | null>(null); // the words for this round, fixed order
+  const [wordOrder, setWordOrder] = useState<string[] | null>(null); // shuffled word list for the left column
+  const [matchedWords, setMatchedWords] = useState<string[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0); // which roundWords entry's definition is shown
 
-  const [correctWord, setCorrectWord] = useState(null);
-  const [wrongWord, setWrongWord] = useState(null);
+  const [correctWord, setCorrectWord] = useState<string | null>(null);
+  const [wrongWord, setWrongWord] = useState<string | null>(null);
   const [locked, setLocked] = useState(false); // brief lock while feedback plays
 
   useEffect(() => {
@@ -48,7 +49,7 @@ export function MatchDefinition({}) {
   const target = roundWords ? (roundWords[currentIndex] ?? null) : null;
   const exerciseComplete = matchedWords.length === 1;
 
-  function handleWordClick(word) {
+  function handleWordClick(word: string) {
     if (!target || locked || matchedWords.includes(word)) return;
 
     if (word === target.word) {
@@ -120,7 +121,7 @@ export function MatchDefinition({}) {
                   correctWord === word ? "correct" : ""
                 } ${wrongWord === word ? "incorrect" : ""}`}
               >
-                {wordData.word.charAt(0).toUpperCase() + wordData.word.slice(1)}
+                {wordData?.word.charAt(0).toUpperCase() + (wordData?.word.slice(1) ?? "")}
               </div>
             );
           })}

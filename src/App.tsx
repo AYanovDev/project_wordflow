@@ -1,14 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import { Welcome } from "./welcome/Welcome.jsx";
-import { Questionnaire } from "./questionnaire/Questionnaire.jsx";
-import { WordLoader } from "./common/WordLoader.jsx";
-import { TaskChoice } from "./common/TaskChoice.jsx";
-import { MatchTranslation } from "./learning/MatchTranslation.jsx";
-import { MatchDefinition } from "./learning/MatchDefinition.jsx";
-import { SynonymsMatching } from "./learning/SynonymsMatching.jsx";
-import { AntonymMatching } from "./learning/AntonymMatching.jsx";
-import { ResultsPage } from "./common/ResultsPage.jsx";
-import { WordCards } from "./presentation/WordCards.jsx";
+import { Welcome } from "./welcome/Welcome.js";
+import { Questionnaire } from "./questionnaire/Questionnaire.js";
+import { WordLoader } from "./common/WordLoader.js";
+import { TaskChoice } from "./common/TaskChoice.js";
+import { MatchTranslation } from "./learning/MatchTranslation.js";
+import { MatchDefinition } from "./learning/MatchDefinition.js";
+import { SynonymsMatching } from "./learning/SynonymsMatching.js";
+import { AntonymMatching } from "./learning/AntonymMatching.js";
+import { ResultsPage } from "./common/ResultsPage.js";
+import { WordCards } from "./presentation/WordCards.js";
 
 function App() {
   return (

@@ -11,7 +11,7 @@ export function TaskChoice() {
     return <Navigate to="/quest" replace />;
   }
 
-  function startExercise(path) {
+  function startExercise(path: string) {
     resetSessionResults();
     navigate(path);
   }

@@ -1,9 +1,11 @@
-import { createContext, useContext, useEffect, useMemo, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useState, type PropsWithChildren } from "react";
 
 const STORAGE_KEY = "settings";
-const SettingsContext = createContext(null);
+export interface Settings { autoskip: boolean; confetti: boolean; }
+interface SettingsContextValue extends Settings { setSettings: React.Dispatch<React.SetStateAction<Settings>>; }
+const SettingsContext = createContext<SettingsContextValue | null>(null);
 
-function getSetings() {
+function getSetings(): Settings {
   try {
     const savedPreferences = localStorage.getItem(STORAGE_KEY);
 
@@ -13,14 +15,14 @@ function getSetings() {
 
     const { autoskip, confetti } = JSON.parse(savedPreferences);
 
-    return { autoskip, confetti };
+    return { autoskip: Boolean(autoskip), confetti: typeof confetti === "boolean" ? confetti : true };
   } catch {
     localStorage.removeItem(STORAGE_KEY);
     return { autoskip: false, confetti: true };
   }
 }
 
-export function SettingsProvider({ children }) {
+export function SettingsProvider({ children }: PropsWithChildren) {
   const [settings, setSettings] = useState(getSetings);
 
   useEffect(() => {

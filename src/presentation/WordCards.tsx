@@ -6,7 +6,7 @@ import { WORD_PROGRESS_STEPS } from "../common/wordProgress";
 import { useFitText } from "./useFitText";
 import { useWords } from "../common/WordLoader";
 
-function ProgressIndicator({ progress = 0 }) {
+function ProgressIndicator({ progress = 0 }: { progress?: number }) {
   return (
     <div
       className="word-progress"
@@ -27,7 +27,7 @@ export function WordCards() {
   const words = useWords();
   const { grade, module } = useLearningData();
   const navigate = useNavigate();
-  const [currentIndex, setCurrentIndex] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState<number | null>(null);
   const [showEnglish, setShowEnglish] = useState(true);
 
   // Get the currently selected word

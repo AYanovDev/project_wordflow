@@ -1,9 +1,11 @@
-import { createContext, useContext, useEffect, useMemo, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useState, type PropsWithChildren } from "react";
+import type { LearningData } from "../types";
 
 const STORAGE_KEY = "learningPreferences";
-const DataContext = createContext(null);
+interface LearningContextValue extends LearningData { setLearningData: React.Dispatch<React.SetStateAction<LearningData>>; }
+const DataContext = createContext<LearningContextValue | null>(null);
 
-function getSavedPreferences() {
+function getSavedPreferences(): LearningData {
   try {
     const savedPreferences = localStorage.getItem(STORAGE_KEY);
 
@@ -24,7 +26,7 @@ function getSavedPreferences() {
   }
 }
 
-export function DataProvider({ children }) {
+export function DataProvider({ children }: PropsWithChildren) {
   const [learningData, setLearningData] = useState(getSavedPreferences);
 
   useEffect(() => {

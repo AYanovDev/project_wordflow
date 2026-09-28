@@ -1,6 +1,6 @@
 import "./loadingPage.css";
 
-export function LoadingPage({ grade, module }) {
+export function LoadingPage({ grade, module }: { grade: string; module: string }) {
   return (
     <main className="loading-page" aria-busy="true" aria-live="polite">
       <section className="loading-card">

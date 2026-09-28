@@ -1,9 +1,8 @@
-import { useEffect, useState, useContext } from "react";
+import { useState, type ChangeEvent, type Dispatch, type FormEvent, type SetStateAction } from "react";
 import "./questionnaire.css";
 import { useNavigate } from "react-router-dom";
 import { useLearningData } from "../common/DataContext";
 
-const STORAGE_KEY = "learningPreferences";
 const grades = [7, 8, 9, 10, 11];
 const modules = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -14,7 +13,7 @@ export function Questionnaire() {
   const [isSaved, setIsSaved] = useState(false);
   const navigate = useNavigate();
 
-  function handleSubmit(event) {
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
     if (!grade || !module) {
@@ -22,16 +21,16 @@ export function Questionnaire() {
     }
 
     learningData.setLearningData({
-      grade: Number(grade),
-      module: Number(module),
+      grade,
+      module,
     });
 
     setIsSaved(true);
     navigate("/learn");
   }
 
-  function handleChange(setValue) {
-    return (event) => {
+  function handleChange(setValue: Dispatch<SetStateAction<string>>) {
+    return (event: ChangeEvent<HTMLSelectElement>) => {
       setValue(event.target.value);
       setIsSaved(false);
     };

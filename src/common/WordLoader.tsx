@@ -1,17 +1,18 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState, type PropsWithChildren } from "react";
 import { Navigate } from "react-router-dom";
 
 import { useLearningData } from "./DataContext";
 import { LoadingPage } from "./LoadingPage";
 import { addProgressToWords } from "./wordProgress";
+import type { Word } from "../types";
 
-const WordContext = createContext(null);
+const WordContext = createContext<Word[] | null>(null);
 
-export function WordLoader(props) {
+export function WordLoader({ children }: PropsWithChildren) {
   const { grade, module } = useLearningData();
   const [isLoading, setIsLoading] = useState(true);
-  const [data, setData] = useState(null);
-  const [errorMessage, setErrorMessage] = useState(null);
+  const [data, setData] = useState<Word[] | null>(null);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   useEffect(() => {
     if (!grade || !module) {
@@ -32,7 +33,7 @@ export function WordLoader(props) {
           throw new Error("Vocabulary file could not be loaded.");
         }
 
-        return response.json();
+        return response.json() as Promise<Word[]>;
       })
       .then((d) => {
         if (isActive) {
@@ -70,7 +71,7 @@ export function WordLoader(props) {
 
   if (data) {
     return (
-      <WordContext.Provider value={data}>{props.children}</WordContext.Provider>
+      <WordContext.Provider value={data}>{children}</WordContext.Provider>
     );
   }
 
