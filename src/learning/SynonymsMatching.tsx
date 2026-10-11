@@ -11,12 +11,15 @@ import {
 import { CSS } from "@dnd-kit/utilities";
 import { celebrate } from "./confetti";
 import { useLearningData } from "../common/DataContext";
-import { addProgressToWords, increaseWordProgress } from "../common/wordProgress";
+import { addProgressToWords } from "../common/wordProgress";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "./synonymsMatching.css";
 import "../common/resultsPage.css";
 import type { FeedbackType, Word } from "../types";
+import { RefreshIcon } from "../icons/RefreshIcon";
+import { SettingsControl } from "../common/settings/SettingsControl";
+import { useSettings } from "../common/settings/SettingsContext";
 
 const PAIR_COUNT = 5;
 
@@ -63,8 +66,13 @@ function MatchingCard({
   onClick,
   onNodeChange,
 }) {
-  const { attributes, listeners, setNodeRef: setDraggableRef, transform, isDragging } =
-    useDraggable({ id, disabled: isMatched });
+  const {
+    attributes,
+    listeners,
+    setNodeRef: setDraggableRef,
+    transform,
+    isDragging,
+  } = useDraggable({ id, disabled: isMatched });
   const { setNodeRef: setDroppableRef, isOver } = useDroppable({
     id,
     disabled: isMatched,
@@ -80,7 +88,9 @@ function MatchingCard({
     <button
       ref={setNodeRef}
       type="button"
-      style={transform ? { transform: CSS.Translate.toString(transform) } : undefined}
+      style={
+        transform ? { transform: CSS.Translate.toString(transform) } : undefined
+      }
       className={`synonym-card ${isMatched ? "matched" : ""} ${
         isSelected ? "selected" : ""
       } ${feedback || ""} ${isOver ? "drop-target" : ""} ${
@@ -97,6 +107,7 @@ function MatchingCard({
 }
 
 export function SynonymsMatching() {
+  const { autoskip, confetti } = useSettings();
   const { grade, module } = useLearningData();
   const [words, setWords] = useState<Word[] | null>(null);
   const [exercise, setExercise] = useState<Exercise | null>(null);
@@ -120,7 +131,9 @@ export function SynonymsMatching() {
 
   // Move cards smoothly into their new matched-first positions.
   useLayoutEffect(() => {
-    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const reducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
     const nextPositions = new Map();
 
     cardNodes.current.forEach((node, id) => {
@@ -170,9 +183,12 @@ export function SynonymsMatching() {
     setMatchedIds([]);
     celebrated.current = false;
 
-    fetch(`/word_data/grade_${grade}/module_${module}.json`, { signal: controller.signal })
+    fetch(`/word_data/grade_${grade}/module_${module}.json`, {
+      signal: controller.signal,
+    })
       .then((response) => {
-        if (!response.ok) throw new Error("Vocabulary file could not be loaded.");
+        if (!response.ok)
+          throw new Error("Vocabulary file could not be loaded.");
         return response.json() as Promise<Word[]>;
       })
       .then((data) => {
@@ -190,11 +206,13 @@ export function SynonymsMatching() {
     };
   }, [grade, module]);
 
-  const complete = exercise && exercise.words.length > 0 && matchedIds.length === exercise.words.length;
+  const complete =
+    exercise &&
+    exercise.words.length > 0 &&
+    matchedIds.length === exercise.words.length;
 
   useEffect(() => {
     if (complete && !celebrated.current) {
-      celebrate();
       celebrated.current = true;
     }
   }, [complete]);
@@ -206,27 +224,22 @@ export function SynonymsMatching() {
       recordSessionResult("incorrect");
       setFeedback({ wordId, synonymId, type: "incorrect" });
     } else {
-      const pair = exercise.words.find((item) => item.id === wordId);
-      const sourceWord = words?.find((item) => item.word === pair?.word);
-      const nextProgress = increaseWordProgress(
-        grade,
-        module,
-        pair?.word ?? "",
-        sourceWord?.progress,
-      );
-
-      setWords((currentWords) =>
-        currentWords.map((item) =>
-          item.word === pair?.word ? { ...item, progress: nextProgress } : item,
-        ),
-      );
       recordSessionResult("correct");
       setFeedback({ wordId, synonymId, type: "correct" });
+      if (matchedIds.length + 1 === exercise.words.length && confetti) {
+        celebrate();
+      }
+      if (matchedIds.length + 1 === exercise.words.length && autoskip) {
+        setTimeout(() => {
+          restartExercise();
+        }, 1000);
+      }
     }
 
     clearTimeout(feedbackTimer.current);
     feedbackTimer.current = setTimeout(() => {
-      if (wordId === synonymId) setMatchedIds((current) => [...current, wordId]);
+      if (wordId === synonymId)
+        setMatchedIds((current) => [...current, wordId]);
       setFeedback(null);
       setSelectedCard(null);
     }, 500);
@@ -243,7 +256,10 @@ export function SynonymsMatching() {
       return;
     }
 
-    checkMatch(side === "word" ? id : selectedCard.id, side === "synonym" ? id : selectedCard.id);
+    checkMatch(
+      side === "word" ? id : selectedCard.id,
+      side === "synonym" ? id : selectedCard.id,
+    );
   }
 
   function handleDragEnd({ active, over }) {
@@ -251,7 +267,10 @@ export function SynonymsMatching() {
     const [activeSide, activeId] = String(active.id).split(":");
     const [overSide, overId] = String(over.id).split(":");
     if (activeSide === overSide) return;
-    checkMatch(activeSide === "word" ? activeId : overId, activeSide === "synonym" ? activeId : overId);
+    checkMatch(
+      activeSide === "word" ? activeId : overId,
+      activeSide === "synonym" ? activeId : overId,
+    );
   }
 
   function restartExercise() {
@@ -263,7 +282,8 @@ export function SynonymsMatching() {
   }
 
   if (!grade || !module) return <Navigate to="/quest" replace />;
-  if (loadError) return <p role="alert">We couldn't load this vocabulary module yet.</p>;
+  if (loadError)
+    return <p role="alert">We couldn't load this vocabulary module yet.</p>;
   if (!exercise) return <p className="synonyms-container">Loading exercise…</p>;
 
   if (exercise.words.length === 0) {
@@ -279,7 +299,9 @@ export function SynonymsMatching() {
   const matchedPairs = matchedIds
     .map((id) => exercise.words.find((pair) => pair.id === id))
     .filter(Boolean);
-  const unmatchedWords = exercise.words.filter((pair) => !matchedIds.includes(pair.id));
+  const unmatchedWords = exercise.words.filter(
+    (pair) => !matchedIds.includes(pair.id),
+  );
   const unmatchedSynonyms = exercise.synonyms.filter(
     (pair) => !matchedIds.includes(pair.id),
   );
@@ -291,7 +313,9 @@ export function SynonymsMatching() {
       <main className="synonyms-container">
         <SessionActions className="session-actions" />
         <h1>Match synonyms</h1>
-        <p className="synonyms-instructions">Click or drag each word onto its synonym.</p>
+        <p className="synonyms-instructions">
+          Click or drag each word onto its synonym.
+        </p>
         <div className="synonyms-columns">
           <section className="synonyms-column" aria-label="Words">
             {sortedWords.map((pair) => (
@@ -300,7 +324,9 @@ export function SynonymsMatching() {
                 id={`word:${pair.id}`}
                 text={pair.word}
                 isMatched={matchedIds.includes(pair.id)}
-                isSelected={selectedCard?.side === "word" && selectedCard.id === pair.id}
+                isSelected={
+                  selectedCard?.side === "word" && selectedCard.id === pair.id
+                }
                 feedback={feedback?.wordId === pair.id ? feedback.type : ""}
                 onClick={() => handleCardClick("word", pair.id)}
                 onNodeChange={handleCardNodeChange}
@@ -314,7 +340,10 @@ export function SynonymsMatching() {
                 id={`synonym:${pair.id}`}
                 text={pair.synonym}
                 isMatched={matchedIds.includes(pair.id)}
-                isSelected={selectedCard?.side === "synonym" && selectedCard.id === pair.id}
+                isSelected={
+                  selectedCard?.side === "synonym" &&
+                  selectedCard.id === pair.id
+                }
                 feedback={feedback?.synonymId === pair.id ? feedback.type : ""}
                 onClick={() => handleCardClick("synonym", pair.id)}
                 onNodeChange={handleCardNodeChange}
@@ -322,10 +351,15 @@ export function SynonymsMatching() {
             ))}
           </section>
         </div>
-        {complete && <p className="synonyms-complete">Well done! You matched every synonym. 🎉</p>}
+        {complete && (
+          <p className="synonyms-complete">
+            Well done! You matched every synonym. 🎉
+          </p>
+        )}
         <button className="synonyms-restart-button" onClick={restartExercise}>
-          {complete ? "Try again" : "Restart"}
+          <RefreshIcon /> {complete ? "Try again" : "Restart"}
         </button>
+        <SettingsControl></SettingsControl>
       </main>
     </DndContext>
   );

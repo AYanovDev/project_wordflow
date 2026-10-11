@@ -9,6 +9,9 @@ import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "./matchDefinition.css";
 import type { Word } from "../types";
+import { RefreshIcon } from "../icons/RefreshIcon";
+import { useSettings } from "../common/settings/SettingsContext";
+import { SettingsControl } from "../common/settings/SettingsControl";
 
 const WORDS_PER_ROUND = 5;
 
@@ -27,6 +30,7 @@ function createRound(words: Word[]) {
 
 export function MatchDefinition() {
   const { grade, module } = useLearningData();
+  const { autoskip, confetti } = useSettings();
   const words = useWords();
   const [roundWords, setRoundWords] = useState<Word[] | null>(null); // the words for this round, fixed order
   const [wordOrder, setWordOrder] = useState<string[] | null>(null); // shuffled word list for the left column
@@ -55,7 +59,7 @@ export function MatchDefinition() {
     if (word === target.word) {
       setLocked(true);
       setCorrectWord(word);
-      celebrate();
+      confetti ? celebrate() : null;
 
       increaseWordProgress(grade, module, word, target.progress);
 
@@ -68,6 +72,11 @@ export function MatchDefinition() {
 
       setTimeout(() => {
         setMatchedWords((prev) => [...prev, word]);
+        if (autoskip) {
+          setTimeout(() => {
+            restartExercise();
+          }, 1000);
+        }
         setCorrectWord(null);
         setLocked(false);
       }, 500);
@@ -121,7 +130,8 @@ export function MatchDefinition() {
                   correctWord === word ? "correct" : ""
                 } ${wrongWord === word ? "incorrect" : ""}`}
               >
-                {wordData?.word.charAt(0).toUpperCase() + (wordData?.word.slice(1) ?? "")}
+                {wordData?.word.charAt(0).toUpperCase() +
+                  (wordData?.word.slice(1) ?? "")}
               </div>
             );
           })}
@@ -137,7 +147,7 @@ export function MatchDefinition() {
         </div>
       </div>
       <button className="restart-button" onClick={restartExercise}>
-        {exerciseComplete ? "Next" : "Restart"}
+        <RefreshIcon /> {exerciseComplete ? "Next" : "Restart"}
       </button>
       {exerciseComplete && (
         <div className="completion-message">
@@ -145,6 +155,7 @@ export function MatchDefinition() {
           <p>You matched the definition correctly.</p>
         </div>
       )}
+      <SettingsControl></SettingsControl>
     </div>
   );
 }

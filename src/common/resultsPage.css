@@ -39,8 +39,7 @@
 .results-actions button:hover, .session-actions button:hover { background: #34446f; }
 
 .session-actions { position: fixed; top: 20px; right: 20px; z-index: 10; display: flex; gap: 10px; }
-.session-actions button:first-child { background: #fff; color: #24304f; border: 1px solid #d0d0d0; }
-.session-actions button:first-child:hover { background: #f2f5fa; }
+.session-actions button { display: inline-flex; align-items: center; gap: 8px; }
 
 @media (max-width: 600px) {
   .session-actions { position: static; justify-content: center; margin-bottom: 24px; }

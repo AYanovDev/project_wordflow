@@ -22,6 +22,8 @@ import { SessionActions } from "../common/SessionActions";
 import "../common/resultsPage.css";
 import { SettingsControl } from "../common/settings/SettingsControl";
 import type { Word } from "../types";
+import { RefreshIcon } from "../icons/RefreshIcon";
+import { useSettings } from "../common/settings/SettingsContext";
 
 type CardType = "english" | "russian";
 type Exercise = { english: Word[]; russian: Word[] };
@@ -98,7 +100,12 @@ export function MatchExercise({
   matchField = "translation",
   title = "Match the translations",
   instructions = "Click or drag any word onto its matching translation.",
-}: { matchField?: keyof Word; title?: string; instructions?: string }) {
+}: {
+  matchField?: keyof Word;
+  title?: string;
+  instructions?: string;
+}) {
+  const { autoskip, confetti } = useSettings();
   const { grade, module } = useLearningData();
   const [words, setWords] = useState<Word[] | null>(null);
   const [loadError, setLoadError] = useState(false);
@@ -106,7 +113,10 @@ export function MatchExercise({
   const [matchedWords, setMatchedWords] = useState<string[]>([]);
 
   // Selection & feedback state
-  const [selectedCard, setSelectedCard] = useState<{ type: CardType; word: string } | null>(null);
+  const [selectedCard, setSelectedCard] = useState<{
+    type: CardType;
+    word: string;
+  } | null>(null);
   const [correctEnglish, setCorrectEnglish] = useState<string | null>(null);
   const [correctRussian, setCorrectRussian] = useState<string | null>(null);
   const [wrongEnglish, setWrongEnglish] = useState<string | null>(null);
@@ -234,6 +244,20 @@ export function MatchExercise({
         setCorrectEnglish(null);
         setCorrectRussian(null);
         setSelectedCard(null);
+        if (
+          matchedWords.length + 1 === exerciseWords.english.length &&
+          confetti
+        ) {
+          celebrate();
+        }
+        if (
+          matchedWords.length + 1 === exerciseWords.english.length &&
+          autoskip
+        ) {
+          setTimeout(() => {
+            restartExercise();
+          }, 1000);
+        }
       }, 500);
     } else {
       recordSessionResult("incorrect");
@@ -258,12 +282,18 @@ export function MatchExercise({
     // Determine direction of drag (English -> Russian or Russian -> English)
     let match: [string, string];
     if (activeId.startsWith("english-") && overId.startsWith("russian-")) {
-      match = [activeId.replace("english-", ""), overId.replace("russian-", "")];
+      match = [
+        activeId.replace("english-", ""),
+        overId.replace("russian-", ""),
+      ];
     } else if (
       activeId.startsWith("russian-") &&
       overId.startsWith("english-")
     ) {
-      match = [overId.replace("english-", ""), activeId.replace("russian-", "")];
+      match = [
+        overId.replace("english-", ""),
+        activeId.replace("russian-", ""),
+      ];
     } else {
       // Dragged onto an item in the same column
       return;
@@ -340,10 +370,6 @@ export function MatchExercise({
 
   const exerciseComplete = matchedWords.length === exerciseWords.english.length;
 
-  if (exerciseComplete) {
-    celebrate();
-  }
-
   return (
     <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
       <div className="match-container">
@@ -406,7 +432,7 @@ export function MatchExercise({
           </div>
         )}
         <button className="restart-button" onClick={restartExercise}>
-          {exerciseComplete ? "Try again" : "Restart"}
+          <RefreshIcon /> {exerciseComplete ? "Try again" : "Restart"}
         </button>
         <SettingsControl></SettingsControl>
       </div>
