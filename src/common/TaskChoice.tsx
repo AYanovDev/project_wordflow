@@ -1,5 +1,5 @@
 import { Navigate, useNavigate } from "react-router-dom";
-import { useLearningData } from "./DataContext";
+import { useLearningData } from "./contexts/DataContext";
 import { resetSessionResults } from "./sessionResults";
 import "./taskChoice.css";
 

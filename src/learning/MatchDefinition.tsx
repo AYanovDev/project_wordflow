@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { celebrate } from "./confetti";
-import { useWords } from "../common/WordLoader";
+import { useWords } from "../common/contexts/WordLoader";
 
 import "./matchTranslation.css";
-import { useLearningData } from "../common/DataContext";
+import { useLearningData } from "../common/contexts/DataContext";
 import { increaseWordProgress } from "../common/wordProgress";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";

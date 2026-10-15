@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { Welcome } from "./welcome/Welcome.js";
 import { Questionnaire } from "./questionnaire/Questionnaire.js";
-import { WordLoader } from "./common/WordLoader.js";
+import { WordLoader } from "./common/contexts/WordLoader.js";
 import { TaskChoice } from "./common/TaskChoice.js";
 import { MatchTranslation } from "./learning/MatchTranslation.js";
 import { MatchDefinition } from "./learning/MatchDefinition.js";

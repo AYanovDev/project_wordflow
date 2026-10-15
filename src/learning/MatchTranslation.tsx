@@ -12,7 +12,7 @@ import {
 import { CSS } from "@dnd-kit/utilities";
 
 import "./matchTranslation.css";
-import { useLearningData } from "../common/DataContext";
+import { useLearningData } from "../common/contexts/DataContext";
 import {
   addProgressToWords,
   increaseWordProgress,

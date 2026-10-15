@@ -1,10 +1,16 @@
-import { createContext, useContext, useEffect, useState, type PropsWithChildren } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  type PropsWithChildren,
+} from "react";
 import { Navigate } from "react-router-dom";
 
 import { useLearningData } from "./DataContext";
-import { LoadingPage } from "./LoadingPage";
-import { addProgressToWords } from "./wordProgress";
-import type { Word } from "../types";
+import { LoadingPage } from "../LoadingPage";
+import { addProgressToWords } from "../wordProgress";
+import type { Word } from "../../types";
 
 const WordContext = createContext<Word[] | null>(null);
 
@@ -70,9 +76,7 @@ export function WordLoader({ children }: PropsWithChildren) {
   }
 
   if (data) {
-    return (
-      <WordContext.Provider value={data}>{children}</WordContext.Provider>
-    );
+    return <WordContext.Provider value={data}>{children}</WordContext.Provider>;
   }
 
   return null;

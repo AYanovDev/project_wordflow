@@ -10,7 +10,7 @@ import {
 } from "@dnd-kit/core";
 import { CSS } from "@dnd-kit/utilities";
 import { celebrate } from "./confetti";
-import { useLearningData } from "../common/DataContext";
+import { useLearningData } from "../common/contexts/DataContext";
 import { addProgressToWords } from "../common/wordProgress";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";

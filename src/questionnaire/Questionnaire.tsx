@@ -1,7 +1,13 @@
-import { useState, type ChangeEvent, type Dispatch, type FormEvent, type SetStateAction } from "react";
+import {
+  useState,
+  type ChangeEvent,
+  type Dispatch,
+  type FormEvent,
+  type SetStateAction,
+} from "react";
 import "./questionnaire.css";
 import { useNavigate } from "react-router-dom";
-import { useLearningData } from "../common/DataContext";
+import { useLearningData } from "../common/contexts/DataContext";
 
 const grades = [7, 8, 9, 10, 11];
 const modules = [1, 2, 3, 4, 5, 6, 7, 8, 9];

@@ -1,8 +1,17 @@
-import { createContext, useContext, useEffect, useMemo, useState, type PropsWithChildren } from "react";
-import type { LearningData } from "../types";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+  type PropsWithChildren,
+} from "react";
+import type { LearningData } from "../../types";
 
 const STORAGE_KEY = "learningPreferences";
-interface LearningContextValue extends LearningData { setLearningData: React.Dispatch<React.SetStateAction<LearningData>>; }
+interface LearningContextValue extends LearningData {
+  setLearningData: React.Dispatch<React.SetStateAction<LearningData>>;
+}
 const DataContext = createContext<LearningContextValue | null>(null);
 
 function getSavedPreferences(): LearningData {

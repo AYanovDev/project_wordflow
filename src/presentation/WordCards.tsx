@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./wordCards.css";
-import { useLearningData } from "../common/DataContext";
+import { useLearningData } from "../common/contexts/DataContext";
 import { WORD_PROGRESS_STEPS } from "../common/wordProgress";
 import { useFitText } from "./useFitText";
-import { useWords } from "../common/WordLoader";
+import { useWords } from "../common/contexts/WordLoader";
 
 function ProgressIndicator({ progress = 0 }: { progress?: number }) {
   return (
