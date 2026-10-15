@@ -3,8 +3,7 @@ import { celebrate } from "./confetti";
 import { useWords } from "../common/contexts/WordLoader";
 
 import "./matchTranslation.css";
-import { useLearningData } from "../common/contexts/DataContext";
-import { increaseWordProgress } from "../common/wordProgress";
+import { useProgress } from "../common/contexts/ProgressContext";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "./matchDefinition.css";
@@ -29,8 +28,8 @@ function createRound(words: Word[]) {
 }
 
 export function MatchDefinition() {
-  const { grade, module } = useLearningData();
   const { autoskip, confetti } = useSettings();
+  const { filterIncompleteWords, increaseProgress } = useProgress();
   const words = useWords();
   const [roundWords, setRoundWords] = useState<Word[] | null>(null); // the words for this round, fixed order
   const [wordOrder, setWordOrder] = useState<string[] | null>(null); // shuffled word list for the left column
@@ -45,10 +44,10 @@ export function MatchDefinition() {
     setMatchedWords([]);
     setCurrentIndex(0);
 
-    const { roundWords, wordOrder } = createRound(words);
+    const { roundWords, wordOrder } = createRound(filterIncompleteWords(words));
     setRoundWords(roundWords);
     setWordOrder(wordOrder);
-  }, [words]);
+  }, [filterIncompleteWords, words]);
 
   const target = roundWords ? (roundWords[currentIndex] ?? null) : null;
   const exerciseComplete = matchedWords.length === 1;
@@ -59,15 +58,9 @@ export function MatchDefinition() {
     if (word === target.word) {
       setLocked(true);
       setCorrectWord(word);
-      confetti ? celebrate() : null;
+      if (confetti) celebrate();
 
-      increaseWordProgress(grade, module, word, target.progress);
-
-      //   setWords((previousWords) =>
-      //     previousWords?.map((item) =>
-      //       item.word === word ? { ...item, progress: nextProgress } : item,
-      //     ),
-      //   );
+      increaseProgress(word, target.progress);
       recordSessionResult("correct");
 
       setTimeout(() => {
@@ -94,7 +87,7 @@ export function MatchDefinition() {
 
   function restartExercise() {
     const { roundWords: nextRoundWords, wordOrder: nextWordOrder } =
-      createRound(words);
+      createRound(filterIncompleteWords(words));
     setRoundWords(nextRoundWords);
     setWordOrder(nextWordOrder);
     setMatchedWords([]);

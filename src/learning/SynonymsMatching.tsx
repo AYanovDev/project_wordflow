@@ -11,7 +11,7 @@ import {
 import { CSS } from "@dnd-kit/utilities";
 import { celebrate } from "./confetti";
 import { useLearningData } from "../common/contexts/DataContext";
-import { addProgressToWords } from "../common/wordProgress";
+import { useProgress } from "../common/contexts/ProgressContext";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "./synonymsMatching.css";
@@ -109,6 +109,7 @@ function MatchingCard({
 export function SynonymsMatching() {
   const { autoskip, confetti } = useSettings();
   const { grade, module } = useLearningData();
+  const { filterIncompleteWords } = useProgress();
   const [words, setWords] = useState<Word[] | null>(null);
   const [exercise, setExercise] = useState<Exercise | null>(null);
   const [loadError, setLoadError] = useState(false);
@@ -192,9 +193,9 @@ export function SynonymsMatching() {
         return response.json() as Promise<Word[]>;
       })
       .then((data) => {
-        const wordsWithProgress = addProgressToWords(data, grade, module);
-        setWords(wordsWithProgress);
-        setExercise(createExercise(wordsWithProgress));
+        const incompleteWords = filterIncompleteWords(data);
+        setWords(incompleteWords);
+        setExercise(createExercise(incompleteWords));
       })
       .catch((error) => {
         if (error.name !== "AbortError") setLoadError(true);
@@ -204,7 +205,7 @@ export function SynonymsMatching() {
       controller.abort();
       clearTimeout(feedbackTimer.current);
     };
-  }, [grade, module]);
+  }, [filterIncompleteWords, grade, module]);
 
   const complete =
     exercise &&

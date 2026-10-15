@@ -13,10 +13,7 @@ import { CSS } from "@dnd-kit/utilities";
 
 import "./matchTranslation.css";
 import { useLearningData } from "../common/contexts/DataContext";
-import {
-  addProgressToWords,
-  increaseWordProgress,
-} from "../common/wordProgress";
+import { useProgress } from "../common/contexts/ProgressContext";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "../common/resultsPage.css";
@@ -107,6 +104,8 @@ export function MatchExercise({
 }) {
   const { autoskip, confetti } = useSettings();
   const { grade, module } = useLearningData();
+  const { addProgressToWords, filterIncompleteWords, increaseProgress } =
+    useProgress();
   const [words, setWords] = useState<Word[] | null>(null);
   const [loadError, setLoadError] = useState(false);
   const [exerciseWords, setExerciseWords] = useState<Exercise | null>(null);
@@ -198,7 +197,7 @@ export function MatchExercise({
         return response.json() as Promise<Word[]>;
       })
       .then((data) => {
-        const wordsWithProgress = addProgressToWords(data, grade, module);
+        const wordsWithProgress = addProgressToWords(filterIncompleteWords(data));
         setWords(wordsWithProgress);
         setExerciseWords(createExercise(wordsWithProgress, matchField));
       })
@@ -207,7 +206,7 @@ export function MatchExercise({
       });
 
     return () => controller.abort();
-  }, [grade, matchField, module]);
+  }, [addProgressToWords, filterIncompleteWords, grade, matchField, module]);
 
   function evaluateMatch(englishWord: string, russianWord: string) {
     if (englishWord === russianWord) {
@@ -220,12 +219,7 @@ export function MatchExercise({
 
       pendingMatches.current.add(englishWord);
       const word = words?.find((item) => item.word === englishWord);
-      const nextProgress = increaseWordProgress(
-        grade,
-        module,
-        englishWord,
-        word?.progress,
-      );
+      const nextProgress = increaseProgress(englishWord, word?.progress);
 
       setWords((previousWords) =>
         previousWords?.map((item) =>
