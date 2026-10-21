@@ -1,0 +1,684 @@
+[
+  {
+    "word": "desert island",
+    "partOfSpeech": "noun",
+    "forms": ["desert islands"],
+    "definition": "A remote, uninhabited tropical island",
+    "examples": [
+      "If you were stranded on a desert island, what three things would you bring?"
+    ],
+    "synonyms": ["uninhabited island"],
+    "antonyms": [],
+    "translation": "необитаемый остров"
+  },
+  {
+    "word": "golden",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Colored or shining like gold",
+    "examples": ["We walked along the beautiful golden beach at sunset."],
+    "synonyms": ["yellow", "blond", "gilded"],
+    "antonyms": ["dull"],
+    "translation": "золотой"
+  },
+  {
+    "word": "greet",
+    "partOfSpeech": "verb",
+    "forms": ["greets", "greeted", "greeting"],
+    "definition": "To give a polite word or sign of welcome or recognition to someone on meeting",
+    "examples": ["She went to the door to greet her arriving guests."],
+    "synonyms": ["welcome", "salute", "meet"],
+    "antonyms": ["ignore", "snub"],
+    "translation": "приветствовать"
+  },
+  {
+    "word": "human race",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Human beings in general; humanity",
+    "examples": [
+      "The invention of antibiotics was a great leap forward for the human race."
+    ],
+    "synonyms": ["humanity", "humankind", "mankind"],
+    "antonyms": [],
+    "translation": "человечество"
+  },
+  {
+    "word": "inhabitant",
+    "partOfSpeech": "noun",
+    "forms": ["inhabitants"],
+    "definition": "A person or animal that lives in or occupies a place",
+    "examples": ["The city has over a million inhabitants."],
+    "synonyms": ["resident", "dweller", "citizen"],
+    "antonyms": [],
+    "translation": "житель"
+  },
+  {
+    "word": "launch",
+    "partOfSpeech": "verb",
+    "forms": ["launches", "launched", "launching"],
+    "definition": "To send a missile, spacecraft, or satellite into the air or into space",
+    "examples": [
+      "The agency plans to launch the new satellite into orbit next month."
+    ],
+    "synonyms": ["send off", "blast off", "propel"],
+    "antonyms": ["land"],
+    "translation": "запускать"
+  },
+  {
+    "word": "messenger",
+    "partOfSpeech": "noun",
+    "forms": ["messengers"],
+    "definition": "A person or thing that carries a message or is employed to carry messages",
+    "examples": [
+      "In ancient times, a messenger would travel for days to deliver important news."
+    ],
+    "synonyms": ["courier", "envoy", "bearer"],
+    "antonyms": [],
+    "translation": "посланник"
+  },
+  {
+    "word": "mission",
+    "partOfSpeech": "noun",
+    "forms": ["missions"],
+    "definition": "An important assignment carried out for political, religious, or commercial purposes, typically involving travel",
+    "examples": [
+      "The astronauts successfully completed their mission to repair the space telescope."
+    ],
+    "synonyms": ["assignment", "expedition", "task"],
+    "antonyms": [],
+    "translation": "миссия"
+  },
+  {
+    "word": "represent",
+    "partOfSpeech": "verb",
+    "forms": ["represents", "represented", "representing"],
+    "definition": "To be entitled or appointed to act or speak for someone, or to be a symbol of something",
+    "examples": [
+      "She was chosen to represent her school at the national debate."
+    ],
+    "synonyms": ["stand for", "symbolize", "epitomize"],
+    "antonyms": [],
+    "translation": "представлять"
+  },
+  {
+    "word": "solar system",
+    "partOfSpeech": "noun",
+    "forms": ["solar systems"],
+    "definition": "The collection of eight planets and their moons in orbit around the sun",
+    "examples": ["Earth is the third planet from the sun in our solar system."],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "солнечная система"
+  },
+  {
+    "word": "space exploration",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The investigation of physical conditions in space and on stars, planets, and their moons",
+    "examples": [
+      "Space exploration has led to numerous technological advancements."
+    ],
+    "synonyms": ["space travel", "space research"],
+    "antonyms": [],
+    "translation": "исследование космоса"
+  },
+  {
+    "word": "spacecraft",
+    "partOfSpeech": "noun",
+    "forms": ["spacecrafts", "spacecraft"],
+    "definition": "A vehicle used for traveling in space",
+    "examples": [
+      "The unmanned spacecraft landed safely on the surface of Mars."
+    ],
+    "synonyms": ["spaceship", "rocket"],
+    "antonyms": [],
+    "translation": "космический корабль"
+  },
+  {
+    "word": "transmit",
+    "partOfSpeech": "verb",
+    "forms": ["transmits", "transmitted", "transmitting"],
+    "definition": "To cause something to pass on from one place or person to another; to broadcast a signal",
+    "examples": [
+      "The satellite can transmit data back to Earth in a matter of seconds."
+    ],
+    "synonyms": ["broadcast", "send", "relay", "communicate"],
+    "antonyms": ["receive"],
+    "translation": "передавать"
+  },
+  {
+    "word": "whale",
+    "partOfSpeech": "noun",
+    "forms": ["whales"],
+    "definition": "A very large marine mammal with a streamlined hairless body",
+    "examples": [
+      "We took a boat tour hoping to see a blue whale in the ocean."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "кит"
+  },
+  {
+    "word": "bank account",
+    "partOfSpeech": "noun",
+    "forms": ["bank accounts"],
+    "definition": "An arrangement made with a bank whereby one may deposit and withdraw money",
+    "examples": [
+      "I need to transfer some money into my bank account to pay the bills."
+    ],
+    "synonyms": ["account", "deposit account"],
+    "antonyms": [],
+    "translation": "банковский счет"
+  },
+  {
+    "word": "contact",
+    "partOfSpeech": "verb",
+    "forms": ["contacts", "contacted", "contacting"],
+    "definition": "To communicate with someone, typically in order to give or receive specific information",
+    "examples": [
+      "Please contact me as soon as you have an update on the project."
+    ],
+    "synonyms": ["reach", "call", "communicate with"],
+    "antonyms": ["ignore"],
+    "translation": "связываться"
+  },
+  {
+    "word": "doorknob",
+    "partOfSpeech": "noun",
+    "forms": ["doorknobs"],
+    "definition": "A handle on a door that is turned to release the latch",
+    "examples": ["He turned the brass doorknob and pushed the door open."],
+    "synonyms": ["door handle", "knob"],
+    "antonyms": [],
+    "translation": "дверная ручка"
+  },
+  {
+    "word": "heating system",
+    "partOfSpeech": "noun",
+    "forms": ["heating systems"],
+    "definition": "A mechanism for maintaining temperatures at an acceptable level in a building",
+    "examples": [
+      "Our heating system broke down during the coldest week of the winter."
+    ],
+    "synonyms": ["heater", "central heating"],
+    "antonyms": ["cooling system"],
+    "translation": "система отопления"
+  },
+  {
+    "word": "nanotechnology",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The branch of technology that deals with dimensions and tolerances of less than 100 nanometers",
+    "examples": [
+      "Nanotechnology is being used to create new types of medical treatments."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "нанотехнологии"
+  },
+  {
+    "word": "run out of",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["runs out of", "ran out of", "running out of"],
+    "definition": "To use up the available supply of something",
+    "examples": [
+      "We need to stop at the gas station before we run out of fuel."
+    ],
+    "synonyms": ["exhaust", "use up", "deplete"],
+    "antonyms": ["replenish", "stock up"],
+    "translation": "заканчиваться (о запасах)"
+  },
+  {
+    "word": "transform",
+    "partOfSpeech": "verb",
+    "forms": ["transforms", "transformed", "transforming"],
+    "definition": "To make a thorough or dramatic change in the form, appearance, or character of",
+    "examples": [
+      "The caterpillars will eventually transform into beautiful butterflies."
+    ],
+    "synonyms": ["change", "alter", "convert", "metamorphose"],
+    "antonyms": ["preserve", "maintain"],
+    "translation": "преобразовывать"
+  },
+  {
+    "word": "be full",
+    "partOfSpeech": "phrase",
+    "forms": ["is full", "was full", "being full"],
+    "definition": "To contain as much or as many as is possible or normal; to have eaten enough",
+    "examples": ["I couldn't eat another bite; I am completely full."],
+    "synonyms": ["be stuffed", "be satiated"],
+    "antonyms": ["be empty", "be hungry"],
+    "translation": "быть сытым / быть полным"
+  },
+  {
+    "word": "gift",
+    "partOfSpeech": "noun",
+    "forms": ["gifts"],
+    "definition": "A thing given willingly to someone without payment; a present",
+    "examples": ["He bought her a beautiful necklace as a birthday gift."],
+    "synonyms": ["present", "offering", "donation"],
+    "antonyms": [],
+    "translation": "подарок"
+  },
+  {
+    "word": "good manners",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "Polite or well-bred social behavior",
+    "examples": ["Saying 'please' and 'thank you' is a sign of good manners."],
+    "synonyms": ["politeness", "courtesy", "etiquette"],
+    "antonyms": ["bad manners", "rudeness"],
+    "translation": "хорошие манеры"
+  },
+  {
+    "word": "host",
+    "partOfSpeech": "noun",
+    "forms": ["hosts"],
+    "definition": "A person who receives or entertains other people as guests",
+    "examples": [
+      "Our host greeted us warmly and offered us something to drink."
+    ],
+    "synonyms": ["entertainer", "presenter"],
+    "antonyms": ["guest", "visitor"],
+    "translation": "хозяин"
+  },
+  {
+    "word": "pastry",
+    "partOfSpeech": "noun",
+    "forms": ["pastries"],
+    "definition": "A dough of flour, fat, and water, used as a base and covering in baked dishes such as pies",
+    "examples": ["We stopped at the bakery to buy coffee and a sweet pastry."],
+    "synonyms": ["baked good", "tart", "pie"],
+    "antonyms": [],
+    "translation": "выпечка"
+  },
+  {
+    "word": "recently",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "At a recent time; not long ago",
+    "examples": ["Have you seen any good movies recently?"],
+    "synonyms": ["lately", "newly", "of late"],
+    "antonyms": ["formerly", "long ago"],
+    "translation": "недавно"
+  },
+  {
+    "word": "right",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Morally good, justified, or acceptable; true or correct as a fact",
+    "examples": ["You made the right decision under the circumstances."],
+    "synonyms": ["correct", "accurate", "proper"],
+    "antonyms": ["wrong", "incorrect", "left"],
+    "translation": "правильный"
+  },
+  {
+    "word": "rude",
+    "partOfSpeech": "adjective",
+    "forms": ["ruder", "rudest"],
+    "definition": "Offensively impolite or ill-mannered",
+    "examples": ["It is rude to interrupt someone when they are speaking."],
+    "synonyms": ["impolite", "discourteous", "disrespectful"],
+    "antonyms": ["polite", "courteous", "respectful"],
+    "translation": "грубый"
+  },
+  {
+    "word": "social situation",
+    "partOfSpeech": "noun",
+    "forms": ["social situations"],
+    "definition": "A scenario or gathering where people interact with one another",
+    "examples": [
+      "He often feels anxious and shy when he is in a new social situation."
+    ],
+    "synonyms": ["social event", "interaction"],
+    "antonyms": [],
+    "translation": "социальная ситуация"
+  },
+  {
+    "word": "sweet",
+    "partOfSpeech": "noun",
+    "forms": ["sweets"],
+    "definition": "A small shaped piece of sweet food made with sugar",
+    "examples": ["Children shouldn't eat too many sweets before dinner."],
+    "synonyms": ["candy", "confectionery"],
+    "antonyms": [],
+    "translation": "конфета / сладость"
+  },
+  {
+    "word": "the sick",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "People who are ill or unwell, considered as a group",
+    "examples": [
+      "The charity organization provides medicine and care for the sick."
+    ],
+    "synonyms": ["patients", "the ill"],
+    "antonyms": ["the healthy"],
+    "translation": "больные"
+  },
+  {
+    "word": "wedding",
+    "partOfSpeech": "noun",
+    "forms": ["weddings"],
+    "definition": "A marriage ceremony, especially considered as including the associated celebrations",
+    "examples": [
+      "They invited all their friends and family to their summer wedding."
+    ],
+    "synonyms": ["marriage", "nuptials", "matrimony"],
+    "antonyms": ["divorce"],
+    "translation": "свадьба"
+  },
+  {
+    "word": "better standard of living",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "An improved level of wealth, comfort, material goods, and necessities available",
+    "examples": [
+      "The new economic policies resulted in a better standard of living for the middle class."
+    ],
+    "synonyms": ["improved quality of life", "higher living standard"],
+    "antonyms": ["poor standard of living"],
+    "translation": "лучший уровень жизни"
+  },
+  {
+    "word": "by hand",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Done or made manually rather than by a machine",
+    "examples": [
+      "These traditional carpets are still carefully woven by hand."
+    ],
+    "synonyms": ["manually", "hand-crafted"],
+    "antonyms": ["by machine", "automated"],
+    "translation": "вручную"
+  },
+  {
+    "word": "coal",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A combustible black or dark brown rock consisting mainly of carbonized plant matter, found mainly in underground deposits and widely used as fuel",
+    "examples": ["Many old trains were powered by burning coal."],
+    "synonyms": ["fossil fuel"],
+    "antonyms": [],
+    "translation": "уголь"
+  },
+  {
+    "word": "coal mining industry",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The business and process of extracting coal from the ground",
+    "examples": [
+      "The coal mining industry was a major employer in the region during the 19th century."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "угольная промышленность"
+  },
+  {
+    "word": "factory",
+    "partOfSpeech": "noun",
+    "forms": ["factories"],
+    "definition": "A building or group of buildings where goods are manufactured or assembled chiefly by machine",
+    "examples": [
+      "He works on the assembly line in a large automobile factory."
+    ],
+    "synonyms": ["plant", "mill", "manufacturing facility"],
+    "antonyms": [],
+    "translation": "фабрика / завод"
+  },
+  {
+    "word": "housing",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Houses and apartments considered collectively",
+    "examples": [
+      "The city needs to build more affordable housing for its residents."
+    ],
+    "synonyms": ["accommodation", "residences", "dwellings"],
+    "antonyms": [],
+    "translation": "жилье"
+  },
+  {
+    "word": "improve",
+    "partOfSpeech": "verb",
+    "forms": ["improves", "improved", "improving"],
+    "definition": "To make or become better",
+    "examples": [
+      "Practicing every day will help you improve your English skills."
+    ],
+    "synonyms": ["better", "enhance", "upgrade"],
+    "antonyms": ["worsen", "deteriorate"],
+    "translation": "улучшать"
+  },
+  {
+    "word": "industrial",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to or characterized by industry",
+    "examples": ["The town grew rapidly during the industrial revolution."],
+    "synonyms": ["manufacturing", "commercial"],
+    "antonyms": ["agricultural", "rural"],
+    "translation": "промышленный"
+  },
+  {
+    "word": "make cloth",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "The process of weaving or producing fabric",
+    "examples": [
+      "Before modern machinery, people used simple looms to make cloth at home."
+    ],
+    "synonyms": ["weave fabric", "produce textiles"],
+    "antonyms": [],
+    "translation": "производить ткань"
+  },
+  {
+    "word": "mine",
+    "partOfSpeech": "noun",
+    "forms": ["mines"],
+    "definition": "An excavation in the earth for extracting coal or other minerals",
+    "examples": [
+      "The workers go deep underground into the copper mine every day."
+    ],
+    "synonyms": ["pit", "excavation", "quarry"],
+    "antonyms": [],
+    "translation": "шахта"
+  },
+  {
+    "word": "overcrowded",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Filled with too many people or things",
+    "examples": [
+      "The trains are usually overcrowded during the morning rush hour."
+    ],
+    "synonyms": ["congested", "packed", "jammed"],
+    "antonyms": ["empty", "deserted", "spacious"],
+    "translation": "переполненный"
+  },
+  {
+    "word": "power",
+    "partOfSpeech": "verb",
+    "forms": ["powers", "powered", "powering"],
+    "definition": "To supply a device with mechanical or electrical energy",
+    "examples": [
+      "Solar panels are used to power the new eco-friendly building."
+    ],
+    "synonyms": ["drive", "operate", "fuel"],
+    "antonyms": [],
+    "translation": "питать / приводить в действие"
+  },
+  {
+    "word": "spread",
+    "partOfSpeech": "verb",
+    "forms": ["spreads", "spread", "spreading"],
+    "definition": "To open out so as to extend over a large area, or to reach more people",
+    "examples": [
+      "The news about the festival spread quickly through the town."
+    ],
+    "synonyms": ["expand", "extend", "distribute", "disseminate"],
+    "antonyms": ["contain", "limit", "restrict"],
+    "translation": "распространять"
+  },
+  {
+    "word": "steam",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The vapor into which water is converted when heated, forming a white mist in the air",
+    "examples": [
+      "The engine was driven by the high pressure of boiling steam."
+    ],
+    "synonyms": ["vapor", "mist"],
+    "antonyms": [],
+    "translation": "пар"
+  },
+  {
+    "word": "thread",
+    "partOfSpeech": "noun",
+    "forms": ["threads"],
+    "definition": "A long, thin strand of cotton, nylon, or other fibers used in sewing or weaving",
+    "examples": [
+      "She used a needle and some black thread to fix the button on her coat."
+    ],
+    "synonyms": ["yarn", "string", "strand"],
+    "antonyms": [],
+    "translation": "нить"
+  },
+  {
+    "word": "twist",
+    "partOfSpeech": "verb",
+    "forms": ["twists", "twisted", "twisting"],
+    "definition": "To form into a bent, curling, or distorted shape; to combine strands into a thread",
+    "examples": [
+      "You have to twist the wires together to make a secure connection."
+    ],
+    "synonyms": ["turn", "curl", "wrap"],
+    "antonyms": ["untwist", "straighten"],
+    "translation": "скручивать"
+  },
+  {
+    "word": "wage",
+    "partOfSpeech": "noun",
+    "forms": ["wages"],
+    "definition": "A fixed regular payment, typically paid on a daily or weekly basis, made by an employer to an employee",
+    "examples": [
+      "The factory workers went on strike to demand a higher hourly wage."
+    ],
+    "synonyms": ["pay", "salary", "earnings", "remuneration"],
+    "antonyms": [],
+    "translation": "заработная плата"
+  },
+  {
+    "word": "working conditions",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "The environment and circumstances in which an employee works",
+    "examples": [
+      "The union is fighting to improve working conditions and safety in the warehouse."
+    ],
+    "synonyms": ["work environment", "employment conditions"],
+    "antonyms": [],
+    "translation": "условия труда"
+  },
+  {
+    "word": "chat",
+    "partOfSpeech": "verb",
+    "forms": ["chats", "chatted", "chatting"],
+    "definition": "To talk in a friendly and informal way",
+    "examples": ["We stayed up late to chat about our upcoming vacation."],
+    "synonyms": ["talk", "converse", "gossip"],
+    "antonyms": [],
+    "translation": "болтать / общаться"
+  },
+  {
+    "word": "damage",
+    "partOfSpeech": "verb",
+    "forms": ["damages", "damaged", "damaging"],
+    "definition": "To inflict physical harm on something so as to impair its value, usefulness, or normal function",
+    "examples": [
+      "The heavy storm caused trees to fall and damage several cars."
+    ],
+    "synonyms": ["harm", "ruin", "destroy", "impair"],
+    "antonyms": ["repair", "fix", "restore"],
+    "translation": "повреждать"
+  },
+  {
+    "word": "distract",
+    "partOfSpeech": "verb",
+    "forms": ["distracts", "distracted", "distracting"],
+    "definition": "To prevent someone from giving full attention to something",
+    "examples": [
+      "Please turn down the music; it's going to distract me from my studies."
+    ],
+    "synonyms": ["divert", "sidetrack", "interrupt"],
+    "antonyms": ["focus", "concentrate"],
+    "translation": "отвлекать"
+  },
+  {
+    "word": "harmful",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Causing or likely to cause harm or injury",
+    "examples": ["Smoking has many harmful effects on the respiratory system."],
+    "synonyms": ["damaging", "injurious", "detrimental"],
+    "antonyms": ["harmless", "safe", "beneficial"],
+    "translation": "вредный"
+  },
+  {
+    "word": "neglect",
+    "partOfSpeech": "verb",
+    "forms": ["neglects", "neglected", "neglecting"],
+    "definition": "To fail to care for properly",
+    "examples": ["If you neglect your house plants, they will eventually die."],
+    "synonyms": ["ignore", "disregard", "abandon"],
+    "antonyms": ["care for", "attend to", "nurture"],
+    "translation": "пренебрегать"
+  },
+  {
+    "word": "screen",
+    "partOfSpeech": "noun",
+    "forms": ["screens"],
+    "definition": "The flat panel on an electronic device where images and text are displayed",
+    "examples": [
+      "Looking at a bright screen in a dark room can strain your eyes."
+    ],
+    "synonyms": ["display", "monitor"],
+    "antonyms": [],
+    "translation": "экран"
+  },
+  {
+    "word": "sensibly",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "In a way that shows wisdom or good sense",
+    "examples": [
+      "She decided to spend her money sensibly and save a portion of it."
+    ],
+    "synonyms": ["wisely", "logically", "reasonably"],
+    "antonyms": ["foolishly", "recklessly"],
+    "translation": "разумно"
+  },
+  {
+    "word": "tool",
+    "partOfSpeech": "noun",
+    "forms": ["tools"],
+    "definition": "A device or implement, especially one held in the hand, used to carry out a particular function",
+    "examples": ["A hammer is an essential tool for carpentry."],
+    "synonyms": ["implement", "instrument", "device", "gadget"],
+    "antonyms": [],
+    "translation": "инструмент"
+  },
+  {
+    "word": "topic",
+    "partOfSpeech": "noun",
+    "forms": ["topics"],
+    "definition": "A matter dealt with in a text, discourse, or conversation",
+    "examples": [
+      "Climate change was the main topic of discussion at the global conference."
+    ],
+    "synonyms": ["subject", "theme", "issue"],
+    "antonyms": [],
+    "translation": "тема"
+  }
+]
