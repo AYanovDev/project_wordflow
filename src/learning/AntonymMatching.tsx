@@ -1,4 +1,11 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import {
+  startTransition,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  ViewTransition,
+} from "react";
 import { Navigate } from "react-router-dom";
 import {
   DndContext,
@@ -230,8 +237,11 @@ export function AntonymMatching() {
 
     clearTimeout(feedbackTimer.current);
     feedbackTimer.current = setTimeout(() => {
-      if (wordId === antonymId)
-        setMatchedIds((current) => [...current, wordId]);
+      if (wordId === antonymId) {
+        startTransition(() => {
+          setMatchedIds((current) => [...current, wordId]);
+        });
+      }
       setFeedback(null);
       setSelectedCard(null);
     }, 500);
@@ -266,10 +276,12 @@ export function AntonymMatching() {
   }
 
   function restartExercise() {
-    if (words) setExercise(createExercise(words));
-    setMatchedIds([]);
-    setSelectedCard(null);
-    setFeedback(null);
+    startTransition(() => {
+      if (words) setExercise(createExercise(words));
+      setMatchedIds([]);
+      setSelectedCard(null);
+      setFeedback(null);
+    });
   }
 
   if (!grade || !module) return <Navigate to="/quest" replace />;
@@ -307,7 +319,8 @@ export function AntonymMatching() {
         <p className="antonyms-instructions">
           Click or drag each word onto its antonym.
         </p>
-        <div className="antonyms-columns">
+        <ViewTransition>
+          <div className="antonyms-columns">
           <section className="antonyms-column" aria-label="Words">
             {sortedWords.map((pair) => (
               <MatchingCard
@@ -341,7 +354,8 @@ export function AntonymMatching() {
               />
             ))}
           </section>
-        </div>
+          </div>
+        </ViewTransition>
         {complete && (
           <p className="antonyms-complete">
             Well done! You matched every antonym. 🎉

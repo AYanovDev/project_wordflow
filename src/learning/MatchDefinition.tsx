@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { startTransition, useEffect, useState, ViewTransition } from "react";
 import { celebrate } from "./confetti";
 import { useWords } from "../common/contexts/WordLoader";
 
@@ -64,7 +64,9 @@ export function MatchDefinition() {
       recordSessionResult("correct");
 
       setTimeout(() => {
-        setMatchedWords((prev) => [...prev, word]);
+        startTransition(() => {
+          setMatchedWords((prev) => [...prev, word]);
+        });
         if (autoskip) {
           setTimeout(() => {
             restartExercise();
@@ -86,12 +88,14 @@ export function MatchDefinition() {
   }
 
   function restartExercise() {
-    const { roundWords: nextRoundWords, wordOrder: nextWordOrder } =
-      createRound(filterIncompleteWords(words));
-    setRoundWords(nextRoundWords);
-    setWordOrder(nextWordOrder);
-    setMatchedWords([]);
-    setCurrentIndex(0);
+    startTransition(() => {
+      const { roundWords: nextRoundWords, wordOrder: nextWordOrder } =
+        createRound(filterIncompleteWords(words));
+      setRoundWords(nextRoundWords);
+      setWordOrder(nextWordOrder);
+      setMatchedWords([]);
+      setCurrentIndex(0);
+    });
     setCorrectWord(null);
     setWrongWord(null);
     setLocked(false);
@@ -108,7 +112,8 @@ export function MatchDefinition() {
       <p className="instructions">
         Click the word that matches the definition shown at the top.
       </p>
-      <div className="matching-columns-def">
+      <ViewTransition>
+        <div className="matching-columns-def">
         {/* WORD COLUMN (clickable) */}
         <div className="matching-column">
           {wordOrder.map((word) => {
@@ -138,7 +143,8 @@ export function MatchDefinition() {
             </div>
           )}
         </div>
-      </div>
+        </div>
+      </ViewTransition>
       <button className="restart-button" onClick={restartExercise}>
         <RefreshIcon /> {exerciseComplete ? "Next" : "Restart"}
       </button>

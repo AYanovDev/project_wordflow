@@ -1,4 +1,10 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import {
+  startTransition,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from "react";
 import { Navigate } from "react-router-dom";
 import { celebrate } from "./confetti";
 import {
@@ -21,6 +27,7 @@ import { SettingsControl } from "../common/settings/SettingsControl";
 import type { Word } from "../types";
 import { RefreshIcon } from "../icons/RefreshIcon";
 import { useSettings } from "../common/settings/SettingsContext";
+import { ViewTransition } from "react";
 
 type CardType = "english" | "russian";
 type Exercise = { english: Word[]; russian: Word[] };
@@ -197,7 +204,9 @@ export function MatchExercise({
         return response.json() as Promise<Word[]>;
       })
       .then((data) => {
-        const wordsWithProgress = addProgressToWords(filterIncompleteWords(data));
+        const wordsWithProgress = addProgressToWords(
+          filterIncompleteWords(data),
+        );
         setWords(wordsWithProgress);
         setExerciseWords(createExercise(wordsWithProgress, matchField));
       })
@@ -233,7 +242,9 @@ export function MatchExercise({
       recordSessionResult("correct");
 
       setTimeout(() => {
-        setMatchedWords((prev) => [...prev, englishWord]);
+        startTransition(() => {
+          setMatchedWords((prev) => [...prev, englishWord]);
+        });
         pendingMatches.current.delete(englishWord);
         setCorrectEnglish(null);
         setCorrectRussian(null);
@@ -323,8 +334,10 @@ export function MatchExercise({
   }
 
   function restartExercise() {
-    if (words) setExerciseWords(createExercise(words, matchField));
-    setMatchedWords([]);
+    startTransition(() => {
+      if (words) setExerciseWords(createExercise(words, matchField));
+      setMatchedWords([]);
+    });
     setSelectedCard(null);
     setCorrectEnglish(null);
     setCorrectRussian(null);
@@ -370,55 +383,59 @@ export function MatchExercise({
         <SessionActions className="session-actions" />
         <h1>{title}</h1>
         <p className="instructions">{instructions}</p>
-        <div className="matching-columns">
-          {/* ENGLISH COLUMN */}
-          <div className="matching-column">
-            {sortedEnglish.map((word) => {
-              const isMatched = matchedWords.includes(word.word);
-              const isSelected =
-                selectedCard?.type === "english" &&
-                selectedCard?.word === word.word;
+        <ViewTransition>
+          <div className="matching-columns" key={exerciseWords.english[0].word}>
+            {/* ENGLISH COLUMN */}
+            <div className="matching-column">
+              {sortedEnglish.map((word) => {
+                const isMatched = matchedWords.includes(word.word);
+                const isSelected =
+                  selectedCard?.type === "english" &&
+                  selectedCard?.word === word.word;
 
-              return (
-                <WordCard
-                  key={`english-${word.word}`}
-                  id={`english-${word.word}`}
-                  text={word.word.charAt(0).toUpperCase() + word.word.slice(1)}
-                  isMatched={isMatched}
-                  isSelected={isSelected}
-                  isCorrect={correctEnglish === word.word}
-                  isIncorrect={wrongEnglish === word.word}
-                  onClick={() => handleCardClick("english", word.word)}
-                  onNodeChange={handleCardNodeChange}
-                />
-              );
-            })}
+                return (
+                  <WordCard
+                    key={`english-${word.word}`}
+                    id={`english-${word.word}`}
+                    text={
+                      word.word.charAt(0).toUpperCase() + word.word.slice(1)
+                    }
+                    isMatched={isMatched}
+                    isSelected={isSelected}
+                    isCorrect={correctEnglish === word.word}
+                    isIncorrect={wrongEnglish === word.word}
+                    onClick={() => handleCardClick("english", word.word)}
+                    onNodeChange={handleCardNodeChange}
+                  />
+                );
+              })}
+            </div>
+
+            {/* RUSSIAN COLUMN */}
+            <div className="matching-column">
+              {sortedRussian.map((word) => {
+                const isMatched = matchedWords.includes(word.word);
+                const isSelected =
+                  selectedCard?.type === "russian" &&
+                  selectedCard?.word === word.word;
+
+                return (
+                  <WordCard
+                    key={`russian-${word.word}`}
+                    id={`russian-${word.word}`}
+                    text={word[matchField]}
+                    isMatched={isMatched}
+                    isSelected={isSelected}
+                    isCorrect={correctRussian === word.word}
+                    isIncorrect={wrongRussian === word.word}
+                    onClick={() => handleCardClick("russian", word.word)}
+                    onNodeChange={handleCardNodeChange}
+                  />
+                );
+              })}
+            </div>
           </div>
-
-          {/* RUSSIAN COLUMN */}
-          <div className="matching-column">
-            {sortedRussian.map((word) => {
-              const isMatched = matchedWords.includes(word.word);
-              const isSelected =
-                selectedCard?.type === "russian" &&
-                selectedCard?.word === word.word;
-
-              return (
-                <WordCard
-                  key={`russian-${word.word}`}
-                  id={`russian-${word.word}`}
-                  text={word[matchField]}
-                  isMatched={isMatched}
-                  isSelected={isSelected}
-                  isCorrect={correctRussian === word.word}
-                  isIncorrect={wrongRussian === word.word}
-                  onClick={() => handleCardClick("russian", word.word)}
-                  onNodeChange={handleCardNodeChange}
-                />
-              );
-            })}
-          </div>
-        </div>
+        </ViewTransition>
         {exerciseComplete && (
           <div className="completion-message">
             <h1>Well done! 🎉</h1>

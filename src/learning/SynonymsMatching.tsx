@@ -1,4 +1,11 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import {
+  startTransition,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  ViewTransition,
+} from "react";
 import { Navigate } from "react-router-dom";
 import {
   DndContext,
@@ -239,8 +246,11 @@ export function SynonymsMatching() {
 
     clearTimeout(feedbackTimer.current);
     feedbackTimer.current = setTimeout(() => {
-      if (wordId === synonymId)
-        setMatchedIds((current) => [...current, wordId]);
+      if (wordId === synonymId) {
+        startTransition(() => {
+          setMatchedIds((current) => [...current, wordId]);
+        });
+      }
       setFeedback(null);
       setSelectedCard(null);
     }, 500);
@@ -275,10 +285,12 @@ export function SynonymsMatching() {
   }
 
   function restartExercise() {
-    if (words) setExercise(createExercise(words));
-    setMatchedIds([]);
-    setSelectedCard(null);
-    setFeedback(null);
+    startTransition(() => {
+      if (words) setExercise(createExercise(words));
+      setMatchedIds([]);
+      setSelectedCard(null);
+      setFeedback(null);
+    });
     celebrated.current = false;
   }
 
@@ -317,7 +329,8 @@ export function SynonymsMatching() {
         <p className="synonyms-instructions">
           Click or drag each word onto its synonym.
         </p>
-        <div className="synonyms-columns">
+        <ViewTransition>
+          <div className="synonyms-columns">
           <section className="synonyms-column" aria-label="Words">
             {sortedWords.map((pair) => (
               <MatchingCard
@@ -351,7 +364,8 @@ export function SynonymsMatching() {
               />
             ))}
           </section>
-        </div>
+          </div>
+        </ViewTransition>
         {complete && (
           <p className="synonyms-complete">
             Well done! You matched every synonym. 🎉
