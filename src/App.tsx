@@ -9,6 +9,7 @@ import { SynonymsMatching } from "./learning/SynonymsMatching.js";
 import { AntonymMatching } from "./learning/AntonymMatching.js";
 import { ResultsPage } from "./common/ResultsPage.js";
 import { WordCards } from "./presentation/WordCards.js";
+import { TotalStats } from "./total-stats/TotalStats.js";
 
 function App() {
   return (
@@ -20,6 +21,14 @@ function App() {
         element={
           <WordLoader>
             <WordCards />
+          </WordLoader>
+        }
+      />
+      <Route
+        path="/total-stats"
+        element={
+          <WordLoader>
+            <TotalStats />
           </WordLoader>
         }
       />

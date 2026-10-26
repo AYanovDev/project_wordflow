@@ -144,9 +144,17 @@ export function WordCards() {
           <h1>Vocabulary</h1>
         </div>
 
-        <button className="continue-button" onClick={() => navigate("/tasks")}>
-          Continue to learning →
-        </button>
+        <div className="word-list-actions">
+          <button className="continue-button" onClick={() => navigate("/tasks")}>
+            Continue to learning →
+          </button>
+          <button
+            className="total-results-button"
+            onClick={() => navigate("/total-stats")}
+          >
+            See total results
+          </button>
+        </div>
       </header>
       <div className="word-list">
         {words.map((word, index) => (
