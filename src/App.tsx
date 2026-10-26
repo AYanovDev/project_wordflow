@@ -24,7 +24,10 @@ function App() {
         }
       />
       <Route path="/tasks" element={<TaskChoice />} />
-      <Route path="/tasks/match-translation" element={<MatchTranslation />} />
+      <Route
+        path="/tasks/match-translation"
+        element={<WordLoader><MatchTranslation /></WordLoader>}
+      />
       <Route
         path="/tasks/match-definition"
         element={
@@ -33,8 +36,14 @@ function App() {
           </WordLoader>
         }
       />
-      <Route path="/tasks/match-synonyms" element={<SynonymsMatching />} />
-      <Route path="/tasks/match-antonyms" element={<AntonymMatching />} />
+      <Route
+        path="/tasks/match-synonyms"
+        element={<WordLoader><SynonymsMatching /></WordLoader>}
+      />
+      <Route
+        path="/tasks/match-antonyms"
+        element={<WordLoader><AntonymMatching /></WordLoader>}
+      />
       <Route path="/results" element={<ResultsPage />} />
     </Routes>
   );

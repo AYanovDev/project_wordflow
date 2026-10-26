@@ -5,7 +5,6 @@ import {
   useRef,
   useState,
 } from "react";
-import { Navigate } from "react-router-dom";
 import { celebrate } from "./confetti";
 import {
   DndContext,
@@ -18,13 +17,13 @@ import {
 import { CSS } from "@dnd-kit/utilities";
 
 import "./matchTranslation.css";
-import { useLearningData } from "../common/contexts/DataContext";
 import { useProgress } from "../common/contexts/ProgressContext";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "../common/resultsPage.css";
 import { SettingsControl } from "../common/settings/SettingsControl";
 import type { Word } from "../types";
+import { useWords } from "../common/contexts/WordLoader";
 import { RefreshIcon } from "../icons/RefreshIcon";
 import { useSettings } from "../common/settings/SettingsContext";
 import { ViewTransition } from "react";
@@ -110,11 +109,9 @@ export function MatchExercise({
   instructions?: string;
 }) {
   const { autoskip, confetti } = useSettings();
-  const { grade, module } = useLearningData();
-  const { addProgressToWords, filterIncompleteWords, increaseProgress } =
-    useProgress();
-  const [words, setWords] = useState<Word[] | null>(null);
-  const [loadError, setLoadError] = useState(false);
+  const loadedWords = useWords();
+  const { increaseProgress } = useProgress();
+  const [words, setWords] = useState<Word[]>(loadedWords);
   const [exerciseWords, setExerciseWords] = useState<Exercise | null>(null);
   const [matchedWords, setMatchedWords] = useState<string[]>([]);
 
@@ -189,33 +186,11 @@ export function MatchExercise({
   );
 
   useEffect(() => {
-    if (!grade || !module) return;
-
-    const controller = new AbortController();
     pendingMatches.current.clear();
+    setWords(loadedWords);
     setMatchedWords([]);
-
-    fetch(`/word_data/grade_${grade}/module_${module}.json`, {
-      signal: controller.signal,
-    })
-      .then((response) => {
-        if (!response.ok)
-          throw new Error("Vocabulary file could not be loaded.");
-        return response.json() as Promise<Word[]>;
-      })
-      .then((data) => {
-        const wordsWithProgress = addProgressToWords(
-          filterIncompleteWords(data),
-        );
-        setWords(wordsWithProgress);
-        setExerciseWords(createExercise(wordsWithProgress, matchField));
-      })
-      .catch((error) => {
-        if (error.name !== "AbortError") setLoadError(true);
-      });
-
-    return () => controller.abort();
-  }, [addProgressToWords, filterIncompleteWords, grade, matchField, module]);
+    setExerciseWords(createExercise(loadedWords, matchField));
+  }, [loadedWords, matchField]);
 
   function evaluateMatch(englishWord: string, russianWord: string) {
     if (englishWord === russianWord) {
@@ -344,14 +319,6 @@ export function MatchExercise({
     setWrongEnglish(null);
     setWrongRussian(null);
     pendingMatches.current.clear();
-  }
-
-  if (!grade || !module) {
-    return <Navigate to="/quest" replace />;
-  }
-
-  if (loadError) {
-    return <p role="alert">We couldn't load this vocabulary module yet.</p>;
   }
 
   if (!exerciseWords) {

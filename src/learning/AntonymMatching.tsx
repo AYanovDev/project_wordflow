@@ -6,7 +6,6 @@ import {
   useState,
   ViewTransition,
 } from "react";
-import { Navigate } from "react-router-dom";
 import {
   DndContext,
   PointerSensor,
@@ -17,13 +16,12 @@ import {
 } from "@dnd-kit/core";
 import { CSS } from "@dnd-kit/utilities";
 import { celebrate } from "./confetti";
-import { useLearningData } from "../common/contexts/DataContext";
-import { useProgress } from "../common/contexts/ProgressContext";
 import { recordSessionResult } from "../common/sessionResults";
 import { SessionActions } from "../common/SessionActions";
 import "./antonymMatching.css";
 import "../common/resultsPage.css";
 import type { FeedbackType, Word } from "../types";
+import { useWords } from "../common/contexts/WordLoader";
 import { RefreshIcon } from "../icons/RefreshIcon";
 import { SettingsControl } from "../common/settings/SettingsControl";
 import { useSettings } from "../common/settings/SettingsContext";
@@ -117,12 +115,9 @@ function MatchingCard({
 }
 
 export function AntonymMatching() {
-  const { grade, module } = useLearningData();
-  const { filterIncompleteWords } = useProgress();
+  const words = useWords();
   const { autoskip, confetti } = useSettings();
-  const [words, setWords] = useState<Word[] | null>(null);
   const [exercise, setExercise] = useState<Exercise | null>(null);
-  const [loadError, setLoadError] = useState(false);
   const [selectedCard, setSelectedCard] = useState<SelectedCard | null>(null);
   const [matchedIds, setMatchedIds] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
@@ -181,35 +176,11 @@ export function AntonymMatching() {
   );
 
   useEffect(() => {
-    if (!grade || !module) return;
-
-    const controller = new AbortController();
-    setLoadError(false);
-    setExercise(null);
+    setExercise(createExercise(words));
     setMatchedIds([]);
-
-    fetch(`/word_data/grade_${grade}/module_${module}.json`, {
-      signal: controller.signal,
-    })
-      .then((response) => {
-        if (!response.ok)
-          throw new Error("Vocabulary file could not be loaded.");
-        return response.json() as Promise<Word[]>;
-      })
-      .then((data) => {
-        const incompleteWords = filterIncompleteWords(data);
-        setWords(incompleteWords);
-        setExercise(createExercise(incompleteWords));
-      })
-      .catch((error) => {
-        if (error.name !== "AbortError") setLoadError(true);
-      });
-
-    return () => {
-      controller.abort();
-      clearTimeout(feedbackTimer.current);
-    };
-  }, [filterIncompleteWords, grade, module]);
+    setSelectedCard(null);
+    setFeedback(null);
+  }, [words]);
 
   const complete =
     exercise &&
@@ -277,16 +248,13 @@ export function AntonymMatching() {
 
   function restartExercise() {
     startTransition(() => {
-      if (words) setExercise(createExercise(words));
+      setExercise(createExercise(words));
       setMatchedIds([]);
       setSelectedCard(null);
       setFeedback(null);
     });
   }
 
-  if (!grade || !module) return <Navigate to="/quest" replace />;
-  if (loadError)
-    return <p role="alert">We couldn't load this vocabulary module yet.</p>;
   if (!exercise) return <p className="antonyms-container">Loading exercise…</p>;
 
   if (exercise.words.length === 0) {
