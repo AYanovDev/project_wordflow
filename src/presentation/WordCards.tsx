@@ -5,6 +5,7 @@ import { useLearningData } from "../common/contexts/DataContext";
 import { WORD_PROGRESS_STEPS } from "../common/wordProgress";
 import { useFitText } from "./useFitText";
 import { useWords } from "../common/contexts/WordLoader";
+import { useProgress } from "../common/contexts/ProgressContext";
 
 function ProgressIndicator({ progress = 0 }: { progress?: number }) {
   return (
@@ -24,7 +25,9 @@ function ProgressIndicator({ progress = 0 }: { progress?: number }) {
 }
 
 export function WordCards() {
-  const words = useWords();
+  const loadedWords = useWords();
+  const { addProgressToWords } = useProgress();
+  const words = addProgressToWords(loadedWords);
   const { grade, module } = useLearningData();
   const navigate = useNavigate();
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);

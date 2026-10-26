@@ -2,6 +2,7 @@ import {
   startTransition,
   useEffect,
   useLayoutEffect,
+  useMemo,
   useRef,
   useState,
 } from "react";
@@ -110,8 +111,12 @@ export function MatchExercise({
 }) {
   const { autoskip, confetti } = useSettings();
   const loadedWords = useWords();
-  const { increaseProgress } = useProgress();
-  const [words, setWords] = useState<Word[]>(loadedWords);
+  const { addProgressToWords, filterIncompleteWords, increaseProgress } = useProgress();
+  const wordsWithProgress = useMemo(
+    () => filterIncompleteWords(addProgressToWords(loadedWords)),
+    [addProgressToWords, filterIncompleteWords, loadedWords],
+  );
+  const [words, setWords] = useState<Word[]>(wordsWithProgress);
   const [exerciseWords, setExerciseWords] = useState<Exercise | null>(null);
   const [matchedWords, setMatchedWords] = useState<string[]>([]);
 
@@ -187,10 +192,10 @@ export function MatchExercise({
 
   useEffect(() => {
     pendingMatches.current.clear();
-    setWords(loadedWords);
+    setWords(wordsWithProgress);
     setMatchedWords([]);
-    setExerciseWords(createExercise(loadedWords, matchField));
-  }, [loadedWords, matchField]);
+    setExerciseWords(createExercise(wordsWithProgress, matchField));
+  }, [wordsWithProgress, matchField]);
 
   function evaluateMatch(englishWord: string, russianWord: string) {
     if (englishWord === russianWord) {

@@ -2,6 +2,7 @@ import {
   startTransition,
   useEffect,
   useLayoutEffect,
+  useMemo,
   useRef,
   useState,
   ViewTransition,
@@ -25,6 +26,7 @@ import { useWords } from "../common/contexts/WordLoader";
 import { RefreshIcon } from "../icons/RefreshIcon";
 import { SettingsControl } from "../common/settings/SettingsControl";
 import { useSettings } from "../common/settings/SettingsContext";
+import { useProgress } from "../common/contexts/ProgressContext";
 
 const PAIR_COUNT = 5;
 
@@ -115,7 +117,12 @@ function MatchingCard({
 }
 
 export function AntonymMatching() {
-  const words = useWords();
+  const loadedWords = useWords();
+  const { addProgressToWords, filterIncompleteWords } = useProgress();
+  const words = useMemo(
+    () => filterIncompleteWords(addProgressToWords(loadedWords)),
+    [addProgressToWords, filterIncompleteWords, loadedWords],
+  );
   const { autoskip, confetti } = useSettings();
   const [exercise, setExercise] = useState<Exercise | null>(null);
   const [selectedCard, setSelectedCard] = useState<SelectedCard | null>(null);

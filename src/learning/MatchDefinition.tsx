@@ -1,4 +1,4 @@
-import { startTransition, useEffect, useState, ViewTransition } from "react";
+import { startTransition, useEffect, useMemo, useState, ViewTransition } from "react";
 import { celebrate } from "./confetti";
 import { useWords } from "../common/contexts/WordLoader";
 
@@ -29,8 +29,12 @@ function createRound(words: Word[]) {
 
 export function MatchDefinition() {
   const { autoskip, confetti } = useSettings();
-  const { filterIncompleteWords, increaseProgress } = useProgress();
-  const words = useWords();
+  const { addProgressToWords, filterIncompleteWords, increaseProgress } = useProgress();
+  const loadedWords = useWords();
+  const words = useMemo(
+    () => filterIncompleteWords(addProgressToWords(loadedWords)),
+    [addProgressToWords, filterIncompleteWords, loadedWords],
+  );
   const [roundWords, setRoundWords] = useState<Word[] | null>(null); // the words for this round, fixed order
   const [wordOrder, setWordOrder] = useState<string[] | null>(null); // shuffled word list for the left column
   const [matchedWords, setMatchedWords] = useState<string[]>([]);
@@ -44,10 +48,10 @@ export function MatchDefinition() {
     setMatchedWords([]);
     setCurrentIndex(0);
 
-    const { roundWords, wordOrder } = createRound(filterIncompleteWords(words));
+    const { roundWords, wordOrder } = createRound(words);
     setRoundWords(roundWords);
     setWordOrder(wordOrder);
-  }, [filterIncompleteWords, words]);
+  }, [words]);
 
   const target = roundWords ? (roundWords[currentIndex] ?? null) : null;
   const exerciseComplete = matchedWords.length === 1;
@@ -90,7 +94,7 @@ export function MatchDefinition() {
   function restartExercise() {
     startTransition(() => {
       const { roundWords: nextRoundWords, wordOrder: nextWordOrder } =
-        createRound(filterIncompleteWords(words));
+        createRound(words);
       setRoundWords(nextRoundWords);
       setWordOrder(nextWordOrder);
       setMatchedWords([]);

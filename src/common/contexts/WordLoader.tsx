@@ -9,14 +9,12 @@ import { Navigate } from "react-router-dom";
 
 import { useLearningData } from "./DataContext";
 import { LoadingPage } from "../LoadingPage";
-import { useProgress } from "./ProgressContext";
 import type { Word } from "../../types";
 
 const WordContext = createContext<Word[] | null>(null);
 
 export function WordLoader({ children }: PropsWithChildren) {
   const { grade, module } = useLearningData();
-  const { addProgressToWords, filterIncompleteWords } = useProgress();
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState<Word[] | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -44,7 +42,7 @@ export function WordLoader({ children }: PropsWithChildren) {
       })
       .then((d) => {
         if (isActive) {
-          setData(addProgressToWords(filterIncompleteWords(d)));
+          setData(d);
         }
       })
       .catch((error) => {
@@ -62,7 +60,7 @@ export function WordLoader({ children }: PropsWithChildren) {
       isActive = false;
       controller.abort();
     };
-  }, [addProgressToWords, filterIncompleteWords, grade, module]);
+  }, [grade, module]);
 
   if (!grade || !module) {
     return <Navigate to="/quest" replace />;
