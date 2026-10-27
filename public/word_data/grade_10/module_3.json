@@ -1,0 +1,902 @@
+[
+  {
+    "word": "astronaut",
+    "partOfSpeech": "noun",
+    "forms": ["astronauts"],
+    "definition": "A person trained to travel in a spacecraft",
+    "examples": ["The astronaut floated weightlessly in the space station."],
+    "synonyms": ["cosmonaut", "space traveler"],
+    "antonyms": [],
+    "translation": "астронавт / космонавт"
+  },
+  {
+    "word": "board",
+    "partOfSpeech": "verb",
+    "forms": ["boards", "boarded", "boarding"],
+    "definition": "To get on or into a ship, aircraft, or other vehicle",
+    "examples": ["Passengers should now board the plane at Gate 5."],
+    "synonyms": ["get on", "embark"],
+    "antonyms": ["disembark", "get off"],
+    "translation": "садиться (на борт)"
+  },
+  {
+    "word": "crew",
+    "partOfSpeech": "noun",
+    "forms": ["crews"],
+    "definition": "A group of people who work on and operate a ship, aircraft, etc.",
+    "examples": ["The cabin crew will serve drinks shortly after takeoff."],
+    "synonyms": ["team", "personnel", "staff"],
+    "antonyms": [],
+    "translation": "экипаж / команда"
+  },
+  {
+    "word": "flight",
+    "partOfSpeech": "noun",
+    "forms": ["flights"],
+    "definition": "A journey made by air, especially in a plane",
+    "examples": ["Our flight to London was delayed by two hours."],
+    "synonyms": ["journey", "trip", "aviation"],
+    "antonyms": [],
+    "translation": "рейс / полет"
+  },
+  {
+    "word": "gate",
+    "partOfSpeech": "noun",
+    "forms": ["gates"],
+    "definition": "A part of an airport where passengers get on or off an aircraft",
+    "examples": ["Please proceed to gate 12 for your departure."],
+    "synonyms": ["departure gate"],
+    "antonyms": [],
+    "translation": "выход на посадку (в аэропорту)"
+  },
+  {
+    "word": "get in",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["gets in", "got in", "getting in"],
+    "definition": "To enter a place, typically a car or room; to arrive at a destination",
+    "examples": ["What time does your train get in?"],
+    "synonyms": ["enter", "arrive"],
+    "antonyms": ["get out", "leave"],
+    "translation": "садиться (в машину) / прибывать"
+  },
+  {
+    "word": "get off",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["gets off", "got off", "getting off"],
+    "definition": "To leave a train, bus, or aircraft",
+    "examples": ["We need to get off at the next bus stop."],
+    "synonyms": ["alight", "disembark"],
+    "antonyms": ["get on", "board"],
+    "translation": "выходить (из транспорта)"
+  },
+  {
+    "word": "get on",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["gets on", "got on", "getting on"],
+    "definition": "To step onto a bus, train, ship, or aircraft",
+    "examples": ["He had to run to get on the train before the doors closed."],
+    "synonyms": ["board", "embark"],
+    "antonyms": ["get off", "alight"],
+    "translation": "садиться (в транспорт)"
+  },
+  {
+    "word": "get out",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["gets out", "got out", "getting out"],
+    "definition": "To leave a closed vehicle, building, etc.",
+    "examples": ["The driver stopped the car and told him to get out."],
+    "synonyms": ["exit", "leave"],
+    "antonyms": ["get in", "enter"],
+    "translation": "выходить (из машины, помещения)"
+  },
+  {
+    "word": "high-speed train",
+    "partOfSpeech": "noun",
+    "forms": ["high-speed trains"],
+    "definition": "A passenger train that operates at significantly faster speeds than normal trains",
+    "examples": [
+      "The new high-speed train can travel from Paris to Lyon in just two hours."
+    ],
+    "synonyms": ["bullet train", "express train"],
+    "antonyms": [],
+    "translation": "высокоскоростной поезд"
+  },
+  {
+    "word": "land",
+    "partOfSpeech": "verb",
+    "forms": ["lands", "landed", "landing"],
+    "definition": "To come down through the air and rest on the ground or another surface",
+    "examples": [
+      "The pilot announced that we would land in approximately twenty minutes."
+    ],
+    "synonyms": ["touch down", "arrive"],
+    "antonyms": ["take off"],
+    "translation": "приземляться"
+  },
+  {
+    "word": "landing",
+    "partOfSpeech": "noun",
+    "forms": ["landings"],
+    "definition": "An instance of coming or bringing something to land, either from the air or from water",
+    "examples": [
+      "The passengers applauded after the pilot made a very smooth landing."
+    ],
+    "synonyms": ["touchdown"],
+    "antonyms": ["takeoff"],
+    "translation": "посадка / приземление"
+  },
+  {
+    "word": "launch",
+    "partOfSpeech": "noun / verb",
+    "forms": ["launches", "launched", "launching"],
+    "definition": "To send a missile, spacecraft, or satellite into the air or space; the act of doing so",
+    "examples": [
+      "The space agency will launch the new satellite next Tuesday."
+    ],
+    "synonyms": ["blast off", "send off"],
+    "antonyms": ["land"],
+    "translation": "запускать / запуск"
+  },
+  {
+    "word": "motorway",
+    "partOfSpeech": "noun",
+    "forms": ["motorways"],
+    "definition": "A dual-carriageway road designed for fast traffic, with relatively few places for joining or leaving",
+    "examples": ["We drove along the motorway to get to the city faster."],
+    "synonyms": ["highway", "freeway", "expressway"],
+    "antonyms": [],
+    "translation": "автомагистраль"
+  },
+  {
+    "word": "orbit",
+    "partOfSpeech": "noun / verb",
+    "forms": ["orbits", "orbited", "orbiting"],
+    "definition": "The curved path of a celestial object or spacecraft round a star, planet, or moon; to move in such a path",
+    "examples": [
+      "The satellite was placed into a stable orbit around the Earth."
+    ],
+    "synonyms": ["circle", "revolve around"],
+    "antonyms": [],
+    "translation": "орбита / вращаться по орбите"
+  },
+  {
+    "word": "passenger",
+    "partOfSpeech": "noun",
+    "forms": ["passengers"],
+    "definition": "A traveler on a public or private conveyance other than the driver, pilot, or crew",
+    "examples": ["Every passenger must fasten their seatbelt during takeoff."],
+    "synonyms": ["traveler", "commuter", "rider"],
+    "antonyms": ["driver", "pilot", "crew"],
+    "translation": "пассажир"
+  },
+  {
+    "word": "platform",
+    "partOfSpeech": "noun",
+    "forms": ["platforms"],
+    "definition": "A raised level surface on which people or things can stand, usually at a railway station",
+    "examples": ["The train to London departs from platform 4."],
+    "synonyms": ["stage", "stand"],
+    "antonyms": [],
+    "translation": "платформа (на вокзале)"
+  },
+  {
+    "word": "rocket",
+    "partOfSpeech": "noun",
+    "forms": ["rockets"],
+    "definition": "A cylindrical projectile that can be propelled to a great height or distance",
+    "examples": ["The rocket blasted off from the launch pad successfully."],
+    "synonyms": ["missile", "projectile"],
+    "antonyms": [],
+    "translation": "ракета"
+  },
+  {
+    "word": "spacecraft",
+    "partOfSpeech": "noun",
+    "forms": ["spacecrafts", "spacecraft"],
+    "definition": "A vehicle used for traveling in space",
+    "examples": ["The unmanned spacecraft sent back stunning images of Mars."],
+    "synonyms": ["spaceship"],
+    "antonyms": [],
+    "translation": "космический корабль"
+  },
+  {
+    "word": "space station",
+    "partOfSpeech": "noun",
+    "forms": ["space stations"],
+    "definition": "A large artificial satellite used as a long-term base for manned operations in space",
+    "examples": [
+      "Astronauts can live on the International Space Station for months at a time."
+    ],
+    "synonyms": ["orbital station"],
+    "antonyms": [],
+    "translation": "космическая станция"
+  },
+  {
+    "word": "take off",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["takes off", "took off", "taking off"],
+    "definition": "To become airborne (of an aircraft or bird)",
+    "examples": ["The plane will take off as soon as the runway is clear."],
+    "synonyms": ["leave the ground", "depart"],
+    "antonyms": ["land", "touch down"],
+    "translation": "взлетать"
+  },
+  {
+    "word": "the Underground",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "An underground railway system in a city, specifically in London",
+    "examples": [
+      "Many commuters rely on the Underground to get to work in London."
+    ],
+    "synonyms": ["the subway", "the tube", "metro"],
+    "antonyms": [],
+    "translation": "метро (в Лондоне)"
+  },
+  {
+    "word": "the subway",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "An underground railway system in a city",
+    "examples": [
+      "We took the subway to avoid the traffic jam in the city center."
+    ],
+    "synonyms": ["the Underground", "the tube", "metro"],
+    "antonyms": [],
+    "translation": "метро"
+  },
+  {
+    "word": "the tube",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "An informal name for the London Underground",
+    "examples": ["I catch the tube every morning at 8 AM."],
+    "synonyms": ["the Underground", "subway"],
+    "antonyms": [],
+    "translation": "метро (разговорное, в Лондоне)"
+  },
+  {
+    "word": "traffic jam",
+    "partOfSpeech": "noun",
+    "forms": ["traffic jams"],
+    "definition": "A line or lines of stationary or very slow-moving traffic, caused by roadworks, an accident, or heavy congestion",
+    "examples": ["We were stuck in a terrible traffic jam for over an hour."],
+    "synonyms": ["congestion", "gridlock", "bottleneck"],
+    "antonyms": ["clear road"],
+    "translation": "пробка (на дороге)"
+  },
+  {
+    "word": "cooperate",
+    "partOfSpeech": "verb",
+    "forms": ["cooperates", "cooperated", "cooperating"],
+    "definition": "To work jointly towards the same end",
+    "examples": [
+      "The two companies agreed to cooperate on the new software project."
+    ],
+    "synonyms": ["collaborate", "work together", "unite"],
+    "antonyms": ["oppose", "compete"],
+    "translation": "сотрудничать"
+  },
+  {
+    "word": "disadvantage",
+    "partOfSpeech": "noun",
+    "forms": ["disadvantages"],
+    "definition": "An unfavorable circumstance or condition that reduces the chances of success or effectiveness",
+    "examples": [
+      "One major disadvantage of living in the city is the noise pollution."
+    ],
+    "synonyms": ["drawback", "downside", "negative"],
+    "antonyms": ["advantage", "benefit"],
+    "translation": "недостаток / минус"
+  },
+  {
+    "word": "disagree",
+    "partOfSpeech": "verb",
+    "forms": ["disagrees", "disagreed", "disagreeing"],
+    "definition": "To have or express a different opinion",
+    "examples": [
+      "I strongly disagree with the conclusions reached in the report."
+    ],
+    "synonyms": ["differ", "dissent", "argue"],
+    "antonyms": ["agree", "concur"],
+    "translation": "не соглашаться"
+  },
+  {
+    "word": "disappear",
+    "partOfSpeech": "verb",
+    "forms": ["disappears", "disappeared", "disappearing"],
+    "definition": "To cease to be visible",
+    "examples": ["We watched the sun disappear below the horizon."],
+    "synonyms": ["vanish", "fade away"],
+    "antonyms": ["appear", "materialize"],
+    "translation": "исчезать"
+  },
+  {
+    "word": "discomfort",
+    "partOfSpeech": "noun",
+    "forms": ["discomforts"],
+    "definition": "Slight pain or feeling of physical unease",
+    "examples": [
+      "If you feel any discomfort during the exercise, stop immediately."
+    ],
+    "synonyms": ["pain", "unease", "soreness"],
+    "antonyms": ["comfort", "ease"],
+    "translation": "дискомфорт"
+  },
+  {
+    "word": "disobey",
+    "partOfSpeech": "verb",
+    "forms": ["disobeys", "disobeyed", "disobeying"],
+    "definition": "To fail to obey rules, a command, or someone in authority",
+    "examples": [
+      "The soldier was punished for choosing to disobey a direct order."
+    ],
+    "synonyms": ["defy", "rebel against", "ignore"],
+    "antonyms": ["obey", "comply", "follow"],
+    "translation": "не подчиняться / ослушаться"
+  },
+  {
+    "word": "illogical",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Lacking sense or clear, sound reasoning",
+    "examples": ["His argument was completely illogical and hard to follow."],
+    "synonyms": ["irrational", "unreasonable", "absurd"],
+    "antonyms": ["logical", "rational", "reasonable"],
+    "translation": "нелогичный"
+  },
+  {
+    "word": "impatient",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing a tendency to be quickly irritated or provoked",
+    "examples": ["He grew impatient after waiting in line for over an hour."],
+    "synonyms": ["restless", "eager", "intolerant"],
+    "antonyms": ["patient", "tolerant"],
+    "translation": "нетерпеливый"
+  },
+  {
+    "word": "impossible",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not able to occur, exist, or be done",
+    "examples": ["It is impossible to be in two places at the same time."],
+    "synonyms": ["unachievable", "unattainable", "hopeless"],
+    "antonyms": ["possible", "achievable"],
+    "translation": "невозможный"
+  },
+  {
+    "word": "incapable",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Unable to do or achieve something",
+    "examples": [
+      "The damaged ship was completely incapable of sailing in the storm."
+    ],
+    "synonyms": ["unable", "incompetent", "unfit"],
+    "antonyms": ["capable", "able"],
+    "translation": "неспособный"
+  },
+  {
+    "word": "incomplete",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not having all the necessary or appropriate parts",
+    "examples": [
+      "The building remains incomplete because they ran out of funding."
+    ],
+    "synonyms": ["unfinished", "partial", "lacking"],
+    "antonyms": ["complete", "finished", "whole"],
+    "translation": "неполный / незавершенный"
+  },
+  {
+    "word": "interactive",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Allowing a two-way flow of information between a computer and a computer-user; influencing each other",
+    "examples": [
+      "The museum has many interactive exhibits that are great for children."
+    ],
+    "synonyms": ["participatory", "collaborative"],
+    "antonyms": ["passive", "one-way"],
+    "translation": "интерактивный"
+  },
+  {
+    "word": "irregular",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not even or balanced in shape or arrangement; not happening at regular intervals",
+    "examples": [
+      "He has a very irregular heartbeat and needs to see a doctor."
+    ],
+    "synonyms": ["uneven", "inconsistent", "unpredictable"],
+    "antonyms": ["regular", "even", "consistent"],
+    "translation": "нерегулярный / неправильный"
+  },
+  {
+    "word": "irresponsible",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not showing a proper sense of responsibility",
+    "examples": [
+      "It is highly irresponsible to drive a car after drinking alcohol."
+    ],
+    "synonyms": ["reckless", "careless", "unreliable"],
+    "antonyms": ["responsible", "reliable"],
+    "translation": "безответственный"
+  },
+  {
+    "word": "miscalculate",
+    "partOfSpeech": "verb",
+    "forms": ["miscalculates", "miscalculated", "miscalculating"],
+    "definition": "To calculate (an amount, distance, or measurement) wrongly",
+    "examples": [
+      "The engineers miscalculated the amount of materials needed for the bridge."
+    ],
+    "synonyms": ["misjudge", "get wrong", "err"],
+    "antonyms": ["calculate accurately"],
+    "translation": "ошибаться в расчетах / просчитаться"
+  },
+  {
+    "word": "misunderstand",
+    "partOfSpeech": "verb",
+    "forms": ["misunderstands", "misunderstood", "misunderstanding"],
+    "definition": "To fail to interpret or understand something correctly",
+    "examples": ["I'm sorry, I think you might misunderstand my intentions."],
+    "synonyms": ["misinterpret", "misjudge"],
+    "antonyms": ["understand", "comprehend"],
+    "translation": "неправильно понять"
+  },
+  {
+    "word": "overbook",
+    "partOfSpeech": "verb",
+    "forms": ["overbooks", "overbooked", "overbooking"],
+    "definition": "To accept more reservations for (a flight, hotel, etc.) than there is room for",
+    "examples": [
+      "Airlines often overbook flights expecting that some passengers will cancel."
+    ],
+    "synonyms": ["oversell"],
+    "antonyms": [],
+    "translation": "перебронировать"
+  },
+  {
+    "word": "overpopulated",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having too large a population for the area to support",
+    "examples": [
+      "Many modern cities are highly overpopulated, leading to housing shortages."
+    ],
+    "synonyms": ["crowded", "congested", "overcrowded"],
+    "antonyms": ["underpopulated", "deserted"],
+    "translation": "перенаселенный"
+  },
+  {
+    "word": "postgraduate",
+    "partOfSpeech": "noun",
+    "forms": ["postgraduates"],
+    "definition": "A student who has successfully completed an undergraduate degree course and is studying for a higher degree",
+    "examples": [
+      "She remained at the university as a postgraduate student to complete her Master's."
+    ],
+    "synonyms": ["grad student"],
+    "antonyms": ["undergraduate"],
+    "translation": "аспирант / магистрант"
+  },
+  {
+    "word": "reinvent",
+    "partOfSpeech": "verb",
+    "forms": ["reinvents", "reinvented", "reinventing"],
+    "definition": "To change something so much that it appears to be entirely new",
+    "examples": [
+      "The company managed to reinvent itself and become profitable again."
+    ],
+    "synonyms": ["transform", "remake", "revamp"],
+    "antonyms": ["maintain", "keep"],
+    "translation": "изобретать заново / перестраивать"
+  },
+  {
+    "word": "rewrite",
+    "partOfSpeech": "verb",
+    "forms": ["rewrites", "rewrote", "rewritten", "rewriting"],
+    "definition": "To write something again so as to alter or improve it",
+    "examples": [
+      "The teacher asked him to rewrite his essay to fix the grammar mistakes."
+    ],
+    "synonyms": ["revise", "rephrase", "edit"],
+    "antonyms": [],
+    "translation": "переписывать"
+  },
+  {
+    "word": "subway",
+    "partOfSpeech": "noun",
+    "forms": ["subways"],
+    "definition": "An underground railway system",
+    "examples": ["The New York subway operates 24 hours a day."],
+    "synonyms": ["underground", "tube", "metro"],
+    "antonyms": [],
+    "translation": "метро"
+  },
+  {
+    "word": "sub-zero",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Lower than zero (typically referring to temperature)",
+    "examples": [
+      "They had to survive in sub-zero temperatures during their arctic expedition."
+    ],
+    "synonyms": ["freezing", "below zero", "frigid"],
+    "antonyms": ["above zero", "warm"],
+    "translation": "ниже нуля"
+  },
+  {
+    "word": "superhuman",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing exceptional ability or powers",
+    "examples": [
+      "It requires superhuman strength to lift that car off the ground."
+    ],
+    "synonyms": ["extraordinary", "phenomenal", "heroic"],
+    "antonyms": ["normal", "ordinary"],
+    "translation": "сверхчеловеческий"
+  },
+  {
+    "word": "supersonic",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Involving or denoting a speed greater than that of sound",
+    "examples": [
+      "The Concorde was a famous passenger jet capable of supersonic flight."
+    ],
+    "synonyms": ["faster than sound", "ultra-fast"],
+    "antonyms": ["subsonic"],
+    "translation": "сверхзвуковой"
+  },
+  {
+    "word": "unbelievable",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not able to be believed; unlikely to be true",
+    "examples": [
+      "The team made an unbelievable comeback in the final minutes of the game."
+    ],
+    "synonyms": ["incredible", "implausible", "astonishing"],
+    "antonyms": ["believable", "plausible", "likely"],
+    "translation": "невероятный"
+  },
+  {
+    "word": "underestimate",
+    "partOfSpeech": "verb",
+    "forms": ["underestimates", "underestimated", "underestimating"],
+    "definition": "To estimate something to be smaller or less important than it actually is",
+    "examples": ["Never underestimate the importance of a good night's sleep."],
+    "synonyms": ["undervalue", "underrate", "minimize"],
+    "antonyms": ["overestimate", "exaggerate"],
+    "translation": "недооценивать"
+  },
+  {
+    "word": "underpaid",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Paid too little for the work done",
+    "examples": [
+      "Many nurses feel they are overworked and severely underpaid."
+    ],
+    "synonyms": ["poorly paid", "low-paid"],
+    "antonyms": ["overpaid", "well-paid"],
+    "translation": "низкооплачиваемый"
+  },
+  {
+    "word": "unexpected",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not expected or regarded as likely to happen",
+    "examples": ["The company's sudden bankruptcy was completely unexpected."],
+    "synonyms": ["unforeseen", "surprising", "sudden"],
+    "antonyms": ["expected", "predictable", "anticipated"],
+    "translation": "неожиданный"
+  },
+  {
+    "word": "unlikely",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not likely to happen, be done, or be true; improbable",
+    "examples": [
+      "It is highly unlikely that he will change his mind at this point."
+    ],
+    "synonyms": ["improbable", "doubtful", "questionable"],
+    "antonyms": ["likely", "probable", "certain"],
+    "translation": "маловероятный"
+  },
+  {
+    "word": "unnecessary",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not needed",
+    "examples": [
+      "We should avoid spending money on completely unnecessary luxury items."
+    ],
+    "synonyms": ["unneeded", "superfluous", "needless"],
+    "antonyms": ["necessary", "essential", "crucial"],
+    "translation": "ненужный"
+  },
+  {
+    "word": "unsuccessful",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not achieving the desired result or success",
+    "examples": [
+      "His first attempt to start a business was unsuccessful, but he tried again."
+    ],
+    "synonyms": ["failed", "fruitless", "vain"],
+    "antonyms": ["successful", "triumphant", "victorious"],
+    "translation": "безуспешный"
+  },
+  {
+    "word": "unusual",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not habitually or commonly occurring or done",
+    "examples": [
+      "It is very unusual for it to snow in this part of the country."
+    ],
+    "synonyms": ["uncommon", "abnormal", "rare"],
+    "antonyms": ["usual", "common", "ordinary"],
+    "translation": "необычный"
+  },
+  {
+    "word": "appointment",
+    "partOfSpeech": "noun",
+    "forms": ["appointments"],
+    "definition": "An arrangement to meet someone at a particular time and place",
+    "examples": ["I have a dentist appointment tomorrow afternoon at 3 PM."],
+    "synonyms": ["meeting", "arrangement", "date"],
+    "antonyms": [],
+    "translation": "встреча / прием (у врача, специалиста)"
+  },
+  {
+    "word": "be on board",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To be physically present on a ship, aircraft, or vehicle; to agree or be part of a team/plan",
+    "examples": [
+      "Make sure all passengers are on board before the train departs."
+    ],
+    "synonyms": ["be present", "be involved", "be in agreement"],
+    "antonyms": [],
+    "translation": "быть на борту / быть в деле"
+  },
+  {
+    "word": "bold",
+    "partOfSpeech": "adjective",
+    "forms": ["bolder", "boldest"],
+    "definition": "Showing a willingness to take risks; confident and courageous",
+    "examples": [
+      "It was a bold move to quit his job and start his own company."
+    ],
+    "synonyms": ["brave", "courageous", "daring"],
+    "antonyms": ["timid", "cowardly"],
+    "translation": "смелый / дерзкий"
+  },
+  {
+    "word": "collision",
+    "partOfSpeech": "noun",
+    "forms": ["collisions"],
+    "definition": "An instance of one moving object or person striking violently against another",
+    "examples": [
+      "The highway was closed for hours after a multi-car collision."
+    ],
+    "synonyms": ["crash", "accident", "smash"],
+    "antonyms": ["avoidance"],
+    "translation": "столкновение"
+  },
+  {
+    "word": "environmental",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to the natural world and the impact of human activity on its condition",
+    "examples": [
+      "The factory must adhere to strict environmental regulations."
+    ],
+    "synonyms": ["ecological", "green"],
+    "antonyms": [],
+    "translation": "экологический / относящийся к окружающей среде"
+  },
+  {
+    "word": "grow",
+    "partOfSpeech": "verb",
+    "forms": ["grows", "grew", "grown", "growing"],
+    "definition": "To undergo natural development by increasing in size and changing physically",
+    "examples": ["Children need a healthy diet to grow strong and tall."],
+    "synonyms": ["develop", "increase", "expand"],
+    "antonyms": ["shrink", "decrease", "decline"],
+    "translation": "расти"
+  },
+  {
+    "word": "ice age",
+    "partOfSpeech": "noun",
+    "forms": ["ice ages"],
+    "definition": "A glacial episode during a past geological period",
+    "examples": ["Woolly mammoths lived on Earth during the last ice age."],
+    "synonyms": ["glacial period"],
+    "antonyms": [],
+    "translation": "ледниковый период"
+  },
+  {
+    "word": "impact",
+    "partOfSpeech": "noun",
+    "forms": ["impacts"],
+    "definition": "The action of one object coming forcibly into contact with another; a marked effect or influence",
+    "examples": [
+      "The new law will have a significant impact on local businesses."
+    ],
+    "synonyms": ["effect", "influence", "collision", "crash"],
+    "antonyms": [],
+    "translation": "влияние / удар"
+  },
+  {
+    "word": "last",
+    "partOfSpeech": "verb",
+    "forms": ["lasts", "lasted", "lasting"],
+    "definition": "To continue to function well or exist",
+    "examples": ["The battery in this laptop can last for up to ten hours."],
+    "synonyms": ["continue", "endure", "survive"],
+    "antonyms": ["end", "stop", "fail"],
+    "translation": "длиться / продолжаться"
+  },
+  {
+    "word": "look up",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["looks up", "looked up", "looking up"],
+    "definition": "To search for and find a piece of information in a reference book or database; to improve",
+    "examples": [
+      "If you don't know the word, you can look it up in the dictionary."
+    ],
+    "synonyms": ["search for", "find", "improve"],
+    "antonyms": [],
+    "translation": "искать (информацию) / улучшаться"
+  },
+  {
+    "word": "manned",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Carrying or operated by one or more human beings (especially a spacecraft or vehicle)",
+    "examples": ["The first manned mission to the moon took place in 1969."],
+    "synonyms": ["crewed", "piloted"],
+    "antonyms": ["unmanned", "uncrewed", "drone"],
+    "translation": "пилотируемый / с экипажем"
+  },
+  {
+    "word": "model",
+    "partOfSpeech": "noun",
+    "forms": ["models"],
+    "definition": "A three-dimensional representation of a person or thing or of a proposed structure, typically on a smaller scale",
+    "examples": [
+      "The architect presented a detailed model of the new library building."
+    ],
+    "synonyms": ["replica", "prototype", "miniature"],
+    "antonyms": [],
+    "translation": "модель / макет"
+  },
+  {
+    "word": "myth",
+    "partOfSpeech": "noun",
+    "forms": ["myths"],
+    "definition": "A traditional story, especially one concerning the early history of a people; a widely held but false belief or idea",
+    "examples": [
+      "Contrary to popular myth, you don't lose most of your body heat through your head."
+    ],
+    "synonyms": ["legend", "folktale", "fallacy", "misconception"],
+    "antonyms": ["fact", "truth", "reality"],
+    "translation": "миф"
+  },
+  {
+    "word": "nervous",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Easily agitated or alarmed; tending to be anxious; highly strung",
+    "examples": ["She always gets very nervous before taking a big exam."],
+    "synonyms": ["anxious", "worried", "tense", "apprehensive"],
+    "antonyms": ["calm", "confident", "relaxed"],
+    "translation": "нервный"
+  },
+  {
+    "word": "occasion",
+    "partOfSpeech": "noun",
+    "forms": ["occasions"],
+    "definition": "A particular time or instance of an event; a special or noteworthy event",
+    "examples": [
+      "They bought an expensive bottle of champagne to celebrate the special occasion."
+    ],
+    "synonyms": ["event", "incident", "time", "celebration"],
+    "antonyms": [],
+    "translation": "случай / событие"
+  },
+  {
+    "word": "organic",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Produced or involving production without the use of chemical fertilizers, pesticides, or other artificial agents",
+    "examples": [
+      "She prefers to buy organic vegetables from the local farmers' market."
+    ],
+    "synonyms": ["natural", "chemical-free"],
+    "antonyms": ["inorganic", "artificial", "synthetic"],
+    "translation": "органический"
+  },
+  {
+    "word": "parcel",
+    "partOfSpeech": "noun",
+    "forms": ["parcels"],
+    "definition": "A thing or collection of things wrapped in paper in order to be carried or sent by mail",
+    "examples": [
+      "The postman delivered a large parcel to our house this morning."
+    ],
+    "synonyms": ["package", "box", "packet"],
+    "antonyms": [],
+    "translation": "посылка"
+  },
+  {
+    "word": "positive",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Consisting in or characterized by the presence rather than the absence of distinguishing features; showing optimism or confidence",
+    "examples": [
+      "Maintaining a positive attitude can help you overcome difficult challenges."
+    ],
+    "synonyms": ["optimistic", "favorable", "confident", "constructive"],
+    "antonyms": ["negative", "pessimistic", "cynical"],
+    "translation": "положительный"
+  },
+  {
+    "word": "pregnant",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having a child or young developing in the uterus",
+    "examples": ["My sister is six months pregnant and expecting a baby boy."],
+    "synonyms": ["expecting", "with child"],
+    "antonyms": [],
+    "translation": "беременная"
+  },
+  {
+    "word": "rocket",
+    "partOfSpeech": "verb",
+    "forms": ["rockets", "rocketed", "rocketing"],
+    "definition": "To increase very rapidly and suddenly",
+    "examples": ["Inflation is expected to rocket in the coming months."],
+    "synonyms": ["soar", "skyrocket", "surge", "shoot up"],
+    "antonyms": ["plummet", "fall", "tumble"],
+    "translation": "взлетать (о ценах) / стремительно расти"
+  },
+  {
+    "word": "roughly",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "In a manner lacking refinement or gentleness; approximately",
+    "examples": ["There were roughly two hundred people waiting in the queue."],
+    "synonyms": ["approximately", "about", "around", "harshly"],
+    "antonyms": ["exactly", "precisely", "gently"],
+    "translation": "примерно / грубо"
+  },
+  {
+    "word": "save up",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["saves up", "saved up", "saving up"],
+    "definition": "To accumulate money for a specific purpose",
+    "examples": ["They are trying to save up enough money to buy a new house."],
+    "synonyms": ["put money aside", "hoard", "collect"],
+    "antonyms": ["spend", "squander", "waste"],
+    "translation": "копить (деньги)"
+  },
+  {
+    "word": "telescope",
+    "partOfSpeech": "noun",
+    "forms": ["telescopes"],
+    "definition": "An optical instrument designed to make distant objects appear nearer",
+    "examples": ["He used his telescope to observe the rings of Saturn."],
+    "synonyms": ["spyglass", "scope"],
+    "antonyms": ["microscope"],
+    "translation": "телескоп"
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "word": "blood",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The red liquid that circulates in the arteries and veins of humans and other vertebrate animals",
+    "examples": ["He lost a lot of blood after the severe accident."],
+    "synonyms": ["gore"],
+    "antonyms": [],
+    "translation": "кровь"
+  },
+  {
+    "word": "catch a wave",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To successfully ride a wave on a surfboard",
+    "examples": ["We woke up early and went to the beach to catch a wave."],
+    "synonyms": ["ride a wave"],
+    "antonyms": [],
+    "translation": "поймать волну"
+  },
+  {
+    "word": "enter a competition",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To register for and participate in a contest or tournament",
+    "examples": [
+      "She decided to enter a competition to show off her singing talent."
+    ],
+    "synonyms": ["participate", "join a contest"],
+    "antonyms": ["withdraw from a competition"],
+    "translation": "участвовать в соревновании"
+  },
+  {
+    "word": "escape death",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To narrowly avoid dying in a dangerous or life-threatening situation",
+    "examples": [
+      "He managed to escape death by jumping out of the burning car."
+    ],
+    "synonyms": ["survive", "cheat death"],
+    "antonyms": [],
+    "translation": "избежать смерти"
+  },
+  {
+    "word": "fit",
+    "partOfSpeech": "verb",
+    "forms": ["fits", "fitted", "fitting"],
+    "definition": "To be of the right shape and size for someone or something",
+    "examples": ["I need to buy new jeans because these don't fit me anymore."],
+    "synonyms": ["suit", "match", "size"],
+    "antonyms": [],
+    "translation": "подходить (по размеру)"
+  },
+  {
+    "word": "handle",
+    "partOfSpeech": "noun",
+    "forms": ["handles"],
+    "definition": "The part by which a thing is held, carried, or controlled",
+    "examples": [
+      "The handle of my favorite coffee mug broke off this morning."
+    ],
+    "synonyms": ["grip", "knob", "haft"],
+    "antonyms": [],
+    "translation": "ручка / рукоятка"
+  },
+  {
+    "word": "look bright",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To appear promising, hopeful, or successful",
+    "examples": [
+      "With her new degree, her future in the company looks bright."
+    ],
+    "synonyms": ["seem promising", "look hopeful"],
+    "antonyms": ["look bleak"],
+    "translation": "выглядеть многообещающе (радужно)"
+  },
+  {
+    "word": "lose arm",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To suffer the amputation or loss of one's arm",
+    "examples": [
+      "The brave surfer tragically had to lose her arm in a shark attack."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "потерять руку"
+  },
+  {
+    "word": "overcome obstacles",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To successfully deal with difficulties, barriers, or hurdles",
+    "examples": [
+      "He had to overcome many obstacles to achieve his lifelong dream."
+    ],
+    "synonyms": ["conquer difficulties", "surmount hurdles"],
+    "antonyms": ["give up"],
+    "translation": "преодолевать препятствия"
+  },
+  {
+    "word": "rank",
+    "partOfSpeech": "verb",
+    "forms": ["ranks", "ranked", "ranking"],
+    "definition": "To give someone or something a place within a grading system",
+    "examples": [
+      "Critics rank this movie as one of the best releases of the decade."
+    ],
+    "synonyms": ["rate", "classify", "categorize"],
+    "antonyms": [],
+    "translation": "классифицировать / занимать место"
+  },
+  {
+    "word": "rush",
+    "partOfSpeech": "verb",
+    "forms": ["rushes", "rushed", "rushing"],
+    "definition": "To move, act, or progress with urgent haste",
+    "examples": [
+      "We had to rush to the airport so we wouldn't miss our flight."
+    ],
+    "synonyms": ["hurry", "dash", "hasten"],
+    "antonyms": ["delay", "linger", "slow down"],
+    "translation": "мчаться / спешить"
+  },
+  {
+    "word": "shark attack",
+    "partOfSpeech": "noun",
+    "forms": ["shark attacks"],
+    "definition": "An aggressive assault on a human by a shark",
+    "examples": [
+      "The beach was temporarily closed to the public after a recent shark attack."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "нападение акулы"
+  },
+  {
+    "word": "sharp pain",
+    "partOfSpeech": "noun",
+    "forms": ["sharp pains"],
+    "definition": "A sudden, intense, and acute physical discomfort",
+    "examples": [
+      "I felt a sharp pain in my back when I tried to lift the heavy box."
+    ],
+    "synonyms": ["acute pain", "severe pain"],
+    "antonyms": ["mild ache", "dull pain"],
+    "translation": "острая боль"
+  },
+  {
+    "word": "strike",
+    "partOfSpeech": "verb",
+    "forms": ["strikes", "struck", "striking"],
+    "definition": "To hit forcibly and deliberately with one's hand, a weapon, or other implement",
+    "examples": [
+      "Lightning can strike the tallest building during a thunderstorm."
+    ],
+    "synonyms": ["hit", "beat", "smack"],
+    "antonyms": [],
+    "translation": "ударять"
+  },
+  {
+    "word": "terror",
+    "partOfSpeech": "noun",
+    "forms": ["terrors"],
+    "definition": "Extreme fear or dread",
+    "examples": [
+      "People fled the streets in terror when the earthquake started."
+    ],
+    "synonyms": ["fear", "dread", "panic", "horror"],
+    "antonyms": ["calmness", "peace"],
+    "translation": "ужас"
+  },
+  {
+    "word": "victim",
+    "partOfSpeech": "noun",
+    "forms": ["victims"],
+    "definition": "A person harmed, injured, or killed as a result of a crime, accident, or other event",
+    "examples": [
+      "The victim of the robbery was quickly taken to the local hospital."
+    ],
+    "synonyms": ["casualty", "sufferer", "prey"],
+    "antonyms": ["attacker", "perpetrator"],
+    "translation": "жертва"
+  },
+  {
+    "word": "victory",
+    "partOfSpeech": "noun",
+    "forms": ["victories"],
+    "definition": "An act of defeating an enemy or opponent in a battle, game, or other competition",
+    "examples": [
+      "The team celebrated their grand victory with a parade through the city."
+    ],
+    "synonyms": ["triumph", "win", "success"],
+    "antonyms": ["defeat", "loss"],
+    "translation": "победа"
+  },
+  {
+    "word": "antique",
+    "partOfSpeech": "noun",
+    "forms": ["antiques"],
+    "definition": "A collectible object such as a piece of furniture or work of art that has a high value because of its considerable age",
+    "examples": [
+      "The museum has a wonderful collection of valuable antiques from the 18th century."
+    ],
+    "synonyms": ["relic", "vintage item"],
+    "antonyms": [],
+    "translation": "антиквариат"
+  },
+  {
+    "word": "colleague",
+    "partOfSpeech": "noun",
+    "forms": ["colleagues"],
+    "definition": "A person with whom one works in a profession or business",
+    "examples": [
+      "My colleague helped me finish the difficult presentation on time."
+    ],
+    "synonyms": ["coworker", "associate", "partner"],
+    "antonyms": [],
+    "translation": "коллега"
+  },
+  {
+    "word": "determination",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Firmness of purpose; resoluteness in achieving a goal",
+    "examples": [
+      "It takes hard work and sheer determination to succeed in this industry."
+    ],
+    "synonyms": ["resolution", "resolve", "perseverance"],
+    "antonyms": ["hesitation", "indecision"],
+    "translation": "решительность"
+  },
+  {
+    "word": "engrave",
+    "partOfSpeech": "verb",
+    "forms": ["engraves", "engraved", "engraving"],
+    "definition": "To cut or carve a text or design on the surface of a hard object",
+    "examples": [
+      "They decided to engrave their names and the date on the wedding rings."
+    ],
+    "synonyms": ["carve", "inscribe", "etch"],
+    "antonyms": [],
+    "translation": "гравировать"
+  },
+  {
+    "word": "exhibition",
+    "partOfSpeech": "noun",
+    "forms": ["exhibitions"],
+    "definition": "A public display of works of art or items of interest, held in an art gallery or museum",
+    "examples": [
+      "The new art exhibition features wonderful works by local painters."
+    ],
+    "synonyms": ["display", "show", "presentation"],
+    "antonyms": [],
+    "translation": "выставка"
+  },
+  {
+    "word": "high-quality",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Of a superior standard or grade",
+    "examples": [
+      "They produce high-quality leather goods that can last a lifetime."
+    ],
+    "synonyms": ["superior", "premium", "excellent"],
+    "antonyms": ["low-quality", "inferior", "cheap"],
+    "translation": "высококачественный"
+  },
+  {
+    "word": "miniature",
+    "partOfSpeech": "noun",
+    "forms": ["miniatures"],
+    "definition": "A thing that is much smaller than normal, especially a small replica or model",
+    "examples": [
+      "He collects miniature cars and displays them on his shelves."
+    ],
+    "synonyms": ["model", "replica"],
+    "antonyms": ["giant"],
+    "translation": "миниатюра"
+  },
+  {
+    "word": "official",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to an authority or public body and its duties, actions, and responsibilities",
+    "examples": [
+      "We are waiting for the official announcement from the mayor's office."
+    ],
+    "synonyms": ["authorized", "formal", "legitimate"],
+    "antonyms": ["unofficial", "informal"],
+    "translation": "официальный"
+  },
+  {
+    "word": "rug",
+    "partOfSpeech": "noun",
+    "forms": ["rugs"],
+    "definition": "A floor covering of thick woven material or animal skin, typically not extending over the entire floor",
+    "examples": [
+      "She bought a beautiful Persian rug for the center of the living room."
+    ],
+    "synonyms": ["carpet", "mat"],
+    "antonyms": [],
+    "translation": "ковер"
+  },
+  {
+    "word": "success",
+    "partOfSpeech": "noun",
+    "forms": ["successes"],
+    "definition": "The accomplishment of an aim or purpose",
+    "examples": ["The charity fundraising event was a huge success this year."],
+    "synonyms": ["achievement", "triumph", "victory"],
+    "antonyms": ["failure", "disaster"],
+    "translation": "успех"
+  },
+  {
+    "word": "textile",
+    "partOfSpeech": "noun",
+    "forms": ["textiles"],
+    "definition": "A type of cloth or woven fabric",
+    "examples": [
+      "The city has been famous for its textile industry for centuries."
+    ],
+    "synonyms": ["fabric", "cloth", "material"],
+    "antonyms": [],
+    "translation": "текстиль"
+  },
+  {
+    "word": "amusement park",
+    "partOfSpeech": "noun",
+    "forms": ["amusement parks"],
+    "definition": "A large outdoor area with fairground rides, shows, and other entertainments",
+    "examples": [
+      "The kids were thrilled to spend their Saturday at the amusement park."
+    ],
+    "synonyms": ["theme park", "funfair"],
+    "antonyms": [],
+    "translation": "парк развлечений"
+  },
+  {
+    "word": "hiking",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The activity of going for long walks, especially in the country or woods",
+    "examples": [
+      "Hiking in the mountains is my favorite way to relax on weekends."
+    ],
+    "synonyms": ["walking", "trekking", "rambling"],
+    "antonyms": [],
+    "translation": "пеший туризм"
+  },
+  {
+    "word": "landscape",
+    "partOfSpeech": "noun",
+    "forms": ["landscapes"],
+    "definition": "All the visible features of an area of countryside or land",
+    "examples": [
+      "The artist's painting perfectly captures the beautiful winter landscape."
+    ],
+    "synonyms": ["scenery", "countryside", "view"],
+    "antonyms": [],
+    "translation": "пейзаж"
+  },
+  {
+    "word": "local rink",
+    "partOfSpeech": "noun",
+    "forms": ["local rinks"],
+    "definition": "A nearby enclosed area of ice for skating, ice hockey, or curling",
+    "examples": ["We go ice skating at the local rink every Friday night."],
+    "synonyms": ["ice rink", "skating rink"],
+    "antonyms": [],
+    "translation": "местный каток"
+  },
+  {
+    "word": "mate",
+    "partOfSpeech": "noun",
+    "forms": ["mates"],
+    "definition": "A friend or companion",
+    "examples": [
+      "He's going out to the pub to watch the football game with his mates."
+    ],
+    "synonyms": ["friend", "buddy", "pal", "companion"],
+    "antonyms": ["enemy", "foe"],
+    "translation": "приятель / друг"
+  },
+  {
+    "word": "water park",
+    "partOfSpeech": "noun",
+    "forms": ["water parks"],
+    "definition": "An amusement park that features water play areas, such as swimming pools and water slides",
+    "examples": [
+      "The water park is full of exciting slides and wave pools for the whole family."
+    ],
+    "synonyms": ["aqua park"],
+    "antonyms": [],
+    "translation": "аквапарк"
+  },
+  {
+    "word": "bathing suit",
+    "partOfSpeech": "noun",
+    "forms": ["bathing suits"],
+    "definition": "A garment worn for swimming or bathing",
+    "examples": [
+      "Don't forget to pack your bathing suit for our trip to the beach."
+    ],
+    "synonyms": ["swimsuit", "swimwear", "trunks"],
+    "antonyms": [],
+    "translation": "купальник"
+  },
+  {
+    "word": "day trip",
+    "partOfSpeech": "noun",
+    "forms": ["day trips"],
+    "definition": "A journey or excursion completed in one day",
+    "examples": ["We took a fun day trip to the historic seaside town."],
+    "synonyms": ["excursion", "outing"],
+    "antonyms": [],
+    "translation": "однодневная поездка"
+  },
+  {
+    "word": "era",
+    "partOfSpeech": "noun",
+    "forms": ["eras"],
+    "definition": "A long and distinct period of history with a particular feature or characteristic",
+    "examples": ["The fall of the Berlin Wall marked the end of an era."],
+    "synonyms": ["period", "age", "epoch"],
+    "antonyms": [],
+    "translation": "эпоха / эра"
+  },
+  {
+    "word": "gramophone",
+    "partOfSpeech": "noun",
+    "forms": ["gramophones"],
+    "definition": "An old type of record player that produces sound by means of a stylus in the groove of a record",
+    "examples": [
+      "He loves listening to old jazz records on his vintage gramophone."
+    ],
+    "synonyms": ["phonograph", "record player"],
+    "antonyms": [],
+    "translation": "граммофон"
+  },
+  {
+    "word": "lacrosse",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A team game, originally played by North American Indians, in which the ball is thrown, caught, and carried with a long-handled stick having a curved L-shaped or triangular frame at one end with a piece of shallow netting in the angle",
+    "examples": ["She plays lacrosse for her university team."],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "лакросс"
+  },
+  {
+    "word": "music hall",
+    "partOfSpeech": "noun",
+    "forms": ["music halls"],
+    "definition": "A form of variety entertainment popular in Britain from the mid 19th century, or the theater where it takes place",
+    "examples": [
+      "The famous comedian performed at the old music hall in London."
+    ],
+    "synonyms": ["theater", "auditorium"],
+    "antonyms": [],
+    "translation": "мюзик-холл"
+  },
+  {
+    "word": "musical instrument",
+    "partOfSpeech": "noun",
+    "forms": ["musical instruments"],
+    "definition": "An object or device for producing musical sounds",
+    "examples": [
+      "The piano is considered a very versatile and beautiful musical instrument."
+    ],
+    "synonyms": ["instrument"],
+    "antonyms": [],
+    "translation": "музыкальный инструмент"
+  },
+  {
+    "word": "performance",
+    "partOfSpeech": "noun",
+    "forms": ["performances"],
+    "definition": "An act of staging or presenting a play, concert, or other form of entertainment",
+    "examples": [
+      "The band's live performance at the festival was absolutely incredible."
+    ],
+    "synonyms": ["show", "presentation", "gig"],
+    "antonyms": [],
+    "translation": "выступление / представление"
+  },
+  {
+    "word": "railway system",
+    "partOfSpeech": "noun",
+    "forms": ["railway systems"],
+    "definition": "A network of tracks, trains, and stations used for rail transport",
+    "examples": ["Japan has a highly efficient and punctual railway system."],
+    "synonyms": ["train network", "rail network"],
+    "antonyms": [],
+    "translation": "железнодорожная система"
+  },
+  {
+    "word": "record",
+    "partOfSpeech": "noun",
+    "forms": ["records"],
+    "definition": "An analog sound storage medium in the form of a flat disc with an inscribed, modulated spiral groove",
+    "examples": ["He bought a rare vinyl record at the flea market."],
+    "synonyms": ["disc", "vinyl", "album"],
+    "antonyms": [],
+    "translation": "пластинка / аудиозапись"
+  },
+  {
+    "word": "seafront",
+    "partOfSpeech": "noun",
+    "forms": ["seafronts"],
+    "definition": "The part of a coastal town next to the sea",
+    "examples": [
+      "We took a relaxing walk along the seafront eating ice cream."
+    ],
+    "synonyms": ["promenade", "coast", "esplanade"],
+    "antonyms": [],
+    "translation": "набережная (у моря)"
+  },
+  {
+    "word": "wheel",
+    "partOfSpeech": "verb",
+    "forms": ["wheels", "wheeled", "wheeling"],
+    "definition": "To push or pull a vehicle with wheels",
+    "examples": [
+      "The nurse gently wheeled the patient down the hall and into the operating room."
+    ],
+    "synonyms": ["push", "roll", "trundle"],
+    "antonyms": [],
+    "translation": "катить"
+  },
+  {
+    "word": "wooden hut",
+    "partOfSpeech": "noun",
+    "forms": ["wooden huts"],
+    "definition": "A small, simple, single-story house or shelter made of wood",
+    "examples": [
+      "They stayed in a cozy wooden hut deep in the forest for their vacation."
+    ],
+    "synonyms": ["cabin", "shack", "shanty"],
+    "antonyms": [],
+    "translation": "деревянная хижина"
+  },
+  {
+    "word": "attitude",
+    "partOfSpeech": "noun",
+    "forms": ["attitudes"],
+    "definition": "A settled way of thinking or feeling about someone or something, typically one that is reflected in a person's behavior",
+    "examples": [
+      "She has a very positive attitude toward her work and colleagues."
+    ],
+    "synonyms": ["outlook", "perspective", "mindset"],
+    "antonyms": [],
+    "translation": "отношение"
+  },
+  {
+    "word": "competition",
+    "partOfSpeech": "noun",
+    "forms": ["competitions"],
+    "definition": "The activity or condition of competing; an event or contest in which people compete",
+    "examples": [
+      "There is a lot of fierce competition for jobs in this demanding field."
+    ],
+    "synonyms": ["rivalry", "contest", "tournament"],
+    "antonyms": ["cooperation", "alliance"],
+    "translation": "соревнование / конкуренция"
+  },
+  {
+    "word": "distance",
+    "partOfSpeech": "noun",
+    "forms": ["distances"],
+    "definition": "The length of the space between two points",
+    "examples": [
+      "The distance from my house to the nearest school is about two miles."
+    ],
+    "synonyms": ["length", "gap", "interval"],
+    "antonyms": ["closeness", "proximity"],
+    "translation": "расстояние"
+  },
+  {
+    "word": "national celebration",
+    "partOfSpeech": "noun",
+    "forms": ["national celebrations"],
+    "definition": "A public holiday or festival celebrated by the whole country",
+    "examples": [
+      "Independence Day is a major national celebration with fireworks and parades."
+    ],
+    "synonyms": ["public holiday", "national festival"],
+    "antonyms": [],
+    "translation": "национальный праздник"
+  },
+  {
+    "word": "proud",
+    "partOfSpeech": "adjective",
+    "forms": ["prouder", "proudest"],
+    "definition": "Feeling deep pleasure or satisfaction as a result of one's own achievements, qualities, or possessions",
+    "examples": [
+      "I am very proud of my daughter for getting such excellent grades."
+    ],
+    "synonyms": ["pleased", "glad", "satisfied"],
+    "antonyms": ["ashamed", "disappointed"],
+    "translation": "гордый"
+  },
+  {
+    "word": "strength",
+    "partOfSpeech": "noun",
+    "forms": ["strengths"],
+    "definition": "The quality or state of being physically strong",
+    "examples": [
+      "He goes to the gym every day to build his muscular strength."
+    ],
+    "synonyms": ["power", "might", "muscle"],
+    "antonyms": ["weakness", "frailty"],
+    "translation": "сила"
+  },
+  {
+    "word": "surface",
+    "partOfSpeech": "noun",
+    "forms": ["surfaces"],
+    "definition": "The outside part or uppermost layer of something",
+    "examples": ["The surface of the wooden table was smooth and shiny."],
+    "synonyms": ["exterior", "outside", "facade"],
+    "antonyms": ["interior", "inside", "core"],
+    "translation": "поверхность"
+  },
+  {
+    "word": "take part in",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To join in an activity; to be involved",
+    "examples": [
+      "Over a hundred enthusiastic people will take part in the city marathon."
+    ],
+    "synonyms": ["participate", "join", "engage in"],
+    "antonyms": ["withdraw", "sit out"],
+    "translation": "принимать участие в"
+  },
+  {
+    "word": "be tied to sth",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To be closely connected to or dependent on something else",
+    "examples": [
+      "His future success seems to be deeply tied to his positive attitude."
+    ],
+    "synonyms": ["be connected to", "be linked to", "depend on"],
+    "antonyms": ["be independent of", "be unrelated to"],
+    "translation": "быть привязанным к чему-либо (зависеть от)"
+  }
+]

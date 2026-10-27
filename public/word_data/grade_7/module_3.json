@@ -1,0 +1,658 @@
+[
+  {
+    "word": "alive",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Living, not dead",
+    "examples": [
+      "The lost hikers were found alive after three days in the forest."
+    ],
+    "synonyms": ["living", "breathing"],
+    "antonyms": ["dead", "deceased"],
+    "translation": "живой"
+  },
+  {
+    "word": "culture",
+    "partOfSpeech": "noun",
+    "forms": ["cultures"],
+    "definition": "The customs, arts, social institutions, and achievements of a particular nation, people, or other social group",
+    "examples": [
+      "When traveling, it's important to respect the local culture."
+    ],
+    "synonyms": ["civilization", "society", "customs"],
+    "antonyms": [],
+    "translation": "культура"
+  },
+  {
+    "word": "dense",
+    "partOfSpeech": "adjective",
+    "forms": ["denser", "densest"],
+    "definition": "Closely compacted in substance; thick",
+    "examples": [
+      "The explorers had to cut their way through the dense jungle."
+    ],
+    "synonyms": ["thick", "heavy", "impenetrable"],
+    "antonyms": ["sparse", "thin"],
+    "translation": "густой / плотный"
+  },
+  {
+    "word": "feel",
+    "partOfSpeech": "verb",
+    "forms": ["feels", "felt", "feeling"],
+    "definition": "To experience an emotion or sensation",
+    "examples": ["I always feel relaxed after a long walk by the sea."],
+    "synonyms": ["sense", "experience", "perceive"],
+    "antonyms": [],
+    "translation": "чувствовать"
+  },
+  {
+    "word": "make my way",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To travel or proceed in a particular direction",
+    "examples": [
+      "After the concert, I had to make my way through the large crowd."
+    ],
+    "synonyms": ["proceed", "head", "navigate"],
+    "antonyms": [],
+    "translation": "пробираться / направляться"
+  },
+  {
+    "word": "mouth of the river",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "The place where a river empties into a larger body of water, such as a lake or ocean",
+    "examples": [
+      "The city was established at the mouth of the river for easy trade access."
+    ],
+    "synonyms": ["estuary", "delta"],
+    "antonyms": ["source"],
+    "translation": "устье реки"
+  },
+  {
+    "word": "nightfall",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The onset of night; dusk",
+    "examples": ["We need to set up camp and build a fire before nightfall."],
+    "synonyms": ["dusk", "twilight", "evening"],
+    "antonyms": ["dawn", "sunrise"],
+    "translation": "наступление ночи / сумерки"
+  },
+  {
+    "word": "nothing compares to",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Used to emphasize that something is the best of its kind or unmatched",
+    "examples": [
+      "I've traveled all over the world, but nothing compares to home."
+    ],
+    "synonyms": ["unrivaled", "unmatched"],
+    "antonyms": [],
+    "translation": "ничто не сравнится с"
+  },
+  {
+    "word": "opportunity",
+    "partOfSpeech": "noun",
+    "forms": ["opportunities"],
+    "definition": "A set of circumstances that makes it possible to do something",
+    "examples": [
+      "Studying abroad is a great opportunity to learn a new language."
+    ],
+    "synonyms": ["chance", "occasion", "possibility"],
+    "antonyms": [],
+    "translation": "возможность"
+  },
+  {
+    "word": "the time of my life",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "An extremely enjoyable experience",
+    "examples": [
+      "We went backpacking across Europe and I had the time of my life."
+    ],
+    "synonyms": ["a wonderful time", "a blast"],
+    "antonyms": ["a terrible time"],
+    "translation": "лучшее время в моей жизни"
+  },
+  {
+    "word": "winding",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Following a twisting or spiral course",
+    "examples": ["We drove slowly along the narrow, winding mountain road."],
+    "synonyms": ["twisting", "curving", "meandering"],
+    "antonyms": ["straight", "direct"],
+    "translation": "извилистый"
+  },
+  {
+    "word": "airline",
+    "partOfSpeech": "noun",
+    "forms": ["airlines"],
+    "definition": "A company that provides regular flights for public use",
+    "examples": [
+      "The airline apologized for the delay and offered free meals."
+    ],
+    "synonyms": ["carrier", "air carrier"],
+    "antonyms": [],
+    "translation": "авиакомпания"
+  },
+  {
+    "word": "board",
+    "partOfSpeech": "verb",
+    "forms": ["boards", "boarded", "boarding"],
+    "definition": "To get on or into a ship, aircraft, or other vehicle",
+    "examples": ["Passengers are now invited to board the plane at gate 5."],
+    "synonyms": ["get on", "enter", "embark"],
+    "antonyms": ["disembark", "get off"],
+    "translation": "садиться (на борт)"
+  },
+  {
+    "word": "break the law",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To do something illegal",
+    "examples": [
+      "You will face serious consequences if you break the law in a foreign country."
+    ],
+    "synonyms": ["commit a crime", "violate the law"],
+    "antonyms": ["obey the law", "follow the rules"],
+    "translation": "нарушать закон"
+  },
+  {
+    "word": "charge",
+    "partOfSpeech": "verb",
+    "forms": ["charges", "charged", "charging"],
+    "definition": "To formally accuse someone of a crime, or to demand a price for a service",
+    "examples": ["The police decided to charge him with theft."],
+    "synonyms": ["accuse", "indict", "bill"],
+    "antonyms": ["acquit", "free"],
+    "translation": "обвинять / взимать плату"
+  },
+  {
+    "word": "content",
+    "partOfSpeech": "noun",
+    "forms": ["contents"],
+    "definition": "The things that are held or included in something",
+    "examples": [
+      "The customs officer asked me to empty the content of my bag on the table."
+    ],
+    "synonyms": ["contents", "inside"],
+    "antonyms": [],
+    "translation": "содержимое"
+  },
+  {
+    "word": "customs officer",
+    "partOfSpeech": "noun",
+    "forms": ["customs officers"],
+    "definition": "A person whose job is to check travelers' luggage and imported goods",
+    "examples": [
+      "The customs officer asked to see my passport and asked if I had anything to declare."
+    ],
+    "synonyms": ["border agent", "customs official"],
+    "antonyms": [],
+    "translation": "таможенник"
+  },
+  {
+    "word": "declare",
+    "partOfSpeech": "verb",
+    "forms": ["declares", "declared", "declaring"],
+    "definition": "To acknowledge possession of taxable income or dutiable goods at an airport or border",
+    "examples": [
+      "You must declare any food items you are bringing into the country."
+    ],
+    "synonyms": ["state", "announce", "reveal"],
+    "antonyms": ["hide", "conceal"],
+    "translation": "декларировать"
+  },
+  {
+    "word": "import",
+    "partOfSpeech": "verb",
+    "forms": ["imports", "imported", "importing"],
+    "definition": "To bring goods or services into a country from abroad for sale",
+    "examples": ["Many countries import coffee from South America."],
+    "synonyms": ["bring in", "buy from abroad"],
+    "antonyms": ["export"],
+    "translation": "импортировать"
+  },
+  {
+    "word": "liquid",
+    "partOfSpeech": "noun",
+    "forms": ["liquids"],
+    "definition": "A substance that flows freely but is of constant volume, like water or oil",
+    "examples": [
+      "You cannot bring more than 100ml of any liquid in your carry-on luggage."
+    ],
+    "synonyms": ["fluid"],
+    "antonyms": ["solid", "gas"],
+    "translation": "жидкость"
+  },
+  {
+    "word": "lost",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Unable to find one's way; missing or misplaced",
+    "examples": ["My suitcase was lost during the connecting flight."],
+    "synonyms": ["missing", "misplaced", "astray"],
+    "antonyms": ["found"],
+    "translation": "потерянный"
+  },
+  {
+    "word": "luggage",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Suitcases or other bags in which to pack personal belongings for traveling",
+    "examples": [
+      "We stood at the carousel for an hour waiting for our luggage."
+    ],
+    "synonyms": ["baggage", "suitcases", "bags"],
+    "antonyms": [],
+    "translation": "багаж"
+  },
+  {
+    "word": "missed flight",
+    "partOfSpeech": "phrase",
+    "forms": ["missed flights"],
+    "definition": "A situation where a passenger arrives too late to board their scheduled airplane",
+    "examples": [
+      "Because of the heavy traffic on the highway, we had a missed flight and had to rebook."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "пропущенный рейс"
+  },
+  {
+    "word": "poison",
+    "partOfSpeech": "noun",
+    "forms": ["poisons"],
+    "definition": "A substance that is capable of causing the illness or death of a living organism when introduced or absorbed",
+    "examples": [
+      "Some tropical frogs secrete a deadly poison through their skin."
+    ],
+    "synonyms": ["toxin", "venom"],
+    "antonyms": ["antidote", "cure"],
+    "translation": "яд"
+  },
+  {
+    "word": "preserve",
+    "partOfSpeech": "verb",
+    "forms": ["preserves", "preserved", "preserving"],
+    "definition": "To maintain something in its original or existing state",
+    "examples": ["The museum works hard to preserve ancient artifacts."],
+    "synonyms": ["conserve", "protect", "maintain"],
+    "antonyms": ["destroy", "ruin"],
+    "translation": "сохранять"
+  },
+  {
+    "word": "release",
+    "partOfSpeech": "verb",
+    "forms": ["releases", "released", "releasing"],
+    "definition": "To allow or enable to escape from confinement; set free",
+    "examples": [
+      "The animal shelter will release the rehabilitated birds back into the wild."
+    ],
+    "synonyms": ["free", "let go", "liberate"],
+    "antonyms": ["capture", "imprison"],
+    "translation": "освобождать / выпускать"
+  },
+  {
+    "word": "reptile",
+    "partOfSpeech": "noun",
+    "forms": ["reptiles"],
+    "definition": "A cold-blooded vertebrate animal that includes snakes, lizards, crocodiles, and turtles",
+    "examples": [
+      "The crocodile is a large, dangerous reptile found in warm rivers."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "рептилия / пресмыкающееся"
+  },
+  {
+    "word": "scorpion",
+    "partOfSpeech": "noun",
+    "forms": ["scorpions"],
+    "definition": "An arachnid with lobster-like pincers and a poisonous sting at the end of its jointed tail",
+    "examples": [
+      "He shook his shoes in the morning to make sure no scorpion was hiding inside."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "скорпион"
+  },
+  {
+    "word": "specimen",
+    "partOfSpeech": "noun",
+    "forms": ["specimens"],
+    "definition": "An individual animal, plant, or object used as an example of its species or type for scientific study",
+    "examples": [
+      "The biologist carefully collected a rare specimen of a butterfly."
+    ],
+    "synonyms": ["sample", "example"],
+    "antonyms": [],
+    "translation": "образец / экземпляр"
+  },
+  {
+    "word": "story",
+    "partOfSpeech": "noun",
+    "forms": ["stories"],
+    "definition": "An account of imaginary or real people and events told for entertainment",
+    "examples": ["My grandfather used to tell me a bedtime story every night."],
+    "synonyms": ["tale", "narrative", "yarn"],
+    "antonyms": [],
+    "translation": "история / рассказ"
+  },
+  {
+    "word": "argument",
+    "partOfSpeech": "noun",
+    "forms": ["arguments"],
+    "definition": "An exchange of diverging or opposite views, typically a heated or angry one",
+    "examples": [
+      "They got into a loud argument over whose turn it was to wash the dishes."
+    ],
+    "synonyms": ["dispute", "disagreement", "quarrel"],
+    "antonyms": ["agreement", "harmony"],
+    "translation": "спор / аргумент"
+  },
+  {
+    "word": "at a full gallop",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Moving very fast, usually referring to a horse running at its maximum speed",
+    "examples": [
+      "The horse rode past us at a full gallop, kicking up a cloud of dust."
+    ],
+    "synonyms": ["at full speed", "sprinting"],
+    "antonyms": ["at a walk", "slowly"],
+    "translation": "на полном скаку / галопом"
+  },
+  {
+    "word": "cockroach",
+    "partOfSpeech": "noun",
+    "forms": ["cockroaches"],
+    "definition": "A scavenging insect that resembles a beetle, having long antennae and legs",
+    "examples": [
+      "He screamed when he saw a huge cockroach scurry across the kitchen floor."
+    ],
+    "synonyms": ["roach"],
+    "antonyms": [],
+    "translation": "таракан"
+  },
+  {
+    "word": "crowd",
+    "partOfSpeech": "noun",
+    "forms": ["crowds"],
+    "definition": "A large number of people gathered together in a disorganized or unruly way",
+    "examples": [
+      "A huge crowd gathered in the square to hear the politician speak."
+    ],
+    "synonyms": ["mob", "throng", "mass"],
+    "antonyms": ["individual"],
+    "translation": "толпа"
+  },
+  {
+    "word": "grab",
+    "partOfSpeech": "verb",
+    "forms": ["grabs", "grabbed", "grabbing"],
+    "definition": "To grasp or seize suddenly and roughly",
+    "examples": [
+      "He had to grab the railing to stop himself from falling down the stairs."
+    ],
+    "synonyms": ["seize", "snatch", "catch"],
+    "antonyms": ["release", "let go"],
+    "translation": "хватать"
+  },
+  {
+    "word": "handkerchief",
+    "partOfSpeech": "noun",
+    "forms": ["handkerchiefs"],
+    "definition": "A square of cotton or other finely woven material, typically carried in one's pocket and intended for blowing or wiping one's nose",
+    "examples": [
+      "He pulled a white handkerchief from his pocket to wipe his forehead."
+    ],
+    "synonyms": ["tissue", "hanky"],
+    "antonyms": [],
+    "translation": "носовой платок"
+  },
+  {
+    "word": "lean down",
+    "partOfSpeech": "phrase",
+    "forms": ["leans down", "leaned down", "leaning down"],
+    "definition": "To bend one's body forwards and downwards",
+    "examples": [
+      "She had to lean down to hear what the small child was whispering."
+    ],
+    "synonyms": ["bend down", "stoop"],
+    "antonyms": ["stand up straight"],
+    "translation": "наклониться"
+  },
+  {
+    "word": "on display",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Arranged so as to be seen by the public",
+    "examples": [
+      "Many beautiful paintings are currently on display at the art gallery."
+    ],
+    "synonyms": ["exhibited", "shown", "on show"],
+    "antonyms": ["hidden"],
+    "translation": "на выставке / напоказ"
+  },
+  {
+    "word": "race",
+    "partOfSpeech": "noun",
+    "forms": ["races"],
+    "definition": "A competition between runners, horses, vehicles, etc. to see which is the fastest",
+    "examples": ["He trained for months to compete in the marathon race."],
+    "synonyms": ["competition", "contest", "dash"],
+    "antonyms": [],
+    "translation": "гонка"
+  },
+  {
+    "word": "saddle",
+    "partOfSpeech": "noun",
+    "forms": ["saddles"],
+    "definition": "A seat fastened on the back of a horse or other animal for riding",
+    "examples": [
+      "He tightened the straps on the saddle before getting on the horse."
+    ],
+    "synonyms": ["seat"],
+    "antonyms": [],
+    "translation": "седло"
+  },
+  {
+    "word": "snatch",
+    "partOfSpeech": "verb",
+    "forms": ["snatches", "snatched", "snatching"],
+    "definition": "To quickly seize something in a rude or eager way",
+    "examples": ["The thief tried to snatch her purse as he ran past."],
+    "synonyms": ["grab", "seize", "swipe"],
+    "antonyms": ["release", "give"],
+    "translation": "выхватить / схватить"
+  },
+  {
+    "word": "speed",
+    "partOfSpeech": "noun",
+    "forms": ["speeds"],
+    "definition": "The rate at which someone or something is able to move or operate",
+    "examples": ["The car was traveling at a very high speed when it crashed."],
+    "synonyms": ["velocity", "pace", "rapidity"],
+    "antonyms": ["slowness"],
+    "translation": "скорость"
+  },
+  {
+    "word": "ancient times",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Periods from the distant past, especially before the Middle Ages",
+    "examples": ["People in ancient times believed that the Earth was flat."],
+    "synonyms": ["antiquity", "the distant past"],
+    "antonyms": ["modern times", "the present"],
+    "translation": "древние времена"
+  },
+  {
+    "word": "body of water",
+    "partOfSpeech": "phrase",
+    "forms": ["bodies of water"],
+    "definition": "A significant accumulation of water, such as an ocean, lake, or river",
+    "examples": ["The Pacific Ocean is the largest body of water on Earth."],
+    "synonyms": ["waterway"],
+    "antonyms": ["landmass"],
+    "translation": "водоем"
+  },
+  {
+    "word": "border",
+    "partOfSpeech": "verb",
+    "forms": ["borders", "bordered", "bordering"],
+    "definition": "To form an edge along or next to an area or country",
+    "examples": ["The United States borders Canada to the north."],
+    "synonyms": ["adjoin", "flank", "edge"],
+    "antonyms": [],
+    "translation": "граничить"
+  },
+  {
+    "word": "connected",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Brought together or into contact so that a real or notional link is established",
+    "examples": ["The two laptops are connected to the same wireless network."],
+    "synonyms": ["linked", "joined", "attached"],
+    "antonyms": ["disconnected", "separated"],
+    "translation": "связанный / соединенный"
+  },
+  {
+    "word": "enclosed",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Surrounded or closed off on all sides",
+    "examples": ["We sat in an enclosed courtyard, safe from the cold wind."],
+    "synonyms": ["surrounded", "confined", "closed in"],
+    "antonyms": ["open", "exposed"],
+    "translation": "замкнутый / закрытый"
+  },
+  {
+    "word": "flow",
+    "partOfSpeech": "verb",
+    "forms": ["flows", "flowed", "flowing"],
+    "definition": "To move along or out steadily and continuously in a current or stream",
+    "examples": ["The river continues to flow steadily toward the ocean."],
+    "synonyms": ["pour", "stream", "run"],
+    "antonyms": ["stagnate"],
+    "translation": "течь"
+  },
+  {
+    "word": "for sure",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Without a doubt; certainly",
+    "examples": [
+      "I don't know for sure if it will rain tomorrow, but it looks cloudy."
+    ],
+    "synonyms": ["certainly", "definitely", "without doubt"],
+    "antonyms": ["maybe", "uncertainly"],
+    "translation": "наверняка"
+  },
+  {
+    "word": "freshwater lake",
+    "partOfSpeech": "noun",
+    "forms": ["freshwater lakes"],
+    "definition": "A body of water surrounded by land that consists of non-salty water",
+    "examples": [
+      "Lake Superior is the largest freshwater lake in the world by surface area."
+    ],
+    "synonyms": [],
+    "antonyms": ["saltwater lake"],
+    "translation": "пресноводное озеро"
+  },
+  {
+    "word": "however",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "Used to introduce a statement that contrasts with or seems to contradict something that has been said previously",
+    "examples": [
+      "The plan sounded good; however, it was too expensive to implement."
+    ],
+    "synonyms": ["nevertheless", "yet", "on the other hand"],
+    "antonyms": [],
+    "translation": "однако"
+  },
+  {
+    "word": "including",
+    "partOfSpeech": "preposition",
+    "forms": [],
+    "definition": "Containing as part of the whole being considered",
+    "examples": ["The ticket price is fifty dollars, including tax and fees."],
+    "synonyms": ["incorporating", "comprising"],
+    "antonyms": ["excluding", "excepting"],
+    "translation": "включая"
+  },
+  {
+    "word": "lose",
+    "partOfSpeech": "verb",
+    "forms": ["loses", "lost", "losing"],
+    "definition": "To be deprived of or cease to have or retain something",
+    "examples": [
+      "Make sure you zip up your pocket so you don't lose your keys."
+    ],
+    "synonyms": ["misplace", "drop", "forfeit"],
+    "antonyms": ["find", "win", "gain"],
+    "translation": "терять"
+  },
+  {
+    "word": "northern",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Situated in, directed toward, or facing the north",
+    "examples": [
+      "The northern regions of the country experience very harsh winters."
+    ],
+    "synonyms": ["northerly"],
+    "antonyms": ["southern"],
+    "translation": "северный"
+  },
+  {
+    "word": "outlet",
+    "partOfSpeech": "noun",
+    "forms": ["outlets"],
+    "definition": "A place where water or gas can escape or flow out",
+    "examples": [
+      "The lake has no natural outlet, so the water evaporates over time."
+    ],
+    "synonyms": ["exit", "vent", "channel"],
+    "antonyms": ["inlet", "intake"],
+    "translation": "выход / сток"
+  },
+  {
+    "word": "produce",
+    "partOfSpeech": "verb",
+    "forms": ["produces", "produced", "producing"],
+    "definition": "To make or manufacture from components or raw materials",
+    "examples": [
+      "The factory uses advanced machinery to produce thousands of cars each year."
+    ],
+    "synonyms": ["make", "create", "manufacture"],
+    "antonyms": ["destroy", "consume"],
+    "translation": "производить"
+  },
+  {
+    "word": "through",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "Moving in one side and out of the other side of an opening, channel, or location",
+    "examples": ["The train went through the long dark tunnel."],
+    "synonyms": ["into and out of", "via"],
+    "antonyms": ["around"],
+    "translation": "сквозь / насквозь"
+  },
+  {
+    "word": "wildlife",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Wild animals collectively; the native fauna of a region",
+    "examples": [
+      "The national park was established to protect local wildlife and habitats."
+    ],
+    "synonyms": ["fauna", "animals", "creatures"],
+    "antonyms": [],
+    "translation": "дикая природа"
+  }
+]

@@ -1,0 +1,756 @@
+[
+  {
+    "word": "authorities",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "People or organizations having political or administrative power and control",
+    "examples": [
+      "The local authorities decided to close the park for renovations."
+    ],
+    "synonyms": ["officials", "government", "administration"],
+    "antonyms": [],
+    "translation": "власти"
+  },
+  {
+    "word": "conservationist",
+    "partOfSpeech": "noun",
+    "forms": ["conservationists"],
+    "definition": "A person who advocates or acts for the protection and preservation of the environment and wildlife",
+    "examples": [
+      "The conservationist spent years studying the endangered species."
+    ],
+    "synonyms": ["environmentalist", "ecologist"],
+    "antonyms": [],
+    "translation": "защитник природы / эколог"
+  },
+  {
+    "word": "cultural site",
+    "partOfSpeech": "noun",
+    "forms": ["cultural sites"],
+    "definition": "A place that has a specific cultural significance or historical value",
+    "examples": [
+      "Machu Picchu is a famous cultural site visited by thousands of tourists."
+    ],
+    "synonyms": ["heritage site", "historical site"],
+    "antonyms": [],
+    "translation": "культурный объект"
+  },
+  {
+    "word": "damage",
+    "partOfSpeech": "noun",
+    "forms": ["damages"],
+    "definition": "Physical harm that impairs the value, usefulness, or normal function of something",
+    "examples": [
+      "The strong storm caused a lot of damage to the coastal towns."
+    ],
+    "synonyms": ["harm", "destruction", "ruin"],
+    "antonyms": ["repair", "improvement"],
+    "translation": "ущерб / повреждение"
+  },
+  {
+    "word": "giant",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Of very great size or force; huge",
+    "examples": ["We saw a giant redwood tree during our hike in the forest."],
+    "synonyms": ["huge", "enormous", "massive"],
+    "antonyms": ["tiny", "small", "miniature"],
+    "translation": "гигантский"
+  },
+  {
+    "word": "global warming",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The long-term heating of Earth's climate system observed due to human activities",
+    "examples": [
+      "Global warming is causing the sea levels to rise significantly."
+    ],
+    "synonyms": ["climate change"],
+    "antonyms": [],
+    "translation": "глобальное потепление"
+  },
+  {
+    "word": "humid",
+    "partOfSpeech": "adjective",
+    "forms": ["humider", "humidest"],
+    "definition": "Marked by a relatively high level of water vapor in the atmosphere",
+    "examples": ["The weather in the tropical jungle was very hot and humid."],
+    "synonyms": ["muggy", "sticky", "damp"],
+    "antonyms": ["dry", "arid"],
+    "translation": "влажный"
+  },
+  {
+    "word": "melting ice",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Solid water turning into liquid due to an increase in temperature",
+    "examples": [
+      "Melting ice in the Arctic poses a serious threat to polar bears."
+    ],
+    "synonyms": ["thawing ice"],
+    "antonyms": ["freezing ice"],
+    "translation": "тающий лед"
+  },
+  {
+    "word": "mystical",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Inspiring a sense of spiritual mystery, awe, and fascination",
+    "examples": ["The ancient ruins had a mystical atmosphere at sunset."],
+    "synonyms": ["magical", "mysterious", "spiritual"],
+    "antonyms": ["ordinary", "mundane"],
+    "translation": "мистический"
+  },
+  {
+    "word": "power",
+    "partOfSpeech": "noun",
+    "forms": ["powers"],
+    "definition": "The ability or capacity to do something or act in a particular way",
+    "examples": [
+      "Solar panels harness the power of the sun to generate electricity."
+    ],
+    "synonyms": ["energy", "strength", "force"],
+    "antonyms": ["weakness"],
+    "translation": "сила / энергия"
+  },
+  {
+    "word": "preserve",
+    "partOfSpeech": "verb",
+    "forms": ["preserves", "preserved", "preserving"],
+    "definition": "To maintain something in its original or existing state",
+    "examples": ["The organization works to preserve natural habitats."],
+    "synonyms": ["conserve", "protect", "maintain"],
+    "antonyms": ["destroy", "ruin"],
+    "translation": "сохранять"
+  },
+  {
+    "word": "responsible for",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Having an obligation to do something, or having control over or care for someone",
+    "examples": [
+      "Humans are largely responsible for the rapid climate changes."
+    ],
+    "synonyms": ["accountable for", "in charge of"],
+    "antonyms": [],
+    "translation": "ответственный за"
+  },
+  {
+    "word": "rising sea",
+    "partOfSpeech": "noun",
+    "forms": ["rising seas"],
+    "definition": "An increase in the level of the world's oceans",
+    "examples": [
+      "Rising sea levels could flood many coastal cities in the future."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "повышение уровня моря"
+  },
+  {
+    "word": "sandstone",
+    "partOfSpeech": "noun",
+    "forms": ["sandstones"],
+    "definition": "Sedimentary rock consisting of sand or quartz grains cemented together",
+    "examples": [
+      "The ancient temple was carved entirely out of red sandstone."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "песчаник"
+  },
+  {
+    "word": "survive",
+    "partOfSpeech": "verb",
+    "forms": ["survives", "survived", "surviving"],
+    "definition": "To continue to live or exist, especially in spite of danger or hardship",
+    "examples": [
+      "Only the strongest plants can survive in this harsh desert environment."
+    ],
+    "synonyms": ["endure", "live on", "outlast"],
+    "antonyms": ["perish", "die"],
+    "translation": "выживать"
+  },
+  {
+    "word": "threaten",
+    "partOfSpeech": "verb",
+    "forms": ["threatens", "threatened", "threatening"],
+    "definition": "To state one's intention to take hostile action against someone; to cause danger to",
+    "examples": [
+      "Pollution continues to threaten the delicate marine ecosystem."
+    ],
+    "synonyms": ["endanger", "jeopardize", "menace"],
+    "antonyms": ["protect", "defend"],
+    "translation": "угрожать"
+  },
+  {
+    "word": "vegetation",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Plants considered collectively, especially those found in a particular area or habitat",
+    "examples": ["The jungle is covered in thick, green vegetation."],
+    "synonyms": ["plants", "flora", "greenery"],
+    "antonyms": [],
+    "translation": "растительность"
+  },
+  {
+    "word": "worship",
+    "partOfSpeech": "verb",
+    "forms": ["worships", "worshipped", "worshipping"],
+    "definition": "To show reverence and adoration for a deity or something highly respected",
+    "examples": ["Many ancient cultures used to worship the sun and the moon."],
+    "synonyms": ["revere", "venerate", "adore"],
+    "antonyms": ["despise"],
+    "translation": "поклоняться"
+  },
+  {
+    "word": "aim",
+    "partOfSpeech": "verb",
+    "forms": ["aims", "aimed", "aiming"],
+    "definition": "To point or direct at a target, or to have the intention of achieving",
+    "examples": [
+      "The new environmental policy will aim to reduce plastic waste."
+    ],
+    "synonyms": ["target", "intend", "strive"],
+    "antonyms": [],
+    "translation": "целиться / стремиться"
+  },
+  {
+    "word": "astronaut",
+    "partOfSpeech": "noun",
+    "forms": ["astronauts"],
+    "definition": "A person who is trained to travel in a spacecraft",
+    "examples": [
+      "The astronaut floated weightlessly inside the space station."
+    ],
+    "synonyms": ["cosmonaut", "space traveler"],
+    "antonyms": [],
+    "translation": "астронавт / космонавт"
+  },
+  {
+    "word": "average",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Constituting the result obtained by adding together several quantities and then dividing this total by the number of quantities",
+    "examples": [
+      "The average temperature in the summer here is around 25 degrees."
+    ],
+    "synonyms": ["ordinary", "standard", "typical"],
+    "antonyms": ["extraordinary", "unusual"],
+    "translation": "средний"
+  },
+  {
+    "word": "be worth it",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To be enjoyable or useful despite the fact that you have to make an effort or spend money",
+    "examples": [
+      "The hike was exhausting, but the beautiful view at the top made it worth it."
+    ],
+    "synonyms": ["worthwhile", "rewarding"],
+    "antonyms": [],
+    "translation": "стоить того"
+  },
+  {
+    "word": "board",
+    "partOfSpeech": "verb",
+    "forms": ["boards", "boarded", "boarding"],
+    "definition": "To get on or into a ship, aircraft, or other vehicle",
+    "examples": [
+      "Passengers should be ready to board the flight in ten minutes."
+    ],
+    "synonyms": ["get on", "embark"],
+    "antonyms": ["disembark", "get off"],
+    "translation": "садиться (на борт)"
+  },
+  {
+    "word": "close",
+    "partOfSpeech": "adjective",
+    "forms": ["closer", "closest"],
+    "definition": "A short distance away or apart in space or time",
+    "examples": ["The hotel is very close to the beach."],
+    "synonyms": ["near", "nearby", "adjacent"],
+    "antonyms": ["far", "distant"],
+    "translation": "близкий"
+  },
+  {
+    "word": "dream",
+    "partOfSpeech": "noun",
+    "forms": ["dreams"],
+    "definition": "A cherished aspiration, ambition, or ideal",
+    "examples": ["Her lifelong dream was to travel into outer space."],
+    "synonyms": ["aspiration", "ambition", "fantasy"],
+    "antonyms": ["nightmare", "reality"],
+    "translation": "мечта / сон"
+  },
+  {
+    "word": "exploration",
+    "partOfSpeech": "noun",
+    "forms": ["explorations"],
+    "definition": "The action of traveling in or through an unfamiliar area in order to learn about it",
+    "examples": [
+      "Space exploration has taught us a lot about our solar system."
+    ],
+    "synonyms": ["investigation", "discovery", "expedition"],
+    "antonyms": [],
+    "translation": "исследование"
+  },
+  {
+    "word": "gas",
+    "partOfSpeech": "noun",
+    "forms": ["gases"],
+    "definition": "An airlike fluid substance which expands freely to fill any space available",
+    "examples": ["Oxygen is a gas that is essential for human life."],
+    "synonyms": ["vapor", "fume"],
+    "antonyms": ["solid", "liquid"],
+    "translation": "газ"
+  },
+  {
+    "word": "great",
+    "partOfSpeech": "adjective",
+    "forms": ["greater", "greatest"],
+    "definition": "Of an extent, amount, or intensity considerably above the normal or average",
+    "examples": ["The scientist made a great discovery that changed history."],
+    "synonyms": ["excellent", "huge", "magnificent"],
+    "antonyms": ["small", "insignificant", "terrible"],
+    "translation": "великий / отличный"
+  },
+  {
+    "word": "human",
+    "partOfSpeech": "noun",
+    "forms": ["humans"],
+    "definition": "A human being, especially a person as distinguished from an animal or alien",
+    "examples": ["Every human needs food, water, and shelter to survive."],
+    "synonyms": ["person", "mortal", "individual"],
+    "antonyms": ["animal", "alien"],
+    "translation": "человек"
+  },
+  {
+    "word": "journey",
+    "partOfSpeech": "noun",
+    "forms": ["journeys"],
+    "definition": "An act of traveling from one place to another",
+    "examples": ["The long journey across the desert took three weeks."],
+    "synonyms": ["trip", "expedition", "voyage"],
+    "antonyms": [],
+    "translation": "путешествие"
+  },
+  {
+    "word": "land",
+    "partOfSpeech": "noun",
+    "forms": ["lands"],
+    "definition": "The part of the earth's surface that is not covered by water",
+    "examples": [
+      "After weeks at sea, the sailors were happy to finally see land."
+    ],
+    "synonyms": ["ground", "earth", "soil"],
+    "antonyms": ["sea", "water"],
+    "translation": "земля / суша"
+  },
+  {
+    "word": "leap",
+    "partOfSpeech": "noun",
+    "forms": ["leaps"],
+    "definition": "A forceful jump or quick movement; a significant advance",
+    "examples": ["That is one small step for man, one giant leap for mankind."],
+    "synonyms": ["jump", "bound", "spring"],
+    "antonyms": [],
+    "translation": "прыжок"
+  },
+  {
+    "word": "mankind",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Human beings considered collectively; the human race",
+    "examples": [
+      "Pollution is one of the biggest challenges facing mankind today."
+    ],
+    "synonyms": ["humanity", "the human race"],
+    "antonyms": [],
+    "translation": "человечество"
+  },
+  {
+    "word": "mission",
+    "partOfSpeech": "noun",
+    "forms": ["missions"],
+    "definition": "An important assignment carried out for political, religious, or commercial purposes",
+    "examples": [
+      "The astronauts returned safely to Earth after a successful mission."
+    ],
+    "synonyms": ["assignment", "task", "operation"],
+    "antonyms": [],
+    "translation": "миссия"
+  },
+  {
+    "word": "remote",
+    "partOfSpeech": "adjective",
+    "forms": ["remoter", "remotest"],
+    "definition": "Situated far from the main centers of population; distant",
+    "examples": [
+      "They lived in a remote mountain village with no internet access."
+    ],
+    "synonyms": ["distant", "isolated", "faraway"],
+    "antonyms": ["close", "near", "central"],
+    "translation": "удаленный"
+  },
+  {
+    "word": "rocky",
+    "partOfSpeech": "adjective",
+    "forms": ["rockier", "rockiest"],
+    "definition": "Consisting or formed of rock; full of rocks",
+    "examples": ["The hikers carefully climbed up the steep, rocky path."],
+    "synonyms": ["stony", "bouldery", "craggy"],
+    "antonyms": ["smooth"],
+    "translation": "скалистый / каменистый"
+  },
+  {
+    "word": "rush hour",
+    "partOfSpeech": "noun",
+    "forms": ["rush hours"],
+    "definition": "A time during each day when traffic is at its heaviest",
+    "examples": [
+      "I try to leave work early to avoid sitting in traffic during rush hour."
+    ],
+    "synonyms": ["peak hour", "busy time"],
+    "antonyms": [],
+    "translation": "час пик"
+  },
+  {
+    "word": "solid",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Firm and stable in shape; not liquid or fluid",
+    "examples": ["When water freezes, it turns into a solid block of ice."],
+    "synonyms": ["hard", "firm", "sturdy"],
+    "antonyms": ["liquid", "gas", "fragile"],
+    "translation": "твердый"
+  },
+  {
+    "word": "space agency",
+    "partOfSpeech": "noun",
+    "forms": ["space agencies"],
+    "definition": "An organization that carries out space exploration",
+    "examples": [
+      "The national space agency announced plans to build a base on the moon."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "космическое агентство"
+  },
+  {
+    "word": "step",
+    "partOfSpeech": "noun",
+    "forms": ["steps"],
+    "definition": "An act or movement of putting one leg in front of the other in walking or running",
+    "examples": ["He took a slow step forward into the dark room."],
+    "synonyms": ["stride", "pace", "footstep"],
+    "antonyms": [],
+    "translation": "шаг"
+  },
+  {
+    "word": "surface",
+    "partOfSpeech": "noun",
+    "forms": ["surfaces"],
+    "definition": "The outside part or uppermost layer of something",
+    "examples": ["The surface of the lake was completely calm and still."],
+    "synonyms": ["exterior", "outside", "top"],
+    "antonyms": ["interior", "inside"],
+    "translation": "поверхность"
+  },
+  {
+    "word": "turn sb's attention to",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To start thinking about or dealing with a particular subject",
+    "examples": [
+      "Let's turn our attention to the next item on the meeting agenda."
+    ],
+    "synonyms": ["focus on", "concentrate on"],
+    "antonyms": ["ignore"],
+    "translation": "обратить чье-либо внимание на"
+  },
+  {
+    "word": "wheel",
+    "partOfSpeech": "noun",
+    "forms": ["wheels"],
+    "definition": "A circular object that revolves on an axle and is fixed below a vehicle to enable it to move",
+    "examples": ["The mechanic had to replace a flat wheel on the car."],
+    "synonyms": ["tire", "disk"],
+    "antonyms": [],
+    "translation": "колесо"
+  },
+  {
+    "word": "critically endangered",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Facing an extremely high risk of extinction in the wild",
+    "examples": [
+      "The Sumatran rhino is a critically endangered animal with very few left in the wild."
+    ],
+    "synonyms": ["at severe risk", "highly threatened"],
+    "antonyms": ["safe", "thriving"],
+    "translation": "находящийся на грани исчезновения"
+  },
+  {
+    "word": "disease",
+    "partOfSpeech": "noun",
+    "forms": ["diseases"],
+    "definition": "A disorder of structure or function in a human, animal, or plant",
+    "examples": [
+      "Proper hygiene is the best way to prevent the spread of infectious disease."
+    ],
+    "synonyms": ["illness", "sickness", "ailment"],
+    "antonyms": ["health", "wellness"],
+    "translation": "болезнь"
+  },
+  {
+    "word": "endangered species",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "A species of animal or plant that is seriously at risk of extinction",
+    "examples": [
+      "Many endangered species are protected by international conservation laws."
+    ],
+    "synonyms": ["threatened species"],
+    "antonyms": [],
+    "translation": "вымирающий вид"
+  },
+  {
+    "word": "extinction",
+    "partOfSpeech": "noun",
+    "forms": ["extinctions"],
+    "definition": "The state or process of a species, family, or larger group being or becoming extinct",
+    "examples": [
+      "The extinction of the dinosaurs happened millions of years ago."
+    ],
+    "synonyms": ["dying out", "destruction", "annihilation"],
+    "antonyms": ["survival", "existence"],
+    "translation": "вымирание"
+  },
+  {
+    "word": "face",
+    "partOfSpeech": "verb",
+    "forms": ["faces", "faced", "facing"],
+    "definition": "To confront and deal with or accept a difficult or unpleasant task, fact, or situation",
+    "examples": ["Many wild animals face the loss of their natural habitats."],
+    "synonyms": ["confront", "encounter", "tackle"],
+    "antonyms": ["avoid", "evade"],
+    "translation": "сталкиваться"
+  },
+  {
+    "word": "fishing village",
+    "partOfSpeech": "noun",
+    "forms": ["fishing villages"],
+    "definition": "A village, usually located near a fishing ground, with an economy based on catching fish",
+    "examples": [
+      "We spent our summer vacation in a quiet little fishing village by the sea."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "рыбацкая деревня"
+  },
+  {
+    "word": "mammal",
+    "partOfSpeech": "noun",
+    "forms": ["mammals"],
+    "definition": "A warm-blooded vertebrate animal of a class that is distinguished by the possession of hair or fur",
+    "examples": ["The blue whale is the largest mammal on the planet."],
+    "synonyms": [],
+    "antonyms": ["reptile", "amphibian", "bird"],
+    "translation": "млекопитающее"
+  },
+  {
+    "word": "overfishing",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The depletion of the stock of fish in a body of water by too much fishing",
+    "examples": [
+      "Overfishing in these waters has led to a drastic decline in the local fish population."
+    ],
+    "synonyms": ["excessive fishing"],
+    "antonyms": [],
+    "translation": "чрезмерный вылов рыбы"
+  },
+  {
+    "word": "overhunting",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Hunting at rates that exceed the capacity of a population to replenish itself",
+    "examples": [
+      "Strict laws were passed to stop the overhunting of elephants for ivory."
+    ],
+    "synonyms": ["excessive hunting"],
+    "antonyms": [],
+    "translation": "чрезмерная охота"
+  },
+  {
+    "word": "steppe",
+    "partOfSpeech": "noun",
+    "forms": ["steppes"],
+    "definition": "A large area of flat unforested grassland in southeastern Europe or Siberia",
+    "examples": [
+      "Wild horses can often be seen running freely across the vast steppe."
+    ],
+    "synonyms": ["plain", "grassland", "prairie"],
+    "antonyms": ["forest", "mountain"],
+    "translation": "степь"
+  },
+  {
+    "word": "unique",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Being the only one of its kind; unlike anything else",
+    "examples": ["Every person's fingerprint is completely unique."],
+    "synonyms": ["distinctive", "individual", "special"],
+    "antonyms": ["common", "ordinary", "average"],
+    "translation": "уникальный"
+  },
+  {
+    "word": "blanket",
+    "partOfSpeech": "noun",
+    "forms": ["blankets"],
+    "definition": "A large piece of woolen or similar material used as a covering",
+    "examples": ["A thick blanket of snow covered the entire town overnight."],
+    "synonyms": ["covering", "layer", "cover"],
+    "antonyms": [],
+    "translation": "одеяло / покров"
+  },
+  {
+    "word": "chemical",
+    "partOfSpeech": "noun",
+    "forms": ["chemicals"],
+    "definition": "A compound or substance that has been purified or prepared, especially artificially",
+    "examples": [
+      "The factory was fined for dumping toxic chemicals into the river."
+    ],
+    "synonyms": ["substance", "compound"],
+    "antonyms": [],
+    "translation": "химикат"
+  },
+  {
+    "word": "extinct",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having no living members; no longer in existence",
+    "examples": ["The dodo bird has been extinct for hundreds of years."],
+    "synonyms": ["vanished", "dead", "lost"],
+    "antonyms": ["extant", "living", "alive"],
+    "translation": "вымерший"
+  },
+  {
+    "word": "harmful",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Causing or likely to cause harm",
+    "examples": [
+      "Harmful gases from cars contribute significantly to air pollution."
+    ],
+    "synonyms": ["damaging", "injurious", "destructive"],
+    "antonyms": ["harmless", "safe", "beneficial"],
+    "translation": "вредный"
+  },
+  {
+    "word": "ozone layer",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A layer in the earth's stratosphere containing a high concentration of ozone, which absorbs most of the ultraviolet radiation reaching the earth from the sun",
+    "examples": [
+      "The ozone layer protects life on Earth from harmful solar radiation."
+    ],
+    "synonyms": ["ozonosphere"],
+    "antonyms": [],
+    "translation": "озоновый слой"
+  },
+  {
+    "word": "ray",
+    "partOfSpeech": "noun",
+    "forms": ["rays"],
+    "definition": "A line of light or radiation",
+    "examples": ["A single ray of sunlight peeked through the dark clouds."],
+    "synonyms": ["beam", "shaft", "flash"],
+    "antonyms": [],
+    "translation": "луч"
+  },
+  {
+    "word": "surround",
+    "partOfSpeech": "verb",
+    "forms": ["surrounds", "surrounded", "surrounding"],
+    "definition": "To be all around someone or something",
+    "examples": ["Tall trees completely surround the old wooden cabin."],
+    "synonyms": ["enclose", "encircle", "encompass"],
+    "antonyms": [],
+    "translation": "окружать"
+  },
+  {
+    "word": "fume",
+    "partOfSpeech": "noun",
+    "forms": ["fumes"],
+    "definition": "Gas, smoke, or vapor that smells strongly or is dangerous to inhale",
+    "examples": [
+      "The toxic fumes from the burning plastic made it difficult to breathe."
+    ],
+    "synonyms": ["smoke", "gas", "vapor", "exhaust"],
+    "antonyms": [],
+    "translation": "дым / выхлоп"
+  },
+  {
+    "word": "increase",
+    "partOfSpeech": "verb",
+    "forms": ["increases", "increased", "increasing"],
+    "definition": "To become or make greater in size, amount, intensity, or degree",
+    "examples": [
+      "The population of the city will continue to increase over the next decade."
+    ],
+    "synonyms": ["grow", "rise", "expand"],
+    "antonyms": ["decrease", "reduce", "shrink"],
+    "translation": "увеличивать"
+  },
+  {
+    "word": "poison",
+    "partOfSpeech": "verb",
+    "forms": ["poisons", "poisoned", "poisoning"],
+    "definition": "To administer poison to a person or animal, or to infect a place",
+    "examples": [
+      "The chemical spill threatened to poison the local water supply."
+    ],
+    "synonyms": ["contaminate", "pollute", "taint"],
+    "antonyms": ["purify", "cleanse"],
+    "translation": "отравлять"
+  },
+  {
+    "word": "reduce",
+    "partOfSpeech": "verb",
+    "forms": ["reduces", "reduced", "reducing"],
+    "definition": "To make smaller or less in amount, degree, or size",
+    "examples": [
+      "We must reduce our carbon footprint to help save the planet."
+    ],
+    "synonyms": ["decrease", "lessen", "diminish"],
+    "antonyms": ["increase", "expand", "raise"],
+    "translation": "сокращать / уменьшать"
+  },
+  {
+    "word": "smog",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Fog or haze combined with smoke and other atmospheric pollutants",
+    "examples": [
+      "Heavy smog hung over the city, making it difficult to see the skyline."
+    ],
+    "synonyms": ["haze", "fog", "pollution"],
+    "antonyms": [],
+    "translation": "смог"
+  },
+  {
+    "word": "vehicle",
+    "partOfSpeech": "noun",
+    "forms": ["vehicles"],
+    "definition": "A thing used for transporting people or goods, especially on land, such as a car, truck, or cart",
+    "examples": [
+      "You are not allowed to park your vehicle in front of the emergency exit."
+    ],
+    "synonyms": ["automobile", "transport", "conveyance"],
+    "antonyms": [],
+    "translation": "транспортное средство"
+  }
+]

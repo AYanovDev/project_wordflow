@@ -1,0 +1,750 @@
+[
+  {
+    "word": "abandoned",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having been deserted or cast off",
+    "examples": [
+      "The explorers found an old, abandoned cabin deep in the woods."
+    ],
+    "synonyms": ["deserted", "empty", "vacant"],
+    "antonyms": ["occupied", "inhabited"],
+    "translation": "заброшенный"
+  },
+  {
+    "word": "advanced",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Modern and recently developed; far on or ahead in development or progress",
+    "examples": ["This new smartphone features highly advanced technology."],
+    "synonyms": ["modern", "developed", "progressive"],
+    "antonyms": ["basic", "primitive", "backward"],
+    "translation": "передовой / продвинутый"
+  },
+  {
+    "word": "bustling",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Full of energetic and noisy activity",
+    "examples": [
+      "The market was bustling with shoppers looking for fresh produce."
+    ],
+    "synonyms": ["busy", "lively", "active", "crowded"],
+    "antonyms": ["quiet", "peaceful", "deserted"],
+    "translation": "шумный / суетливый"
+  },
+  {
+    "word": "cosmopolitan",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Including or containing people from many different countries; familiar with and at ease in many different countries and cultures",
+    "examples": [
+      "London is a highly cosmopolitan city with residents from all over the world."
+    ],
+    "synonyms": ["multicultural", "international", "global"],
+    "antonyms": ["provincial", "narrow-minded"],
+    "translation": "многонациональный / космополитичный"
+  },
+  {
+    "word": "crumble",
+    "partOfSpeech": "verb",
+    "forms": ["crumbles", "crumbled", "crumbling"],
+    "definition": "To break or fall apart into small fragments, especially over time or as a result of deterioration",
+    "examples": ["The old brick wall was beginning to crumble and fall apart."],
+    "synonyms": ["disintegrate", "fall apart", "collapse"],
+    "antonyms": ["strengthen", "build"],
+    "translation": "крошиться / разрушаться"
+  },
+  {
+    "word": "excavate",
+    "partOfSpeech": "verb",
+    "forms": ["excavates", "excavated", "excavating"],
+    "definition": "To make a hole or channel by digging; to remove earth carefully and systematically from an area to find buried remains",
+    "examples": [
+      "The archaeologists plan to excavate the ancient Roman ruins next month."
+    ],
+    "synonyms": ["dig", "unearth", "mine"],
+    "antonyms": ["bury", "cover"],
+    "translation": "раскапывать / производить раскопки"
+  },
+  {
+    "word": "evidence",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The available body of facts or information indicating whether a belief or proposition is true or valid",
+    "examples": [
+      "The detectives searched the room for any evidence that could solve the crime."
+    ],
+    "synonyms": ["proof", "confirmation", "data"],
+    "antonyms": [],
+    "translation": "доказательство / улика"
+  },
+  {
+    "word": "influential",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having great influence on someone or something",
+    "examples": [
+      "He was one of the most influential political figures of the 20th century."
+    ],
+    "synonyms": ["powerful", "important", "leading"],
+    "antonyms": ["unimportant", "powerless", "insignificant"],
+    "translation": "влиятельный"
+  },
+  {
+    "word": "inhabitant",
+    "partOfSpeech": "noun",
+    "forms": ["inhabitants"],
+    "definition": "A person or animal that lives in or occupies a place",
+    "examples": [
+      "The island has only about five hundred permanent inhabitants."
+    ],
+    "synonyms": ["resident", "dweller", "citizen"],
+    "antonyms": [],
+    "translation": "житель / обитатель"
+  },
+  {
+    "word": "mosque",
+    "partOfSpeech": "noun",
+    "forms": ["mosques"],
+    "definition": "A Muslim place of worship",
+    "examples": [
+      "The beautiful blue mosque is one of the city's most famous landmarks."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "мечеть"
+  },
+  {
+    "word": "network",
+    "partOfSpeech": "noun",
+    "forms": ["networks"],
+    "definition": "An arrangement of intersecting horizontal and vertical lines; a group or system of interconnected people or things",
+    "examples": ["The city has a vast underground network of train tunnels."],
+    "synonyms": ["system", "web", "grid"],
+    "antonyms": [],
+    "translation": "сеть"
+  },
+  {
+    "word": "overland",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "By land rather than by sea or air",
+    "examples": ["They took a long overland route across the continent."],
+    "synonyms": ["cross-country", "by land"],
+    "antonyms": ["by sea", "by air"],
+    "translation": "наземный / по суше"
+  },
+  {
+    "word": "replenish",
+    "partOfSpeech": "verb",
+    "forms": ["replenishes", "replenished", "replenishing"],
+    "definition": "To fill something up again",
+    "examples": [
+      "We need to stop at the supermarket to replenish our food supplies."
+    ],
+    "synonyms": ["refill", "restock", "top up"],
+    "antonyms": ["empty", "deplete", "exhaust"],
+    "translation": "пополнять"
+  },
+  {
+    "word": "ruins",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "The physical destruction or disintegration of something or the state of disintegrating or being destroyed",
+    "examples": [
+      "Tourists walked through the ancient ruins of the forgotten city."
+    ],
+    "synonyms": ["remains", "wreckage", "debris"],
+    "antonyms": [],
+    "translation": "руины"
+  },
+  {
+    "word": "siege",
+    "partOfSpeech": "noun",
+    "forms": ["sieges"],
+    "definition": "A military operation in which enemy forces surround a town or building, cutting off essential supplies, with the aim of compelling the surrender of those inside",
+    "examples": ["The castle finally fell after a long and difficult siege."],
+    "synonyms": ["blockade", "encirclement"],
+    "antonyms": [],
+    "translation": "осада"
+  },
+  {
+    "word": "significant",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Sufficiently great or important to be worthy of attention; noteworthy",
+    "examples": [
+      "There was a significant increase in sales after the new marketing campaign."
+    ],
+    "synonyms": ["notable", "important", "major"],
+    "antonyms": ["insignificant", "minor", "trivial"],
+    "translation": "значительный / важный"
+  },
+  {
+    "word": "sustain",
+    "partOfSpeech": "verb",
+    "forms": ["sustains", "sustained", "sustaining"],
+    "definition": "To strengthen or support physically or mentally; cause to continue or be prolonged for an extended period or without interruption",
+    "examples": [
+      "He ate a large breakfast to sustain his energy throughout the morning."
+    ],
+    "synonyms": ["maintain", "support", "keep up"],
+    "antonyms": ["hinder", "stop"],
+    "translation": "поддерживать / обеспечивать"
+  },
+  {
+    "word": "supply",
+    "partOfSpeech": "noun",
+    "forms": ["supplies"],
+    "definition": "A stock of a resource from which a person or place can be provided with the necessary amount of that resource",
+    "examples": ["The town has a limited supply of fresh drinking water."],
+    "synonyms": ["stock", "store", "reserve"],
+    "antonyms": [],
+    "translation": "запас / снабжение"
+  },
+  {
+    "word": "trade route",
+    "partOfSpeech": "noun",
+    "forms": ["trade routes"],
+    "definition": "A logistical network identified as a series of pathways and stoppages used for the commercial transport of cargo",
+    "examples": [
+      "The Silk Road was an ancient trade route connecting East and West."
+    ],
+    "synonyms": ["commercial path"],
+    "antonyms": [],
+    "translation": "торговый путь"
+  },
+  {
+    "word": "carve",
+    "partOfSpeech": "verb",
+    "forms": ["carves", "carved", "carving"],
+    "definition": "To cut (a hard material) in order to produce an object, design, or figure",
+    "examples": ["He used a sharp knife to carve a beautiful wooden bird."],
+    "synonyms": ["sculpt", "cut", "engrave"],
+    "antonyms": [],
+    "translation": "вырезать / высекать"
+  },
+  {
+    "word": "chat",
+    "partOfSpeech": "verb",
+    "forms": ["chats", "chatted", "chatting"],
+    "definition": "To talk in a friendly and informal way",
+    "examples": ["We sat in the cafe and chatted for over an hour."],
+    "synonyms": ["talk", "converse", "gossip"],
+    "antonyms": [],
+    "translation": "болтать / общаться"
+  },
+  {
+    "word": "cone",
+    "partOfSpeech": "noun",
+    "forms": ["cones"],
+    "definition": "A solid or hollow object which tapers from a circular or roughly circular base to a point",
+    "examples": ["The ice cream was served in a crispy waffle cone."],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "конус"
+  },
+  {
+    "word": "cosy",
+    "partOfSpeech": "adjective",
+    "forms": ["cosier", "cosiest"],
+    "definition": "Giving a feeling of comfort, warmth, and relaxation",
+    "examples": [
+      "The small cabin with the fireplace felt very cosy in the winter."
+    ],
+    "synonyms": ["snug", "comfortable", "warm"],
+    "antonyms": ["uncomfortable", "cold"],
+    "translation": "уютный"
+  },
+  {
+    "word": "courtyard",
+    "partOfSpeech": "noun",
+    "forms": ["courtyards"],
+    "definition": "An unroofed area that is completely or mostly enclosed by the walls of a large building",
+    "examples": [
+      "The hotel had a beautiful central courtyard filled with plants and a fountain."
+    ],
+    "synonyms": ["patio", "quadrangle"],
+    "antonyms": [],
+    "translation": "внутренний двор"
+  },
+  {
+    "word": "disease",
+    "partOfSpeech": "noun",
+    "forms": ["diseases"],
+    "definition": "A disorder of structure or function in a human, animal, or plant, especially one that produces specific signs or symptoms or that affects a specific location and is not simply a direct result of physical injury",
+    "examples": [
+      "Scientists are working hard to find a cure for the rare disease."
+    ],
+    "synonyms": ["illness", "sickness", "ailment"],
+    "antonyms": ["health"],
+    "translation": "болезнь"
+  },
+  {
+    "word": "fairy",
+    "partOfSpeech": "noun",
+    "forms": ["fairies"],
+    "definition": "A small imaginary being of human form that has magical powers, especially a female one",
+    "examples": [
+      "The little girl believed there was a fairy living at the bottom of the garden."
+    ],
+    "synonyms": ["sprite", "pixie", "elf"],
+    "antonyms": [],
+    "translation": "фея"
+  },
+  {
+    "word": "chimney",
+    "partOfSpeech": "noun",
+    "forms": ["chimneys"],
+    "definition": "A vertical channel or pipe which conducts smoke and combustion gases up from a fire or furnace and typically through the roof of a building",
+    "examples": [
+      "Smoke was rising steadily from the chimney of the small house."
+    ],
+    "synonyms": ["smokestack", "flue"],
+    "antonyms": [],
+    "translation": "дымоход / труба"
+  },
+  {
+    "word": "fairytale",
+    "partOfSpeech": "noun",
+    "forms": ["fairytales"],
+    "definition": "A children's story about magical and imaginary beings and lands",
+    "examples": ["Her life seemed as perfect and magical as a fairytale."],
+    "synonyms": ["folk tale", "story", "myth"],
+    "antonyms": ["reality", "fact"],
+    "translation": "сказка"
+  },
+  {
+    "word": "mosquito",
+    "partOfSpeech": "noun",
+    "forms": ["mosquitoes", "mosquitos"],
+    "definition": "A slender long-legged fly with aquatic larvae. The bite of the bloodsucking female can transmit a number of serious diseases including malaria and encephalitis",
+    "examples": [
+      "I was bitten by a mosquito while sitting outside in the evening."
+    ],
+    "synonyms": ["bug", "insect"],
+    "antonyms": [],
+    "translation": "комар"
+  },
+  {
+    "word": "nature",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The phenomena of the physical world collectively, including plants, animals, the landscape, and other features and products of the earth, as opposed to humans or human creations",
+    "examples": [
+      "We went camping because we wanted to spend the weekend surrounded by nature."
+    ],
+    "synonyms": ["environment", "wilderness", "outdoors"],
+    "antonyms": [],
+    "translation": "природа"
+  },
+  {
+    "word": "nightfall",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The onset of night; dusk",
+    "examples": [
+      "The hikers needed to find their way back to the camp before nightfall."
+    ],
+    "synonyms": ["dusk", "twilight", "evening"],
+    "antonyms": ["dawn", "sunrise", "daybreak"],
+    "translation": "сумерки / наступление ночи"
+  },
+  {
+    "word": "notch",
+    "partOfSpeech": "noun",
+    "forms": ["notches"],
+    "definition": "An indentation or incision on an edge or surface",
+    "examples": [
+      "He carved a small notch into the wooden stick to mark the measurement."
+    ],
+    "synonyms": ["nick", "cut", "indentation"],
+    "antonyms": [],
+    "translation": "зарубка / выемка"
+  },
+  {
+    "word": "thatched roof",
+    "partOfSpeech": "noun",
+    "forms": ["thatched roofs"],
+    "definition": "A roof covering of straw, reeds, palm leaves, or a similar material",
+    "examples": [
+      "The traditional English cottage had a picturesque thatched roof."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "соломенная крыша"
+  },
+  {
+    "word": "tree top",
+    "partOfSpeech": "noun",
+    "forms": ["tree tops"],
+    "definition": "The uppermost part of a tree",
+    "examples": [
+      "The monkeys were swinging from branch to branch high in the tree top."
+    ],
+    "synonyms": ["canopy", "crown"],
+    "antonyms": ["roots"],
+    "translation": "верхушка дерева"
+  },
+  {
+    "word": "upside-down",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "With the upper part where the lower part should be; in or into an inverted position",
+    "examples": ["She hung the picture upside-down by mistake."],
+    "synonyms": ["inverted", "overturned", "upturned"],
+    "antonyms": ["right-side up"],
+    "translation": "перевернутый / вверх ногами"
+  },
+  {
+    "word": "artificial",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Made or produced by human beings rather than occurring naturally, typically as a copy of something natural",
+    "examples": [
+      "The waiting room was decorated with artificial flowers that never needed watering."
+    ],
+    "synonyms": ["fake", "synthetic", "man-made", "unnatural"],
+    "antonyms": ["natural", "real", "genuine"],
+    "translation": "искусственный"
+  },
+  {
+    "word": "bank",
+    "partOfSpeech": "noun",
+    "forms": ["banks"],
+    "definition": "The land alongside or sloping down to a river or lake",
+    "examples": [
+      "We sat on the grassy bank of the river and watched the boats go by."
+    ],
+    "synonyms": ["edge", "shore", "side"],
+    "antonyms": [],
+    "translation": "берег (реки)"
+  },
+  {
+    "word": "cable car",
+    "partOfSpeech": "noun",
+    "forms": ["cable cars"],
+    "definition": "A transport system, typically one traveling up and down a mountain, in which cabins are suspended on a continuous moving cable driven by a motor at one end of the route",
+    "examples": [
+      "We took a cable car to the top of the mountain to enjoy the view."
+    ],
+    "synonyms": ["gondola", "tramway"],
+    "antonyms": [],
+    "translation": "канатная дорога / фуникулер"
+  },
+  {
+    "word": "drift",
+    "partOfSpeech": "verb",
+    "forms": ["drifts", "drifted", "drifting"],
+    "definition": "To be carried slowly by a current of air or water",
+    "examples": ["The empty boat began to drift away slowly down the river."],
+    "synonyms": ["float", "wander", "coast"],
+    "antonyms": [],
+    "translation": "дрейфовать / плыть по течению"
+  },
+  {
+    "word": "flow",
+    "partOfSpeech": "verb",
+    "forms": ["flows", "flowed", "flowing"],
+    "definition": "To move along or out steadily and continuously in a current or stream",
+    "examples": ["The water began to flow out of the pipe quickly."],
+    "synonyms": ["pour", "stream", "run"],
+    "antonyms": ["stop", "stagnate"],
+    "translation": "течь"
+  },
+  {
+    "word": "iconic",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Widely recognized and well-established; acting as a symbol of something",
+    "examples": ["The Eiffel Tower is an iconic symbol of Paris."],
+    "synonyms": ["famous", "legendary", "classic"],
+    "antonyms": ["unknown", "obscure"],
+    "translation": "знаковый / культовый"
+  },
+  {
+    "word": "in the blink of an eye",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Very quickly; in a very short time",
+    "examples": [
+      "The magician made the coin disappear in the blink of an eye."
+    ],
+    "synonyms": ["instantly", "in a flash", "rapidly"],
+    "antonyms": ["slowly", "gradually"],
+    "translation": "в мгновение ока"
+  },
+  {
+    "word": "magnificent",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Impressively beautiful, elaborate, or extravagant; striking",
+    "examples": [
+      "The view of the mountains from the balcony was truly magnificent."
+    ],
+    "synonyms": ["splendid", "spectacular", "grand", "glorious"],
+    "antonyms": ["unimpressive", "modest", "poor"],
+    "translation": "великолепный"
+  },
+  {
+    "word": "source",
+    "partOfSpeech": "noun",
+    "forms": ["sources"],
+    "definition": "A place, person, or thing from which something comes or can be obtained",
+    "examples": ["Oranges are an excellent source of vitamin C."],
+    "synonyms": ["origin", "root", "provider"],
+    "antonyms": [],
+    "translation": "источник"
+  },
+  {
+    "word": "stroll",
+    "partOfSpeech": "verb",
+    "forms": ["strolls", "strolled", "strolling"],
+    "definition": "To walk in a leisurely way",
+    "examples": ["We decided to stroll through the park after dinner."],
+    "synonyms": ["walk", "wander", "saunter"],
+    "antonyms": ["run", "sprint", "rush"],
+    "translation": "прогуливаться"
+  },
+  {
+    "word": "sunset",
+    "partOfSpeech": "noun",
+    "forms": ["sunsets"],
+    "definition": "The time in the evening when the sun disappears or daylight fades",
+    "examples": ["We sat on the beach and watched the beautiful red sunset."],
+    "synonyms": ["dusk", "sundown", "evening"],
+    "antonyms": ["sunrise", "dawn"],
+    "translation": "закат"
+  },
+  {
+    "word": "collide",
+    "partOfSpeech": "verb",
+    "forms": ["collides", "collided", "colliding"],
+    "definition": "To hit with force when moving",
+    "examples": [
+      "The two cars collided at the intersection because neither driver stopped."
+    ],
+    "synonyms": ["crash", "smash", "bump into"],
+    "antonyms": ["miss", "avoid"],
+    "translation": "сталкиваться"
+  },
+  {
+    "word": "crack",
+    "partOfSpeech": "verb",
+    "forms": ["cracks", "cracked", "cracking"],
+    "definition": "To break or cause to break without a complete separation of the parts",
+    "examples": ["The glass window started to crack when the ball hit it."],
+    "synonyms": ["break", "split", "fracture"],
+    "antonyms": ["fix", "mend"],
+    "translation": "трескаться"
+  },
+  {
+    "word": "crust",
+    "partOfSpeech": "noun",
+    "forms": ["crusts"],
+    "definition": "The tough outer part of a loaf of bread; the outermost layer of rock of which a planet consists",
+    "examples": [
+      "Earthquakes occur when the tectonic plates in the Earth's crust move."
+    ],
+    "synonyms": ["shell", "outer layer", "surface"],
+    "antonyms": ["core", "inside"],
+    "translation": "кора / корка"
+  },
+  {
+    "word": "fault",
+    "partOfSpeech": "noun",
+    "forms": ["faults"],
+    "definition": "An extended break in a body of rock, marked by the relative displacement and discontinuity of strata on either side",
+    "examples": [
+      "The city is located dangerously close to a major geological fault line."
+    ],
+    "synonyms": ["fracture", "rift", "crack"],
+    "antonyms": [],
+    "translation": "разлом (геологический)"
+  },
+  {
+    "word": "form",
+    "partOfSpeech": "verb",
+    "forms": ["forms", "formed", "forming"],
+    "definition": "To bring together parts or combine to create something",
+    "examples": [
+      "Water droplets in the air form clouds when they gather together."
+    ],
+    "synonyms": ["create", "make", "shape", "establish"],
+    "antonyms": ["destroy", "dismantle"],
+    "translation": "формировать / образовывать"
+  },
+  {
+    "word": "melted",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Made liquid by heat",
+    "examples": ["I like to pour melted butter over my popcorn."],
+    "synonyms": ["liquefied", "thawed"],
+    "antonyms": ["frozen", "solid"],
+    "translation": "расплавленный / растаявший"
+  },
+  {
+    "word": "pressure",
+    "partOfSpeech": "noun",
+    "forms": ["pressures"],
+    "definition": "Continuous physical force exerted on or against an object by something in contact with it",
+    "examples": [
+      "The immense pressure deep underground turns carbon into diamonds."
+    ],
+    "synonyms": ["force", "weight", "compression"],
+    "antonyms": [],
+    "translation": "давление"
+  },
+  {
+    "word": "tectonic plate",
+    "partOfSpeech": "noun",
+    "forms": ["tectonic plates"],
+    "definition": "The two sub-layers of the earth's crust (lithosphere) that move, float, and sometimes fracture and whose interaction causes continental drift, earthquakes, volcanoes, mountains, and oceanic trenches",
+    "examples": [
+      "The movement of a tectonic plate can cause a massive earthquake."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "тектоническая плита"
+  },
+  {
+    "word": "electrical storm",
+    "partOfSpeech": "noun",
+    "forms": ["electrical storms"],
+    "definition": "A storm with thunder and lightning",
+    "examples": [
+      "The electrical storm last night knocked out power to the entire neighborhood."
+    ],
+    "synonyms": ["thunderstorm", "lightning storm"],
+    "antonyms": [],
+    "translation": "гроза (с молниями)"
+  },
+  {
+    "word": "fireworks display",
+    "partOfSpeech": "noun",
+    "forms": ["fireworks displays"],
+    "definition": "A public exhibition of fireworks",
+    "examples": [
+      "We watched the spectacular fireworks display over the river on New Year's Eve."
+    ],
+    "synonyms": ["fireworks show"],
+    "antonyms": [],
+    "translation": "фейерверк (шоу)"
+  },
+  {
+    "word": "for sale",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Offered for purchase; available to be bought",
+    "examples": ["I saw a beautiful old house for sale in the next town."],
+    "synonyms": ["on the market", "available to buy"],
+    "antonyms": ["not for sale"],
+    "translation": "на продажу"
+  },
+  {
+    "word": "guesthouse",
+    "partOfSpeech": "noun",
+    "forms": ["guesthouses"],
+    "definition": "A private house offering accommodation to paying guests",
+    "examples": ["We stayed in a lovely little guesthouse near the beach."],
+    "synonyms": ["bed and breakfast", "inn", "boarding house"],
+    "antonyms": [],
+    "translation": "гостевой дом"
+  },
+  {
+    "word": "heavy traffic",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A large number of vehicles on a road, often causing slow movement or delays",
+    "examples": [
+      "Because of the heavy traffic, it took us two hours to get home."
+    ],
+    "synonyms": ["congestion", "traffic jam", "gridlock"],
+    "antonyms": ["light traffic", "clear roads"],
+    "translation": "интенсивное движение / пробки"
+  },
+  {
+    "word": "isolated",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Far away from other places, buildings, or people; remote",
+    "examples": [
+      "They built a cabin in an isolated area of the mountains to enjoy the peace."
+    ],
+    "synonyms": ["remote", "lonely", "secluded"],
+    "antonyms": ["accessible", "busy", "populated"],
+    "translation": "изолированный / отдаленный"
+  },
+  {
+    "word": "lighthouse",
+    "partOfSpeech": "noun",
+    "forms": ["lighthouses"],
+    "definition": "A tower or other structure containing a beacon light to warn or guide ships at sea",
+    "examples": [
+      "The old lighthouse on the cliff warned sailors of the dangerous rocks below."
+    ],
+    "synonyms": ["beacon", "signal tower"],
+    "antonyms": [],
+    "translation": "маяк"
+  },
+  {
+    "word": "office job",
+    "partOfSpeech": "noun",
+    "forms": ["office jobs"],
+    "definition": "A job that involves working in an office environment, typically doing administrative, clerical, or computer-based tasks",
+    "examples": [
+      "After working outside for years, he decided to look for an office job."
+    ],
+    "synonyms": ["desk job", "white-collar job"],
+    "antonyms": ["manual labor", "fieldwork"],
+    "translation": "офисная работа"
+  },
+  {
+    "word": "peaceful",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Free from disturbance; tranquil",
+    "examples": [
+      "The garden in the morning is a very peaceful and quiet place."
+    ],
+    "synonyms": ["tranquil", "calm", "restful", "quiet"],
+    "antonyms": ["noisy", "chaotic", "bustling"],
+    "translation": "мирный / спокойный"
+  },
+  {
+    "word": "rent out",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["rents out", "rented out", "renting out"],
+    "definition": "To allow someone to use a property, vehicle, etc. in exchange for payment",
+    "examples": [
+      "During the summer, they rent out their beach house to tourists."
+    ],
+    "synonyms": ["lease", "let", "hire out"],
+    "antonyms": [],
+    "translation": "сдавать в аренду"
+  },
+  {
+    "word": "splash",
+    "partOfSpeech": "verb",
+    "forms": ["splashes", "splashed", "splashing"],
+    "definition": "To cause liquid to strike or fall on something in irregular drops",
+    "examples": [
+      "The children love to jump in puddles and splash water everywhere."
+    ],
+    "synonyms": ["spatter", "splatter", "spray"],
+    "antonyms": [],
+    "translation": "плескать(ся) / брызгать(ся)"
+  },
+  {
+    "word": "wave",
+    "partOfSpeech": "noun",
+    "forms": ["waves"],
+    "definition": "A long body of water curling into an arched form and breaking on the shore",
+    "examples": ["The surfer waited patiently for the perfect wave."],
+    "synonyms": ["swell", "breaker", "surf"],
+    "antonyms": [],
+    "translation": "волна"
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "word": "bad conditions",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "A poor or unfavorable working environment",
+    "examples": [
+      "Many workers went on strike due to the bad conditions in the factory."
+    ],
+    "synonyms": ["poor environment", "unfavorable circumstances"],
+    "antonyms": ["good conditions"],
+    "translation": "плохие условия"
+  },
+  {
+    "word": "be on flexitime",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To have a system of working a set number of hours with the starting and finishing times chosen within agreed limits by the employee",
+    "examples": [
+      "I am lucky to be on flexitime, so I can start work at 10 AM if I want to."
+    ],
+    "synonyms": ["have flexible working hours"],
+    "antonyms": ["work fixed hours"],
+    "translation": "иметь гибкий график"
+  },
+  {
+    "word": "be responsible for",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To have control and authority over something or someone and the duty of taking care of it, him, or her",
+    "examples": [
+      "As a manager, she will be responsible for overseeing the entire project."
+    ],
+    "synonyms": ["be in charge of", "be accountable for"],
+    "antonyms": [],
+    "translation": "быть ответственным за"
+  },
+  {
+    "word": "dangerous conditions",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "An unsafe working environment that poses a risk to health or life",
+    "examples": [
+      "Miners often have to work underground in very dangerous conditions."
+    ],
+    "synonyms": ["hazardous environment", "unsafe conditions"],
+    "antonyms": ["safe conditions"],
+    "translation": "опасные условия"
+  },
+  {
+    "word": "deal with",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["deals with", "dealt with", "dealing with"],
+    "definition": "To take action to do something, especially to solve a problem",
+    "examples": [
+      "Customer service representatives deal with complaints on a daily basis."
+    ],
+    "synonyms": ["handle", "manage", "tackle"],
+    "antonyms": ["ignore", "avoid"],
+    "translation": "иметь дело с / справляться с"
+  },
+  {
+    "word": "do shift work",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To work during different parts of the day or night (e.g., morning shift, night shift)",
+    "examples": [
+      "Nurses and doctors usually have to do shift work at the hospital."
+    ],
+    "synonyms": ["work in shifts"],
+    "antonyms": ["work normal hours", "work nine to five"],
+    "translation": "работать посменно"
+  },
+  {
+    "word": "earn",
+    "partOfSpeech": "verb",
+    "forms": ["earns", "earned", "earning"],
+    "definition": "To obtain money in return for labor or services",
+    "examples": [
+      "He wants to find a new job where he can earn a higher salary."
+    ],
+    "synonyms": ["make money", "get paid"],
+    "antonyms": ["spend", "lose"],
+    "translation": "зарабатывать"
+  },
+  {
+    "word": "employee",
+    "partOfSpeech": "noun",
+    "forms": ["employees"],
+    "definition": "A person employed for wages or salary, especially at non-executive level",
+    "examples": ["The company currently has over five hundred employees."],
+    "synonyms": ["worker", "staff member", "staffer"],
+    "antonyms": ["employer", "boss"],
+    "translation": "сотрудник / работник"
+  },
+  {
+    "word": "experience",
+    "partOfSpeech": "noun",
+    "forms": ["experiences"],
+    "definition": "Practical contact with and observation of facts or events; knowledge or skill acquired over time",
+    "examples": [
+      "She has a lot of experience in marketing and public relations."
+    ],
+    "synonyms": ["background", "knowledge", "skill"],
+    "antonyms": ["inexperience"],
+    "translation": "опыт"
+  },
+  {
+    "word": "from nine to five",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Standard office working hours",
+    "examples": ["Most office workers in the city work from nine to five."],
+    "synonyms": ["regular hours", "office hours"],
+    "antonyms": ["shift work", "flexitime"],
+    "translation": "с девяти до пяти (стандартный рабочий день)"
+  },
+  {
+    "word": "full-time",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Occupying or using the whole of someone's available working time",
+    "examples": [
+      "She is looking for a full-time job now that she has graduated."
+    ],
+    "synonyms": ["permanent"],
+    "antonyms": ["part-time"],
+    "translation": "на полную ставку"
+  },
+  {
+    "word": "good conditions",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Favorable or pleasant working environments",
+    "examples": [
+      "The tech company is famous for providing good conditions for its staff."
+    ],
+    "synonyms": ["favorable environment"],
+    "antonyms": ["bad conditions", "poor conditions"],
+    "translation": "хорошие условия"
+  },
+  {
+    "word": "indoors",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "Into or inside a building",
+    "examples": ["During the rainy season, we prefer to stay indoors."],
+    "synonyms": ["inside"],
+    "antonyms": ["outdoors", "outside"],
+    "translation": "в помещении"
+  },
+  {
+    "word": "long hours",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "A working day that lasts longer than the standard amount of time",
+    "examples": [
+      "Lawyers often have to work long hours to prepare for a big trial."
+    ],
+    "synonyms": ["extended hours"],
+    "antonyms": ["short hours"],
+    "translation": "долгие часы работы / переработки"
+  },
+  {
+    "word": "manual",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to or done with the hands",
+    "examples": ["Construction work involves a lot of heavy manual labor."],
+    "synonyms": ["physical", "hand-operated"],
+    "antonyms": ["automated", "intellectual"],
+    "translation": "ручной / физический"
+  },
+  {
+    "word": "outdoors",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "In or into the open air; outside a building or shelter",
+    "examples": [
+      "He loves his job as a gardener because he gets to work outdoors."
+    ],
+    "synonyms": ["outside", "in the open air"],
+    "antonyms": ["indoors", "inside"],
+    "translation": "на открытом воздухе / снаружи"
+  },
+  {
+    "word": "overtime",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "In addition to normal working hours",
+    "examples": ["They had to work overtime to meet the project deadline."],
+    "synonyms": ["extra hours"],
+    "antonyms": [],
+    "translation": "сверхурочно"
+  },
+  {
+    "word": "paperwork",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Routine work involving written documents such as forms, records, or letters",
+    "examples": [
+      "The job is interesting, but there is far too much paperwork."
+    ],
+    "synonyms": ["admin", "documentation", "clerical work"],
+    "antonyms": [],
+    "translation": "бумажная работа / документооборот"
+  },
+  {
+    "word": "part-time",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "For only part of the usual working day or week",
+    "examples": [
+      "Many students take part-time jobs to earn some extra pocket money."
+    ],
+    "synonyms": ["half-time"],
+    "antonyms": ["full-time"],
+    "translation": "на неполную ставку"
+  },
+  {
+    "word": "qualification",
+    "partOfSpeech": "noun",
+    "forms": ["qualifications"],
+    "definition": "A pass of an examination or an official completion of a course, especially one conferring status as a recognized practitioner of a profession or activity",
+    "examples": ["You need a teaching qualification to work at this school."],
+    "synonyms": ["certificate", "diploma", "credential"],
+    "antonyms": [],
+    "translation": "квалификация"
+  },
+  {
+    "word": "salary",
+    "partOfSpeech": "noun",
+    "forms": ["salaries"],
+    "definition": "A fixed regular payment, typically paid on a monthly basis, made by an employer to an employee",
+    "examples": ["The starting salary for this position is very competitive."],
+    "synonyms": ["pay", "wage", "earnings", "income"],
+    "antonyms": [],
+    "translation": "заработная плата / оклад"
+  },
+  {
+    "word": "self-employed",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Working for oneself as a freelance or the owner of a business rather than for an employer",
+    "examples": [
+      "As a freelance graphic designer, he has been self-employed for years."
+    ],
+    "synonyms": ["freelance", "independent"],
+    "antonyms": ["employed"],
+    "translation": "самозанятый / работающий на себя"
+  },
+  {
+    "word": "skilled",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing the knowledge, ability, or training to perform a certain activity or task well",
+    "examples": ["We are looking to hire a highly skilled software engineer."],
+    "synonyms": ["expert", "trained", "proficient", "experienced"],
+    "antonyms": ["unskilled", "inexperienced"],
+    "translation": "квалифицированный / умелый"
+  },
+  {
+    "word": "stressful",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Causing mental or emotional stress",
+    "examples": [
+      "Working in an emergency room can be an incredibly stressful job."
+    ],
+    "synonyms": ["demanding", "pressurizing", "tiring"],
+    "antonyms": ["relaxing", "calming"],
+    "translation": "стрессовый / напряженный"
+  },
+  {
+    "word": "training",
+    "partOfSpeech": "noun",
+    "forms": ["trainings"],
+    "definition": "The action of teaching a person or animal a particular skill or type of behavior",
+    "examples": ["New employees must undergo two weeks of intensive training."],
+    "synonyms": ["instruction", "teaching", "coaching"],
+    "antonyms": [],
+    "translation": "обучение / тренировка"
+  },
+  {
+    "word": "well-paid",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Earning or paying a lot of money",
+    "examples": ["Dentistry is considered a very well-paid profession."],
+    "synonyms": ["lucrative", "highly paid"],
+    "antonyms": ["low-paid", "badly paid"],
+    "translation": "хорошо оплачиваемый"
+  },
+  {
+    "word": "apply for a job",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To make a formal, usually written, request for employment",
+    "examples": ["He decided to apply for a job at the new marketing agency."],
+    "synonyms": ["put in an application"],
+    "antonyms": [],
+    "translation": "устраиваться на работу / подать заявку на работу"
+  },
+  {
+    "word": "become unemployed",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To lose one's job and be without work",
+    "examples": [
+      "Many people became unemployed when the local factory closed down."
+    ],
+    "synonyms": ["lose one's job"],
+    "antonyms": ["get hired", "find a job"],
+    "translation": "стать безработным"
+  },
+  {
+    "word": "be dismissed",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To be officially removed from a job, often for a specific reason",
+    "examples": ["He was dismissed from his post due to repeated absences."],
+    "synonyms": ["be fired", "be sacked", "be let go"],
+    "antonyms": ["be hired", "be employed"],
+    "translation": "быть уволенным"
+  },
+  {
+    "word": "be fired",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To be forced to leave a job, usually because of poor performance or bad behavior",
+    "examples": ["She will be fired if she shows up late one more time."],
+    "synonyms": ["be sacked", "be dismissed"],
+    "antonyms": ["be hired"],
+    "translation": "быть уволенным (обычно за нарушение)"
+  },
+  {
+    "word": "be made redundant",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To lose one's job because it is no longer necessary for the company",
+    "examples": [
+      "Due to budget cuts, twenty staff members were made redundant."
+    ],
+    "synonyms": ["be laid off"],
+    "antonyms": ["be hired"],
+    "translation": "попасть под сокращение"
+  },
+  {
+    "word": "get promotion",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To be advanced to a higher position or rank within a company",
+    "examples": [
+      "If she continues working this hard, she will definitely get a promotion."
+    ],
+    "synonyms": ["be promoted", "move up"],
+    "antonyms": ["be demoted"],
+    "translation": "получить повышение"
+  },
+  {
+    "word": "resign",
+    "partOfSpeech": "verb",
+    "forms": ["resigns", "resigned", "resigning"],
+    "definition": "To voluntarily leave a job or other position",
+    "examples": ["The CEO decided to resign after the scandal became public."],
+    "synonyms": ["quit", "step down", "leave"],
+    "antonyms": ["join", "remain"],
+    "translation": "увольняться (по собственному желанию) / уходить в отставку"
+  },
+  {
+    "word": "retire",
+    "partOfSpeech": "verb",
+    "forms": ["retires", "retired", "retiring"],
+    "definition": "To leave one's job and cease to work, typically upon reaching the normal age for leaving employment",
+    "examples": ["My grandfather plans to retire when he turns sixty-five."],
+    "synonyms": ["stop working"],
+    "antonyms": [],
+    "translation": "выходить на пенсию"
+  },
+  {
+    "word": "turn down",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["turns down", "turned down", "turning down"],
+    "definition": "To reject an offer or request",
+    "examples": [
+      "I had to turn down the job offer because the salary was too low."
+    ],
+    "synonyms": ["reject", "refuse", "decline"],
+    "antonyms": ["accept", "agree to"],
+    "translation": "отклонять / отказывать"
+  },
+  {
+    "word": "gap year",
+    "partOfSpeech": "noun",
+    "forms": ["gap years"],
+    "definition": "A period, typically an academic year, taken by a student as a break between school and university or college education",
+    "examples": [
+      "She took a gap year to travel across South America before starting university."
+    ],
+    "synonyms": ["year out"],
+    "antonyms": [],
+    "translation": "академический отпуск (перерыв между школой и вузом)"
+  },
+  {
+    "word": "interrupt",
+    "partOfSpeech": "verb",
+    "forms": ["interrupts", "interrupted", "interrupting"],
+    "definition": "To stop the continuous progress of an activity or process",
+    "examples": [
+      "Please do not interrupt me while I am speaking on the phone."
+    ],
+    "synonyms": ["cut in", "break in", "disturb"],
+    "antonyms": ["continue"],
+    "translation": "прерывать / перебивать"
+  }
+]

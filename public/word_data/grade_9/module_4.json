@@ -1,0 +1,754 @@
+[
+  {
+    "word": "ankle",
+    "partOfSpeech": "noun",
+    "forms": ["ankles"],
+    "definition": "The joint connecting the foot with the leg",
+    "examples": ["He sprained his ankle while playing tennis."],
+    "synonyms": ["joint"],
+    "antonyms": [],
+    "translation": "лодыжка"
+  },
+  {
+    "word": "assistance",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The action of helping someone with a job or task",
+    "examples": ["The company provides financial assistance to its employees."],
+    "synonyms": ["help", "aid", "support"],
+    "antonyms": ["hindrance"],
+    "translation": "помощь / содействие"
+  },
+  {
+    "word": "awareness",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Knowledge or perception of a situation or fact",
+    "examples": ["We need to raise public awareness of environmental issues."],
+    "synonyms": ["consciousness", "realization"],
+    "antonyms": ["ignorance"],
+    "translation": "осведомленность"
+  },
+  {
+    "word": "charity",
+    "partOfSpeech": "noun",
+    "forms": ["charities"],
+    "definition": "An organization set up to provide help and raise money for those in need",
+    "examples": [
+      "She donates a portion of her salary to a local charity every month."
+    ],
+    "synonyms": ["non-profit", "foundation"],
+    "antonyms": [],
+    "translation": "благотворительность"
+  },
+  {
+    "word": "determination",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Firmness of purpose; resoluteness",
+    "examples": [
+      "His determination to succeed helped him overcome all obstacles."
+    ],
+    "synonyms": ["resolution", "willpower"],
+    "antonyms": ["indecision", "hesitation"],
+    "translation": "решительность"
+  },
+  {
+    "word": "feat",
+    "partOfSpeech": "noun",
+    "forms": ["feats"],
+    "definition": "An achievement that requires great courage, skill, or strength",
+    "examples": [
+      "Climbing Mount Everest without supplemental oxygen is a remarkable feat."
+    ],
+    "synonyms": ["achievement", "accomplishment", "deed"],
+    "antonyms": ["failure"],
+    "translation": "подвиг / достижение"
+  },
+  {
+    "word": "get stung",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To be pierced or wounded by a sharp-pointed organ or part of an animal (like a bee)",
+    "examples": ["Be careful not to get stung by the bees near the hive."],
+    "synonyms": ["be bitten"],
+    "antonyms": [],
+    "translation": "быть ужаленным"
+  },
+  {
+    "word": "honour",
+    "partOfSpeech": "noun",
+    "forms": ["honours"],
+    "definition": "High respect; great esteem",
+    "examples": [
+      "It is a great honour to be invited to speak at the international conference."
+    ],
+    "synonyms": ["privilege", "respect", "glory"],
+    "antonyms": ["disgrace", "dishonour"],
+    "translation": "честь"
+  },
+  {
+    "word": "incredible",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Impossible to believe; extraordinary",
+    "examples": [
+      "The view from the top of the mountain was absolutely incredible."
+    ],
+    "synonyms": ["unbelievable", "amazing", "astonishing"],
+    "antonyms": ["believable", "ordinary", "unremarkable"],
+    "translation": "невероятный"
+  },
+  {
+    "word": "inspiration",
+    "partOfSpeech": "noun",
+    "forms": ["inspirations"],
+    "definition": "The process of being mentally stimulated to do or feel something, especially to do something creative",
+    "examples": [
+      "Nature is a constant source of inspiration for her beautiful paintings."
+    ],
+    "synonyms": ["motivation", "stimulus", "encouragement"],
+    "antonyms": ["discouragement"],
+    "translation": "вдохновение"
+  },
+  {
+    "word": "objective",
+    "partOfSpeech": "noun",
+    "forms": ["objectives"],
+    "definition": "A thing aimed at or sought; a goal",
+    "examples": [
+      "Our main objective for this year is to improve customer satisfaction."
+    ],
+    "synonyms": ["goal", "aim", "target"],
+    "antonyms": [],
+    "translation": "цель / задача"
+  },
+  {
+    "word": "overcome obstacles",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To successfully deal with difficulties or barriers",
+    "examples": [
+      "He had to overcome many obstacles to achieve his lifelong dream."
+    ],
+    "synonyms": ["conquer difficulties", "surmount hurdles"],
+    "antonyms": ["give up"],
+    "translation": "преодолевать препятствия"
+  },
+  {
+    "word": "persist",
+    "partOfSpeech": "verb",
+    "forms": ["persists", "persisted", "persisting"],
+    "definition": "To continue firmly or obstinately in an opinion or a course of action in spite of difficulty",
+    "examples": [
+      "If the pain and symptoms persist, you should immediately see a doctor."
+    ],
+    "synonyms": ["continue", "carry on", "persevere"],
+    "antonyms": ["give up", "stop", "quit"],
+    "translation": "упорствовать / сохраняться"
+  },
+  {
+    "word": "poverty",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The state of being extremely poor",
+    "examples": [
+      "Millions of people around the world still live in extreme poverty."
+    ],
+    "synonyms": ["destitution", "need", "hardship"],
+    "antonyms": ["wealth", "prosperity", "affluence"],
+    "translation": "бедность / нищета"
+  },
+  {
+    "word": "row",
+    "partOfSpeech": "verb",
+    "forms": ["rows", "rowed", "rowing"],
+    "definition": "To propel a boat with oars",
+    "examples": [
+      "We had to row for two hours against the current to reach the island."
+    ],
+    "synonyms": ["paddle", "scull"],
+    "antonyms": [],
+    "translation": "грести"
+  },
+  {
+    "word": "solo",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "For or done by one person alone; unaccompanied",
+    "examples": [
+      "He decided to travel solo across Europe to discover himself."
+    ],
+    "synonyms": ["alone", "unassisted", "single-handedly"],
+    "antonyms": ["together", "accompanied"],
+    "translation": "в одиночку / самостоятельно"
+  },
+  {
+    "word": "spotlight",
+    "partOfSpeech": "noun",
+    "forms": ["spotlights"],
+    "definition": "Intense scrutiny or public attention",
+    "examples": [
+      "The young actor suddenly found himself in the spotlight after his debut."
+    ],
+    "synonyms": ["public attention", "focus", "limelight"],
+    "antonyms": ["obscurity"],
+    "translation": "центр внимания / прожектор"
+  },
+  {
+    "word": "sting",
+    "partOfSpeech": "verb",
+    "forms": ["stings", "stung", "stinging"],
+    "definition": "To pierce or wound painfully with a sharp-pointed structure or organ, as that of certain insects",
+    "examples": ["A wasp can sting multiple times without dying."],
+    "synonyms": ["bite", "pierce", "prick"],
+    "antonyms": [],
+    "translation": "жалить"
+  },
+  {
+    "word": "aid",
+    "partOfSpeech": "noun",
+    "forms": ["aids"],
+    "definition": "Help, typically of a practical nature",
+    "examples": [
+      "The international community sent food and medical aid to the disaster zone."
+    ],
+    "synonyms": ["assistance", "help", "support"],
+    "antonyms": ["hindrance"],
+    "translation": "помощь"
+  },
+  {
+    "word": "campaign",
+    "partOfSpeech": "verb",
+    "forms": ["campaigns", "campaigned", "campaigning"],
+    "definition": "To work in an organized and active way toward a particular goal, typically a political or social one",
+    "examples": [
+      "They are campaigning for better environmental protection laws in the region."
+    ],
+    "synonyms": ["crusade", "lobby", "advocate"],
+    "antonyms": [],
+    "translation": "проводить кампанию / агитировать"
+  },
+  {
+    "word": "draw sb's attention to sth",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To make someone notice something",
+    "examples": [
+      "I would like to draw your attention to the second paragraph of the contract."
+    ],
+    "synonyms": ["point out", "highlight"],
+    "antonyms": ["hide", "conceal"],
+    "translation": "обратить чье-либо внимание на что-либо"
+  },
+  {
+    "word": "enterprising",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing initiative and resourcefulness",
+    "examples": [
+      "An enterprising student started a successful tutoring business on campus."
+    ],
+    "synonyms": ["resourceful", "entrepreneurial", "inventive"],
+    "antonyms": ["unimaginative", "lazy"],
+    "translation": "предприимчивый"
+  },
+  {
+    "word": "healthcare",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The maintenance and improvement of physical and mental health, especially through the provision of medical services",
+    "examples": [
+      "Access to affordable healthcare is considered a basic human right."
+    ],
+    "synonyms": ["medical care", "health services"],
+    "antonyms": [],
+    "translation": "здравоохранение"
+  },
+  {
+    "word": "non-profit",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not making or conducted primarily to make a profit",
+    "examples": [
+      "She works for a non-profit organization that helps homeless youth."
+    ],
+    "synonyms": ["charitable", "not-for-profit"],
+    "antonyms": ["commercial", "for-profit"],
+    "translation": "некоммерческий"
+  },
+  {
+    "word": "refugee camp",
+    "partOfSpeech": "noun",
+    "forms": ["refugee camps"],
+    "definition": "A temporary settlement built to receive refugees and people in refugee-like situations",
+    "examples": [
+      "Thousands of displaced families were forced to live in a crowded refugee camp."
+    ],
+    "synonyms": ["camp", "settlement"],
+    "antonyms": [],
+    "translation": "лагерь беженцев"
+  },
+  {
+    "word": "stand for",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["stands for", "stood for", "standing for"],
+    "definition": "To support or represent a particular idea or set of ideas",
+    "examples": [
+      "Our organization stands for equality, justice, and human rights."
+    ],
+    "synonyms": ["represent", "symbolize", "advocate"],
+    "antonyms": ["oppose"],
+    "translation": "выступать за / символизировать"
+  },
+  {
+    "word": "struggle",
+    "partOfSpeech": "verb",
+    "forms": ["struggles", "struggled", "struggling"],
+    "definition": "To make forceful or violent efforts to get free of restraint; to try hard to do something difficult",
+    "examples": [
+      "Many families struggle to pay their bills during the economic crisis."
+    ],
+    "synonyms": ["strive", "fight", "grapple"],
+    "antonyms": ["give up", "yield"],
+    "translation": "бороться / прилагать усилия"
+  },
+  {
+    "word": "sustainable development",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Economic development that is conducted without depletion of natural resources",
+    "examples": [
+      "The city council adopted a new plan for sustainable development to protect the environment."
+    ],
+    "synonyms": ["eco-friendly growth", "green development"],
+    "antonyms": [],
+    "translation": "устойчивое развитие"
+  },
+  {
+    "word": "vaccinate",
+    "partOfSpeech": "verb",
+    "forms": ["vaccinates", "vaccinated", "vaccinating"],
+    "definition": "To treat with a vaccine to produce immunity against a disease",
+    "examples": [
+      "It is important to vaccinate children against common preventable diseases."
+    ],
+    "synonyms": ["immunize", "inoculate"],
+    "antonyms": [],
+    "translation": "вакцинировать / делать прививку"
+  },
+  {
+    "word": "wage",
+    "partOfSpeech": "noun",
+    "forms": ["wages"],
+    "definition": "A fixed regular payment earned for work or services",
+    "examples": ["The workers went on strike demanding a higher minimum wage."],
+    "synonyms": ["salary", "pay", "earnings"],
+    "antonyms": [],
+    "translation": "заработная плата"
+  },
+  {
+    "word": "well",
+    "partOfSpeech": "noun",
+    "forms": ["wells"],
+    "definition": "A deep hole or shaft sunk into the earth to obtain water, oil, gas, or brine",
+    "examples": [
+      "The villagers have to walk for miles to fetch water from the fresh well."
+    ],
+    "synonyms": ["spring", "borehole"],
+    "antonyms": [],
+    "translation": "колодец / скважина"
+  },
+  {
+    "word": "abused",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Treated with cruelty or violence, especially regularly or repeatedly",
+    "examples": [
+      "The rescue center cares for abused and abandoned domestic animals."
+    ],
+    "synonyms": ["mistreated", "maltreated", "exploited"],
+    "antonyms": ["cared for", "cherished"],
+    "translation": "подвергшийся жестокому обращению"
+  },
+  {
+    "word": "community",
+    "partOfSpeech": "noun",
+    "forms": ["communities"],
+    "definition": "A group of people living in the same place or having a particular characteristic in common",
+    "examples": [
+      "The local community came together to clean up the neighborhood park."
+    ],
+    "synonyms": ["neighborhood", "society", "public"],
+    "antonyms": [],
+    "translation": "община / сообщество"
+  },
+  {
+    "word": "conservation",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Prevention of wasteful use of a resource; preservation of nature",
+    "examples": [
+      "Wildlife conservation is extremely important for protecting endangered species."
+    ],
+    "synonyms": ["preservation", "protection", "saving"],
+    "antonyms": ["destruction", "waste"],
+    "translation": "сохранение / охрана природы"
+  },
+  {
+    "word": "disturb",
+    "partOfSpeech": "verb",
+    "forms": ["disturbs", "disturbed", "disturbing"],
+    "definition": "To interfere with the normal arrangement or functioning of",
+    "examples": [
+      "Please do not disturb the wild animals while they are resting in the shade."
+    ],
+    "synonyms": ["interrupt", "bother", "disrupt"],
+    "antonyms": ["leave alone", "calm"],
+    "translation": "беспокоить / мешать"
+  },
+  {
+    "word": "habitat",
+    "partOfSpeech": "noun",
+    "forms": ["habitats"],
+    "definition": "The natural home or environment of an animal, plant, or other organism",
+    "examples": ["The panda's natural habitat is the high bamboo forest."],
+    "synonyms": ["environment", "home", "territory"],
+    "antonyms": [],
+    "translation": "среда обитания"
+  },
+  {
+    "word": "pride",
+    "partOfSpeech": "noun",
+    "forms": ["prides"],
+    "definition": "A feeling of deep pleasure from one's achievements; or a group of lions forming a social unit",
+    "examples": [
+      "We watched a pride of lions resting under a large acacia tree."
+    ],
+    "synonyms": ["satisfaction", "dignity", "pack"],
+    "antonyms": ["shame"],
+    "translation": "гордость / прайд (львов)"
+  },
+  {
+    "word": "primate",
+    "partOfSpeech": "noun",
+    "forms": ["primates"],
+    "definition": "A mammal of an order that includes lemurs, monkeys, apes, and humans",
+    "examples": [
+      "The zoo has a special, large enclosure for primates like chimpanzees and gorillas."
+    ],
+    "synonyms": ["ape", "monkey"],
+    "antonyms": [],
+    "translation": "примат"
+  },
+  {
+    "word": "raise awareness",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To increase knowledge or understanding of a particular issue",
+    "examples": [
+      "The campaign aims to raise awareness about the effects of global warming."
+    ],
+    "synonyms": ["increase knowledge", "educate the public"],
+    "antonyms": ["hide information"],
+    "translation": "повышать осведомленность"
+  },
+  {
+    "word": "refuge",
+    "partOfSpeech": "noun",
+    "forms": ["refuges"],
+    "definition": "A condition of being safe or sheltered from pursuit, danger, or trouble",
+    "examples": [
+      "The hikers sought refuge in a cave when the heavy storm hit."
+    ],
+    "synonyms": ["shelter", "sanctuary", "haven"],
+    "antonyms": ["exposure", "danger"],
+    "translation": "убежище"
+  },
+  {
+    "word": "sanctuary",
+    "partOfSpeech": "noun",
+    "forms": ["sanctuaries"],
+    "definition": "A nature reserve; a place of refuge or safety",
+    "examples": [
+      "The island was declared a protected sanctuary for migrating seabirds."
+    ],
+    "synonyms": ["refuge", "haven", "reserve"],
+    "antonyms": [],
+    "translation": "заповедник / убежище"
+  },
+  {
+    "word": "snap",
+    "partOfSpeech": "verb",
+    "forms": ["snaps", "snapped", "snapping"],
+    "definition": "To break suddenly and completely, typically with a sharp cracking sound",
+    "examples": ["The dry tree branch snapped under his weight as he climbed."],
+    "synonyms": ["break", "crack", "fracture"],
+    "antonyms": ["hold", "withstand"],
+    "translation": "ломать(ся) со щелчком"
+  },
+  {
+    "word": "trap",
+    "partOfSpeech": "noun",
+    "forms": ["traps"],
+    "definition": "A device or enclosure designed to catch and retain animals",
+    "examples": [
+      "The poacher set an illegal trap in the woods to catch a fox."
+    ],
+    "synonyms": ["snare", "net", "ambush"],
+    "antonyms": [],
+    "translation": "ловушка / капкан"
+  },
+  {
+    "word": "allied",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Joined by or relating to members of an alliance",
+    "examples": [
+      "The allied forces worked together strategically to defeat the enemy."
+    ],
+    "synonyms": ["united", "combined", "cooperative"],
+    "antonyms": ["hostile", "opposed", "divided"],
+    "translation": "союзный / родственный"
+  },
+  {
+    "word": "cultural heritage",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "The legacy of physical artifacts and intangible attributes of a group or society inherited from past generations",
+    "examples": [
+      "The ancient stone temples are an important part of our national cultural heritage."
+    ],
+    "synonyms": ["cultural legacy", "traditions"],
+    "antonyms": [],
+    "translation": "культурное наследие"
+  },
+  {
+    "word": "defend",
+    "partOfSpeech": "verb",
+    "forms": ["defends", "defended", "defending"],
+    "definition": "To resist an attack made on someone or something; protect from harm or danger",
+    "examples": [
+      "The soldiers fought bravely to defend their country from the invaders."
+    ],
+    "synonyms": ["protect", "guard", "shield"],
+    "antonyms": ["attack", "surrender", "abandon"],
+    "translation": "защищать"
+  },
+  {
+    "word": "development",
+    "partOfSpeech": "noun",
+    "forms": ["developments"],
+    "definition": "The process of developing or being developed",
+    "examples": [
+      "The development of a new vaccine often takes several years of intensive research."
+    ],
+    "synonyms": ["growth", "evolution", "progress"],
+    "antonyms": ["decline", "regression", "stagnation"],
+    "translation": "развитие / разработка"
+  },
+  {
+    "word": "diversity",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The state of being diverse; variety",
+    "examples": [
+      "There is a rich and beautiful diversity of plant life in the tropical rainforest."
+    ],
+    "synonyms": ["variety", "multiplicity", "range"],
+    "antonyms": ["uniformity", "similarity", "sameness"],
+    "translation": "разнообразие"
+  },
+  {
+    "word": "found",
+    "partOfSpeech": "verb",
+    "forms": ["founds", "founded", "founding"],
+    "definition": "To establish or originate an institution or organization",
+    "examples": [
+      "The two friends decided to found a new software company together."
+    ],
+    "synonyms": ["establish", "create", "institute"],
+    "antonyms": ["abolish", "dismantle"],
+    "translation": "основывать"
+  },
+  {
+    "word": "fund",
+    "partOfSpeech": "verb",
+    "forms": ["funds", "funded", "funding"],
+    "definition": "To provide with money for a particular purpose",
+    "examples": [
+      "The local government will fund the new scientific research project."
+    ],
+    "synonyms": ["finance", "sponsor", "subsidize"],
+    "antonyms": ["defund"],
+    "translation": "финансировать"
+  },
+  {
+    "word": "government",
+    "partOfSpeech": "noun",
+    "forms": ["governments"],
+    "definition": "The governing body of a nation, state, or community",
+    "examples": [
+      "The government announced new strict policies to improve public transport."
+    ],
+    "synonyms": ["administration", "authority", "regime"],
+    "antonyms": [],
+    "translation": "правительство"
+  },
+  {
+    "word": "headquarters",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "The premises occupied by a military commander or the central administration of an organization",
+    "examples": [
+      "The technology company's new corporate headquarters are located in New York."
+    ],
+    "synonyms": ["main office", "base", "hub"],
+    "antonyms": ["branch"],
+    "translation": "штаб-квартира"
+  },
+  {
+    "word": "promote peace",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To encourage or advocate for harmony and the absence of war",
+    "examples": [
+      "The international organization aims to promote peace and security around the world."
+    ],
+    "synonyms": ["advocate peace", "foster harmony"],
+    "antonyms": ["incite conflict", "provoke war"],
+    "translation": "способствовать миру"
+  },
+  {
+    "word": "reduce inequalities",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To decrease the disparities in wealth, status, or opportunities between different groups",
+    "examples": [
+      "Providing better access to education can help to reduce inequalities in our society."
+    ],
+    "synonyms": ["lessen disparities", "bridge the gap"],
+    "antonyms": ["widen the gap", "increase disparities"],
+    "translation": "сокращать неравенство"
+  },
+  {
+    "word": "standard of living",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "The degree of wealth and material comfort available to a person or community",
+    "examples": [
+      "The developing country has experienced a rapid rise in its standard of living."
+    ],
+    "synonyms": ["level of comfort", "quality of life"],
+    "antonyms": [],
+    "translation": "уровень жизни"
+  },
+  {
+    "word": "strive",
+    "partOfSpeech": "verb",
+    "forms": ["strives", "strove", "striven", "striving"],
+    "definition": "To make great efforts to achieve or obtain something",
+    "examples": [
+      "We must constantly strive for excellence in everything we do."
+    ],
+    "synonyms": ["try hard", "attempt", "endeavor"],
+    "antonyms": ["give up", "surrender"],
+    "translation": "стремиться / прилагать усилия"
+  },
+  {
+    "word": "wipe out",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["wipes out", "wiped out", "wiping out"],
+    "definition": "To eliminate or destroy completely",
+    "examples": [
+      "A sudden epidemic could wipe out the entire local population of these birds."
+    ],
+    "synonyms": ["destroy", "eradicate", "obliterate"],
+    "antonyms": ["create", "save", "protect"],
+    "translation": "уничтожать / стирать с лица земли"
+  },
+  {
+    "word": "assess",
+    "partOfSpeech": "verb",
+    "forms": ["assesses", "assessed", "assessing"],
+    "definition": "To evaluate or estimate the nature, ability, or quality of",
+    "examples": [
+      "The insurance agent will come tomorrow to assess the damage to the car."
+    ],
+    "synonyms": ["evaluate", "judge", "gauge", "appraise"],
+    "antonyms": ["ignore", "guess"],
+    "translation": "оценивать"
+  },
+  {
+    "word": "creature",
+    "partOfSpeech": "noun",
+    "forms": ["creatures"],
+    "definition": "An animal, as distinct from a human being",
+    "examples": [
+      "The deep ocean is home to many strange and wonderful luminous creatures."
+    ],
+    "synonyms": ["animal", "beast", "living thing"],
+    "antonyms": [],
+    "translation": "существо / создание"
+  },
+  {
+    "word": "feedback",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Information about reactions to a product, a person's performance of a task, etc. which is used as a basis for improvement",
+    "examples": [
+      "The teacher gave the students constructive feedback on their final essays."
+    ],
+    "synonyms": ["comments", "response", "evaluation", "critique"],
+    "antonyms": [],
+    "translation": "обратная связь / отзыв"
+  },
+  {
+    "word": "monitor",
+    "partOfSpeech": "verb",
+    "forms": ["monitors", "monitored", "monitoring"],
+    "definition": "To observe and check the progress or quality of something over a period of time",
+    "examples": [
+      "The nurses will monitor the patient's heart rate closely through the night."
+    ],
+    "synonyms": ["observe", "track", "watch", "keep an eye on"],
+    "antonyms": ["ignore", "neglect"],
+    "translation": "контролировать / отслеживать"
+  },
+  {
+    "word": "population",
+    "partOfSpeech": "noun",
+    "forms": ["populations"],
+    "definition": "All the inhabitants of a particular town, area, or country",
+    "examples": [
+      "The global human population continues to grow at a rapid pace every year."
+    ],
+    "synonyms": ["inhabitants", "residents", "citizens"],
+    "antonyms": [],
+    "translation": "население / популяция"
+  },
+  {
+    "word": "risk",
+    "partOfSpeech": "noun",
+    "forms": ["risks"],
+    "definition": "A situation involving exposure to danger",
+    "examples": [
+      "Smoking heavily significantly increases the risk of developing lung cancer."
+    ],
+    "synonyms": ["danger", "hazard", "threat", "peril"],
+    "antonyms": ["safety", "security", "certainty"],
+    "translation": "риск"
+  },
+  {
+    "word": "sea bed",
+    "partOfSpeech": "noun",
+    "forms": ["sea beds"],
+    "definition": "The ground under the sea; the ocean floor",
+    "examples": [
+      "The unmanned submarine slowly explored the rocky terrain of the deep sea bed."
+    ],
+    "synonyms": ["ocean floor", "sea floor"],
+    "antonyms": ["surface", "sea level"],
+    "translation": "морское дно"
+  }
+]

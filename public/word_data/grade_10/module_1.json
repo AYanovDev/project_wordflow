@@ -1,0 +1,1044 @@
+[
+  {
+    "word": "assignment",
+    "partOfSpeech": "noun",
+    "forms": ["assignments"],
+    "definition": "A task or piece of work allocated to someone as part of a course of study or job",
+    "examples": ["She handed in her history assignment on time."],
+    "synonyms": ["task", "project"],
+    "antonyms": [],
+    "translation": "задание"
+  },
+  {
+    "word": "cheat",
+    "partOfSpeech": "verb",
+    "forms": ["cheats", "cheated", "cheating"],
+    "definition": "To act dishonestly or unfairly in order to gain an advantage, especially in a game or examination",
+    "examples": ["If you cheat on the test, you will fail the entire course."],
+    "synonyms": ["deceive", "trick"],
+    "antonyms": [],
+    "translation": "списывать / обманывать"
+  },
+  {
+    "word": "continuous assessment",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The evaluation of a student's progress throughout a course of study, rather than by a single examination",
+    "examples": [
+      "Our university uses continuous assessment instead of final exams."
+    ],
+    "synonyms": ["ongoing evaluation"],
+    "antonyms": [],
+    "translation": "непрерывная оценка"
+  },
+  {
+    "word": "course",
+    "partOfSpeech": "noun",
+    "forms": ["courses"],
+    "definition": "A series of lectures or lessons in a particular subject, leading to an examination or qualification",
+    "examples": ["I decided to take a course in computer science."],
+    "synonyms": ["program", "classes"],
+    "antonyms": [],
+    "translation": "курс"
+  },
+  {
+    "word": "coursework",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Work done by students during a course of study, which counts towards their final grade",
+    "examples": [
+      "His coursework was excellent, even though he struggled with the exam."
+    ],
+    "synonyms": ["classwork"],
+    "antonyms": [],
+    "translation": "курсовая работа"
+  },
+  {
+    "word": "degree",
+    "partOfSpeech": "noun",
+    "forms": ["degrees"],
+    "definition": "An academic rank conferred by a college or university after examination or after completion of a course",
+    "examples": ["She holds a degree in physics from Oxford."],
+    "synonyms": ["qualification", "diploma"],
+    "antonyms": [],
+    "translation": "степень / диплом"
+  },
+  {
+    "word": "fail",
+    "partOfSpeech": "verb",
+    "forms": ["fails", "failed", "failing"],
+    "definition": "To be unsuccessful in achieving a goal or passing an examination",
+    "examples": ["If you don't study, you will fail the exam."],
+    "synonyms": ["flunk"],
+    "antonyms": ["pass", "succeed"],
+    "translation": "провалить (экзамен)"
+  },
+  {
+    "word": "grade",
+    "partOfSpeech": "noun",
+    "forms": ["grades"],
+    "definition": "A mark indicating the quality of a student's work",
+    "examples": ["He got a good grade on his final essay."],
+    "synonyms": ["mark", "score"],
+    "antonyms": [],
+    "translation": "оценка"
+  },
+  {
+    "word": "graduate",
+    "partOfSpeech": "verb",
+    "forms": ["graduates", "graduated", "graduating"],
+    "definition": "To successfully complete an academic degree, course of training, or high school",
+    "examples": ["She will graduate from medical school next year."],
+    "synonyms": ["complete studies"],
+    "antonyms": ["drop out"],
+    "translation": "выпускаться (из учебного заведения)"
+  },
+  {
+    "word": "lecture",
+    "partOfSpeech": "noun",
+    "forms": ["lectures"],
+    "definition": "An educational talk to an audience, especially to students in a university or college",
+    "examples": [
+      "The professor gave a fascinating lecture on ancient history."
+    ],
+    "synonyms": ["talk", "presentation"],
+    "antonyms": [],
+    "translation": "лекция"
+  },
+  {
+    "word": "mark",
+    "partOfSpeech": "noun",
+    "forms": ["marks"],
+    "definition": "A point or total awarded for correct answers in an examination",
+    "examples": ["She received the highest mark in the class."],
+    "synonyms": ["grade", "score"],
+    "antonyms": [],
+    "translation": "отметка / балл"
+  },
+  {
+    "word": "master's",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "An academic degree awarded by universities upon completion of a course of study demonstrating mastery of a specific field",
+    "examples": ["He is currently studying for his master's in engineering."],
+    "synonyms": ["master's degree"],
+    "antonyms": [],
+    "translation": "степень магистра"
+  },
+  {
+    "word": "notes",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "A brief record of facts, topics, or thoughts, written down as an aid to memory",
+    "examples": ["I lent my lecture notes to a classmate who was absent."],
+    "synonyms": ["records", "jottings"],
+    "antonyms": [],
+    "translation": "конспекты / заметки"
+  },
+  {
+    "word": "pass",
+    "partOfSpeech": "verb",
+    "forms": ["passes", "passed", "passing"],
+    "definition": "To be successful in an examination, test, or course",
+    "examples": ["I am so happy that I managed to pass my driving test."],
+    "synonyms": ["succeed", "qualify"],
+    "antonyms": ["fail"],
+    "translation": "сдавать (экзамен)"
+  },
+  {
+    "word": "resit",
+    "partOfSpeech": "verb",
+    "forms": ["resits", "resat", "resitting"],
+    "definition": "To take an examination again after failing it",
+    "examples": [
+      "Because he failed the math exam, he has to resit it in August."
+    ],
+    "synonyms": ["retake"],
+    "antonyms": [],
+    "translation": "пересдавать"
+  },
+  {
+    "word": "revise",
+    "partOfSpeech": "verb",
+    "forms": ["revises", "revised", "revising"],
+    "definition": "To re-read work done previously to improve one's knowledge of a subject, typically to prepare for an examination",
+    "examples": ["I need to revise my notes before the biology test."],
+    "synonyms": ["review", "study"],
+    "antonyms": [],
+    "translation": "повторять (материал)"
+  },
+  {
+    "word": "term",
+    "partOfSpeech": "noun",
+    "forms": ["terms"],
+    "definition": "Each of the periods in the year during which instruction is given in a school, college, or university",
+    "examples": ["The autumn term starts in September."],
+    "synonyms": ["semester", "trimester"],
+    "antonyms": [],
+    "translation": "семестр / четверть"
+  },
+  {
+    "word": "tutor",
+    "partOfSpeech": "noun",
+    "forms": ["tutors"],
+    "definition": "A private teacher, typically one who teaches a single student or a very small group",
+    "examples": [
+      "His parents hired a math tutor to help him improve his grades."
+    ],
+    "synonyms": ["instructor", "coach", "teacher"],
+    "antonyms": ["student"],
+    "translation": "репетитор / куратор"
+  },
+  {
+    "word": "tutorial",
+    "partOfSpeech": "noun",
+    "forms": ["tutorials"],
+    "definition": "A period of tuition given by a university or college tutor to an individual or very small group",
+    "examples": ["We discussed the essay topic during our weekly tutorial."],
+    "synonyms": ["seminar", "lesson"],
+    "antonyms": [],
+    "translation": "консультация / семинар"
+  },
+  {
+    "word": "undergraduate",
+    "partOfSpeech": "noun",
+    "forms": ["undergraduates"],
+    "definition": "A student at a college or university who has not yet earned a bachelor's or equivalent degree",
+    "examples": ["She is a first-year undergraduate studying psychology."],
+    "synonyms": ["student"],
+    "antonyms": ["graduate", "postgraduate"],
+    "translation": "студент (бакалавриата)"
+  },
+  {
+    "word": "do a course",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To participate in a series of lessons or lectures on a particular subject",
+    "examples": ["I plan to do a course in photography this summer."],
+    "synonyms": ["take a course", "study"],
+    "antonyms": [],
+    "translation": "проходить курс"
+  },
+  {
+    "word": "do an assignment",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To complete a piece of work given to you as part of your studies",
+    "examples": [
+      "He stayed up late to do an assignment for his literature class."
+    ],
+    "synonyms": ["complete a task"],
+    "antonyms": [],
+    "translation": "выполнять задание"
+  },
+  {
+    "word": "do an exam",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To take a formal test of a person's knowledge or proficiency in a subject",
+    "examples": ["We have to do an exam at the end of the term."],
+    "synonyms": ["take an exam", "sit an exam"],
+    "antonyms": [],
+    "translation": "сдавать экзамен"
+  },
+  {
+    "word": "do chores",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To perform routine tasks, especially household ones",
+    "examples": [
+      "I have to do chores like vacuuming and dusting every Saturday."
+    ],
+    "synonyms": ["do housework"],
+    "antonyms": [],
+    "translation": "делать работу по дому"
+  },
+  {
+    "word": "do homework",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To complete schoolwork assigned to be done outside the classroom",
+    "examples": ["She always does her homework right after school."],
+    "synonyms": ["study"],
+    "antonyms": [],
+    "translation": "делать домашнее задание"
+  },
+  {
+    "word": "do the shopping",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To visit shops to buy necessary goods, such as food and household items",
+    "examples": ["I need to do the shopping for the weekend barbecue."],
+    "synonyms": ["buy groceries"],
+    "antonyms": [],
+    "translation": "делать покупки (продуктов)"
+  },
+  {
+    "word": "do the washing",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To clean clothes, linens, etc., by washing them",
+    "examples": ["He does the washing every Sunday morning."],
+    "synonyms": ["do the laundry"],
+    "antonyms": [],
+    "translation": "стирать"
+  },
+  {
+    "word": "do well",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To be successful; to perform favorably",
+    "examples": ["I hope you do well in your interview tomorrow."],
+    "synonyms": ["succeed", "prosper"],
+    "antonyms": ["fail", "do badly"],
+    "translation": "преуспевать / успешно справляться"
+  },
+  {
+    "word": "academic",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to education and scholarship",
+    "examples": ["He has a brilliant academic record."],
+    "synonyms": ["educational", "scholastic"],
+    "antonyms": ["nonacademic", "practical"],
+    "translation": "академический / учебный"
+  },
+  {
+    "word": "ages",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A very long time",
+    "examples": ["I haven't seen my best friend in ages."],
+    "synonyms": ["a long time", "eternity"],
+    "antonyms": ["a short time"],
+    "translation": "целая вечность / долгое время"
+  },
+  {
+    "word": "already",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "Before or by now or the time in question",
+    "examples": ["I have already finished my lunch."],
+    "synonyms": ["previously", "by now"],
+    "antonyms": ["later", "not yet"],
+    "translation": "уже"
+  },
+  {
+    "word": "annoy",
+    "partOfSpeech": "verb",
+    "forms": ["annoys", "annoyed", "annoying"],
+    "definition": "To make someone a little angry; irritate",
+    "examples": ["Loud music tends to annoy the neighbors."],
+    "synonyms": ["irritate", "bother", "vex"],
+    "antonyms": ["please", "soothe"],
+    "translation": "раздражать / надоедать"
+  },
+  {
+    "word": "anyway",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "Used to confirm or support a point or idea just mentioned; regardless",
+    "examples": ["It's raining, but I'm going for a walk anyway."],
+    "synonyms": ["regardless", "nevertheless"],
+    "antonyms": [],
+    "translation": "в любом случае / так или иначе"
+  },
+  {
+    "word": "arrange",
+    "partOfSpeech": "verb",
+    "forms": ["arranges", "arranged", "arranging"],
+    "definition": "To put things in a neat, attractive, or required order; to organize or make plans",
+    "examples": ["I will arrange a meeting for tomorrow morning."],
+    "synonyms": ["organize", "schedule", "sort"],
+    "antonyms": ["disorganize", "cancel"],
+    "translation": "организовывать / договариваться"
+  },
+  {
+    "word": "avoid",
+    "partOfSpeech": "verb",
+    "forms": ["avoids", "avoided", "avoiding"],
+    "definition": "To keep away from or stop oneself from doing something",
+    "examples": ["You should avoid eating too much sugar."],
+    "synonyms": ["evade", "dodge", "shun"],
+    "antonyms": ["confront", "seek"],
+    "translation": "избегать"
+  },
+  {
+    "word": "balance",
+    "partOfSpeech": "noun",
+    "forms": ["balances"],
+    "definition": "An even distribution of weight enabling someone or something to remain upright and steady",
+    "examples": ["She lost her balance and fell off her bicycle."],
+    "synonyms": ["stability", "equilibrium"],
+    "antonyms": ["instability", "imbalance"],
+    "translation": "баланс / равновесие"
+  },
+  {
+    "word": "base",
+    "partOfSpeech": "verb",
+    "forms": ["bases", "based", "basing"],
+    "definition": "To have as the foundation for something; to locate the center of operations",
+    "examples": ["They decided to base their new company in London."],
+    "synonyms": ["found", "establish", "locate"],
+    "antonyms": [],
+    "translation": "основывать / базировать"
+  },
+  {
+    "word": "be like (somebody)",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To resemble or act similarly to someone else",
+    "examples": ["I really want to be like my older sister when I grow up."],
+    "synonyms": ["resemble", "take after"],
+    "antonyms": ["differ from"],
+    "translation": "быть похожим на (кого-то)"
+  },
+  {
+    "word": "blame",
+    "partOfSpeech": "verb",
+    "forms": ["blames", "blamed", "blaming"],
+    "definition": "To assign responsibility for a fault or wrong",
+    "examples": ["Don't blame me for the mistake; I wasn't even there."],
+    "synonyms": ["accuse", "hold responsible"],
+    "antonyms": ["forgive", "praise"],
+    "translation": "винить"
+  },
+  {
+    "word": "brave",
+    "partOfSpeech": "adjective",
+    "forms": ["braver", "bravest"],
+    "definition": "Ready to face and endure danger or pain; showing courage",
+    "examples": [
+      "The brave firefighter rescued the cat from the burning building."
+    ],
+    "synonyms": ["courageous", "fearless", "bold"],
+    "antonyms": ["cowardly", "fearful"],
+    "translation": "смелый / храбрый"
+  },
+  {
+    "word": "break",
+    "partOfSpeech": "noun",
+    "forms": ["breaks"],
+    "definition": "A pause in work or during an activity or event",
+    "examples": ["Let's take a ten-minute coffee break before we continue."],
+    "synonyms": ["pause", "rest", "interval"],
+    "antonyms": ["continuation"],
+    "translation": "перерыв"
+  },
+  {
+    "word": "by the way",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Incidentally (used to introduce a minor topic or to change the subject)",
+    "examples": ["By the way, did you remember to buy milk?"],
+    "synonyms": ["incidentally"],
+    "antonyms": [],
+    "translation": "кстати"
+  },
+  {
+    "word": "instead of",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "As an alternative or substitute",
+    "examples": ["Let's have tea instead of coffee today."],
+    "synonyms": ["rather than", "in place of"],
+    "antonyms": [],
+    "translation": "вместо"
+  },
+  {
+    "word": "irritate",
+    "partOfSpeech": "verb",
+    "forms": ["irritates", "irritated", "irritating"],
+    "definition": "To make someone showing or feeling slight anger; annoy",
+    "examples": ["His constant tapping on the desk began to irritate me."],
+    "synonyms": ["annoy", "bother", "provoke"],
+    "antonyms": ["soothe", "please", "calm"],
+    "translation": "раздражать"
+  },
+  {
+    "word": "just",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "Exactly; very recently; or simply/only",
+    "examples": ["I have just finished reading that book."],
+    "synonyms": ["only", "simply", "recently"],
+    "antonyms": [],
+    "translation": "просто / только что"
+  },
+  {
+    "word": "look forward to",
+    "partOfSpeech": "phrase",
+    "forms": ["looks forward to", "looked forward to", "looking forward to"],
+    "definition": "To await something eagerly",
+    "examples": ["I look forward to seeing you at the party this weekend."],
+    "synonyms": ["anticipate", "await"],
+    "antonyms": ["dread"],
+    "translation": "с нетерпением ждать"
+  },
+  {
+    "word": "manage",
+    "partOfSpeech": "verb",
+    "forms": ["manages", "managed", "managing"],
+    "definition": "To succeed in surviving or in achieving something despite difficult circumstances; to be in charge of",
+    "examples": ["She managed to fix the broken engine all by herself."],
+    "synonyms": ["handle", "control", "cope", "succeed"],
+    "antonyms": ["fail"],
+    "translation": "справляться / управлять"
+  },
+  {
+    "word": "nerves",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "Feelings of anxiety or nervousness",
+    "examples": ["I always suffer from bad nerves before a public speech."],
+    "synonyms": ["anxiety", "tension", "jitters"],
+    "antonyms": ["calmness", "confidence"],
+    "translation": "нервы / волнение"
+  },
+  {
+    "word": "never",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "At no time in the past or future; on no occasion; not ever",
+    "examples": ["I have never been to Japan before."],
+    "synonyms": ["not ever"],
+    "antonyms": ["always", "forever"],
+    "translation": "никогда"
+  },
+  {
+    "word": "noise",
+    "partOfSpeech": "noun",
+    "forms": ["noises"],
+    "definition": "A sound, especially one that is loud or unpleasant or that causes disturbance",
+    "examples": ["The construction site next door makes a lot of noise."],
+    "synonyms": ["sound", "clamor", "racket"],
+    "antonyms": ["silence", "quiet"],
+    "translation": "шум"
+  },
+  {
+    "word": "practical",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Of or concerned with the actual doing or use of something rather than with theory and ideas",
+    "examples": [
+      "The course offers practical experience in modern software design."
+    ],
+    "synonyms": ["functional", "pragmatic", "hands-on"],
+    "antonyms": ["theoretical", "impractical"],
+    "translation": "практический"
+  },
+  {
+    "word": "realise",
+    "partOfSpeech": "verb",
+    "forms": ["realises", "realised", "realising"],
+    "definition": "To become fully aware of something as a fact; understand clearly",
+    "examples": [
+      "I didn't realise how late it was until I looked at my watch."
+    ],
+    "synonyms": ["understand", "recognize", "grasp"],
+    "antonyms": ["misunderstand", "ignore"],
+    "translation": "осознавать / понимать"
+  },
+  {
+    "word": "relatively",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "In relation, comparison, or proportion to something else",
+    "examples": ["The test was relatively easy compared to the previous one."],
+    "synonyms": ["comparatively", "somewhat", "fairly"],
+    "antonyms": ["absolutely", "completely"],
+    "translation": "относительно"
+  },
+  {
+    "word": "research",
+    "partOfSpeech": "noun",
+    "forms": ["researches"],
+    "definition": "The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions",
+    "examples": [
+      "She is conducting research into the causes of climate change."
+    ],
+    "synonyms": ["investigation", "study", "inquiry"],
+    "antonyms": [],
+    "translation": "исследование"
+  },
+  {
+    "word": "risk",
+    "partOfSpeech": "verb",
+    "forms": ["risks", "risked", "risking"],
+    "definition": "To expose someone or something valued to danger, harm, or loss",
+    "examples": ["He risked his life to save the drowning child."],
+    "synonyms": ["endanger", "jeopardize"],
+    "antonyms": ["protect", "safeguard"],
+    "translation": "рисковать"
+  },
+  {
+    "word": "since",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "From a time in the past until the time under consideration; or because",
+    "examples": ["I have lived in this city since 2015."],
+    "synonyms": ["because", "as"],
+    "antonyms": [],
+    "translation": "с тех пор / поскольку"
+  },
+  {
+    "word": "specific",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Clearly defined or identified",
+    "examples": ["I gave him specific instructions on how to use the machine."],
+    "synonyms": ["particular", "exact", "precise"],
+    "antonyms": ["general", "vague", "unspecified"],
+    "translation": "конкретный / определенный"
+  },
+  {
+    "word": "take your mind off something",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To stop you from worrying or thinking about a problem or pain, often by forcing you to think about other things",
+    "examples": [
+      "Watching a comedy movie will help take your mind off the stress."
+    ],
+    "synonyms": ["distract yourself"],
+    "antonyms": ["dwell on"],
+    "translation": "отвлечься от чего-либо"
+  },
+  {
+    "word": "theoretical",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Concerned with or involving the theory of a subject or area of study rather than its practical application",
+    "examples": ["His knowledge of physics is mostly theoretical."],
+    "synonyms": ["hypothetical", "abstract", "academic"],
+    "antonyms": ["practical", "applied"],
+    "translation": "теоретический"
+  },
+  {
+    "word": "topic",
+    "partOfSpeech": "noun",
+    "forms": ["topics"],
+    "definition": "A matter dealt with in a text, discourse, or conversation",
+    "examples": [
+      "The main topic of today's debate is environmental protection."
+    ],
+    "synonyms": ["subject", "theme", "issue"],
+    "antonyms": [],
+    "translation": "тема"
+  },
+  {
+    "word": "uni",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Informal term for university",
+    "examples": ["She's planning to go to uni next year to study law."],
+    "synonyms": ["university", "college"],
+    "antonyms": [],
+    "translation": "универ (разговорное от университет)"
+  },
+  {
+    "word": "unspecified",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not stated clearly or exactly",
+    "examples": [
+      "The meeting will take place at an unspecified time next week."
+    ],
+    "synonyms": ["undefined", "undetermined", "vague"],
+    "antonyms": ["specific", "exact", "detailed"],
+    "translation": "неуказанный / неопределенный"
+  },
+  {
+    "word": "valid",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having a sound basis in logic or fact; reasonable or cogent; legally acceptable",
+    "examples": ["You need a valid passport to travel internationally."],
+    "synonyms": ["legitimate", "authentic", "sound"],
+    "antonyms": ["invalid", "unacceptable"],
+    "translation": "действительный / веский"
+  },
+  {
+    "word": "wallet",
+    "partOfSpeech": "noun",
+    "forms": ["wallets"],
+    "definition": "A pocket-sized flat folding case for holding money and plastic cards",
+    "examples": ["I lost my wallet with all my credit cards and cash inside."],
+    "synonyms": ["purse", "billfold"],
+    "antonyms": [],
+    "translation": "бумажник / кошелек"
+  },
+  {
+    "word": "wet",
+    "partOfSpeech": "adjective",
+    "forms": ["wetter", "wettest"],
+    "definition": "Covered or saturated with water or another liquid",
+    "examples": ["Be careful, the floor is wet and slippery."],
+    "synonyms": ["damp", "moist", "soaked"],
+    "antonyms": ["dry"],
+    "translation": "мокрый / влажный"
+  },
+  {
+    "word": "become independent",
+    "partOfSpeech": "phrase",
+    "forms": [
+      "becomes independent",
+      "became independent",
+      "becoming independent"
+    ],
+    "definition": "To start living and making decisions on one's own without relying on others",
+    "examples": [
+      "Moving out of her parents' house allowed her to become independent."
+    ],
+    "synonyms": ["gain independence", "stand on one's own feet"],
+    "antonyms": ["become dependent"],
+    "translation": "стать независимым"
+  },
+  {
+    "word": "extracurricular activities",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Activities performed by students that fall outside the realm of the normal curriculum of school or university education",
+    "examples": [
+      "Joining a sports team or drama club are great extracurricular activities."
+    ],
+    "synonyms": ["after-school activities", "clubs"],
+    "antonyms": ["core curriculum"],
+    "translation": "внеклассные мероприятия"
+  },
+  {
+    "word": "hall of residence",
+    "partOfSpeech": "noun",
+    "forms": ["halls of residence"],
+    "definition": "A college or university building containing living quarters for students",
+    "examples": [
+      "During his first year, he lived in a hall of residence on campus."
+    ],
+    "synonyms": ["dormitory", "dorm"],
+    "antonyms": [],
+    "translation": "общежитие"
+  },
+  {
+    "word": "make new friends",
+    "partOfSpeech": "phrase",
+    "forms": ["makes new friends", "made new friends", "making new friends"],
+    "definition": "To form new friendships and meet new people",
+    "examples": [
+      "Going to university is a great opportunity to make new friends."
+    ],
+    "synonyms": ["socialize", "meet people"],
+    "antonyms": ["lose friends", "alienate"],
+    "translation": "заводить новых друзей"
+  },
+  {
+    "word": "student facilities",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "Buildings, equipment, or services provided for the use and benefit of students",
+    "examples": [
+      "The campus has excellent student facilities, including a gym and library."
+    ],
+    "synonyms": ["campus amenities", "student services"],
+    "antonyms": [],
+    "translation": "студенческая инфраструктура / удобства для студентов"
+  },
+  {
+    "word": "student loan",
+    "partOfSpeech": "noun",
+    "forms": ["student loans"],
+    "definition": "An agreement by which a student borrows money from a bank or government to pay for their education and living costs",
+    "examples": [
+      "She will be paying off her student loan for many years after graduating."
+    ],
+    "synonyms": ["educational loan"],
+    "antonyms": ["scholarship", "grant"],
+    "translation": "студенческий кредит / заем"
+  },
+  {
+    "word": "study abroad",
+    "partOfSpeech": "phrase",
+    "forms": ["studies abroad", "studied abroad", "studying abroad"],
+    "definition": "To attend an educational institution in a foreign country",
+    "examples": [
+      "He chose to study abroad in Spain to improve his language skills."
+    ],
+    "synonyms": ["study overseas"],
+    "antonyms": ["study locally"],
+    "translation": "учиться за границей"
+  },
+  {
+    "word": "make a cake",
+    "partOfSpeech": "phrase",
+    "forms": ["makes a cake", "made a cake", "making a cake"],
+    "definition": "To bake a sweet baked dessert",
+    "examples": ["I am going to make a cake for her birthday."],
+    "synonyms": ["bake a cake"],
+    "antonyms": [],
+    "translation": "испечь торт / приготовить пирог"
+  },
+  {
+    "word": "make a decision",
+    "partOfSpeech": "phrase",
+    "forms": ["makes a decision", "made a decision", "making a decision"],
+    "definition": "To choose what to do or form a conclusion",
+    "examples": [
+      "We need to make a decision about where to go for the holidays."
+    ],
+    "synonyms": ["decide", "make up one's mind"],
+    "antonyms": ["hesitate", "delay"],
+    "translation": "принять решение"
+  },
+  {
+    "word": "make a noise",
+    "partOfSpeech": "phrase",
+    "forms": ["makes a noise", "made a noise", "making a noise"],
+    "definition": "To produce a sound, especially a loud or unpleasant one",
+    "examples": ["Try not to make a noise while the baby is sleeping."],
+    "synonyms": ["be noisy"],
+    "antonyms": ["be quiet", "keep silent"],
+    "translation": "шуметь"
+  },
+  {
+    "word": "make friends",
+    "partOfSpeech": "phrase",
+    "forms": ["makes friends", "made friends", "making friends"],
+    "definition": "To form friendships",
+    "examples": ["It can be hard to make friends when you move to a new city."],
+    "synonyms": ["befriend"],
+    "antonyms": ["make enemies"],
+    "translation": "подружиться / заводить друзей"
+  },
+  {
+    "word": "make the dinner",
+    "partOfSpeech": "phrase",
+    "forms": ["makes the dinner", "made the dinner", "making the dinner"],
+    "definition": "To prepare the main evening meal",
+    "examples": ["It is my turn to make the dinner tonight."],
+    "synonyms": ["cook dinner", "prepare dinner"],
+    "antonyms": [],
+    "translation": "готовить ужин"
+  },
+  {
+    "word": "can't stand",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To strongly dislike someone or something",
+    "examples": ["I can't stand the smell of cigarette smoke."],
+    "synonyms": ["detest", "hate", "loathe"],
+    "antonyms": ["love", "adore", "enjoy"],
+    "translation": "терпеть не могу / не выносить"
+  },
+  {
+    "word": "career",
+    "partOfSpeech": "noun",
+    "forms": ["careers"],
+    "definition": "An occupation undertaken for a significant period of a person's life and with opportunities for progress",
+    "examples": ["She had a long and successful career in journalism."],
+    "synonyms": ["profession", "occupation", "vocation"],
+    "antonyms": [],
+    "translation": "карьера"
+  },
+  {
+    "word": "choice",
+    "partOfSpeech": "noun",
+    "forms": ["choices"],
+    "definition": "An act of selecting or making a decision when faced with two or more possibilities",
+    "examples": [
+      "He had to make a difficult choice between two great job offers."
+    ],
+    "synonyms": ["option", "selection", "alternative"],
+    "antonyms": [],
+    "translation": "выбор"
+  },
+  {
+    "word": "chore",
+    "partOfSpeech": "noun",
+    "forms": ["chores"],
+    "definition": "A routine task, especially a household one",
+    "examples": ["Washing the dishes is my least favorite chore."],
+    "synonyms": ["task", "duty", "errand"],
+    "antonyms": [],
+    "translation": "обязанность (по дому) / рутинная работа"
+  },
+  {
+    "word": "come up",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["comes up", "came up", "coming up"],
+    "definition": "To occur or present itself, especially unexpectedly",
+    "examples": [
+      "I can't attend the meeting because something urgent has come up."
+    ],
+    "synonyms": ["arise", "occur", "happen"],
+    "antonyms": [],
+    "translation": "появляться / возникать"
+  },
+  {
+    "word": "complain",
+    "partOfSpeech": "verb",
+    "forms": ["complains", "complained", "complaining"],
+    "definition": "To express dissatisfaction or annoyance about something",
+    "examples": [
+      "Customers began to complain about the poor service in the restaurant."
+    ],
+    "synonyms": ["grumble", "whine", "protest"],
+    "antonyms": ["praise", "compliment", "applaud"],
+    "translation": "жаловаться"
+  },
+  {
+    "word": "details",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "Individual facts, features, or items",
+    "examples": ["Please send me the full details of the conference schedule."],
+    "synonyms": ["specifics", "particulars", "facts"],
+    "antonyms": ["overview", "generalization"],
+    "translation": "детали / подробности"
+  },
+  {
+    "word": "discuss",
+    "partOfSpeech": "verb",
+    "forms": ["discusses", "discussed", "discussing"],
+    "definition": "To talk about something with another person or group of people in order to exchange ideas or decide something",
+    "examples": [
+      "The committee will discuss the new proposal at tomorrow's meeting."
+    ],
+    "synonyms": ["talk over", "debate", "converse about"],
+    "antonyms": ["ignore", "avoid"],
+    "translation": "обсуждать"
+  },
+  {
+    "word": "don't mind",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Not being annoyed or bothered by something; willing to do something",
+    "examples": [
+      "I don't mind staying a bit late to help you finish the project."
+    ],
+    "synonyms": ["be willing", "not object"],
+    "antonyms": ["object to", "mind"],
+    "translation": "не против / не возражать"
+  },
+  {
+    "word": "duration",
+    "partOfSpeech": "noun",
+    "forms": ["durations"],
+    "definition": "The time during which something continues",
+    "examples": ["The duration of the flight is approximately three hours."],
+    "synonyms": ["length", "period", "span"],
+    "antonyms": [],
+    "translation": "продолжительность"
+  },
+  {
+    "word": "encourage",
+    "partOfSpeech": "verb",
+    "forms": ["encourages", "encouraged", "encouraging"],
+    "definition": "To give support, confidence, or hope to someone",
+    "examples": [
+      "Teachers should always encourage their students to ask questions."
+    ],
+    "synonyms": ["inspire", "motivate", "support"],
+    "antonyms": ["discourage", "dissuade", "hinder"],
+    "translation": "поощрять / воодушевлять"
+  },
+  {
+    "word": "ever",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "At any time",
+    "examples": ["Have you ever been to Paris in the spring?"],
+    "synonyms": ["at any time"],
+    "antonyms": ["never"],
+    "translation": "когда-либо"
+  },
+  {
+    "word": "expect",
+    "partOfSpeech": "verb",
+    "forms": ["expects", "expected", "expecting"],
+    "definition": "To regard something as likely to happen",
+    "examples": ["We expect the weather to be sunny all weekend."],
+    "synonyms": ["anticipate", "predict", "await"],
+    "antonyms": ["doubt", "despair"],
+    "translation": "ожидать"
+  },
+  {
+    "word": "experience",
+    "partOfSpeech": "noun",
+    "forms": ["experiences"],
+    "definition": "Practical contact with and observation of facts or events; knowledge or skill acquired over time",
+    "examples": [
+      "She has a lot of experience working in international finance."
+    ],
+    "synonyms": ["knowledge", "skill", "practice"],
+    "antonyms": ["inexperience", "ignorance"],
+    "translation": "опыт"
+  },
+  {
+    "word": "find out about",
+    "partOfSpeech": "phrase",
+    "forms": ["finds out about", "found out about", "finding out about"],
+    "definition": "To discover information concerning someone or something",
+    "examples": [
+      "I need to find out about the schedule for the upcoming classes."
+    ],
+    "synonyms": ["discover", "learn about"],
+    "antonyms": ["ignore", "overlook"],
+    "translation": "узнать о / выяснить"
+  },
+  {
+    "word": "folder",
+    "partOfSpeech": "noun",
+    "forms": ["folders"],
+    "definition": "A folding cover or holder, typically made of stiff paper or cardboard, for storing loose papers",
+    "examples": [
+      "He organized all the printed documents neatly into a blue folder."
+    ],
+    "synonyms": ["file", "binder", "portfolio"],
+    "antonyms": [],
+    "translation": "папка"
+  },
+  {
+    "word": "forum",
+    "partOfSpeech": "noun",
+    "forms": ["forums", "fora"],
+    "definition": "A place, meeting, or medium where ideas and views on a particular issue can be exchanged",
+    "examples": [
+      "He asked a question on the internet forum to get help with his computer problem."
+    ],
+    "synonyms": ["discussion board", "meeting place", "assembly"],
+    "antonyms": [],
+    "translation": "форум"
+  },
+  {
+    "word": "hand in",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["hands in", "handed in", "handing in"],
+    "definition": "To give something to a person in authority, especially a piece of work or something lost",
+    "examples": ["Don't forget to hand in your essay by Friday afternoon."],
+    "synonyms": ["submit", "turn in", "give in"],
+    "antonyms": ["keep", "hold on to"],
+    "translation": "сдавать (работу / документы)"
+  },
+  {
+    "word": "helpline",
+    "partOfSpeech": "noun",
+    "forms": ["helplines"],
+    "definition": "A telephone service providing help with problems",
+    "examples": [
+      "If you are feeling overwhelmed, you can always call the confidential helpline."
+    ],
+    "synonyms": ["hotline", "support line"],
+    "antonyms": [],
+    "translation": "телефон доверия / служба поддержки"
+  },
+  {
+    "word": "improve",
+    "partOfSpeech": "verb",
+    "forms": ["improves", "improved", "improving"],
+    "definition": "To make or become better",
+    "examples": [
+      "Practicing every day will definitely help you improve your English."
+    ],
+    "synonyms": ["better", "enhance", "upgrade"],
+    "antonyms": ["worsen", "deteriorate", "impair"],
+    "translation": "улучшать"
+  }
+]

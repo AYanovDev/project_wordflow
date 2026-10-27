@@ -1,0 +1,1168 @@
+[
+  {
+    "word": "ambitious",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing a strong desire and determination to succeed",
+    "examples": [
+      "She is an ambitious young lawyer who wants to become a partner soon."
+    ],
+    "synonyms": ["aspiring", "determined", "driven"],
+    "antonyms": ["unambitious", "lazy"],
+    "translation": "амбицио́зный"
+  },
+  {
+    "word": "arrogant",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or revealing an exaggerated sense of one's own importance or abilities",
+    "examples": [
+      "His arrogant attitude made it difficult for him to make friends."
+    ],
+    "synonyms": ["haughty", "conceited", "proud"],
+    "antonyms": ["humble", "modest"],
+    "translation": "высокоме́рный"
+  },
+  {
+    "word": "assertive",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing a confident and forceful personality",
+    "examples": [
+      "You need to be more assertive if you want people to listen to your ideas."
+    ],
+    "synonyms": ["confident", "forceful", "decisive"],
+    "antonyms": ["passive", "timid", "shy"],
+    "translation": "напо́ристый / уве́ренный в себе́"
+  },
+  {
+    "word": "bad-tempered",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Easily annoyed or made angry",
+    "examples": [
+      "He always gets bad-tempered when he doesn't get enough sleep."
+    ],
+    "synonyms": ["irritable", "grumpy", "grouchy"],
+    "antonyms": ["good-natured", "easygoing", "cheerful"],
+    "translation": "раздражи́тельный / вспы́льчивый"
+  },
+  {
+    "word": "big-headed",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Conceited or arrogant; thinking that one is more important or cleverer than one really is",
+    "examples": ["Winning the competition made him a bit big-headed."],
+    "synonyms": ["conceited", "boastful", "arrogant"],
+    "antonyms": ["modest", "humble"],
+    "translation": "зазна́вшийся / самонаде́янный"
+  },
+  {
+    "word": "bossy",
+    "partOfSpeech": "adjective",
+    "forms": ["bossier", "bossiest"],
+    "definition": "Fond of giving people orders; domineering",
+    "examples": [
+      "My older sister can be very bossy and always tells me what to do."
+    ],
+    "synonyms": ["domineering", "controlling", "authoritarian"],
+    "antonyms": ["submissive", "easygoing"],
+    "translation": "лю́бящий кома́ндовать / вла́стный"
+  },
+  {
+    "word": "broad-minded",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Tolerant or liberal in one's views and reactions; not easily offended",
+    "examples": [
+      "Living in different countries made her much more broad-minded."
+    ],
+    "synonyms": ["open-minded", "tolerant", "liberal"],
+    "antonyms": ["narrow-minded", "intolerant"],
+    "translation": "с широ́кими взгля́дами / терпи́мый"
+  },
+  {
+    "word": "brusque",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Abrupt or offhand in speech or manner",
+    "examples": [
+      "The receptionist gave a brusque reply and went back to her computer."
+    ],
+    "synonyms": ["abrupt", "blunt", "curt"],
+    "antonyms": ["polite", "courteous", "tactful"],
+    "translation": "ре́зкий / бесцеремо́нный"
+  },
+  {
+    "word": "determined",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having made a firm decision and being resolved not to change it",
+    "examples": [
+      "She was determined to finish the project before the deadline."
+    ],
+    "synonyms": ["resolute", "persistent", "focused"],
+    "antonyms": ["irresolute", "hesitant"],
+    "translation": "реши́тельный"
+  },
+  {
+    "word": "down-to-earth",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Practical, reasonable, and friendly, with no pretensions",
+    "examples": [
+      "Despite being a famous actor, he is very humble and down-to-earth."
+    ],
+    "synonyms": ["practical", "sensible", "realistic", "grounded"],
+    "antonyms": ["pretentious", "arrogant", "unrealistic"],
+    "translation": "приземлённый / практи́чный"
+  },
+  {
+    "word": "easygoing",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relaxed and tolerant in approach or manner",
+    "examples": [
+      "My new roommate is very easygoing and never complains about anything."
+    ],
+    "synonyms": ["relaxed", "laid-back", "carefree"],
+    "antonyms": ["uptight", "strict", "anxious"],
+    "translation": "покла́дистый / доброду́шный"
+  },
+  {
+    "word": "frank",
+    "partOfSpeech": "adjective",
+    "forms": ["franker", "frankest"],
+    "definition": "Open, honest, and direct in speech or writing, especially when dealing with unpalatable matters",
+    "examples": [
+      "To be completely frank with you, I don't think this plan will work."
+    ],
+    "synonyms": ["candid", "direct", "honest", "open"],
+    "antonyms": ["evasive", "secretive", "insincere"],
+    "translation": "открове́нный / прямолине́йный"
+  },
+  {
+    "word": "gifted",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having exceptional talent or natural ability",
+    "examples": [
+      "He is a gifted pianist who started playing at the age of four."
+    ],
+    "synonyms": ["talented", "brilliant", "skilled"],
+    "antonyms": ["untalented", "inept"],
+    "translation": "одарённый"
+  },
+  {
+    "word": "good-natured",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Kind, friendly, and patient in dealing with others",
+    "examples": ["Everyone likes him because he is so warm and good-natured."],
+    "synonyms": ["amiable", "friendly", "kind-hearted"],
+    "antonyms": ["bad-tempered", "ill-natured"],
+    "translation": "доброду́шный"
+  },
+  {
+    "word": "immature",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing an emotional or intellectual development appropriate to someone younger",
+    "examples": [
+      "Laughing at other people's mistakes is very childish and immature."
+    ],
+    "synonyms": ["childish", "juvenile", "infantile"],
+    "antonyms": ["mature", "grown-up", "responsible"],
+    "translation": "незре́лый"
+  },
+  {
+    "word": "insecure",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not confident or assured; uncertain and anxious about oneself",
+    "examples": [
+      "He often feels insecure when speaking in front of large groups."
+    ],
+    "synonyms": ["unconfident", "uncertain", "anxious"],
+    "antonyms": ["confident", "secure", "self-assured"],
+    "translation": "неуве́ренный в себе́"
+  },
+  {
+    "word": "mature",
+    "partOfSpeech": "adjective",
+    "forms": ["maturer", "maturest"],
+    "definition": "Fully developed physically; full-grown; behaving in a sensible, adult manner",
+    "examples": [
+      "She is very mature for her age and always makes responsible decisions."
+    ],
+    "synonyms": ["grown-up", "sensible", "responsible"],
+    "antonyms": ["immature", "childish"],
+    "translation": "зре́лый / взро́слый"
+  },
+  {
+    "word": "modest",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Unassuming or moderate in the estimation of one's abilities or achievements",
+    "examples": [
+      "Even though she won first prize, she remained very modest about her talent."
+    ],
+    "synonyms": ["humble", "unassuming", "unpretentious"],
+    "antonyms": ["arrogant", "boastful", "big-headed"],
+    "translation": "скро́мный"
+  },
+  {
+    "word": "narrow-minded",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not willing to listen to or tolerate other people's views; prejudiced",
+    "examples": [
+      "It is hard to have a discussion with someone who is so narrow-minded."
+    ],
+    "synonyms": ["intolerant", "prejudiced", "illiberal"],
+    "antonyms": ["broad-minded", "open-minded"],
+    "translation": "узколо́бый / ограни́ченный"
+  },
+  {
+    "word": "outgoing",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Friendly and socially confident",
+    "examples": [
+      "She has an outgoing personality and easily makes friends wherever she goes."
+    ],
+    "synonyms": ["extroverted", "sociable", "friendly"],
+    "antonyms": ["shy", "reserved", "introverted"],
+    "translation": "общи́тельный"
+  },
+  {
+    "word": "pushy",
+    "partOfSpeech": "adjective",
+    "forms": ["pushier", "pushiest"],
+    "definition": "Excessively or unpleasantly self-assertive or ambitious",
+    "examples": [
+      "We left the shop because the salesperson was being far too pushy."
+    ],
+    "synonyms": ["aggressive", "forceful", "overbearing"],
+    "antonyms": ["unassertive", "retiring"],
+    "translation": "назо́йливый / пробивно́й"
+  },
+  {
+    "word": "reserved",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Slow to reveal emotion or opinions",
+    "examples": [
+      "He is quite reserved at first, but he opens up once you get to know him."
+    ],
+    "synonyms": ["reticent", "quiet", "private"],
+    "antonyms": ["outgoing", "extroverted", "communicative"],
+    "translation": "сде́ржанный / за́мкнутый"
+  },
+  {
+    "word": "self-confident",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Trusting in one's abilities, qualities, and judgment",
+    "examples": [
+      "Public speaking courses helped him become much more self-confident."
+    ],
+    "synonyms": ["self-assured", "confident", "poised"],
+    "antonyms": ["insecure", "timid", "unsure"],
+    "translation": "уве́ренный в себе́"
+  },
+  {
+    "word": "sensitive",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Quick to detect or respond to slight changes, signals, or influences; easily hurt emotionally",
+    "examples": [
+      "You should be careful what you say to him because he is very sensitive to criticism."
+    ],
+    "synonyms": ["touchy", "delicate", "empathetic"],
+    "antonyms": ["insensitive", "thick-skinned"],
+    "translation": "чувстви́тельный / рани́мый"
+  },
+  {
+    "word": "shy",
+    "partOfSpeech": "adjective",
+    "forms": ["shyer", "shyest"],
+    "definition": "Being reserved or having or showing nervousness or timidity in the company of other people",
+    "examples": ["The little boy was too shy to say hello to the guests."],
+    "synonyms": ["timid", "bashful", "introverted"],
+    "antonyms": ["outgoing", "confident", "bold"],
+    "translation": "засте́нчивый / ро́бкий"
+  },
+  {
+    "word": "slow",
+    "partOfSpeech": "adjective",
+    "forms": ["slower", "slowest"],
+    "definition": "Moving or operating at a low speed; not quick to understand",
+    "examples": [
+      "The computer is running very slow today because of the update."
+    ],
+    "synonyms": ["sluggish", "unhurried", "gradual"],
+    "antonyms": ["fast", "quick", "rapid"],
+    "translation": "ме́дленный"
+  },
+  {
+    "word": "stubborn",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing dogged determination not to change one's attitude or position on something",
+    "examples": ["He is too stubborn to admit that he made a mistake."],
+    "synonyms": ["obstinate", "headstrong", "inflexible"],
+    "antonyms": ["compliant", "flexible", "reasonable"],
+    "translation": "упря́мый"
+  },
+  {
+    "word": "tactful",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing skill and sensitivity in dealing with others or with difficult issues",
+    "examples": [
+      "She found a tactful way to tell him that his presentation needed more work."
+    ],
+    "synonyms": ["diplomatic", "considerate", "polite"],
+    "antonyms": ["tactless", "blunt", "indiscreet"],
+    "translation": "такти́чный"
+  },
+  {
+    "word": "tactless",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing a lack of skill and sensitivity in dealing with others or with difficult issues",
+    "examples": ["It was rather tactless of you to ask her how old she was."],
+    "synonyms": ["insensitive", "undiplomatic", "thoughtless"],
+    "antonyms": ["tactful", "diplomatic", "polite"],
+    "translation": "беста́ктный"
+  },
+  {
+    "word": "talented",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having a natural aptitude or skill for something",
+    "examples": [
+      "She is a very talented artist whose paintings have won several awards."
+    ],
+    "synonyms": ["gifted", "skilled", "accomplished"],
+    "antonyms": ["untalented", "skillless"],
+    "translation": "тала́нтливый"
+  },
+  {
+    "word": "ability",
+    "partOfSpeech": "noun",
+    "forms": ["abilities"],
+    "definition": "Possession of the means or skill to do something",
+    "examples": [
+      "The manager has the ability to motivate her team even in tough times."
+    ],
+    "synonyms": ["capability", "skill", "capacity", "talent"],
+    "antonyms": ["inability", "incapacity"],
+    "translation": "спосо́бность / уме́ние"
+  },
+  {
+    "word": "action",
+    "partOfSpeech": "noun",
+    "forms": ["actions"],
+    "definition": "The fact or process of doing something, typically to achieve an aim",
+    "examples": ["We need to take immediate action to solve this problem."],
+    "synonyms": ["deed", "act", "measure", "step"],
+    "antonyms": ["inaction", "inactivity"],
+    "translation": "де́йствие / посту́пок"
+  },
+  {
+    "word": "activity",
+    "partOfSpeech": "noun",
+    "forms": ["activities"],
+    "definition": "A thing that a person or group does or has done",
+    "examples": [
+      "The summer camp offers a wide range of outdoor activities for children."
+    ],
+    "synonyms": ["pursuit", "pastime", "task", "venture"],
+    "antonyms": ["idleness", "inactivity"],
+    "translation": "де́ятельность / заня́тие"
+  },
+  {
+    "word": "actor",
+    "partOfSpeech": "noun",
+    "forms": ["actors"],
+    "definition": "A person whose profession is acting on the stage, in movies, or on television",
+    "examples": [
+      "The famous actor won an Oscar for his role in the historical drama."
+    ],
+    "synonyms": ["performer", "player", "thespian"],
+    "antonyms": ["spectator", "audience"],
+    "translation": "актёр"
+  },
+  {
+    "word": "appearance",
+    "partOfSpeech": "noun",
+    "forms": ["appearances"],
+    "definition": "The way that someone or something looks",
+    "examples": [
+      "You shouldn't judge a person solely by their outward appearance."
+    ],
+    "synonyms": ["look", "aspect", "impression"],
+    "antonyms": ["disappearance"],
+    "translation": "вне́шность / появле́ние"
+  },
+  {
+    "word": "artist",
+    "partOfSpeech": "noun",
+    "forms": ["artists"],
+    "definition": "A person who creates paintings or drawings as a profession or hobby",
+    "examples": [
+      "The local artist is holding an exhibition of his oil paintings this week."
+    ],
+    "synonyms": ["painter", "creator", "designer"],
+    "antonyms": [],
+    "translation": "худо́жник / арти́ст"
+  },
+  {
+    "word": "confidence",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A feeling of self-assurance arising from one's appreciation of one's own abilities or qualities",
+    "examples": [
+      "Passing the exam gave her the confidence she needed to apply for university."
+    ],
+    "synonyms": ["self-assurance", "belief", "poise"],
+    "antonyms": ["insecurity", "doubt", "diffidence"],
+    "translation": "уве́ренность"
+  },
+  {
+    "word": "creation",
+    "partOfSpeech": "noun",
+    "forms": ["creations"],
+    "definition": "The action or process of bringing something into existence, or a thing which has been made",
+    "examples": [
+      "The chef proudly presented his latest culinary creation to the guests."
+    ],
+    "synonyms": ["invention", "production", "work"],
+    "antonyms": ["destruction"],
+    "translation": "созда́ние / творе́ние"
+  },
+  {
+    "word": "creativity",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The use of the imagination or original ideas, especially in the production of an artistic work",
+    "examples": [
+      "This advertising agency values originality and creativity above all else."
+    ],
+    "synonyms": ["inventiveness", "imagination", "originality"],
+    "antonyms": [],
+    "translation": "креати́вность / тво́рчество"
+  },
+  {
+    "word": "creator",
+    "partOfSpeech": "noun",
+    "forms": ["creators"],
+    "definition": "A person or thing that brings something into existence",
+    "examples": [
+      "The creator of the popular comic book series signed autographs for fans."
+    ],
+    "synonyms": ["maker", "author", "inventor", "founder"],
+    "antonyms": ["destroyer"],
+    "translation": "созда́тель / творе́ц"
+  },
+  {
+    "word": "darkness",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The partial or total absence of light",
+    "examples": [
+      "When the power went out, the entire house was plunged into total darkness."
+    ],
+    "synonyms": ["blackness", "gloom", "dimness", "night"],
+    "antonyms": ["light", "brightness"],
+    "translation": "темнота́ / тьма"
+  },
+  {
+    "word": "difference",
+    "partOfSpeech": "noun",
+    "forms": ["differences"],
+    "definition": "A point or way in which people or things are not the same",
+    "examples": [
+      "Can you tell the difference between these two shades of blue?"
+    ],
+    "synonyms": ["distinction", "contrast", "variation"],
+    "antonyms": ["similarity", "resemblance"],
+    "translation": "ра́зница / отли́чие"
+  },
+  {
+    "word": "direction",
+    "partOfSpeech": "noun",
+    "forms": ["directions"],
+    "definition": "A course along which someone or something moves, or instructions on how to reach a destination",
+    "examples": [
+      "We stopped at a gas station to ask for directions to the nearest hotel."
+    ],
+    "synonyms": ["way", "route", "course", "guidance"],
+    "antonyms": [],
+    "translation": "направле́ние / инстру́кция"
+  },
+  {
+    "word": "education",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The process of receiving or giving systematic instruction, especially at a school or university",
+    "examples": [
+      "A good education is essential for building a successful career."
+    ],
+    "synonyms": ["schooling", "teaching", "learning"],
+    "antonyms": ["ignorance"],
+    "translation": "образова́ние"
+  },
+  {
+    "word": "educator",
+    "partOfSpeech": "noun",
+    "forms": ["educators"],
+    "definition": "A person who provides instruction or education; a teacher",
+    "examples": [
+      "As a dedicated educator, she is always looking for new ways to engage her students."
+    ],
+    "synonyms": ["teacher", "instructor", "tutor", "pedagogue"],
+    "antonyms": ["student", "pupil"],
+    "translation": "педаго́г / преподава́тель"
+  },
+  {
+    "word": "electrician",
+    "partOfSpeech": "noun",
+    "forms": ["electricians"],
+    "definition": "A person who installs and maintains electrical equipment",
+    "examples": [
+      "We had to call a qualified electrician to fix the faulty wiring in the kitchen."
+    ],
+    "synonyms": ["technician"],
+    "antonyms": [],
+    "translation": "эле́ктрик"
+  },
+  {
+    "word": "electricity",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A form of energy resulting from the existence of charged particles, used for power and lighting",
+    "examples": [
+      "Please turn off the lights when you leave the room to save electricity."
+    ],
+    "synonyms": ["power", "current", "energy"],
+    "antonyms": [],
+    "translation": "электри́чество"
+  },
+  {
+    "word": "employer",
+    "partOfSpeech": "noun",
+    "forms": ["employers"],
+    "definition": "A person or organization that employs people",
+    "examples": [
+      "The factory is the largest employer in this small industrial town."
+    ],
+    "synonyms": ["boss", "manager", "company", "firm"],
+    "antonyms": ["employee", "worker"],
+    "translation": "работода́тель"
+  },
+  {
+    "word": "employment",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The condition of having paid work",
+    "examples": [
+      "Many graduates move to the capital city in search of full-time employment."
+    ],
+    "synonyms": ["work", "job", "occupation"],
+    "antonyms": ["unemployment"],
+    "translation": "за́нятость / трудоустро́йство"
+  },
+  {
+    "word": "enjoyment",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The state or process of taking pleasure in something",
+    "examples": ["He plays the guitar purely for his own personal enjoyment."],
+    "synonyms": ["pleasure", "delight", "satisfaction", "fun"],
+    "antonyms": ["displeasure", "misery"],
+    "translation": "удово́льствие / наслажде́ние"
+  },
+  {
+    "word": "happiness",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The state of being happy",
+    "examples": [
+      "Money can buy comfort, but it cannot guarantee true happiness."
+    ],
+    "synonyms": ["joy", "delight", "bliss", "contentment"],
+    "antonyms": ["sadness", "sorrow", "unhappiness"],
+    "translation": "сча́стье"
+  },
+  {
+    "word": "illness",
+    "partOfSpeech": "noun",
+    "forms": ["illnesses"],
+    "definition": "A disease or period of sickness affecting the body or mind",
+    "examples": ["He missed a whole week of school due to a sudden illness."],
+    "synonyms": ["sickness", "disease", "ailment"],
+    "antonyms": ["health", "wellness"],
+    "translation": "боле́знь / заболева́ние"
+  },
+  {
+    "word": "importance",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The state or fact of being of great significance or value",
+    "examples": [
+      "The doctor emphasized the importance of regular exercise and a balanced diet."
+    ],
+    "synonyms": ["significance", "value", "priority"],
+    "antonyms": ["unimportance", "insignificance"],
+    "translation": "ва́жность / значи́мость"
+  },
+  {
+    "word": "improvement",
+    "partOfSpeech": "noun",
+    "forms": ["improvements"],
+    "definition": "An example or instance of improving or being improved",
+    "examples": [
+      "There has been a noticeable improvement in his grades this semester."
+    ],
+    "synonyms": ["advancement", "progress", "enhancement"],
+    "antonyms": ["deterioration", "decline"],
+    "translation": "улучше́ние"
+  },
+  {
+    "word": "invention",
+    "partOfSpeech": "noun",
+    "forms": ["inventions"],
+    "definition": "The action of inventing something, typically a process or device",
+    "examples": [
+      "The invention of the printing press revolutionized the spread of knowledge."
+    ],
+    "synonyms": ["creation", "innovation", "discovery"],
+    "antonyms": [],
+    "translation": "изобрете́ние"
+  },
+  {
+    "word": "inventor",
+    "partOfSpeech": "noun",
+    "forms": ["inventors"],
+    "definition": "A person who invented a particular process or device or who invents things as an occupation",
+    "examples": [
+      "Thomas Edison was a famous inventor who held over a thousand patents."
+    ],
+    "synonyms": ["creator", "innovator", "developer"],
+    "antonyms": [],
+    "translation": "изобрета́тель"
+  },
+  {
+    "word": "investigation",
+    "partOfSpeech": "noun",
+    "forms": ["investigations"],
+    "definition": "The action of investigating something or someone; formal or systematic examination or research",
+    "examples": [
+      "The police have launched a thorough investigation into the cause of the fire."
+    ],
+    "synonyms": ["inquiry", "examination", "probe", "study"],
+    "antonyms": [],
+    "translation": "рассле́дование / иссле́дование"
+  },
+  {
+    "word": "investigator",
+    "partOfSpeech": "noun",
+    "forms": ["investigators"],
+    "definition": "A person who carries out a formal inquiry or investigation",
+    "examples": [
+      "The private investigator was hired to find the missing documents."
+    ],
+    "synonyms": ["detective", "examiner", "researcher"],
+    "antonyms": [],
+    "translation": "сле́дователь / иссле́дователь"
+  },
+  {
+    "word": "madness",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The state of having a serious mental illness; or extremely foolish behavior",
+    "examples": [
+      "It would be sheer madness to climb that mountain in a snowstorm."
+    ],
+    "synonyms": ["insanity", "folly", "lunacy", "craziness"],
+    "antonyms": ["sanity", "sense", "wisdom"],
+    "translation": "безу́мие / сумасше́ствие"
+  },
+  {
+    "word": "musician",
+    "partOfSpeech": "noun",
+    "forms": ["musicians"],
+    "definition": "A person who plays a musical instrument, especially as a profession, or is musically talented",
+    "examples": [
+      "She is a talented jazz musician who plays both the saxophone and the piano."
+    ],
+    "synonyms": ["player", "performer", "instrumentalist"],
+    "antonyms": [],
+    "translation": "музыка́нт"
+  },
+  {
+    "word": "performance",
+    "partOfSpeech": "noun",
+    "forms": ["performances"],
+    "definition": "An act of staging or presenting a play, concert, or other form of entertainment",
+    "examples": [
+      "The audience gave a standing ovation after the orchestra's brilliant performance."
+    ],
+    "synonyms": ["show", "presentation", "act", "execution"],
+    "antonyms": [],
+    "translation": "выступле́ние / представле́ние"
+  },
+  {
+    "word": "politician",
+    "partOfSpeech": "noun",
+    "forms": ["politicians"],
+    "definition": "A person who is professionally involved in politics, especially as a holder of an elected office",
+    "examples": [
+      "The local politician promised to build more schools if elected."
+    ],
+    "synonyms": ["lawmaker", "statesman", "legislator"],
+    "antonyms": [],
+    "translation": "поли́тик"
+  },
+  {
+    "word": "relevance",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The quality or state of being closely connected or appropriate",
+    "examples": [
+      "I don't see the relevance of your question to the topic we are discussing."
+    ],
+    "synonyms": ["pertinence", "applicability", "connection"],
+    "antonyms": ["irrelevance"],
+    "translation": "актуа́льность / уме́стность"
+  },
+  {
+    "word": "scientist",
+    "partOfSpeech": "noun",
+    "forms": ["scientists"],
+    "definition": "A person who is studying or has expert knowledge of one or more of the natural or physical sciences",
+    "examples": [
+      "The scientist spent years in the laboratory developing a new vaccine."
+    ],
+    "synonyms": ["researcher", "biologist", "physicist"],
+    "antonyms": [],
+    "translation": "учёный"
+  },
+  {
+    "word": "writer",
+    "partOfSpeech": "noun",
+    "forms": ["writers"],
+    "definition": "A person who has written a particular text, or writes books or articles as an occupation",
+    "examples": [
+      "My favorite science fiction writer just published a new novel."
+    ],
+    "synonyms": ["author", "novelist", "journalist"],
+    "antonyms": ["reader"],
+    "translation": "писа́тель / а́втор"
+  },
+  {
+    "word": "bottom",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "In the lowest position",
+    "examples": ["Please sign your name on the bottom line of the document."],
+    "synonyms": ["lowest", "base", "underneath"],
+    "antonyms": ["top", "upper", "highest"],
+    "translation": "ни́жний"
+  },
+  {
+    "word": "bully",
+    "partOfSpeech": "verb",
+    "forms": ["bullies", "bullied", "bullying"],
+    "definition": "To seek to harm, intimidate, or coerce someone perceived as vulnerable",
+    "examples": [
+      "Schools have strict rules to punish students who try to bully others."
+    ],
+    "synonyms": ["intimidate", "harass", "torment", "oppress"],
+    "antonyms": ["protect", "defend", "help"],
+    "translation": "задира́ть / трави́ть / запу́гивать"
+  },
+  {
+    "word": "calm",
+    "partOfSpeech": "adjective",
+    "forms": ["calmer", "calmest"],
+    "definition": "Not showing or feeling nervousness, anger, or other strong emotions",
+    "examples": [
+      "It is important to stay calm and not panic during an emergency."
+    ],
+    "synonyms": ["peaceful", "composed", "serene", "tranquil"],
+    "antonyms": ["anxious", "agitated", "excited", "nervous"],
+    "translation": "споко́йный"
+  },
+  {
+    "word": "demonstrate",
+    "partOfSpeech": "verb",
+    "forms": ["demonstrates", "demonstrated", "demonstrating"],
+    "definition": "To clearly show the existence or truth of something by giving proof or evidence; to show how something works",
+    "examples": [
+      "The instructor will now demonstrate how to use the safety equipment properly."
+    ],
+    "synonyms": ["show", "illustrate", "display", "prove"],
+    "antonyms": ["conceal", "hide"],
+    "translation": "демонстри́ровать / пока́зывать"
+  },
+  {
+    "word": "equal",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Being the same in quantity, size, degree, or value; having the same status, rights, or opportunities",
+    "examples": [
+      "Cut the cake into six equal pieces so everyone gets the same amount."
+    ],
+    "synonyms": ["identical", "equivalent", "even", "same"],
+    "antonyms": ["unequal", "different", "uneven"],
+    "translation": "ра́вный / одина́ковый"
+  },
+  {
+    "word": "get on somebody's nerves",
+    "partOfSpeech": "phrase",
+    "forms": [
+      "gets on somebody's nerves",
+      "got on somebody's nerves",
+      "getting on somebody's nerves"
+    ],
+    "definition": "To irritate or annoy someone a lot",
+    "examples": [
+      "That loud, repetitive noise is really starting to get on my nerves."
+    ],
+    "synonyms": ["annoy", "irritate", "bother"],
+    "antonyms": ["please", "soothe"],
+    "translation": "де́йствовать кому́-либо на не́рвы"
+  },
+  {
+    "word": "hardly",
+    "partOfSpeech": "adverb",
+    "forms": [],
+    "definition": "Scarcely; almost not",
+    "examples": [
+      "He spoke so quietly that I could hardly hear what he was saying."
+    ],
+    "synonyms": ["barely", "scarcely", "almost not"],
+    "antonyms": ["easily", "completely", "fully"],
+    "translation": "едва́ / с трудо́м"
+  },
+  {
+    "word": "intelligence",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The ability to acquire and apply knowledge and skills",
+    "examples": [
+      "Dolphins and primates are known for their high level of intelligence."
+    ],
+    "synonyms": ["intellect", "cleverness", "smartness", "brains"],
+    "antonyms": ["stupidity", "ignorance"],
+    "translation": "интелле́кт / ум"
+  },
+  {
+    "word": "kinaesthetic",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to a person's awareness of the position and movement of the parts of the body; learning through physical activity",
+    "examples": [
+      "Kinaesthetic learners understand new concepts best through hands-on experience."
+    ],
+    "synonyms": ["tactile", "physical"],
+    "antonyms": [],
+    "translation": "кинестети́ческий"
+  },
+  {
+    "word": "make a point",
+    "partOfSpeech": "phrase",
+    "forms": ["makes a point", "made a point", "making a point"],
+    "definition": "To express an important idea or opinion clearly, or to make sure to do something deliberately",
+    "examples": [
+      "She made a point of thanking everyone who helped organize the event."
+    ],
+    "synonyms": ["emphasize", "assert", "make sure"],
+    "antonyms": [],
+    "translation": "дока́зывать свою́ мысль / взять за пра́вило"
+  },
+  {
+    "word": "measure",
+    "partOfSpeech": "verb",
+    "forms": ["measures", "measured", "measuring"],
+    "definition": "To ascertain the size, amount, or degree of something by using an instrument or device",
+    "examples": [
+      "We need to measure the width of the doorway before buying the new sofa."
+    ],
+    "synonyms": ["calculate", "gauge", "assess"],
+    "antonyms": ["guess", "estimate"],
+    "translation": "измеря́ть"
+  },
+  {
+    "word": "mission",
+    "partOfSpeech": "noun",
+    "forms": ["missions"],
+    "definition": "An important assignment carried out for political, religious, scientific, or commercial purposes",
+    "examples": [
+      "Their main mission was to deliver medical supplies to the remote village."
+    ],
+    "synonyms": ["assignment", "task", "quest", "expedition"],
+    "antonyms": [],
+    "translation": "ми́ссия / зада́ние"
+  },
+  {
+    "word": "navigate",
+    "partOfSpeech": "verb",
+    "forms": ["navigates", "navigated", "navigating"],
+    "definition": "To plan and direct the route or course of a ship, aircraft, or other form of transportation",
+    "examples": [
+      "Early sailors used the stars to navigate across the open ocean."
+    ],
+    "synonyms": ["steer", "guide", "direct", "find one's way"],
+    "antonyms": ["get lost"],
+    "translation": "ориенти́роваться / прокла́дывать маршру́т"
+  },
+  {
+    "word": "opportunity",
+    "partOfSpeech": "noun",
+    "forms": ["opportunities"],
+    "definition": "A set of circumstances that makes it possible to do something",
+    "examples": [
+      "I would like to take this opportunity to thank you all for your hard work."
+    ],
+    "synonyms": ["chance", "occasion", "opening"],
+    "antonyms": ["misfortune"],
+    "translation": "возмо́жность / шанс"
+  },
+  {
+    "word": "pack",
+    "partOfSpeech": "noun",
+    "forms": ["packs"],
+    "definition": "A group of wild animals, especially wolves, living and hunting together; or a small cardboard or paper container",
+    "examples": ["A pack of wolves was spotted hunting in the snowy forest."],
+    "synonyms": ["group", "herd", "troop", "packet"],
+    "antonyms": [],
+    "translation": "ста́я (животных) / па́чка"
+  },
+  {
+    "word": "painful",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Affected with, causing, or characterized by physical or emotional pain",
+    "examples": ["Walking on his sprained ankle was extremely painful."],
+    "synonyms": ["sore", "hurting", "aching", "agonizing"],
+    "antonyms": ["painless", "pleasant"],
+    "translation": "боле́зненный"
+  },
+  {
+    "word": "quiet",
+    "partOfSpeech": "adjective",
+    "forms": ["quieter", "quietest"],
+    "definition": "Making little or no noise",
+    "examples": ["Please be quiet in the library so others can study."],
+    "synonyms": ["silent", "noiseless", "peaceful", "hushed"],
+    "antonyms": ["loud", "noisy"],
+    "translation": "ти́хий / споко́йный"
+  },
+  {
+    "word": "rise",
+    "partOfSpeech": "noun",
+    "forms": ["rises"],
+    "definition": "An increase in number, size, amount, or degree",
+    "examples": [
+      "There has been a sharp rise in the cost of living over the past year."
+    ],
+    "synonyms": ["increase", "growth", "hike", "surge"],
+    "antonyms": ["fall", "drop", "decline"],
+    "translation": "рост / повыше́ние / подъём"
+  },
+  {
+    "word": "shock",
+    "partOfSpeech": "verb",
+    "forms": ["shocks", "shocked", "shocking"],
+    "definition": "To cause someone to feel surprised and upset",
+    "examples": [
+      "The sudden news of his resignation continued to shock everyone in the office."
+    ],
+    "synonyms": ["stun", "astonish", "appall", "startle"],
+    "antonyms": ["calm", "reassure"],
+    "translation": "шоки́ровать / потряса́ть"
+  },
+  {
+    "word": "spatial",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to or occupying space",
+    "examples": [
+      "Architects and pilots need to have excellent spatial awareness."
+    ],
+    "synonyms": ["dimensional", "Three-dimensional"],
+    "antonyms": [],
+    "translation": "простра́нственный"
+  },
+  {
+    "word": "surface",
+    "partOfSpeech": "noun",
+    "forms": ["surfaces"],
+    "definition": "The outside part or uppermost layer of something",
+    "examples": ["Leaves were floating on the calm surface of the pond."],
+    "synonyms": ["top", "exterior", "outside"],
+    "antonyms": ["interior", "inside", "bottom"],
+    "translation": "пове́рхность"
+  },
+  {
+    "word": "turn into",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["turns into", "turned into", "turning into"],
+    "definition": "To transform or change into something different",
+    "examples": [
+      "When the temperature drops below zero, water will turn into ice."
+    ],
+    "synonyms": ["become", "transform into", "change into"],
+    "antonyms": ["remain"],
+    "translation": "превраща́ться в"
+  },
+  {
+    "word": "authority",
+    "partOfSpeech": "noun",
+    "forms": ["authorities"],
+    "definition": "The power or right to give orders, make decisions, and enforce obedience; or a person with extensive knowledge",
+    "examples": [
+      "Only the manager has the authority to approve such a large expense."
+    ],
+    "synonyms": ["power", "control", "command", "expert"],
+    "antonyms": ["powerlessness", "subordination"],
+    "translation": "власть / авторите́т / полномо́чия"
+  },
+  {
+    "word": "colleague",
+    "partOfSpeech": "noun",
+    "forms": ["colleagues"],
+    "definition": "A person with whom one works in a profession or business",
+    "examples": [
+      "I am having lunch with a colleague from the marketing department today."
+    ],
+    "synonyms": ["coworker", "associate", "teammate"],
+    "antonyms": [],
+    "translation": "колле́га"
+  },
+  {
+    "word": "distinguish",
+    "partOfSpeech": "verb",
+    "forms": ["distinguishes", "distinguished", "distinguishing"],
+    "definition": "To recognize or treat someone or something as different",
+    "examples": [
+      "The twins look so alike that it is almost impossible to distinguish between them."
+    ],
+    "synonyms": ["differentiate", "tell apart", "discern"],
+    "antonyms": ["confuse", "mix up"],
+    "translation": "различа́ть / отлича́ть"
+  },
+  {
+    "word": "elite",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Belonging to a select group that is superior in terms of ability or qualities to the rest of a group or society",
+    "examples": [
+      "Only the best athletes are invited to train at this elite sports academy."
+    ],
+    "synonyms": ["top", "best", "first-class", "exclusive"],
+    "antonyms": ["ordinary", "mediocre"],
+    "translation": "эли́тный / и́збранный"
+  },
+  {
+    "word": "encouraging",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Giving someone support or confidence; supportive",
+    "examples": [
+      "The initial test results are very encouraging, so we will continue the project."
+    ],
+    "synonyms": ["promising", "hopeful", "supportive", "reassuring"],
+    "antonyms": ["discouraging", "disheartening"],
+    "translation": "ободря́ющий / обнадёживающий"
+  },
+  {
+    "word": "mathematician",
+    "partOfSpeech": "noun",
+    "forms": ["mathematicians"],
+    "definition": "An expert in or student of mathematics",
+    "examples": [
+      "The brilliant mathematician solved a puzzle that had baffled experts for decades."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "матема́тик"
+  },
+  {
+    "word": "neurologist",
+    "partOfSpeech": "noun",
+    "forms": ["neurologists"],
+    "definition": "A specialist in the anatomy, functions, and organic disorders of nerves and the nervous system",
+    "examples": [
+      "Because of his frequent migraines, his doctor referred him to a neurologist."
+    ],
+    "synonyms": ["brain specialist"],
+    "antonyms": [],
+    "translation": "невро́лог"
+  },
+  {
+    "word": "outstanding",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Exceptionally good; clearly noticeable",
+    "examples": [
+      "She received an award for her outstanding contribution to scientific research."
+    ],
+    "synonyms": ["exceptional", "remarkable", "extraordinary", "superb"],
+    "antonyms": ["mediocre", "ordinary", "poor"],
+    "translation": "выдаю́щийся / исключи́тельный"
+  },
+  {
+    "word": "potential",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Latent qualities or abilities that may be developed and lead to future success or usefulness",
+    "examples": [
+      "The young player has the potential to become a world champion one day."
+    ],
+    "synonyms": ["capability", "promise", "capacity"],
+    "antonyms": [],
+    "translation": "потенциа́л / возмо́жности"
+  },
+  {
+    "word": "prestigious",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Inspiring respect and admiration; having high status",
+    "examples": [
+      "He won a scholarship to study at one of the most prestigious universities in the world."
+    ],
+    "synonyms": ["reputable", "respected", "esteemed", "renowned"],
+    "antonyms": ["obscure", "unknown", "disreputable"],
+    "translation": "прести́жный / авторите́тный"
+  },
+  {
+    "word": "rebellious",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Showing a desire to resist authority, control, or convention",
+    "examples": [
+      "As a teenager, he went through a rebellious phase and refused to follow rules."
+    ],
+    "synonyms": ["defiant", "disobedient", "unruly"],
+    "antonyms": ["obedient", "compliant", "conformist"],
+    "translation": "бунта́рский / непоко́рный"
+  },
+  {
+    "word": "researcher",
+    "partOfSpeech": "noun",
+    "forms": ["researchers"],
+    "definition": "A person who carries out academic or scientific research",
+    "examples": [
+      "She works as a medical researcher studying treatments for rare diseases."
+    ],
+    "synonyms": ["investigator", "scientist", "analyst"],
+    "antonyms": [],
+    "translation": "иссле́дователь"
+  }
+]

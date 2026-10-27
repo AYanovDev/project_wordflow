@@ -1,0 +1,638 @@
+[
+  {
+    "word": "at a snail's pace",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Extremely slowly",
+    "examples": [
+      "The traffic was moving at a snail's pace during the rush hour."
+    ],
+    "synonyms": ["very slowly", "crawling"],
+    "antonyms": ["rapidly", "at top speed"],
+    "translation": "со скоростью улитки"
+  },
+  {
+    "word": "championship",
+    "partOfSpeech": "noun",
+    "forms": ["championships"],
+    "definition": "A contest for the position of champion in a sport, often involving a series of games or matches",
+    "examples": ["Our school team won the regional basketball championship."],
+    "synonyms": ["tournament", "contest", "competition"],
+    "antonyms": [],
+    "translation": "чемпионат"
+  },
+  {
+    "word": "competition",
+    "partOfSpeech": "noun",
+    "forms": ["competitions"],
+    "definition": "The activity or condition of striving to gain or win something by defeating or establishing superiority over others",
+    "examples": [
+      "There is fierce competition among the participants to win the first prize."
+    ],
+    "synonyms": ["contest", "rivalry", "match"],
+    "antonyms": ["cooperation"],
+    "translation": "соревнование"
+  },
+  {
+    "word": "cross",
+    "partOfSpeech": "verb",
+    "forms": ["crosses", "crossed", "crossing"],
+    "definition": "To go or extend across or to the other side of a path, road, water, or area",
+    "examples": ["Please hold my hand when we cross the busy street."],
+    "synonyms": ["traverse", "pass over", "navigate"],
+    "antonyms": [],
+    "translation": "пересекать / переходить"
+  },
+  {
+    "word": "field",
+    "partOfSpeech": "noun",
+    "forms": ["fields"],
+    "definition": "An area of open land, especially one planted with crops or pasture, or used for sports",
+    "examples": [
+      "The players walked onto the football field ready for the match."
+    ],
+    "synonyms": ["meadow", "pasture", "pitch", "ground"],
+    "antonyms": [],
+    "translation": "поле"
+  },
+  {
+    "word": "hilarious",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Extremely amusing and causing a lot of laughter",
+    "examples": [
+      "The comedian told a hilarious joke that made everyone laugh out loud."
+    ],
+    "synonyms": ["very funny", "comical", "hysterical"],
+    "antonyms": ["serious", "sad", "boring"],
+    "translation": "уморительный"
+  },
+  {
+    "word": "local",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Belonging or relating to a particular area or neighborhood, typically exclusively so",
+    "examples": [
+      "We always try to buy fresh produce from the local farmers' market."
+    ],
+    "synonyms": ["regional", "community", "neighborhood"],
+    "antonyms": ["global", "national", "foreign"],
+    "translation": "местный"
+  },
+  {
+    "word": "outer",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Outside; on or towards the outside of something",
+    "examples": ["The outer layer of the jacket is completely waterproof."],
+    "synonyms": ["exterior", "external", "outside"],
+    "antonyms": ["inner", "interior"],
+    "translation": "внешний"
+  },
+  {
+    "word": "paddle",
+    "partOfSpeech": "noun",
+    "forms": ["paddles"],
+    "definition": "A short pole with a broad blade at one or both ends, used without a rowlock to move a small boat or canoe through the water",
+    "examples": ["He lost his paddle in the river and had to use his hands."],
+    "synonyms": ["oar"],
+    "antonyms": [],
+    "translation": "весло"
+  },
+  {
+    "word": "pound",
+    "partOfSpeech": "noun",
+    "forms": ["pounds"],
+    "definition": "A unit of weight equal to 16 ounces (0.4536 kg), or the basic monetary unit of the UK",
+    "examples": ["The package weighed exactly one pound."],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "фунт"
+  },
+  {
+    "word": "reach",
+    "partOfSpeech": "verb",
+    "forms": ["reaches", "reached", "reaching"],
+    "definition": "To arrive at a place or a certain point/level; to stretch out an arm in order to touch or grasp something",
+    "examples": ["We expect to reach the summit of the mountain before noon."],
+    "synonyms": ["arrive at", "attain", "achieve", "stretch for"],
+    "antonyms": ["fail", "fall short"],
+    "translation": "достигать / дотягиваться"
+  },
+  {
+    "word": "spray",
+    "partOfSpeech": "verb",
+    "forms": ["sprays", "sprayed", "spraying"],
+    "definition": "To apply a liquid in a shower of tiny drops",
+    "examples": [
+      "You should spray the plants with water every morning during summer."
+    ],
+    "synonyms": ["sprinkle", "shower", "mist"],
+    "antonyms": [],
+    "translation": "распылять"
+  },
+  {
+    "word": "stick",
+    "partOfSpeech": "verb",
+    "forms": ["sticks", "stuck", "sticking"],
+    "definition": "To push a sharp or pointed object into or through something; or to adhere/attach",
+    "examples": ["Use this glue to stick the broken pieces back together."],
+    "synonyms": ["adhere", "attach", "poke", "insert"],
+    "antonyms": ["detach", "remove"],
+    "translation": "приклеивать / втыкать"
+  },
+  {
+    "word": "tankard",
+    "partOfSpeech": "noun",
+    "forms": ["tankards"],
+    "definition": "A tall beer mug, typically made of silver or pewter, with a handle and sometimes a hinged cover",
+    "examples": ["The innkeeper poured the ale into a large silver tankard."],
+    "synonyms": ["mug", "stein", "flagon"],
+    "antonyms": [],
+    "translation": "кружка (часто пивная)"
+  },
+  {
+    "word": "track",
+    "partOfSpeech": "noun",
+    "forms": ["tracks"],
+    "definition": "A prepared course or circuit for athletes, horses, or vehicles to race on; a rough path",
+    "examples": [
+      "The runners took their starting positions on the running track."
+    ],
+    "synonyms": ["course", "circuit", "path", "trail"],
+    "antonyms": [],
+    "translation": "трек / дорожка"
+  },
+  {
+    "word": "world record",
+    "partOfSpeech": "noun",
+    "forms": ["world records"],
+    "definition": "The best global performance ever recorded in a specific skill or sport",
+    "examples": [
+      "The swimmer set a new world record in the 100-meter butterfly event."
+    ],
+    "synonyms": ["global best", "highest achievement"],
+    "antonyms": [],
+    "translation": "мировой рекорд"
+  },
+  {
+    "word": "achievement",
+    "partOfSpeech": "noun",
+    "forms": ["achievements"],
+    "definition": "A thing done successfully, typically by effort, courage, or skill",
+    "examples": [
+      "Graduating with honors was a remarkable achievement for her."
+    ],
+    "synonyms": ["accomplishment", "success", "triumph"],
+    "antonyms": ["failure", "defeat"],
+    "translation": "достижение"
+  },
+  {
+    "word": "ambition",
+    "partOfSpeech": "noun",
+    "forms": ["ambitions"],
+    "definition": "A strong desire to do or to achieve something, typically requiring determination and hard work",
+    "examples": [
+      "His ultimate ambition is to become a successful film director."
+    ],
+    "synonyms": ["aspiration", "goal", "aim", "desire"],
+    "antonyms": ["apathy", "laziness"],
+    "translation": "амбиция / цель"
+  },
+  {
+    "word": "bother",
+    "partOfSpeech": "verb",
+    "forms": ["bothers", "bothered", "bothering"],
+    "definition": "To take the trouble to do something; to cause someone to feel troubled, worried, or concerned",
+    "examples": ["Please don't bother to make coffee just for me."],
+    "synonyms": ["trouble", "inconvenience", "annoy", "disturb"],
+    "antonyms": ["comfort", "help"],
+    "translation": "беспокоить(ся) / утруждать(ся)"
+  },
+  {
+    "word": "circuit",
+    "partOfSpeech": "noun",
+    "forms": ["circuits"],
+    "definition": "A roughly circular line, route, or movement that starts and finishes at the same place; a track for racing",
+    "examples": ["The Formula 1 drivers raced around the famous circuit."],
+    "synonyms": ["track", "course", "loop", "route"],
+    "antonyms": [],
+    "translation": "трасса / круг"
+  },
+  {
+    "word": "complete",
+    "partOfSpeech": "verb",
+    "forms": ["completes", "completed", "completing"],
+    "definition": "To finish making or doing something",
+    "examples": ["You have one hour to complete the written exam."],
+    "synonyms": ["finish", "conclude", "finalize"],
+    "antonyms": ["start", "begin", "abandon"],
+    "translation": "завершать / заканчивать"
+  },
+  {
+    "word": "inspire",
+    "partOfSpeech": "verb",
+    "forms": ["inspires", "inspired", "inspiring"],
+    "definition": "To fill someone with the urge or ability to do or feel something, especially to do something creative",
+    "examples": [
+      "The athlete's incredible comeback story will inspire many young people."
+    ],
+    "synonyms": ["motivate", "encourage", "influence"],
+    "antonyms": ["discourage", "dishearten"],
+    "translation": "вдохновлять"
+  },
+  {
+    "word": "kart",
+    "partOfSpeech": "noun",
+    "forms": ["karts"],
+    "definition": "A small racing car with a skeleton body, used especially by children and in leisure racing",
+    "examples": [
+      "He spent his weekend driving a kart at the local racing track."
+    ],
+    "synonyms": ["go-kart"],
+    "antonyms": [],
+    "translation": "карт"
+  },
+  {
+    "word": "in the spotlight",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Receiving a lot of public attention and notice",
+    "examples": [
+      "After winning the award, she was constantly in the spotlight."
+    ],
+    "synonyms": ["center of attention", "in the public eye"],
+    "antonyms": ["in the background", "obscure"],
+    "translation": "в центре внимания"
+  },
+  {
+    "word": "transition",
+    "partOfSpeech": "noun",
+    "forms": ["transitions"],
+    "definition": "The process or a period of changing from one state or condition to another",
+    "examples": [
+      "The transition from high school to university can be challenging for some students."
+    ],
+    "synonyms": ["change", "shift", "transformation"],
+    "antonyms": ["stagnation"],
+    "translation": "переход"
+  },
+  {
+    "word": "bandage",
+    "partOfSpeech": "noun",
+    "forms": ["bandages"],
+    "definition": "A strip of material used to bind a wound or to protect an injured part of the body",
+    "examples": ["The doctor cleaned the cut and applied a sterile bandage."],
+    "synonyms": ["dressing", "wrapping"],
+    "antonyms": [],
+    "translation": "бинт / повязка"
+  },
+  {
+    "word": "focus",
+    "partOfSpeech": "verb",
+    "forms": ["focuses", "focused", "focusing"],
+    "definition": "To pay particular attention to or concentrate on something",
+    "examples": ["You need to turn off your phone and focus on your homework."],
+    "synonyms": ["concentrate", "pay attention", "zero in"],
+    "antonyms": ["ignore", "neglect"],
+    "translation": "сосредоточиваться"
+  },
+  {
+    "word": "pressure",
+    "partOfSpeech": "noun",
+    "forms": ["pressures"],
+    "definition": "Continuous physical force exerted on or against an object; or psychological stress",
+    "examples": [
+      "The manager works very well under pressure during busy days."
+    ],
+    "synonyms": ["stress", "strain", "tension", "force"],
+    "antonyms": ["relaxation", "ease"],
+    "translation": "давление / стресс"
+  },
+  {
+    "word": "sore",
+    "partOfSpeech": "adjective",
+    "forms": ["sorer", "sorest"],
+    "definition": "Painful or aching, typically from an injury, infection, or too much exercise",
+    "examples": [
+      "My throat is quite sore from cheering too loudly at the concert."
+    ],
+    "synonyms": ["painful", "aching", "hurting", "tender"],
+    "antonyms": ["painless", "healthy"],
+    "translation": "больной / воспаленный"
+  },
+  {
+    "word": "swell",
+    "partOfSpeech": "verb",
+    "forms": ["swells", "swelled", "swollen", "swelling"],
+    "definition": "To become larger or rounder in size, typically as a result of an accumulation of fluid",
+    "examples": ["Her sprained ankle began to swell almost immediately."],
+    "synonyms": ["expand", "enlarge", "puff up", "inflate"],
+    "antonyms": ["shrink", "contract"],
+    "translation": "опухать / вздуваться"
+  },
+  {
+    "word": "trip over",
+    "partOfSpeech": "phrasal verb",
+    "forms": ["trips over", "tripped over", "tripping over"],
+    "definition": "To catch one's foot on something and stumble or fall",
+    "examples": ["Be careful not to trip over the uneven pavement."],
+    "synonyms": ["stumble over", "fall over"],
+    "antonyms": [],
+    "translation": "споткнуться о"
+  },
+  {
+    "word": "arch",
+    "partOfSpeech": "noun",
+    "forms": ["arches"],
+    "definition": "A curved symmetrical structure spanning an opening and typically supporting the weight of a bridge, roof, or wall above it",
+    "examples": [
+      "We walked through a beautifully decorated stone arch at the garden entrance."
+    ],
+    "synonyms": ["curve", "vault", "span"],
+    "antonyms": [],
+    "translation": "арка / свод"
+  },
+  {
+    "word": "demolish",
+    "partOfSpeech": "verb",
+    "forms": ["demolishes", "demolished", "demolishing"],
+    "definition": "To pull or knock down a building or structure; to completely destroy",
+    "examples": [
+      "They plan to demolish the old factory to make way for a new park."
+    ],
+    "synonyms": ["destroy", "knock down", "tear down", "ruin"],
+    "antonyms": ["build", "construct", "restore"],
+    "translation": "сносить / разрушать"
+  },
+  {
+    "word": "host",
+    "partOfSpeech": "verb",
+    "forms": ["hosts", "hosted", "hosting"],
+    "definition": "To organize an event to which others are invited and make arrangements for it",
+    "examples": [
+      "The city is preparing to host the next international film festival."
+    ],
+    "synonyms": ["hold", "present", "put on"],
+    "antonyms": [],
+    "translation": "принимать (гостей или мероприятие)"
+  },
+  {
+    "word": "judo",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A sport of unarmed combat derived from jujitsu and intended to train the body and mind",
+    "examples": ["She has been practicing judo since she was seven years old."],
+    "synonyms": ["martial art"],
+    "antonyms": [],
+    "translation": "дзюдо"
+  },
+  {
+    "word": "kiosk",
+    "partOfSpeech": "noun",
+    "forms": ["kiosks"],
+    "definition": "A small open-fronted hut or cubicle from which newspapers, refreshments, or tickets are sold",
+    "examples": [
+      "I bought a magazine and a bottle of water at the kiosk near the station."
+    ],
+    "synonyms": ["booth", "stand", "stall"],
+    "antonyms": [],
+    "translation": "киоск"
+  },
+  {
+    "word": "measure",
+    "partOfSpeech": "verb",
+    "forms": ["measures", "measured", "measuring"],
+    "definition": "To ascertain the size, amount, or degree of something by using an instrument or device marked in standard units",
+    "examples": ["You should measure the room before you buy the carpet."],
+    "synonyms": ["calculate", "gauge", "quantify"],
+    "antonyms": ["guess", "estimate"],
+    "translation": "измерять"
+  },
+  {
+    "word": "moveable",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Capable of being moved; not fixed in one place",
+    "examples": [
+      "The classroom is equipped with moveable desks and chairs for group work."
+    ],
+    "synonyms": ["mobile", "portable", "adjustable"],
+    "antonyms": ["fixed", "immovable", "stationary"],
+    "translation": "подвижный / передвижной"
+  },
+  {
+    "word": "sliding",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Able to move smoothly along a surface",
+    "examples": [
+      "The hotel room has large sliding glass doors that open to the balcony."
+    ],
+    "synonyms": ["gliding"],
+    "antonyms": ["fixed", "swinging"],
+    "translation": "раздвижной / скользящий"
+  },
+  {
+    "word": "spectator",
+    "partOfSpeech": "noun",
+    "forms": ["spectators"],
+    "definition": "A person who watches at a show, game, or other event",
+    "examples": [
+      "The match was watched by over fifty thousand cheering spectators."
+    ],
+    "synonyms": ["viewer", "onlooker", "observer", "bystander"],
+    "antonyms": ["participant", "player"],
+    "translation": "зритель"
+  },
+  {
+    "word": "structure",
+    "partOfSpeech": "noun",
+    "forms": ["structures"],
+    "definition": "A building or other object constructed from several parts",
+    "examples": [
+      "The Eiffel Tower is one of the most famous steel structures in the world."
+    ],
+    "synonyms": ["building", "construction", "edifice"],
+    "antonyms": [],
+    "translation": "сооружение / строение"
+  },
+  {
+    "word": "wrestling",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The sport or activity of grappling with an opponent and trying to throw or hold them down on the ground",
+    "examples": ["He won a gold medal in wrestling at the last Olympic Games."],
+    "synonyms": ["grappling"],
+    "antonyms": [],
+    "translation": "борьба"
+  },
+  {
+    "word": "adjust",
+    "partOfSpeech": "verb",
+    "forms": ["adjusts", "adjusted", "adjusting"],
+    "definition": "To alter or move something slightly in order to achieve the desired fit, appearance, or result",
+    "examples": [
+      "You can adjust the seat height to make driving more comfortable."
+    ],
+    "synonyms": ["modify", "adapt", "regulate", "tune"],
+    "antonyms": ["unadjust", "mess up"],
+    "translation": "регулировать / настраивать"
+  },
+  {
+    "word": "administer",
+    "partOfSpeech": "verb",
+    "forms": ["administers", "administered", "administering"],
+    "definition": "To dispense or apply a remedy, drug, or treatment",
+    "examples": [
+      "The paramedic was quick to administer first aid to the injured driver."
+    ],
+    "synonyms": ["dispense", "apply", "give", "provide"],
+    "antonyms": ["withhold"],
+    "translation": "назначать / применять (лекарство, помощь)"
+  },
+  {
+    "word": "airway",
+    "partOfSpeech": "noun",
+    "forms": ["airways"],
+    "definition": "The passage by which air reaches a person's lungs",
+    "examples": [
+      "In an emergency, the first step is to ensure the patient's airway is clear."
+    ],
+    "synonyms": ["respiratory tract", "windpipe"],
+    "antonyms": [],
+    "translation": "дыхательные пути"
+  },
+  {
+    "word": "be based on sth",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "To use something as the foundation, starting point, or principal element for something else",
+    "examples": ["The movie's plot will be based on a bestselling novel."],
+    "synonyms": ["be founded on", "be derived from"],
+    "antonyms": [],
+    "translation": "основываться на"
+  },
+  {
+    "word": "care",
+    "partOfSpeech": "noun",
+    "forms": ["cares"],
+    "definition": "The provision of what is necessary for the health, welfare, maintenance, and protection of someone or something",
+    "examples": ["The patient requires round-the-clock medical care."],
+    "synonyms": ["attention", "protection", "support", "treatment"],
+    "antonyms": ["neglect", "harm"],
+    "translation": "уход / забота"
+  },
+  {
+    "word": "casualty",
+    "partOfSpeech": "noun",
+    "forms": ["casualties"],
+    "definition": "A person killed or injured in a war or accident",
+    "examples": [
+      "The train derailment caused several casualties, but fortunately no fatalities."
+    ],
+    "synonyms": ["victim", "fatality", "sufferer"],
+    "antonyms": ["survivor"],
+    "translation": "пострадавший / раненый"
+  },
+  {
+    "word": "choke",
+    "partOfSpeech": "verb",
+    "forms": ["chokes", "choked", "choking"],
+    "definition": "To have severe difficulty in breathing because of a constricted or obstructed throat or a lack of air",
+    "examples": ["Take small bites so you don't choke on your food."],
+    "synonyms": ["gag", "suffocate", "asphyxiate"],
+    "antonyms": ["breathe freely"],
+    "translation": "задыхаться / давиться"
+  },
+  {
+    "word": "medical",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Relating to the science or practice of medicine",
+    "examples": ["He needs urgent medical attention after the accident."],
+    "synonyms": ["clinical", "health", "therapeutic"],
+    "antonyms": [],
+    "translation": "медицинский"
+  },
+  {
+    "word": "prevent",
+    "partOfSpeech": "verb",
+    "forms": ["prevents", "prevented", "preventing"],
+    "definition": "To keep something from happening or arising",
+    "examples": [
+      "Regular exercise and a healthy diet can help prevent heart disease."
+    ],
+    "synonyms": ["stop", "hinder", "avert", "thwart"],
+    "antonyms": ["allow", "cause", "encourage"],
+    "translation": "предотвращать"
+  },
+  {
+    "word": "principle",
+    "partOfSpeech": "noun",
+    "forms": ["principles"],
+    "definition": "A fundamental truth or proposition that serves as the foundation for a system of belief or behavior or for a chain of reasoning",
+    "examples": [
+      "The basic principle of the system is fairness for all users."
+    ],
+    "synonyms": ["rule", "belief", "doctrine", "fundamental"],
+    "antonyms": [],
+    "translation": "принцип"
+  },
+  {
+    "word": "recovery position",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A position in which an unconscious but breathing casualty is placed to ensure the airway remains open",
+    "examples": [
+      "After calling for help, roll the person carefully into the recovery position."
+    ],
+    "synonyms": ["lateral recumbent position"],
+    "antonyms": [],
+    "translation": "восстановительное положение (спасательное положение)"
+  },
+  {
+    "word": "unconscious",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Not awake and aware of and responding to one's environment",
+    "examples": ["The boxer was knocked unconscious in the final round."],
+    "synonyms": ["senseless", "passed out", "comatose"],
+    "antonyms": ["conscious", "awake", "aware"],
+    "translation": "без сознания"
+  },
+  {
+    "word": "upright",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Sitting or standing with the back straight; in or into a vertical position",
+    "examples": [
+      "Make sure your seat back is in an upright position for takeoff."
+    ],
+    "synonyms": ["vertical", "straight", "erect"],
+    "antonyms": ["horizontal", "flat", "prone"],
+    "translation": "вертикальный / прямой"
+  },
+  {
+    "word": "victim",
+    "partOfSpeech": "noun",
+    "forms": ["victims"],
+    "definition": "A person harmed, injured, or killed as a result of a crime, accident, or other event or action",
+    "examples": [
+      "The charity provides food and shelter for victims of the earthquake."
+    ],
+    "synonyms": ["sufferer", "casualty", "target"],
+    "antonyms": ["attacker", "perpetrator"],
+    "translation": "жертва"
+  },
+  {
+    "word": "wave",
+    "partOfSpeech": "verb",
+    "forms": ["waves", "waved", "waving"],
+    "definition": "To move one's hand to and fro in greeting or as a signal",
+    "examples": ["She turned around to wave goodbye to her friends."],
+    "synonyms": ["signal", "gesture", "flap"],
+    "antonyms": [],
+    "translation": "махать"
+  }
+]
