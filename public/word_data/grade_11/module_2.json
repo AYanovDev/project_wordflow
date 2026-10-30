@@ -1,0 +1,394 @@
+[
+  {
+    "word": "antenna",
+    "partOfSpeech": "noun",
+    "forms": ["antennae", "antennas"],
+    "definition": "Either of a pair of long, thin sensory appendages on the heads of insects, crustaceans, and some other arthropods",
+    "examples": [
+      "The ant used its antenna to sense the environment around it."
+    ],
+    "synonyms": ["feeler"],
+    "antonyms": [],
+    "translation": "у́сик"
+  },
+  {
+    "word": "background",
+    "partOfSpeech": "noun",
+    "forms": ["backgrounds"],
+    "definition": "The circumstances or situation prevailing at a particular time or underlying a particular event",
+    "examples": [
+      "The book explains the historical background of the scientific discovery."
+    ],
+    "synonyms": ["context", "circumstances", "history"],
+    "antonyms": ["foreground"],
+    "translation": "предпосы́лка"
+  },
+  {
+    "word": "beak",
+    "partOfSpeech": "noun",
+    "forms": ["beaks"],
+    "definition": "A bird's horny projecting jaws; a bill",
+    "examples": ["The bird carried a small twig in its sharp beak."],
+    "synonyms": ["bill", "neb"],
+    "antonyms": [],
+    "translation": "клюв"
+  },
+  {
+    "word": "claw",
+    "partOfSpeech": "noun",
+    "forms": ["claws"],
+    "definition": "A curved pointed horny nail on each digit of the foot in birds, lizards, and some mammals",
+    "examples": ["The cat sharpened its claws on the wooden post."],
+    "synonyms": ["talon", "nail"],
+    "antonyms": [],
+    "translation": "ко́готь"
+  },
+  {
+    "word": "confirm",
+    "partOfSpeech": "verb",
+    "forms": ["confirms", "confirmed", "confirming"],
+    "definition": "To establish the truth or correctness of something previously believed or suspected to be the case",
+    "examples": ["New experiments confirm the scientist's original theory."],
+    "synonyms": ["verify", "prove", "validate"],
+    "antonyms": ["refute", "deny", "contradict"],
+    "translation": "подтвержда́ть"
+  },
+  {
+    "word": "detect",
+    "partOfSpeech": "verb",
+    "forms": ["detects", "detected", "detecting"],
+    "definition": "To discover or identify the presence or existence of something",
+    "examples": [
+      "Dogs can detect scents that humans are completely unable to smell."
+    ],
+    "synonyms": ["notice", "perceive", "spot", "identify"],
+    "antonyms": ["miss", "overlook"],
+    "translation": "замеча́ть"
+  },
+  {
+    "word": "emit",
+    "partOfSpeech": "verb",
+    "forms": ["emits", "emitted", "emitting"],
+    "definition": "To produce and discharge something, especially gas, sound, or radiation",
+    "examples": ["Fireflies emit a soft glow in the dark to attract mates."],
+    "synonyms": ["release", "give off", "discharge", "radiate"],
+    "antonyms": ["absorb", "take in"],
+    "translation": "выделя́ть"
+  },
+  {
+    "word": "fang",
+    "partOfSpeech": "noun",
+    "forms": ["fangs"],
+    "definition": "A large sharp tooth, especially a canine tooth of a dog or wolf, or a venomous tooth of a snake",
+    "examples": ["The wolf bared its sharp fangs and growled."],
+    "synonyms": ["canine", "tusk", "tooth"],
+    "antonyms": [],
+    "translation": "клык"
+  },
+  {
+    "word": "feather",
+    "partOfSpeech": "noun",
+    "forms": ["feathers"],
+    "definition": "Any of the flat appendages growing from a bird's skin and forming its plumage",
+    "examples": ["She found a bright blue peacock feather on the ground."],
+    "synonyms": ["plume", "quill"],
+    "antonyms": [],
+    "translation": "перо́"
+  },
+  {
+    "word": "fin",
+    "partOfSpeech": "noun",
+    "forms": ["fins"],
+    "definition": "A flattened appendage on various parts of the body of many aquatic vertebrates, used for propelling and steering",
+    "examples": [
+      "We spotted the dorsal fin of a dolphin cutting through the waves."
+    ],
+    "synonyms": ["flipper"],
+    "antonyms": [],
+    "translation": "плавни́к"
+  },
+  {
+    "word": "fur",
+    "partOfSpeech": "noun",
+    "forms": ["furs"],
+    "definition": "The short, fine, soft hair of certain animals",
+    "examples": [
+      "The polar bear's thick white fur keeps it warm in freezing temperatures."
+    ],
+    "synonyms": ["coat", "pelt", "fleece"],
+    "antonyms": [],
+    "translation": "мех"
+  },
+  {
+    "word": "gene",
+    "partOfSpeech": "noun",
+    "forms": ["genes"],
+    "definition": "A unit of heredity which is transferred from a parent to offspring and is held to determine some characteristic of the offspring",
+    "examples": [
+      "Eye color is determined by the specific genes you inherit from your parents."
+    ],
+    "synonyms": ["DNA segment"],
+    "antonyms": [],
+    "translation": "ген"
+  },
+  {
+    "word": "guinea pig",
+    "partOfSpeech": "noun",
+    "forms": ["guinea pigs"],
+    "definition": "A domesticated tailless South American rodent, often kept as a pet or used in biological research",
+    "examples": ["She keeps a small brown and white guinea pig as a pet."],
+    "synonyms": ["cavy"],
+    "antonyms": [],
+    "translation": "морска́я сви́нка"
+  },
+  {
+    "word": "hoof",
+    "partOfSpeech": "noun",
+    "forms": ["hooves", "hoofs"],
+    "definition": "The horny part of the foot of an ungulate animal, especially a horse",
+    "examples": [
+      "The blacksmith checked the horse's front hoof for any stones."
+    ],
+    "synonyms": ["ungula"],
+    "antonyms": [],
+    "translation": "копы́то"
+  },
+  {
+    "word": "horn",
+    "partOfSpeech": "noun",
+    "forms": ["horns"],
+    "definition": "A hard permanent outgrowth, often curved and pointed, found in pairs on the heads of cattle, sheep, goats, and other animals",
+    "examples": ["The mountain goat has two long, curved horns on its head."],
+    "synonyms": ["antler"],
+    "antonyms": [],
+    "translation": "рог"
+  },
+  {
+    "word": "findings",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Information discovered as the result of an inquiry or research",
+    "examples": [
+      "The scientists published the findings of their study in a medical journal."
+    ],
+    "synonyms": ["results", "conclusions", "discoveries"],
+    "antonyms": [],
+    "translation": "вы́вод"
+  },
+  {
+    "word": "hunt",
+    "partOfSpeech": "verb",
+    "forms": ["hunts", "hunted", "hunting"],
+    "definition": "To pursue and kill a wild animal for sport or food",
+    "examples": [
+      "Owls come out at night to hunt for mice and other small animals."
+    ],
+    "synonyms": ["chase", "stalk", "pursue", "track"],
+    "antonyms": [],
+    "translation": "охо́титься"
+  },
+  {
+    "word": "immune system",
+    "partOfSpeech": "noun",
+    "forms": ["immune systems"],
+    "definition": "The bodily system that protects the body from foreign substances, cells, and tissues by producing an immune response",
+    "examples": [
+      "A balanced diet and good sleep help strengthen your immune system."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "имму́нная систе́ма"
+  },
+  {
+    "word": "in depth",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "In a comprehensive and thorough way",
+    "examples": [
+      "We will study the behavior of marine mammals in depth during the course."
+    ],
+    "synonyms": ["thoroughly", "extensively", "in detail"],
+    "antonyms": ["superficially", "briefly"],
+    "translation": "подро́бно"
+  },
+  {
+    "word": "locate",
+    "partOfSpeech": "verb",
+    "forms": ["locates", "located", "locating"],
+    "definition": "To discover the exact place or position of something",
+    "examples": ["Bats use echolocation to locate insects in the dark."],
+    "synonyms": ["find", "pinpoint", "detect", "spot"],
+    "antonyms": ["lose"],
+    "translation": "определя́ть местонахожде́ние"
+  },
+  {
+    "word": "mate",
+    "partOfSpeech": "noun",
+    "forms": ["mates"],
+    "definition": "The sexual partner of a bird or other animal",
+    "examples": ["Swans are famous for choosing a single mate for life."],
+    "synonyms": ["partner"],
+    "antonyms": [],
+    "translation": "саме́ц, са́мка"
+  },
+  {
+    "word": "navigate",
+    "partOfSpeech": "verb",
+    "forms": ["navigates", "navigated", "navigating"],
+    "definition": "To travel on a desired course after planning a route",
+    "examples": [
+      "Migrating birds use the sun and stars to navigate across continents."
+    ],
+    "synonyms": ["steer", "find one's way", "guide"],
+    "antonyms": [],
+    "translation": "направля́ться"
+  },
+  {
+    "word": "offspring",
+    "partOfSpeech": "noun",
+    "forms": ["offspring"],
+    "definition": "An animal's young",
+    "examples": [
+      "The mother bear fiercely protects her offspring from any danger."
+    ],
+    "synonyms": ["young", "progeny", "descendants"],
+    "antonyms": ["parents", "ancestors"],
+    "translation": "пото́мство"
+  },
+  {
+    "word": "paper",
+    "partOfSpeech": "noun",
+    "forms": ["papers"],
+    "definition": "An essay or dissertation read at a seminar or published in an academic journal",
+    "examples": [
+      "The biologist wrote a research paper on the migration patterns of whales."
+    ],
+    "synonyms": ["report", "study", "article", "treatise"],
+    "antonyms": [],
+    "translation": "отчёт"
+  },
+  {
+    "word": "paw",
+    "partOfSpeech": "noun",
+    "forms": ["paws"],
+    "definition": "An animal's foot having claws and pads",
+    "examples": ["The dog lifted its front paw to shake hands."],
+    "synonyms": ["foot", "pad"],
+    "antonyms": [],
+    "translation": "ла́па"
+  },
+  {
+    "word": "proof",
+    "partOfSpeech": "noun",
+    "forms": ["proofs"],
+    "definition": "Evidence or argument establishing or helping to establish a fact or the truth of a statement",
+    "examples": [
+      "The fossils provided clear proof that the area was once underwater."
+    ],
+    "synonyms": ["evidence", "verification", "confirmation"],
+    "antonyms": ["conjecture", "disproof"],
+    "translation": "доказа́тельство"
+  },
+  {
+    "word": "release",
+    "partOfSpeech": "verb",
+    "forms": ["releases", "released", "releasing"],
+    "definition": "To allow a substance to flow out from somewhere; to set free",
+    "examples": [
+      "Plants release oxygen into the atmosphere during photosynthesis."
+    ],
+    "synonyms": ["emit", "discharge", "let out", "free"],
+    "antonyms": ["absorb", "capture", "hold"],
+    "translation": "выпуска́ть / вы́пуск"
+  },
+  {
+    "word": "scale",
+    "partOfSpeech": "noun",
+    "forms": ["scales"],
+    "definition": "Each of the small, thin horny or bony plates protecting the skin of fish and reptiles",
+    "examples": [
+      "The fish had shiny silver scales that reflected the sunlight."
+    ],
+    "synonyms": ["plate", "flake"],
+    "antonyms": [],
+    "translation": "чешуя́"
+  },
+  {
+    "word": "shell",
+    "partOfSpeech": "noun",
+    "forms": ["shells"],
+    "definition": "The hard protective outer case of a mollusk, crustacean, or turtle",
+    "examples": ["The turtle pulled its head and legs inside its hard shell."],
+    "synonyms": ["carapace", "casing", "husk"],
+    "antonyms": [],
+    "translation": "ра́ковина"
+  },
+  {
+    "word": "sniff",
+    "partOfSpeech": "verb",
+    "forms": ["sniffs", "sniffed", "sniffing"],
+    "definition": "To draw up air audibly through the nose to detect a smell",
+    "examples": ["The dog stopped to sniff the grass along the footpath."],
+    "synonyms": ["smell", "inhale", "scent"],
+    "antonyms": [],
+    "translation": "ню́хать"
+  },
+  {
+    "word": "tail",
+    "partOfSpeech": "noun",
+    "forms": ["tails"],
+    "definition": "The hindmost part of an animal, especially when prolonged beyond the rest of the body",
+    "examples": ["The puppy wagged its tail excitedly when we came home."],
+    "synonyms": ["appendage"],
+    "antonyms": ["head"],
+    "translation": "хвост"
+  },
+  {
+    "word": "taste",
+    "partOfSpeech": "verb",
+    "forms": ["tastes", "tasted", "tasting"],
+    "definition": "To perceive or experience the flavor of something",
+    "examples": [
+      "Butterflies actually taste leaves with their feet to see if they are good to lay eggs on."
+    ],
+    "synonyms": ["sample", "savor", "try"],
+    "antonyms": [],
+    "translation": "ощуща́ть вкус"
+  },
+  {
+    "word": "vibrate",
+    "partOfSpeech": "verb",
+    "forms": ["vibrates", "vibrated", "vibrating"],
+    "definition": "To move continuously and rapidly to and fro",
+    "examples": [
+      "Spiders can feel the threads of their web vibrate when an insect is caught."
+    ],
+    "synonyms": ["shake", "quiver", "tremble", "oscillate"],
+    "antonyms": ["stay still"],
+    "translation": "вибри́ровать"
+  },
+  {
+    "word": "whisker",
+    "partOfSpeech": "noun",
+    "forms": ["whiskers"],
+    "definition": "A long projecting hair or bristle growing from the face or snout of many mammals",
+    "examples": [
+      "A cat uses its sensitive whiskers to judge whether it can fit through tight spaces."
+    ],
+    "synonyms": ["vibrissa", "bristle"],
+    "antonyms": [],
+    "translation": "вибри́с / ус"
+  },
+  {
+    "word": "wing",
+    "partOfSpeech": "noun",
+    "forms": ["wings"],
+    "definition": "Any of a number of specialized paired appendages that enable some animals, especially birds and insects, to fly",
+    "examples": [
+      "The eagle spread its wide wings and soared high above the valley."
+    ],
+    "synonyms": ["pinion"],
+    "antonyms": [],
+    "translation": "крыло́"
+  }
+]

@@ -1,0 +1,680 @@
+[
+  {
+    "word": "age",
+    "partOfSpeech": "noun",
+    "forms": ["ages"],
+    "definition": "The length of time that a person has lived or a thing has existed",
+    "examples": ["Children in this country start school at the age of six."],
+    "synonyms": ["lifetime", "years"],
+    "antonyms": [],
+    "translation": "во́зраст"
+  },
+  {
+    "word": "anticipate",
+    "partOfSpeech": "verb",
+    "forms": ["anticipates", "anticipated", "anticipating"],
+    "definition": "To regard as probable; expect or predict",
+    "examples": [
+      "We anticipate that the project will be completed by next month."
+    ],
+    "synonyms": ["expect", "foresee", "predict", "await"],
+    "antonyms": ["doubt"],
+    "translation": "ожида́ть"
+  },
+  {
+    "word": "atomic clock",
+    "partOfSpeech": "noun",
+    "forms": ["atomic clocks"],
+    "definition": "An extremely accurate type of clock which is regulated by the vibrations of an atomic or molecular system",
+    "examples": [
+      "Global time standards are maintained using a network of atomic clocks."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "а́томные часы́"
+  },
+  {
+    "word": "bill",
+    "partOfSpeech": "noun",
+    "forms": ["bills"],
+    "definition": "A printed or written statement of the money owed for goods or services",
+    "examples": ["We asked the waiter for the bill at the end of our meal."],
+    "synonyms": ["check", "invoice", "statement"],
+    "antonyms": [],
+    "translation": "счёт"
+  },
+  {
+    "word": "biscuit",
+    "partOfSpeech": "noun",
+    "forms": ["biscuits"],
+    "definition": "A small, flat, crisp unleavened cake",
+    "examples": [
+      "She enjoyed a cup of afternoon tea with a chocolate biscuit."
+    ],
+    "synonyms": ["cookie", "cracker"],
+    "antonyms": [],
+    "translation": "пече́нье"
+  },
+  {
+    "word": "calendar month",
+    "partOfSpeech": "noun",
+    "forms": ["calendar months"],
+    "definition": "One of the twelve months of the year as named in the calendar",
+    "examples": [
+      "You must give one calendar month's notice before leaving the apartment."
+    ],
+    "synonyms": [],
+    "antonyms": ["lunar month"],
+    "translation": "календа́рный ме́сяц"
+  },
+  {
+    "word": "candle clock",
+    "partOfSpeech": "noun",
+    "forms": ["candle clocks"],
+    "definition": "A thin candle with consistently spaced markings that indicate the passage of time as it burns",
+    "examples": [
+      "In the Middle Ages, people sometimes used a candle clock to measure time indoors at night."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "свечны́е часы́"
+  },
+  {
+    "word": "candy",
+    "partOfSpeech": "noun",
+    "forms": ["candies"],
+    "definition": "A sweet food made with sugar or syrup, often combined with fruit or chocolate",
+    "examples": [
+      "The children received bags of colorful candy on the holiday."
+    ],
+    "synonyms": ["sweets", "confectionery"],
+    "antonyms": [],
+    "translation": "конфе́та"
+  },
+  {
+    "word": "cell phone",
+    "partOfSpeech": "noun",
+    "forms": ["cell phones"],
+    "definition": "A portable telephone that works by means of a cellular radio system",
+    "examples": [
+      "Don't forget to charge your cell phone before leaving the house."
+    ],
+    "synonyms": ["mobile phone", "smartphone"],
+    "antonyms": ["landline"],
+    "translation": "моби́льный телефо́н"
+  },
+  {
+    "word": "century",
+    "partOfSpeech": "noun",
+    "forms": ["centuries"],
+    "definition": "A period of one hundred years",
+    "examples": ["The historic castle was built in the fourteenth century."],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "век"
+  },
+  {
+    "word": "check",
+    "partOfSpeech": "noun",
+    "forms": ["checks"],
+    "definition": "An examination to test or ascertain accuracy, quality, or satisfactory condition; or a restaurant bill",
+    "examples": [
+      "The mechanic performed a routine safety check on the car's brakes."
+    ],
+    "synonyms": ["inspection", "examination", "test", "bill"],
+    "antonyms": [],
+    "translation": "прове́рка / чек"
+  },
+  {
+    "word": "cookie",
+    "partOfSpeech": "noun",
+    "forms": ["cookies"],
+    "definition": "A small sweet cake, typically round, flat, and crisp",
+    "examples": ["He baked a batch of warm chocolate chip cookies."],
+    "synonyms": ["biscuit"],
+    "antonyms": [],
+    "translation": "пече́нье"
+  },
+  {
+    "word": "decade",
+    "partOfSpeech": "noun",
+    "forms": ["decades"],
+    "definition": "A period of ten years",
+    "examples": ["Technology has changed dramatically over the past decade."],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "дека́да / десятиле́тие"
+  },
+  {
+    "word": "equinox",
+    "partOfSpeech": "noun",
+    "forms": ["equinoxes"],
+    "definition": "The time or date (twice each year) at which the sun crosses the celestial equator, when day and night are of equal length",
+    "examples": [
+      "Day and night are almost exactly the same length during the spring equinox."
+    ],
+    "synonyms": [],
+    "antonyms": ["solstice"],
+    "translation": "равноде́нствие"
+  },
+  {
+    "word": "eon",
+    "partOfSpeech": "noun",
+    "forms": ["eons"],
+    "definition": "An indefinite and very long period of time",
+    "examples": [
+      "These rocks were formed eons ago during the early history of the Earth."
+    ],
+    "synonyms": ["era", "age", "eternity", "epoch"],
+    "antonyms": ["instant", "moment"],
+    "translation": "э́ра / ве́чность"
+  },
+  {
+    "word": "event",
+    "partOfSpeech": "noun",
+    "forms": ["events"],
+    "definition": "A thing that happens, especially one of importance",
+    "examples": [
+      "The annual music festival is the biggest cultural event in the town."
+    ],
+    "synonyms": ["occasion", "occurrence", "happening", "affair"],
+    "antonyms": [],
+    "translation": "собы́тие"
+  },
+  {
+    "word": "exchange presents",
+    "partOfSpeech": "verb",
+    "forms": [
+      "exchanges presents",
+      "exchanged presents",
+      "exchanging presents"
+    ],
+    "definition": "To give gifts to one another on a special occasion",
+    "examples": [
+      "On New Year's Eve, our family gathers around the tree to exchange presents."
+    ],
+    "synonyms": ["swap gifts", "trade presents"],
+    "antonyms": [],
+    "translation": "обме́ниваться пода́рками"
+  },
+  {
+    "word": "family gathering",
+    "partOfSpeech": "noun",
+    "forms": ["family gatherings"],
+    "definition": "An occasion when many members of an extended family meet together",
+    "examples": [
+      "My grandmother's birthday is always a huge family gathering."
+    ],
+    "synonyms": ["family reunion", "get-together"],
+    "antonyms": [],
+    "translation": "семе́йный сбор"
+  },
+  {
+    "word": "film",
+    "partOfSpeech": "noun",
+    "forms": ["films"],
+    "definition": "A thin flexible strip of plastic or other material coated with light-sensitive emulsion for exposure in a camera; or a movie",
+    "examples": [
+      "He still enjoys taking photographs with an old camera that uses black-and-white film."
+    ],
+    "synonyms": ["movie", "motion picture", "layer", "tape"],
+    "antonyms": [],
+    "translation": "плёнка / фильм"
+  },
+  {
+    "word": "flashlight",
+    "partOfSpeech": "noun",
+    "forms": ["flashlights"],
+    "definition": "A battery-operated portable light",
+    "examples": [
+      "We used a flashlight to find our way back to the tent in the dark."
+    ],
+    "synonyms": ["torch", "lantern"],
+    "antonyms": [],
+    "translation": "карма́нный фона́рь"
+  },
+  {
+    "word": "flat",
+    "partOfSpeech": "noun",
+    "forms": ["flats"],
+    "definition": "A set of rooms forming an individual residence, typically on one floor; or a level surface",
+    "examples": [
+      "They rented a small two-bedroom flat in the center of the city."
+    ],
+    "synonyms": ["apartment", "plane"],
+    "antonyms": [],
+    "translation": "пло́скость / кварти́ра"
+  },
+  {
+    "word": "foot measure",
+    "partOfSpeech": "noun",
+    "forms": ["foot measures"],
+    "definition": "Measurement of length using the imperial unit of a foot (12 inches or 30.48 cm)",
+    "examples": [
+      "In aviation, altitude is traditionally calculated using foot measure."
+    ],
+    "synonyms": [],
+    "antonyms": ["metric measure"],
+    "translation": "измере́ние в фу́тах"
+  },
+  {
+    "word": "highway",
+    "partOfSpeech": "noun",
+    "forms": ["highways"],
+    "definition": "A main road, especially one connecting major towns or cities",
+    "examples": [
+      "Driving on the highway is much faster than taking the narrow country roads."
+    ],
+    "synonyms": ["motorway", "freeway", "expressway"],
+    "antonyms": ["side street", "byway"],
+    "translation": "автомагистра́ль"
+  },
+  {
+    "word": "hourglass",
+    "partOfSpeech": "noun",
+    "forms": ["hourglasses"],
+    "definition": "A device with two connected glass bulbs containing sand that takes a specific amount of time to pass from the upper to the lower bulb",
+    "examples": [
+      "The board game comes with a small plastic hourglass to time each player's turn."
+    ],
+    "synonyms": ["sandglass", "sand timer"],
+    "antonyms": [],
+    "translation": "песо́чные часы́"
+  },
+  {
+    "word": "leap year",
+    "partOfSpeech": "noun",
+    "forms": ["leap years"],
+    "definition": "A year, occurring once every four years, that has 366 days including February 29 as an intercalary day",
+    "examples": [
+      "Because it is a leap year, February has twenty-nine days instead of twenty-eight."
+    ],
+    "synonyms": ["bissextile year"],
+    "antonyms": ["common year"],
+    "translation": "високо́сный год"
+  },
+  {
+    "word": "lift",
+    "partOfSpeech": "noun",
+    "forms": ["lifts"],
+    "definition": "A platform or compartment housed in a shaft for raising and lowering people or things to different floors; or an upward movement",
+    "examples": [
+      "Since our office is on the десятый floor, we always take the lift."
+    ],
+    "synonyms": ["elevator", "boost", "raise"],
+    "antonyms": [],
+    "translation": "подъём / лифт"
+  },
+  {
+    "word": "line",
+    "partOfSpeech": "noun",
+    "forms": ["lines"],
+    "definition": "A row of written or printed words, a long narrow mark, or a row of people waiting their turn",
+    "examples": [
+      "Please sign your name on the dotted line at the bottom of the page."
+    ],
+    "synonyms": ["row", "queue", "stripe", "string"],
+    "antonyms": [],
+    "translation": "строка́ / ли́ния / о́чередь"
+  },
+  {
+    "word": "lunar month",
+    "partOfSpeech": "noun",
+    "forms": ["lunar months"],
+    "definition": "A month measured between successive new moons (roughly 29.5 days)",
+    "examples": [
+      "Traditional Islamic and Hebrew calendars are based on the cycle of the lunar month."
+    ],
+    "synonyms": ["synodic month"],
+    "antonyms": ["calendar month", "solar month"],
+    "translation": "лу́нный ме́сяц"
+  },
+  {
+    "word": "marine chronometer",
+    "partOfSpeech": "noun",
+    "forms": ["marine chronometers"],
+    "definition": "A precision timepiece that is carried on a ship and employed in the determination of the ship's position by celestial navigation",
+    "examples": [
+      "The invention of the marine chronometer allowed sailors to accurately calculate longitude at sea."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "судово́й хроно́метр"
+  },
+  {
+    "word": "mechanical clock",
+    "partOfSpeech": "noun",
+    "forms": ["mechanical clocks"],
+    "definition": "A clock that uses a mechanical mechanism such as weights, gears, and springs to keep time",
+    "examples": [
+      "You have to wind up this antique mechanical clock once a week."
+    ],
+    "synonyms": [],
+    "antonyms": ["digital clock", "atomic clock"],
+    "translation": "механи́ческие часы́"
+  },
+  {
+    "word": "millennium",
+    "partOfSpeech": "noun",
+    "forms": ["millennia", "millenniums"],
+    "definition": "A period of a thousand years",
+    "examples": [
+      "People all around the globe celebrated the start of the new millennium in the year 2000."
+    ],
+    "synonyms": ["thousand years"],
+    "antonyms": [],
+    "translation": "тысячеле́тие"
+  },
+  {
+    "word": "millisecond",
+    "partOfSpeech": "noun",
+    "forms": ["milliseconds"],
+    "definition": "One thousandth of a second",
+    "examples": [
+      "In Olympic sprinting, the winner can be decided by just a few milliseconds."
+    ],
+    "synonyms": ["split second", "instant"],
+    "antonyms": [],
+    "translation": "миллисеку́нда"
+  },
+  {
+    "word": "mobile",
+    "partOfSpeech": "noun",
+    "forms": ["mobiles"],
+    "definition": "A mobile phone, a decorative structure suspended in the air, or a motor home (mobile home)",
+    "examples": ["Call me on my mobile as soon as you arrive at the station."],
+    "synonyms": ["cell phone", "motorhome", "camper"],
+    "antonyms": [],
+    "translation": "автофурго́н / моби́льный телефо́н"
+  },
+  {
+    "word": "motorway",
+    "partOfSpeech": "noun",
+    "forms": ["motorways"],
+    "definition": "A wide road designed for fast-moving traffic over long distances",
+    "examples": [
+      "There is a speed limit of 70 miles per hour on the motorway."
+    ],
+    "synonyms": ["highway", "freeway", "expressway"],
+    "antonyms": [],
+    "translation": "автостра́да"
+  },
+  {
+    "word": "pavement",
+    "partOfSpeech": "noun",
+    "forms": ["pavements"],
+    "definition": "A raised paved or asphalted path for pedestrians at the side of a road",
+    "examples": [
+      "Cyclists are not allowed to ride on the pedestrian pavement."
+    ],
+    "synonyms": ["sidewalk", "footpath", "walkway"],
+    "antonyms": ["roadway"],
+    "translation": "мостова́я, тротуа́р"
+  },
+  {
+    "word": "pendulum clock",
+    "partOfSpeech": "noun",
+    "forms": ["pendulum clocks"],
+    "definition": "A clock that uses a swinging weight (a pendulum) as its timekeeping element",
+    "examples": ["The old pendulum clock in the hallway chimes every hour."],
+    "synonyms": ["grandfather clock"],
+    "antonyms": ["quartz clock"],
+    "translation": "ма́ятниковые часы́"
+  },
+  {
+    "word": "petrol",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A light fuel oil that is obtained by refining petroleum and is used in internal combustion engines",
+    "examples": [
+      "We need to stop at the next station to fill the car up with petrol."
+    ],
+    "synonyms": ["gasoline", "gas", "fuel"],
+    "antonyms": [],
+    "translation": "бензи́н"
+  },
+  {
+    "word": "prepare (a meal)",
+    "partOfSpeech": "verb",
+    "forms": ["prepares (a meal)", "prepared (a meal)", "preparing (a meal)"],
+    "definition": "To make food ready for cooking or eating",
+    "examples": [
+      "He likes to prepare a healthy meal for his family every evening."
+    ],
+    "synonyms": ["cook", "make food", "fix a meal"],
+    "antonyms": [],
+    "translation": "пригото́вить (еду́)"
+  },
+  {
+    "word": "pressure gauge",
+    "partOfSpeech": "noun",
+    "forms": ["pressure gauges"],
+    "definition": "An instrument used to measure and display the pressure of a gas or liquid",
+    "examples": ["Check the pressure gauge before inflating the car tires."],
+    "synonyms": ["manometer", "pressure sensor"],
+    "antonyms": [],
+    "translation": "да́тчик давле́ния / мано́метр"
+  },
+  {
+    "word": "public holiday",
+    "partOfSpeech": "noun",
+    "forms": ["public holidays"],
+    "definition": "An official holiday established by law on which banks, schools, and most businesses are closed",
+    "examples": [
+      "Next Monday is a public holiday, so we have a long three-day weekend."
+    ],
+    "synonyms": ["bank holiday", "national holiday"],
+    "antonyms": ["working day", "workday"],
+    "translation": "госуда́рственный пра́здник"
+  },
+  {
+    "word": "quartz wristwatch",
+    "partOfSpeech": "noun",
+    "forms": ["quartz wristwatches"],
+    "definition": "A watch worn on the wrist that is regulated by a tiny quartz crystal",
+    "examples": [
+      "A battery-powered quartz wristwatch is very accurate and requires little maintenance."
+    ],
+    "synonyms": [],
+    "antonyms": ["mechanical watch"],
+    "translation": "ква́рцевые нару́чные часы́"
+  },
+  {
+    "word": "queue",
+    "partOfSpeech": "noun",
+    "forms": ["queues"],
+    "definition": "A line or sequence of people or vehicles awaiting their turn to be attended to or to proceed",
+    "examples": [
+      "There was a long queue of people waiting outside the cinema."
+    ],
+    "synonyms": ["line", "row"],
+    "antonyms": [],
+    "translation": "о́чередь"
+  },
+  {
+    "word": "season",
+    "partOfSpeech": "noun",
+    "forms": ["seasons"],
+    "definition": "Each of the four divisions of the year (spring, summer, autumn, and winter) marked by particular weather patterns",
+    "examples": [
+      "Autumn is my favorite season because of the colorful leaves."
+    ],
+    "synonyms": ["time of year", "period"],
+    "antonyms": [],
+    "translation": "сезо́н / вре́мя го́да"
+  },
+  {
+    "word": "sidewalk",
+    "partOfSpeech": "noun",
+    "forms": ["sidewalks"],
+    "definition": "A paved path for pedestrians at the side of a road",
+    "examples": [
+      "After the snowstorm, residents had to shovel the snow off the sidewalk."
+    ],
+    "synonyms": ["pavement", "footpath", "walkway"],
+    "antonyms": ["road"],
+    "translation": "пешехо́дная доро́жка / тротуа́р"
+  },
+  {
+    "word": "sneakers",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Soft shoes with rubber soles worn for sports or casual occasions",
+    "examples": [
+      "He wore a comfortable pair of white sneakers for the long walk."
+    ],
+    "synonyms": ["trainers", "running shoes", "tennis shoes"],
+    "antonyms": ["dress shoes", "boots"],
+    "translation": "кроссо́вки"
+  },
+  {
+    "word": "special dishes",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Particular types of food prepared for a specific holiday, celebration, or event",
+    "examples": [
+      "For the festival, my mother always cooks traditional special dishes."
+    ],
+    "synonyms": ["delicacies", "specialties", "festive meals"],
+    "antonyms": ["everyday food"],
+    "translation": "специа́льные блю́да"
+  },
+  {
+    "word": "special occasion",
+    "partOfSpeech": "noun",
+    "forms": ["special occasions"],
+    "definition": "An important or celebratory event or day, such as a wedding, birthday, or anniversary",
+    "examples": [
+      "She bought an elegant dress to wear for the special occasion."
+    ],
+    "synonyms": ["celebration", "milestone", "festivity"],
+    "antonyms": ["ordinary day"],
+    "translation": "осо́бый слу́чай"
+  },
+  {
+    "word": "stopwatch",
+    "partOfSpeech": "noun",
+    "forms": ["stopwatches"],
+    "definition": "A special watch with buttons that start, stop, and then zero the hands, used to time races",
+    "examples": [
+      "The coach used a digital stopwatch to time the runners during practice."
+    ],
+    "synonyms": ["timer", "chronograph"],
+    "antonyms": [],
+    "translation": "секундоме́р"
+  },
+  {
+    "word": "sundial",
+    "partOfSpeech": "noun",
+    "forms": ["sundials"],
+    "definition": "An instrument showing the time by the shadow of a pointer cast by the sun onto a plate marked with the hours of the day",
+    "examples": [
+      "In the center of the sunny garden stood an old stone sundial."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "со́лнечные часы́"
+  },
+  {
+    "word": "sweets",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Small shaped pieces of sweet food made with sugar",
+    "examples": ["Eating too many sweets is bad for your teeth."],
+    "synonyms": ["candy", "confectionery", "treats"],
+    "antonyms": ["savories"],
+    "translation": "сла́дости / конфе́ты"
+  },
+  {
+    "word": "tap",
+    "partOfSpeech": "noun",
+    "forms": ["taps"],
+    "definition": "A device by which a flow of liquid or gas from a pipe or container can be controlled",
+    "examples": ["Please turn off the tap tightly so it doesn't drip."],
+    "synonyms": ["faucet", "spigot", "valve"],
+    "antonyms": [],
+    "translation": "шту́цер / кран"
+  },
+  {
+    "word": "thermostat",
+    "partOfSpeech": "noun",
+    "forms": ["thermostats"],
+    "definition": "A device that automatically regulates temperature, or that activates a device when the temperature reaches a certain point",
+    "examples": [
+      "I turned up the thermostat because the house was getting cold."
+    ],
+    "synonyms": ["temperature regulator"],
+    "antonyms": [],
+    "translation": "термоста́т"
+  },
+  {
+    "word": "theodolite",
+    "partOfSpeech": "noun",
+    "forms": ["theodolites"],
+    "definition": "A surveying instrument with a rotating telescope for measuring horizontal and vertical angles",
+    "examples": [
+      "The civil engineer set up a theodolite on a tripod to survey the construction site."
+    ],
+    "synonyms": ["surveying instrument"],
+    "antonyms": [],
+    "translation": "теодоли́т"
+  },
+  {
+    "word": "toilet",
+    "partOfSpeech": "noun",
+    "forms": ["toilets"],
+    "definition": "A fixed receptacle into which a person may urinate or defecate, or a room containing this",
+    "examples": [
+      "Excuse me, could you tell me where the nearest public toilet is?"
+    ],
+    "synonyms": ["restroom", "bathroom", "lavatory", "loo"],
+    "antonyms": [],
+    "translation": "туале́т"
+  },
+  {
+    "word": "torch",
+    "partOfSpeech": "noun",
+    "forms": ["torches"],
+    "definition": "A portable battery-powered electric lamp, or a device that produces a hot flame",
+    "examples": [
+      "He shone his torch into the dark cave to see what was inside."
+    ],
+    "synonyms": ["flashlight", "burner", "lamp"],
+    "antonyms": [],
+    "translation": "горе́лка / фона́рик"
+  },
+  {
+    "word": "traditional (meal/custom/gift)",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Existing in or as part of a long-established tradition",
+    "examples": [
+      "Our hosts served us a delicious traditional meal from their region."
+    ],
+    "synonyms": ["customary", "conventional", "time-honored", "classic"],
+    "antonyms": ["modern", "unconventional", "novel"],
+    "translation": "традицио́нный (блю́до/обы́чай/пода́рок)"
+  },
+  {
+    "word": "trainers",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A soft shoe, suitable for sports or casual wear",
+    "examples": ["You need to wear clean trainers when using the school gym."],
+    "synonyms": ["sneakers", "running shoes", "gym shoes"],
+    "antonyms": [],
+    "translation": "кроссо́вки"
+  },
+  {
+    "word": "water clock",
+    "partOfSpeech": "noun",
+    "forms": ["water clocks"],
+    "definition": "An ancient timekeeping device that measures time by the regulated flow of liquid into or out from a vessel",
+    "examples": [
+      "Before mechanical gears were invented, ancient Greeks used a water clock to time speeches."
+    ],
+    "synonyms": ["clepsydra"],
+    "antonyms": [],
+    "translation": "водяны́е часы́"
+  }
+]

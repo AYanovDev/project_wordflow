@@ -1,0 +1,588 @@
+[
+  {
+    "word": "amusement",
+    "partOfSpeech": "noun",
+    "forms": ["amusements"],
+    "definition": "The state or experience of finding something funny, or the provision of entertainment",
+    "examples": ["She looked at the playful puppy with great amusement."],
+    "synonyms": ["entertainment", "fun", "mirth", "delight"],
+    "antonyms": ["boredom", "gloom"],
+    "translation": "развлече́ние"
+  },
+  {
+    "word": "anger",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A strong feeling of annoyance, displeasure, or hostility",
+    "examples": [
+      "He found it difficult to control his anger after hearing the unfair decision."
+    ],
+    "synonyms": ["rage", "fury", "wrath", "annoyance"],
+    "antonyms": ["calmness", "pleasure", "goodwill"],
+    "translation": "злость"
+  },
+  {
+    "word": "anxiety",
+    "partOfSpeech": "noun",
+    "forms": ["anxieties"],
+    "definition": "A feeling of worry, nervousness, or unease about something with an uncertain outcome",
+    "examples": [
+      "Waiting for exam results often causes a lot of anxiety among students."
+    ],
+    "synonyms": ["worry", "unease", "nervousness", "apprehension"],
+    "antonyms": ["calmness", "serenity", "confidence"],
+    "translation": "беспоко́йство"
+  },
+  {
+    "word": "(not) at all",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "In any way; to any extent; or used as a polite reply to thank you",
+    "examples": ["I am not at all surprised by the outcome of the match."],
+    "synonyms": ["in no way", "you're welcome"],
+    "antonyms": ["completely", "very much"],
+    "translation": "(не) за что / ниско́лько"
+  },
+  {
+    "word": "at fault",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Responsible for an undesirable situation or mistake; in the wrong",
+    "examples": [
+      "The investigation showed that the other driver was clearly at fault."
+    ],
+    "synonyms": ["to blame", "guilty", "responsible", "culpable"],
+    "antonyms": ["innocent", "blameless"],
+    "translation": "винова́тый"
+  },
+  {
+    "word": "at last",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "In the end; after a long delay, dispute, or series of problems",
+    "examples": [
+      "After hours of waiting in the rain, the bus arrived at last."
+    ],
+    "synonyms": ["finally", "eventually", "ultimately"],
+    "antonyms": ["initially", "at first"],
+    "translation": "наконе́ц"
+  },
+  {
+    "word": "at once",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Immediately; or at the same time",
+    "examples": ["When the alarm rang, everyone left the building at once."],
+    "synonyms": ["immediately", "right away", "instantly", "simultaneously"],
+    "antonyms": ["later", "eventually"],
+    "translation": "неме́дленно"
+  },
+  {
+    "word": "at stake",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "At risk to be won or lost; in danger",
+    "examples": [
+      "With the championship title at stake, both teams played their hardest."
+    ],
+    "synonyms": ["at risk", "in jeopardy", "on the line"],
+    "antonyms": ["safe", "secure"],
+    "translation": "под угро́зой / на кону́"
+  },
+  {
+    "word": "by accident",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Unintentionally; without planning to do so",
+    "examples": [
+      "I deleted the important file from my computer completely by accident."
+    ],
+    "synonyms": ["accidentally", "unintentionally", "by chance"],
+    "antonyms": ["on purpose", "deliberately"],
+    "translation": "случа́йно"
+  },
+  {
+    "word": "by mistake",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Accidental; in error",
+    "examples": [
+      "Someone took my umbrella from the restaurant stand by mistake."
+    ],
+    "synonyms": ["in error", "erroneously", "accidentally"],
+    "antonyms": ["intentionally", "on purpose"],
+    "translation": "по оши́бке"
+  },
+  {
+    "word": "combat",
+    "partOfSpeech": "verb",
+    "forms": ["combats", "combated", "combating"],
+    "definition": "To take action to reduce, destroy, or prevent something undesirable",
+    "examples": [
+      "The government introduced new measures to combat rising crime rates."
+    ],
+    "synonyms": ["fight", "tackle", "counter", "oppose"],
+    "antonyms": ["support", "encourage", "yield to"],
+    "translation": "боро́ться / единобо́рство"
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "forms": ["commits", "committed", "committing"],
+    "definition": "To perpetrate or carry out a mistake, crime, or immoral act",
+    "examples": [
+      "The suspect proved that he could not have been the one to commit the crime."
+    ],
+    "synonyms": ["perpetrate", "carry out", "perform"],
+    "antonyms": ["abstain"],
+    "translation": "соверша́ть"
+  },
+  {
+    "word": "concentration",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The action or power of focusing one's attention or mental effort",
+    "examples": [
+      "Loud noises in the street broke his concentration while he was studying."
+    ],
+    "synonyms": ["focus", "attention", "absorption"],
+    "antonyms": ["distraction", "inattention"],
+    "translation": "сосредото́ченность"
+  },
+  {
+    "word": "contentment",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A state of happiness and satisfaction",
+    "examples": ["He sighed with contentment as he sat by the warm fireplace."],
+    "synonyms": ["satisfaction", "fulfillment", "peace", "happiness"],
+    "antonyms": ["discontent", "dissatisfaction", "misery"],
+    "translation": "удовлетворе́ние"
+  },
+  {
+    "word": "creativity",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The use of the imagination or original ideas, especially in the production of an artistic work",
+    "examples": [
+      "Art and music classes encourage children to express their creativity."
+    ],
+    "synonyms": ["inventiveness", "imagination", "originality"],
+    "antonyms": ["unimaginativeness"],
+    "translation": "тво́рческий потенциа́л"
+  },
+  {
+    "word": "cut",
+    "partOfSpeech": "verb",
+    "forms": ["cuts", "cut", "cutting"],
+    "definition": "To make an opening, incision, or wound in something with a sharp-edged tool or object",
+    "examples": [
+      "Be careful with that sharp knife so you don't cut your finger."
+    ],
+    "synonyms": ["slice", "slash", "gash", "chop"],
+    "antonyms": ["join", "mend"],
+    "translation": "ре́зать, поре́заться"
+  },
+  {
+    "word": "decision making",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The action or process of making important decisions",
+    "examples": [
+      "Clear thinking and logic are essential for effective decision making."
+    ],
+    "synonyms": ["judgment", "problem-solving"],
+    "antonyms": ["indecision"],
+    "translation": "приня́тие реше́ний"
+  },
+  {
+    "word": "deter",
+    "partOfSpeech": "verb",
+    "forms": ["deters", "deterred", "deterring"],
+    "definition": "To discourage someone from doing something by instilling doubt or fear of the consequences",
+    "examples": [
+      "Security cameras were installed to deter thieves from entering the building."
+    ],
+    "synonyms": ["discourage", "prevent", "stop", "dissuade"],
+    "antonyms": ["encourage", "persuade", "incite"],
+    "translation": "уде́рживать от соверше́ния"
+  },
+  {
+    "word": "emotion",
+    "partOfSpeech": "noun",
+    "forms": ["emotions"],
+    "definition": "A natural instinctive state of mind deriving from one's circumstances, mood, or relationships with others",
+    "examples": [
+      "Her voice trembled with emotion as she thanked her family for their support."
+    ],
+    "synonyms": ["feeling", "sentiment", "passion"],
+    "antonyms": ["indifference", "apathy"],
+    "translation": "эмо́ция"
+  },
+  {
+    "word": "envy",
+    "partOfSpeech": "noun",
+    "forms": ["envies"],
+    "definition": "A feeling of discontented or resentful longing aroused by someone else's possessions, qualities, or luck",
+    "examples": [
+      "He looked at his neighbor's brand-new sports car with a touch of envy."
+    ],
+    "synonyms": ["jealousy", "covetousness", "resentment"],
+    "antonyms": ["goodwill", "contentment"],
+    "translation": "за́висть"
+  },
+  {
+    "word": "for good",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Permanently; forever",
+    "examples": [
+      "After living abroad for ten years, she decided to return home for good."
+    ],
+    "synonyms": ["permanently", "forever", "for keeps"],
+    "antonyms": ["temporarily", "for now"],
+    "translation": "насовсе́м"
+  },
+  {
+    "word": "for now",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Until a later time; for the present",
+    "examples": [
+      "We can leave the boxes in the hallway for now and unpack them tomorrow."
+    ],
+    "synonyms": ["for the moment", "temporarily", "for the time being"],
+    "antonyms": ["permanently", "for good"],
+    "translation": "тепе́рь / пока́"
+  },
+  {
+    "word": "for one thing",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Used to introduce the first of two or more reasons or considerations",
+    "examples": [
+      "I don't want to buy that coat; for one thing, it is far too expensive."
+    ],
+    "synonyms": ["first of all", "to begin with", "firstly"],
+    "antonyms": [],
+    "translation": "пре́жде всего́ / во-пе́рвых"
+  },
+  {
+    "word": "for the time being",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "For the present; until some other arrangement is made",
+    "examples": [
+      "You can use my spare laptop for the time being until yours is repaired."
+    ],
+    "synonyms": ["for now", "temporarily", "for the moment"],
+    "antonyms": ["permanently"],
+    "translation": "в да́нное вре́мя"
+  },
+  {
+    "word": "frustration",
+    "partOfSpeech": "noun",
+    "forms": ["frustrations"],
+    "definition": "The feeling of being upset or annoyed, especially because of inability to change or achieve something",
+    "examples": [
+      "He shouted in frustration when his computer crashed before he saved his work."
+    ],
+    "synonyms": ["annoyance", "exasperation", "disappointment"],
+    "antonyms": ["satisfaction", "pleasure"],
+    "translation": "разочарова́ние / доса́да"
+  },
+  {
+    "word": "intelligence",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The ability to acquire and apply knowledge and skills",
+    "examples": [
+      "Solving complex puzzles requires patience and high intelligence."
+    ],
+    "synonyms": ["intellect", "cleverness", "brainpower"],
+    "antonyms": ["stupidity", "ignorance"],
+    "translation": "интелле́кт"
+  },
+  {
+    "word": "language",
+    "partOfSpeech": "noun",
+    "forms": ["languages"],
+    "definition": "The method of human communication, either spoken or written, consisting of the use of words in a structured way",
+    "examples": [
+      "Learning a foreign language opens up many new career opportunities."
+    ],
+    "synonyms": ["speech", "tongue", "communication"],
+    "antonyms": [],
+    "translation": "язы́к"
+  },
+  {
+    "word": "logic",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Reasoning conducted or assessed according to strict principles of validity",
+    "examples": [
+      "If you apply basic logic to the problem, the solution becomes obvious."
+    ],
+    "synonyms": ["reason", "rationality", "deduction"],
+    "antonyms": ["illogic", "irrationality"],
+    "translation": "ло́гика"
+  },
+  {
+    "word": "memory",
+    "partOfSpeech": "noun",
+    "forms": ["memories"],
+    "definition": "The faculty by which the mind stores and remembers information",
+    "examples": [
+      "She has an excellent memory for names, faces, and historical dates."
+    ],
+    "synonyms": ["recall", "recollection", "remembrance"],
+    "antonyms": ["forgetfulness", "amnesia"],
+    "translation": "па́мять"
+  },
+  {
+    "word": "misery",
+    "partOfSpeech": "noun",
+    "forms": ["miseries"],
+    "definition": "A state or feeling of great distress or discomfort of mind or body",
+    "examples": [
+      "The cold rain and freezing wind added to the misery of the lost hikers."
+    ],
+    "synonyms": ["distress", "wretchedness", "suffering", "grief"],
+    "antonyms": ["happiness", "joy", "contentment"],
+    "translation": "страда́ние / го́ре"
+  },
+  {
+    "word": "of interest",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Interesting; worth knowing or noticing",
+    "examples": [
+      "This new documentary will be of interest to anyone studying marine biology."
+    ],
+    "synonyms": ["interesting", "appealing", "noteworthy"],
+    "antonyms": ["boring", "uninteresting"],
+    "translation": "представля́ющий интере́с"
+  },
+  {
+    "word": "on the one hand ... on the other hand",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Used to present two contrasting factors or points of view",
+    "examples": [
+      "On the one hand I'd like a job that pays more, but on the other hand I enjoy the free time I have now."
+    ],
+    "synonyms": ["conversely", "by contrast"],
+    "antonyms": [],
+    "translation": "с одно́й стороны́ ... с друго́й стороны́"
+  },
+  {
+    "word": "on second thoughts",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Having reconsidered a matter and reached a different decision",
+    "examples": [
+      "I was going to order the steak, but on second thoughts, I'll have the fish."
+    ],
+    "synonyms": ["upon reflection", "after reconsidering"],
+    "antonyms": [],
+    "translation": "взве́сив всё ещё раз / переду́мав"
+  },
+  {
+    "word": "on the whole",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Taking everything into account; in general",
+    "examples": [
+      "There were a few minor delays, but on the whole the conference went very well."
+    ],
+    "synonyms": ["in general", "overall", "by and large"],
+    "antonyms": ["in particular"],
+    "translation": "в коне́чном счёте / в це́лом"
+  },
+  {
+    "word": "perception",
+    "partOfSpeech": "noun",
+    "forms": ["perceptions"],
+    "definition": "The ability to see, hear, or become aware of something through the senses, or a way of understanding something",
+    "examples": [
+      "Optical illusions trick the brain and alter our visual perception."
+    ],
+    "synonyms": ["awareness", "understanding", "insight", "impression"],
+    "antonyms": ["ignorance", "misunderstanding"],
+    "translation": "восприя́тие"
+  },
+  {
+    "word": "petty",
+    "partOfSpeech": "adjective",
+    "forms": ["pettier", "pettiest"],
+    "definition": "Of little importance; trivial",
+    "examples": ["They wasted the entire meeting arguing over petty details."],
+    "synonyms": ["trivial", "minor", "insignificant"],
+    "antonyms": ["important", "major", "serious"],
+    "translation": "незначи́тельный / ме́лкий"
+  },
+  {
+    "word": "prevention",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The action of stopping something from happening or arising",
+    "examples": ["In medicine, disease prevention is always better than cure."],
+    "synonyms": ["avoidance", "deterrence", "precaution"],
+    "antonyms": ["causation"],
+    "translation": "предотвраще́ние"
+  },
+  {
+    "word": "planning",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The process of making plans for something",
+    "examples": [
+      "Careful financial planning is necessary before starting a new business."
+    ],
+    "synonyms": ["preparation", "organization", "arrangement"],
+    "antonyms": ["improvisation"],
+    "translation": "плани́рование"
+  },
+  {
+    "word": "problem solving",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "The process of finding solutions to difficult or complex issues",
+    "examples": [
+      "Programming teaches students logical thinking and creative problem solving."
+    ],
+    "synonyms": ["troubleshooting"],
+    "antonyms": [],
+    "translation": "реше́ние пробле́м"
+  },
+  {
+    "word": "rate",
+    "partOfSpeech": "noun",
+    "forms": ["rates"],
+    "definition": "A measure, quantity, or frequency, typically one measured against some other quantity or measure",
+    "examples": [
+      "The city's unemployment rate has dropped significantly this year."
+    ],
+    "synonyms": ["level", "speed", "pace", "percentage"],
+    "antonyms": [],
+    "translation": "ста́вка, у́ровень, интенси́вность"
+  },
+  {
+    "word": "record",
+    "partOfSpeech": "verb",
+    "forms": ["records", "recorded", "recording"],
+    "definition": "To set down in writing or some other permanent form for later reference, or to capture sound or images",
+    "examples": ["Scientists record the temperature of the water twice a day."],
+    "synonyms": ["document", "log", "register", "tape"],
+    "antonyms": ["erase", "delete"],
+    "translation": "запи́сывать"
+  },
+  {
+    "word": "self-awareness",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Conscious knowledge of one's own character, feelings, motives, and desires",
+    "examples": [
+      "Developing self-awareness helps you understand your strengths and weaknesses."
+    ],
+    "synonyms": ["self-knowledge", "introspection", "mindfulness"],
+    "antonyms": ["obliviousness"],
+    "translation": "самосозна́ние"
+  },
+  {
+    "word": "sensation",
+    "partOfSpeech": "noun",
+    "forms": ["sensations"],
+    "definition": "A physical feeling or perception resulting from something that happens to or comes into contact with the body",
+    "examples": [
+      "He felt a tingling sensation in his fingers after coming in from the cold."
+    ],
+    "synonyms": ["feeling", "sense", "impression"],
+    "antonyms": ["numbness"],
+    "translation": "чу́вство / ощуще́ние"
+  },
+  {
+    "word": "shame",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A painful feeling of humiliation or distress caused by the consciousness of wrong or foolish behavior",
+    "examples": [
+      "He hung his head in shame after being caught cheating on the test."
+    ],
+    "synonyms": ["humiliation", "embarrassment", "guilt", "remorse"],
+    "antonyms": ["pride", "honor"],
+    "translation": "стыд"
+  },
+  {
+    "word": "speech",
+    "partOfSpeech": "noun",
+    "forms": ["speeches"],
+    "definition": "The expression of or the ability to express thoughts and feelings by articulate sounds",
+    "examples": [
+      "The left hemisphere of the brain is largely responsible for human speech."
+    ],
+    "synonyms": ["speaking", "talk", "communication", "utterance"],
+    "antonyms": ["silence"],
+    "translation": "речь"
+  },
+  {
+    "word": "stress",
+    "partOfSpeech": "noun",
+    "forms": ["stresses"],
+    "definition": "A state of mental or emotional strain or tension resulting from adverse or very demanding circumstances",
+    "examples": [
+      "Regular exercise and meditation are effective ways to reduce daily stress."
+    ],
+    "synonyms": ["tension", "strain", "pressure", "anxiety"],
+    "antonyms": ["relaxation", "calmness", "peace"],
+    "translation": "напряже́ние / стресс"
+  },
+  {
+    "word": "thrill",
+    "partOfSpeech": "noun",
+    "forms": ["thrills"],
+    "definition": "A sudden feeling of excitement and pleasure",
+    "examples": [
+      "Winning the competition gave the young athlete an unforgettable thrill."
+    ],
+    "synonyms": ["excitement", "exhilaration", "rush"],
+    "antonyms": ["boredom"],
+    "translation": "возбужде́ние / восто́рг"
+  },
+  {
+    "word": "under arrest",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "In the custody of the police",
+    "examples": [
+      "The police officer informed the suspect that he was under arrest."
+    ],
+    "synonyms": ["in custody", "detained", "apprehended"],
+    "antonyms": ["free", "at large"],
+    "translation": "под аре́стом"
+  },
+  {
+    "word": "under control",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Being dealt with or managed successfully; not out of hand",
+    "examples": [
+      "Firefighters worked through the night and finally got the forest fire under control."
+    ],
+    "synonyms": ["managed", "in hand", "contained"],
+    "antonyms": ["out of control", "chaotic"],
+    "translation": "под контро́лем"
+  },
+  {
+    "word": "under the impression",
+    "partOfSpeech": "phrase",
+    "forms": [],
+    "definition": "Believing, usually mistakenly, that something is the case",
+    "examples": [
+      "I was under the impression that the meeting started at ten o'clock, not nine."
+    ],
+    "synonyms": ["believing", "assuming", "thinking"],
+    "antonyms": ["certain"],
+    "translation": "под впечатле́нием / полага́ть"
+  }
+]

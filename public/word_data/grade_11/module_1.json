@@ -1,0 +1,1150 @@
+[
+  {
+    "word": "absent-minded",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having or showing a habitually forgetful or inattentive disposition",
+    "examples": [
+      "The absent-minded professor forgot where he had parked his car."
+    ],
+    "synonyms": ["forgetful", "distracted", "preoccupied"],
+    "antonyms": ["attentive", "alert"],
+    "translation": "рассе́янный"
+  },
+  {
+    "word": "ache",
+    "partOfSpeech": "verb",
+    "forms": ["aches", "ached", "aching"],
+    "definition": "To suffer from a continuous dull pain",
+    "examples": ["My legs ache after running ten kilometers yesterday."],
+    "synonyms": ["hurt", "throb", "smart"],
+    "antonyms": [],
+    "translation": "боле́ть"
+  },
+  {
+    "word": "ache",
+    "partOfSpeech": "noun",
+    "forms": ["aches"],
+    "definition": "A continuous or prolonged dull pain in a part of one's body",
+    "examples": ["He woke up with a dull ache in his lower back."],
+    "synonyms": ["pain", "soreness", "discomfort"],
+    "antonyms": [],
+    "translation": "боль"
+  },
+  {
+    "word": "addictive",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Causing or likely to cause someone to become physically or mentally dependent on a substance or activity",
+    "examples": [
+      "Coffee and energy drinks contain caffeine, which is mildly addictive."
+    ],
+    "synonyms": ["habit-forming", "compulsive"],
+    "antonyms": ["non-addictive"],
+    "translation": "вызыва́ющий зави́симость"
+  },
+  {
+    "word": "additive",
+    "partOfSpeech": "noun",
+    "forms": ["additives"],
+    "definition": "A substance added to something in small quantities to improve or preserve it",
+    "examples": [
+      "This natural fruit juice contains no artificial additives or preservatives."
+    ],
+    "synonyms": ["supplement", "preservative"],
+    "antonyms": [],
+    "translation": "доба́вка"
+  },
+  {
+    "word": "adrenalin",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A hormone secreted by the adrenal glands that increases rates of blood circulation and breathing under stress",
+    "examples": ["Skydiving gives you an incredible rush of adrenalin."],
+    "synonyms": ["epinephrine"],
+    "antonyms": [],
+    "translation": "адренали́н"
+  },
+  {
+    "word": "antacid",
+    "partOfSpeech": "noun",
+    "forms": ["antacids"],
+    "definition": "A medicine that prevents or corrects acidity, especially in the stomach",
+    "examples": [
+      "He took an antacid tablet to relieve his indigestion after dinner."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "антаци́д"
+  },
+  {
+    "word": "antibiotics",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Medicines that inhibit the growth of or destroy microorganisms and bacterial infections",
+    "examples": [
+      "The doctor prescribed a seven-day course of antibiotics for her infection."
+    ],
+    "synonyms": ["medication", "penicillin"],
+    "antonyms": [],
+    "translation": "антибио́тики"
+  },
+  {
+    "word": "antihistamine",
+    "partOfSpeech": "noun",
+    "forms": ["antihistamines"],
+    "definition": "A drug that inhibits the physiological effects of histamine, used especially in the treatment of allergies",
+    "examples": [
+      "She takes an antihistamine every morning during the spring pollen season."
+    ],
+    "synonyms": ["allergy medicine"],
+    "antonyms": [],
+    "translation": "антигистами́н"
+  },
+  {
+    "word": "anti-inflammatories",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Drugs or substances used to reduce inflammation, swelling, and pain",
+    "examples": [
+      "The athlete took anti-inflammatories to reduce the swelling in his knee."
+    ],
+    "synonyms": ["painkillers"],
+    "antonyms": [],
+    "translation": "противовоспали́тельные сре́дства"
+  },
+  {
+    "word": "antiseptic cream",
+    "partOfSpeech": "noun",
+    "forms": ["antiseptic creams"],
+    "definition": "A topical ointment applied to cuts or scrapes to prevent infection",
+    "examples": [
+      "Clean the cut with water and apply some antiseptic cream before putting on a plaster."
+    ],
+    "synonyms": ["disinfectant ointment"],
+    "antonyms": [],
+    "translation": "антисепти́ческий крем"
+  },
+  {
+    "word": "attend a fitness class",
+    "partOfSpeech": "verb",
+    "forms": [
+      "attends a fitness class",
+      "attended a fitness class",
+      "attending a fitness class"
+    ],
+    "definition": "To go to and participate in an organized group exercise session",
+    "examples": [
+      "She likes to attend a fitness class three times a week to stay active."
+    ],
+    "synonyms": ["go to a workout class"],
+    "antonyms": [],
+    "translation": "посеща́ть фи́тнес-класс"
+  },
+  {
+    "word": "bandage",
+    "partOfSpeech": "noun",
+    "forms": ["bandages"],
+    "definition": "A strip of material used to bind a wound or to protect an injured part of the body",
+    "examples": [
+      "The nurse wrapped a tight bandage around his sprained wrist."
+    ],
+    "synonyms": ["dressing", "gauze"],
+    "antonyms": [],
+    "translation": "банда́ж / бинт"
+  },
+  {
+    "word": "cheap",
+    "partOfSpeech": "adjective",
+    "forms": ["cheaper", "cheapest"],
+    "definition": "Low in price, or of low quality",
+    "examples": [
+      "Fresh vegetables are very cheap at the local market in summer."
+    ],
+    "synonyms": ["inexpensive", "affordable", "low-cost"],
+    "antonyms": ["expensive", "costly", "pricy"],
+    "translation": "дешёвый"
+  },
+  {
+    "word": "chest infection",
+    "partOfSpeech": "noun",
+    "forms": ["chest infections"],
+    "definition": "An infection that affects the lungs or the large airways, such as bronchitis or pneumonia",
+    "examples": [
+      "He has been coughing all week because of a nasty chest infection."
+    ],
+    "synonyms": ["respiratory infection", "bronchitis"],
+    "antonyms": [],
+    "translation": "инфе́кция ни́жних дыха́тельных путе́й"
+  },
+  {
+    "word": "cholesterol",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A waxy, fat-like substance found in the blood and body cells that can cause heart disease in high amounts",
+    "examples": [
+      "Eating too much fried food can raise your blood cholesterol levels."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "холестери́н"
+  },
+  {
+    "word": "(be) congested",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Blocked with mucus so as to make breathing difficult",
+    "examples": ["My nose is completely congested because of this bad cold."],
+    "synonyms": ["blocked", "stuffed up", "clogged"],
+    "antonyms": ["clear", "unblocked"],
+    "translation": "быть зало́женным (о но́се)"
+  },
+  {
+    "word": "convenient",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Fitting in well with a person's needs, activities, and plans",
+    "examples": [
+      "The gym is in a very convenient location right next to my office."
+    ],
+    "synonyms": ["handy", "suitable", "practical"],
+    "antonyms": ["inconvenient", "awkward"],
+    "translation": "подходя́щий / удо́бный"
+  },
+  {
+    "word": "convert",
+    "partOfSpeech": "verb",
+    "forms": ["converts", "converted", "converting"],
+    "definition": "To cause to change in form, character, or function",
+    "examples": [
+      "During digestion, the body works to convert food into usable energy."
+    ],
+    "synonyms": ["transform", "change", "turn into"],
+    "antonyms": ["preserve", "maintain"],
+    "translation": "преобразова́ть"
+  },
+  {
+    "word": "cough",
+    "partOfSpeech": "noun",
+    "forms": ["coughs"],
+    "definition": "An act or sound of expelling air from the lungs with a sudden sharp sound",
+    "examples": ["He has had a persistent dry cough for over a week."],
+    "synonyms": ["hack", "bark"],
+    "antonyms": [],
+    "translation": "ка́шель"
+  },
+  {
+    "word": "cough medicine",
+    "partOfSpeech": "noun",
+    "forms": ["cough medicines"],
+    "definition": "A liquid medication taken to soothe a sore throat and suppress coughing",
+    "examples": ["Take a spoonful of cough medicine before going to sleep."],
+    "synonyms": ["cough syrup"],
+    "antonyms": [],
+    "translation": "лека́рство про́тив ка́шля"
+  },
+  {
+    "word": "cut",
+    "partOfSpeech": "noun",
+    "forms": ["cuts"],
+    "definition": "A wound or opening made in skin by a sharp edge or tool",
+    "examples": ["He got a small cut on his finger while chopping onions."],
+    "synonyms": ["gash", "laceration", "incision", "wound"],
+    "antonyms": [],
+    "translation": "поре́з"
+  },
+  {
+    "word": "dairy products",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Food produced from the milk of mammals, such as cheese, butter, and yogurt",
+    "examples": ["Dairy products like milk and cheese are rich in calcium."],
+    "synonyms": ["milk products"],
+    "antonyms": [],
+    "translation": "моло́чные проду́кты"
+  },
+  {
+    "word": "densely populated",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Containing a large number of people living in a relatively small area",
+    "examples": [
+      "Tokyo is one of the most densely populated cities in the world."
+    ],
+    "synonyms": ["crowded", "heavily populated"],
+    "antonyms": ["sparsely populated"],
+    "translation": "густонаселённый"
+  },
+  {
+    "word": "(feel) dizzy",
+    "partOfSpeech": "adjective",
+    "forms": ["dizzier", "dizziest"],
+    "definition": "Having a sensation of spinning around and losing one's balance",
+    "examples": ["Standing up too quickly made him feel dizzy for a moment."],
+    "synonyms": ["lightheaded", "faint", "giddy"],
+    "antonyms": ["steady", "clear-headed"],
+    "translation": "(чу́вствовать) головокруже́ние"
+  },
+  {
+    "word": "do aerobics",
+    "partOfSpeech": "verb",
+    "forms": ["does aerobics", "did aerobics", "doing aerobics"],
+    "definition": "To perform vigorous exercises designed to strengthen the heart and lungs",
+    "examples": [
+      "They meet at the sports center every Tuesday to do aerobics."
+    ],
+    "synonyms": ["do cardio"],
+    "antonyms": [],
+    "translation": "занима́ться аэро́бикой"
+  },
+  {
+    "word": "energy",
+    "partOfSpeech": "noun",
+    "forms": ["energies"],
+    "definition": "The strength and vitality required for sustained physical or mental activity",
+    "examples": [
+      "Eating a healthy breakfast gives you plenty of energy for the day."
+    ],
+    "synonyms": ["vitality", "stamina", "vigor", "power"],
+    "antonyms": ["lethargy", "exhaustion"],
+    "translation": "эне́ргия"
+  },
+  {
+    "word": "be competitive",
+    "partOfSpeech": "verb",
+    "forms": ["is competitive", "was competitive", "being competitive"],
+    "definition": "To have a strong desire to win or be more successful than others",
+    "examples": [
+      "You have to be competitive if you want to succeed in professional sports."
+    ],
+    "synonyms": ["be ambitious", "strive to win"],
+    "antonyms": ["be uncompetitive"],
+    "translation": "быть конкурентоспосо́бным"
+  },
+  {
+    "word": "beat an opponent",
+    "partOfSpeech": "verb",
+    "forms": ["beats an opponent", "beat an opponent", "beating an opponent"],
+    "definition": "To defeat someone you are playing or fighting against in a game or contest",
+    "examples": [
+      "She trained for months to finally beat an opponent who had never lost before."
+    ],
+    "synonyms": ["defeat a rival", "win against"],
+    "antonyms": ["lose to an opponent"],
+    "translation": "победи́ть сопе́рника"
+  },
+  {
+    "word": "bruise",
+    "partOfSpeech": "noun",
+    "forms": ["bruises"],
+    "definition": "An injury appearing as an area of discolored skin on the body, caused by a blow or impact",
+    "examples": [
+      "He had a dark purple bruise on his leg after falling off his bike."
+    ],
+    "synonyms": ["contusion", "mark"],
+    "antonyms": [],
+    "translation": "синя́к"
+  },
+  {
+    "word": "burn",
+    "partOfSpeech": "verb",
+    "forms": ["burns", "burned", "burnt", "burning"],
+    "definition": "To use up energy, fat, or calories through physical activity",
+    "examples": [
+      "Swimming is an excellent way to burn calories and tone your muscles."
+    ],
+    "synonyms": ["consume", "use up", "expend"],
+    "antonyms": ["store", "accumulate"],
+    "translation": "сжига́ть"
+  },
+  {
+    "word": "burst",
+    "partOfSpeech": "noun",
+    "forms": ["bursts"],
+    "definition": "A sudden, brief, and intense effort or display of energy or speed",
+    "examples": [
+      "The sprinter won the race with a final burst of speed near the finish line."
+    ],
+    "synonyms": ["spurt", "surge", "rush"],
+    "antonyms": [],
+    "translation": "рыво́к"
+  },
+  {
+    "word": "calcium",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A chemical element and mineral essential for building and maintaining strong bones and teeth",
+    "examples": [
+      "Milk, yogurt, and leafy greens are great sources of calcium."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "ка́льций"
+  },
+  {
+    "word": "calories",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Units of energy supplied by food and released when the body breaks it down",
+    "examples": [
+      "He checks the food labels to keep track of how many calories he consumes."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "кало́рии"
+  },
+  {
+    "word": "carbohydrate",
+    "partOfSpeech": "noun",
+    "forms": ["carbohydrates"],
+    "definition": "A substance found in foods like bread, pasta, and potatoes that provides the body with heat and energy",
+    "examples": [
+      "Runners often eat meals high in carbohydrates before a marathon."
+    ],
+    "synonyms": ["carbs", "starch"],
+    "antonyms": [],
+    "translation": "углево́д"
+  },
+  {
+    "word": "English-speaking",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Able to speak the English language, or having English as a primary or official language",
+    "examples": ["They hired an English-speaking tour guide for their trip."],
+    "synonyms": ["Anglophone"],
+    "antonyms": [],
+    "translation": "англоязы́чный"
+  },
+  {
+    "word": "expensive",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Costing a lot of money",
+    "examples": [
+      "Organic food is sometimes more expensive than regular supermarket items."
+    ],
+    "synonyms": ["costly", "pricy", "high-priced"],
+    "antonyms": ["cheap", "inexpensive"],
+    "translation": "дорогосто́ящий"
+  },
+  {
+    "word": "far-reaching",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having wide, significant, and long-lasting effects or consequences",
+    "examples": [
+      "Poor nutrition in childhood can have far-reaching consequences for adult health."
+    ],
+    "synonyms": ["extensive", "widespread", "sweeping"],
+    "antonyms": ["limited", "narrow"],
+    "translation": "чрева́тый после́дствиями / далеко́ иду́щий"
+  },
+  {
+    "word": "fat",
+    "partOfSpeech": "noun",
+    "forms": ["fats"],
+    "definition": "A natural oily substance occurring in animal bodies, or a nutrient in food that supplies energy",
+    "examples": [
+      "Avocados and nuts contain healthy fats that are good for your heart."
+    ],
+    "synonyms": ["lipid"],
+    "antonyms": [],
+    "translation": "жир"
+  },
+  {
+    "word": "(feel) fatigued",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Feeling extremely tired and drained of energy",
+    "examples": [
+      "Lack of iron in your diet can make you feel fatigued all the time."
+    ],
+    "synonyms": ["exhausted", "worn out", "weary"],
+    "antonyms": ["energetic", "refreshed"],
+    "translation": "(чу́вствовать себя́) утомлённым"
+  },
+  {
+    "word": "fibre",
+    "partOfSpeech": "noun",
+    "forms": ["fibres"],
+    "definition": "Dietary material containing substances such as cellulose that help the digestive system work properly",
+    "examples": [
+      "Eating wholegrain bread and fresh fruit adds plenty of fibre to your diet."
+    ],
+    "synonyms": ["roughage"],
+    "antonyms": [],
+    "translation": "волокно́ / клетча́тка"
+  },
+  {
+    "word": "fizzy drink",
+    "partOfSpeech": "noun",
+    "forms": ["fizzy drinks"],
+    "definition": "A non-alcoholic beverage that contains carbon dioxide bubbles",
+    "examples": [
+      "Dentists advise children to drink water instead of sugary fizzy drinks."
+    ],
+    "synonyms": ["soda", "soft drink", "carbonated drink"],
+    "antonyms": ["still drink"],
+    "translation": "газиро́ванный напи́ток"
+  },
+  {
+    "word": "flu",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A contagious viral infection that causes fever, severe aching, and respiratory congestion",
+    "examples": [
+      "Half the class stayed home this week because they caught the flu."
+    ],
+    "synonyms": ["influenza"],
+    "antonyms": [],
+    "translation": "грипп"
+  },
+  {
+    "word": "fracture",
+    "partOfSpeech": "noun",
+    "forms": ["fractures"],
+    "definition": "The cracking or breaking of a hard object, especially a bone",
+    "examples": ["The X-ray showed a small fracture in his collarbone."],
+    "synonyms": ["break", "crack"],
+    "antonyms": [],
+    "translation": "перело́м"
+  },
+  {
+    "word": "free choice",
+    "partOfSpeech": "noun",
+    "forms": ["free choices"],
+    "definition": "The right or ability to choose freely without restriction",
+    "examples": [
+      "Students are given a free choice of which sport they want to play."
+    ],
+    "synonyms": ["free will", "autonomy"],
+    "antonyms": ["compulsion"],
+    "translation": "свобо́дный вы́бор"
+  },
+  {
+    "word": "fresh",
+    "partOfSpeech": "adjective",
+    "forms": ["fresher", "freshest"],
+    "definition": "Recently made or obtained; not canned, frozen, or preserved",
+    "examples": [
+      "We always buy fresh fish and vegetables at the weekend market."
+    ],
+    "synonyms": ["raw", "natural", "crisp"],
+    "antonyms": ["stale", "spoiled", "processed"],
+    "translation": "све́жий"
+  },
+  {
+    "word": "go running",
+    "partOfSpeech": "verb",
+    "forms": ["goes running", "went running", "going running"],
+    "definition": "To run outdoors or on a track as a form of physical exercise",
+    "examples": ["I like to go running in the park every morning before work."],
+    "synonyms": ["go jogging"],
+    "antonyms": [],
+    "translation": "ходи́ть на пробе́жки, занима́ться бе́гом"
+  },
+  {
+    "word": "heartburn",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A form of indigestion felt as a burning sensation in the chest, caused by acid regurgitation into the esophagus",
+    "examples": [
+      "Eating spicy food late at night often gives him terrible heartburn."
+    ],
+    "synonyms": ["acid reflux", "indigestion"],
+    "antonyms": [],
+    "translation": "изжо́га"
+  },
+  {
+    "word": "high-calorie",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Containing a large number of calories and providing a lot of energy",
+    "examples": [
+      "You should avoid high-calorie snacks like chocolate and crisps if you want to lose weight."
+    ],
+    "synonyms": ["rich", "fattening"],
+    "antonyms": ["low-calorie", "light"],
+    "translation": "высококалори́йный"
+  },
+  {
+    "word": "ingredient",
+    "partOfSpeech": "noun",
+    "forms": ["ingredients"],
+    "definition": "Any of the foods or substances that are combined to make a particular dish",
+    "examples": ["Garlic is a key ingredient in many Mediterranean dishes."],
+    "synonyms": ["component", "element"],
+    "antonyms": [],
+    "translation": "ингредие́нт"
+  },
+  {
+    "word": "insect sting",
+    "partOfSpeech": "noun",
+    "forms": ["insect stings"],
+    "definition": "A small painful wound caused when an insect such as a bee or wasp pierces the skin",
+    "examples": [
+      "Apply some antihistamine cream to the insect sting to stop the itching."
+    ],
+    "synonyms": ["bug bite", "bee sting"],
+    "antonyms": [],
+    "translation": "уку́сы насеко́мых"
+  },
+  {
+    "word": "intensity",
+    "partOfSpeech": "noun",
+    "forms": ["intensities"],
+    "definition": "The measurable amount of a property, such as force, brightness, or physical effort",
+    "examples": [
+      "You should gradually increase the intensity of your workouts over time."
+    ],
+    "synonyms": ["strength", "power", "vigor"],
+    "antonyms": ["weakness", "mildness"],
+    "translation": "интенси́вность"
+  },
+  {
+    "word": "keep fit",
+    "partOfSpeech": "verb",
+    "forms": ["keeps fit", "kept fit", "keeping fit"],
+    "definition": "To do physical exercises regularly in order to stay healthy and strong",
+    "examples": ["Cycling to work every day is a great way to keep fit."],
+    "synonyms": ["stay in shape", "exercise"],
+    "antonyms": ["get out of shape"],
+    "translation": "быть в фо́рме"
+  },
+  {
+    "word": "pedal on an exercise bike",
+    "partOfSpeech": "verb",
+    "forms": [
+      "pedals on an exercise bike",
+      "pedaled on an exercise bike",
+      "pedaling on an exercise bike"
+    ],
+    "definition": "To work the pedals of a stationary bicycle for physical fitness",
+    "examples": [
+      "He likes to watch the news while he pedals on an exercise bike at the gym."
+    ],
+    "synonyms": ["ride a stationary bike"],
+    "antonyms": [],
+    "translation": "занима́ться на велотренажёре"
+  },
+  {
+    "word": "play a team sport",
+    "partOfSpeech": "verb",
+    "forms": [
+      "plays a team sport",
+      "played a team sport",
+      "playing a team sport"
+    ],
+    "definition": "To participate in an athletic game that involves players working together as a group",
+    "examples": [
+      "Children learn cooperation when they play a team sport like basketball or football."
+    ],
+    "synonyms": [],
+    "antonyms": ["play an individual sport"],
+    "translation": "занима́ться кома́ндным спо́ртом"
+  },
+  {
+    "word": "poultry",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Domestic fowl, such as chickens, turkeys, ducks, and geese, raised for meat or eggs",
+    "examples": [
+      "Lean poultry like chicken breast is a great source of low-fat protein."
+    ],
+    "synonyms": ["fowl", "chicken"],
+    "antonyms": ["red meat"],
+    "translation": "мя́со пти́цы"
+  },
+  {
+    "word": "preservative",
+    "partOfSpeech": "noun",
+    "forms": ["preservatives"],
+    "definition": "A substance used to preserve foodstuffs against decay and spoilage",
+    "examples": [
+      "Salt has been used as a natural food preservative for centuries."
+    ],
+    "synonyms": ["additive"],
+    "antonyms": [],
+    "translation": "консерва́нт"
+  },
+  {
+    "word": "processed",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Having been treated or prepared by a special method, especially in order to preserve it",
+    "examples": ["Processed cheese lasts much longer than fresh farm cheese."],
+    "synonyms": ["refined", "treated", "prepared"],
+    "antonyms": ["raw", "unprocessed", "natural"],
+    "translation": "обрабо́танный"
+  },
+  {
+    "word": "processed food",
+    "partOfSpeech": "noun",
+    "forms": ["processed foods"],
+    "definition": "Food that has been altered from its natural state for safety, convenience, or shelf life, often containing added salt, sugar, and fat",
+    "examples": [
+      "Nutritionists recommend cutting down on processed food and eating more fresh meals."
+    ],
+    "synonyms": ["convenience food", "junk food"],
+    "antonyms": ["whole food", "fresh food"],
+    "translation": "обрабо́танные проду́кты"
+  },
+  {
+    "word": "protein",
+    "partOfSpeech": "noun",
+    "forms": ["proteins"],
+    "definition": "An essential nutrient found in meat, eggs, beans, and milk that helps build and repair body tissues and muscle",
+    "examples": [
+      "Athletes need plenty of protein in their diet to help their muscles recover."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "бело́к"
+  },
+  {
+    "word": "pulses",
+    "partOfSpeech": "plural noun",
+    "forms": [],
+    "definition": "The edible seeds of various leguminous plants, such as chickpeas, lentils, and beans",
+    "examples": [
+      "Pulses like lentils and beans are excellent sources of plant-based protein."
+    ],
+    "synonyms": ["legumes", "beans", "lentils"],
+    "antonyms": [],
+    "translation": "бобо́вые"
+  },
+  {
+    "word": "pump",
+    "partOfSpeech": "verb",
+    "forms": ["pumps", "pumped", "pumping"],
+    "definition": "To force liquid or gas to move in a specified direction, or to exercise with weights",
+    "examples": [
+      "Brisk walking makes your heart pump blood faster around your body."
+    ],
+    "synonyms": ["circulate", "drive", "push"],
+    "antonyms": [],
+    "translation": "кача́ть"
+  },
+  {
+    "word": "push myself to the limit",
+    "partOfSpeech": "verb",
+    "forms": [
+      "pushes oneself to the limit",
+      "pushed oneself to the limit",
+      "pushing oneself to the limit"
+    ],
+    "definition": "To try as hard as physically or mentally possible",
+    "examples": [
+      "During the marathon, I had to push myself to the limit to reach the finish line."
+    ],
+    "synonyms": ["exert oneself fully", "give one's all"],
+    "antonyms": ["take it easy", "slack off"],
+    "translation": "доводи́ть себя́ до кра́йности"
+  },
+  {
+    "word": "time-saving",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Reducing the amount of time needed to do something",
+    "examples": [
+      "Pre-chopped vegetables are a convenient, time-saving option for busy evenings."
+    ],
+    "synonyms": ["efficient", "labor-saving", "quick"],
+    "antonyms": ["time-consuming"],
+    "translation": "эконо́мящий вре́мя"
+  },
+  {
+    "word": "value for money",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Something well worth the money spent on it",
+    "examples": [
+      "The annual gym membership offers great value for money if you go regularly."
+    ],
+    "synonyms": ["cost-effective", "worthwhile", "economical"],
+    "antonyms": ["overpriced", "rip-off"],
+    "translation": "соотноше́ние цены́ и ка́чества"
+  },
+  {
+    "word": "virus",
+    "partOfSpeech": "noun",
+    "forms": ["viruses"],
+    "definition": "A microscopic infective agent that multiplies within the living cells of a host and causes disease",
+    "examples": [
+      "Antibiotics do not work against illnesses caused by a virus, such as the common cold."
+    ],
+    "synonyms": ["pathogen", "germ", "bug"],
+    "antonyms": [],
+    "translation": "ви́рус"
+  },
+  {
+    "word": "vitamins",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Organic compounds essential in small quantities for normal nutrition, growth, and health",
+    "examples": [
+      "Citrus fruits are packed with essential vitamins that support your immune system."
+    ],
+    "synonyms": ["nutrients", "supplements"],
+    "antonyms": [],
+    "translation": "витами́ны"
+  },
+  {
+    "word": "well-respected",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Highly regarded or admired by many people",
+    "examples": ["She is a well-respected surgeon at the national hospital."],
+    "synonyms": ["esteemed", "reputable", "admired"],
+    "antonyms": ["disreputable"],
+    "translation": "уважа́емый"
+  },
+  {
+    "word": "well-written",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Composed in a clear, engaging, and skilful style",
+    "examples": [
+      "This health guide is very well-written and easy for beginners to understand."
+    ],
+    "synonyms": ["eloquent", "articulate", "clear"],
+    "antonyms": ["poorly written"],
+    "translation": "хорошо́ напи́санный"
+  },
+  {
+    "word": "wholegrain",
+    "partOfSpeech": "noun",
+    "forms": ["wholegrains"],
+    "definition": "Grain or food made from grain that contains all the natural essential parts and nutrients of the entire seed",
+    "examples": [
+      "Switching from white bread to wholegrain is a simple way to eat healthier."
+    ],
+    "synonyms": ["whole wheat", "unrefined grain"],
+    "antonyms": ["refined grain"],
+    "translation": "це́льное зерно́"
+  },
+  {
+    "word": "will power",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Control exerted to do something or restrain impulses",
+    "examples": [
+      "It takes a lot of will power to give up eating sweets completely."
+    ],
+    "synonyms": ["self-control", "determination", "resolve", "self-discipline"],
+    "antonyms": ["weakness", "indecision"],
+    "translation": "си́ла во́ли"
+  },
+  {
+    "word": "wound",
+    "partOfSpeech": "noun",
+    "forms": ["wounds"],
+    "definition": "An injury to living tissue caused by a cut, blow, or other impact, typically one in which the skin is cut or broken",
+    "examples": [
+      "The doctor cleaned the deep wound and stitched it up carefully."
+    ],
+    "synonyms": ["injury", "cut", "lesion", "gash"],
+    "antonyms": [],
+    "translation": "ране́ние / ра́на"
+  },
+  {
+    "word": "X-ray",
+    "partOfSpeech": "noun",
+    "forms": ["X-rays"],
+    "definition": "A photographic or digital image of the internal composition of something, especially a part of the body",
+    "examples": [
+      "He went to the hospital to get an X-ray of his injured ankle."
+    ],
+    "synonyms": ["radiograph", "scan"],
+    "antonyms": [],
+    "translation": "рентгеногра́мма / рентге́н"
+  },
+  {
+    "word": "lift weights",
+    "partOfSpeech": "verb",
+    "forms": ["lifts weights", "lifted weights", "lifting weights"],
+    "definition": "To lift heavy equipment such as dumbbells or barbells as a form of exercise to strengthen muscles",
+    "examples": [
+      "He goes to the gym four times a week to lift weights and build muscle."
+    ],
+    "synonyms": ["weightlift", "pump iron"],
+    "antonyms": [],
+    "translation": "занима́ться тяжёлой атле́тикой / поднима́ть ве́са"
+  },
+  {
+    "word": "light-hearted",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Amusing and entertaining; cheerful and carefree",
+    "examples": ["We had a light-hearted chat over coffee after our workout."],
+    "synonyms": ["cheerful", "carefree", "upbeat", "playful"],
+    "antonyms": ["serious", "solemn", "gloomy"],
+    "translation": "беззабо́тный"
+  },
+  {
+    "word": "lots of liquids",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "A large amount of fluids, such as water, tea, or juice, consumed to keep the body hydrated",
+    "examples": [
+      "When you have a fever, the doctor will advise you to drink lots of liquids."
+    ],
+    "synonyms": ["plenty of fluids"],
+    "antonyms": [],
+    "translation": "оби́льное питьё"
+  },
+  {
+    "word": "low-calorie",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Containing fewer calories than standard food items",
+    "examples": ["Cucumber and celery are great low-calorie snacks."],
+    "synonyms": ["diet", "light", "low-fat"],
+    "antonyms": ["high-calorie", "fattening"],
+    "translation": "низкокалори́йный"
+  },
+  {
+    "word": "mineral",
+    "partOfSpeech": "noun",
+    "forms": ["minerals"],
+    "definition": "An inorganic substance needed by the human body in small amounts for good health, such as iron or calcium",
+    "examples": [
+      "Spinach is rich in iron, an essential mineral for healthy blood."
+    ],
+    "synonyms": ["nutrient"],
+    "antonyms": [],
+    "translation": "минера́л"
+  },
+  {
+    "word": "mouth-watering",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Smelling, looking, or sounding delicious",
+    "examples": [
+      "The bakery window was filled with mouth-watering pastries and cakes."
+    ],
+    "synonyms": ["delicious", "appetizing", "scrumptious", "tasty"],
+    "antonyms": ["unappetizing", "revolting"],
+    "translation": "аппети́тный"
+  },
+  {
+    "word": "much-needed",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Greatly required or necessary",
+    "examples": [
+      "After working nonstop for months, she took a much-needed vacation."
+    ],
+    "synonyms": ["essential", "vital", "welcome"],
+    "antonyms": ["unnecessary", "unwanted"],
+    "translation": "столь необходи́мый"
+  },
+  {
+    "word": "(feel) nauseous",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Affected with nausea; feeling inclined to vomit",
+    "examples": [
+      "The rough boat ride across the channel made several passengers feel nauseous."
+    ],
+    "synonyms": ["sick", "queasy", "nauseated"],
+    "antonyms": ["well"],
+    "translation": "(чу́вствовать) тошноту́"
+  },
+  {
+    "word": "nose bleed",
+    "partOfSpeech": "noun",
+    "forms": ["nose bleeds"],
+    "definition": "An instance of bleeding from the nose",
+    "examples": ["Dry winter air sometimes gives him a sudden nose bleed."],
+    "synonyms": [],
+    "antonyms": [],
+    "translation": "носово́е кровотече́ние"
+  },
+  {
+    "word": "nutrient",
+    "partOfSpeech": "noun",
+    "forms": ["nutrients"],
+    "definition": "A substance that provides nourishment essential for growth and the maintenance of life",
+    "examples": [
+      "Fresh fruits and vegetables provide the body with vital nutrients."
+    ],
+    "synonyms": ["nourishment", "vitamin", "mineral"],
+    "antonyms": [],
+    "translation": "пита́тельное вещество́"
+  },
+  {
+    "word": "old-fashioned",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "In or according to styles or types no longer current or common; not modern",
+    "examples": [
+      "My grandmother still uses old-fashioned home remedies for a cold."
+    ],
+    "synonyms": ["outdated", "traditional", "vintage"],
+    "antonyms": ["modern", "trendy", "contemporary"],
+    "translation": "старомо́дный"
+  },
+  {
+    "word": "painkillers",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Drugs or medicines used for relieving pain",
+    "examples": ["She took two painkillers to get rid of her severe headache."],
+    "synonyms": ["analgesics", "pain relievers"],
+    "antonyms": [],
+    "translation": "обезбо́ливающие"
+  },
+  {
+    "word": "rash",
+    "partOfSpeech": "noun",
+    "forms": ["rashes"],
+    "definition": "An area of redness and spots on a person's skin, appearing especially as a result of allergy or illness",
+    "examples": ["Eating strawberries gave him an itchy red rash on his arms."],
+    "synonyms": ["eruption", "hives", "breakout"],
+    "antonyms": [],
+    "translation": "сыпь"
+  },
+  {
+    "word": "record-breaking",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Surpassing a previous best performance or record",
+    "examples": ["The athlete finished the race in a record-breaking time."],
+    "synonyms": ["unprecedented", "all-time high"],
+    "antonyms": [],
+    "translation": "реко́рдный"
+  },
+  {
+    "word": "rest",
+    "partOfSpeech": "noun",
+    "forms": ["rests"],
+    "definition": "A period of relaxing, sleeping, or doing nothing after a period of activity",
+    "examples": ["The doctor told him to stay in bed and get plenty of rest."],
+    "synonyms": ["relaxation", "repose", "break", "sleep"],
+    "antonyms": ["exertion", "work", "activity"],
+    "translation": "о́тдых"
+  },
+  {
+    "word": "salt",
+    "partOfSpeech": "noun",
+    "forms": ["salts"],
+    "definition": "A white crystalline substance (sodium chloride) used for seasoning or preserving food",
+    "examples": [
+      "Adding too much salt to your food can increase your blood pressure."
+    ],
+    "synonyms": ["sodium"],
+    "antonyms": [],
+    "translation": "соль"
+  },
+  {
+    "word": "saturated fat",
+    "partOfSpeech": "noun",
+    "forms": ["saturated fats"],
+    "definition": "A type of fat found chiefly in animal products such as butter, cheese, and meat, which can raise cholesterol levels",
+    "examples": [
+      "Butter and fatty meats contain high levels of saturated fat."
+    ],
+    "synonyms": ["animal fat"],
+    "antonyms": ["unsaturated fat"],
+    "translation": "насы́щенный жир"
+  },
+  {
+    "word": "sore throat",
+    "partOfSpeech": "noun",
+    "forms": ["sore throats"],
+    "definition": "A condition marked by pain or irritation in the throat, typically caused by a cold or virus",
+    "examples": ["Drinking warm tea with honey helps soothe a sore throat."],
+    "synonyms": ["throat ache"],
+    "antonyms": [],
+    "translation": "боль в го́рле"
+  },
+  {
+    "word": "sprain",
+    "partOfSpeech": "noun",
+    "forms": ["sprains"],
+    "definition": "An injury to a joint caused by a sudden wrenching and stretching of its ligaments",
+    "examples": ["It wasn't a broken bone, just a bad ankle sprain."],
+    "synonyms": ["strain", "twist", "wrench"],
+    "antonyms": [],
+    "translation": "растяже́ние свя́зок"
+  },
+  {
+    "word": "(feel) stiff",
+    "partOfSpeech": "adjective",
+    "forms": ["stiffer", "stiffest"],
+    "definition": "Unable to move easily and without pain, especially in the muscles or joints",
+    "examples": [
+      "My neck and shoulders feel stiff after sitting at the computer all day."
+    ],
+    "synonyms": ["sore", "tense", "rigid", "tight"],
+    "antonyms": ["limber", "flexible", "supple"],
+    "translation": "(чу́вствовать) ско́ванность"
+  },
+  {
+    "word": "sugar",
+    "partOfSpeech": "noun",
+    "forms": ["sugars"],
+    "definition": "A sweet crystalline substance obtained from various plants, especially sugar cane and sugar beet",
+    "examples": ["She prefers to drink her green tea without any sugar."],
+    "synonyms": ["sweetener", "sucrose", "glucose"],
+    "antonyms": [],
+    "translation": "са́хар"
+  },
+  {
+    "word": "(be) swollen",
+    "partOfSpeech": "adjective",
+    "forms": [],
+    "definition": "Larger or rounder than normal, typically as a result of injury or inflammation",
+    "examples": [
+      "His knee was badly swollen after he fell during the football match."
+    ],
+    "synonyms": ["puffy", "inflamed", "enlarged", "bloated"],
+    "antonyms": ["shrunken", "normal"],
+    "translation": "(быть) опу́хшим"
+  },
+  {
+    "word": "tablets",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Small solid disks or masses of medicine taken orally",
+    "examples": [
+      "Take two of these tablets with a glass of water after meals."
+    ],
+    "synonyms": ["pills", "capsules"],
+    "antonyms": [],
+    "translation": "табле́тки"
+  },
+  {
+    "word": "tasty",
+    "partOfSpeech": "adjective",
+    "forms": ["tastier", "tastiest"],
+    "definition": "Having a pleasant, distinct flavor",
+    "examples": ["She made a very tasty vegetable soup for lunch."],
+    "synonyms": ["delicious", "flavorful", "appetizing"],
+    "antonyms": ["tasteless", "bland", "unappetizing"],
+    "translation": "вку́сный"
+  },
+  {
+    "word": "temperature",
+    "partOfSpeech": "noun",
+    "forms": ["temperatures"],
+    "definition": "The degree of internal heat of a person's body, or a body temperature above the normal level (a fever)",
+    "examples": ["The child felt hot to the touch and had a high temperature."],
+    "synonyms": ["fever"],
+    "antonyms": [],
+    "translation": "температу́ра"
+  },
+  {
+    "word": "throat sweets",
+    "partOfSpeech": "noun",
+    "forms": [],
+    "definition": "Small medicated candies dissolved slowly in the mouth to soothe an irritated throat",
+    "examples": [
+      "I bought a packet of throat sweets at the pharmacy to stop my coughing."
+    ],
+    "synonyms": ["cough drops", "lozenges", "pastilles"],
+    "antonyms": [],
+    "translation": "леденцы́ от го́рла"
+  }
+]
